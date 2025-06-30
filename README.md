@@ -98,7 +98,11 @@ Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)
 ### 🖥️ System Specifications
 <div align="center">
 
-![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) ![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
+![AMD](https://img.shields.io/badge/AMD-Radeon_RX_5500M-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
+![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
+![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
 
 </div>
 
