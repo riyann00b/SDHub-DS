@@ -64,7 +64,7 @@ Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)
 ## 📁 Repository Structure
 
 ```
-📦 SD-Hub-Data-Science-Journey
+📦 SDHub-DS
 ├── 📂 01-Foundation/
 │   ├── 📝 notes/
 │   ├── 💻 python-basics/
