@@ -93,6 +93,29 @@ Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)
     └── 🏅 certificates/
 ```
 
+## 💻 My Development Environment
+
+### 🖥️ System Specifications
+<div align="center">
+
+![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) ![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+
+</div>
+
+```
+🏷️  Hardware Model: MSI Bravo 15 B5DD
+🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics × 12
+💾  Memory:         16.0 GiB RAM
+🎮  Graphics:       AMD Radeon™ Graphics + AMD Radeon™ RX 5500M
+💿  Storage:        512.1 GB SSD
+🐧  OS:             Fedora Linux 42 (Workstation Edition)
+🖼️  Desktop:        GNOME 48 (Wayland)
+🔧  Kernel:         Linux 6.15.3-200.fc42.x86_64
+📅  Last Updated:   July 1st, 2025
+```
+
+_Perfect setup for Data Science work! 🚀_
+
 ---
 
 ## 🛠️ Tech Stack & Tools
