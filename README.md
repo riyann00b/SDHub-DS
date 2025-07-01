@@ -38,25 +38,27 @@ Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)
 
 ## 📚 Learning Path & Curriculum
 
-### 🗓️ Course Structure
-```
-📖 Foundation Phase
-├── 📊 Statistics & Mathematics
-├── 🐍 Python Programming
-├── 📈 Data Visualization
-└── 🛠️ Tools & Libraries
+Based on the course orientation, our learning journey is structured around four core pillars, building a strong foundation from programming fundamentals to advanced machine learning.
 
-🔬 Intermediate Phase  
-├── 🧹 Data Cleaning & Preprocessing
-├── 📊 Exploratory Data Analysis
-├── 🤖 Machine Learning Basics
-└── 📊 Advanced Visualization
+```mermaid
+flowchart TD
+    A[🐍 Python Fundamentals] --> B[📊 Python for Data Science]
+    B --> C[🗃️ SQL & Databases]
+    C --> D[🤖 Machine Learning]
+    
+    subgraph B [Python for Data Science]
+        direction LR
+        B1[🐼 Pandas]
+        B2[🔢 NumPy]
+        B3[📈 Matplotlib/Seaborn]
+    end
 
-🚀 Advanced Phase
-├── 🧠 Deep Learning
-├── 🔮 Predictive Modeling
-├── 📊 Business Intelligence
-└── 🎯 Capstone Project
+    subgraph D [Machine Learning]
+        direction LR
+        D1[🧠 Core Concepts]
+        D2[🛠️ Model Building]
+        D3[🔮 Predictive Analysis]
+    end
 ```
 
 ---
@@ -143,6 +145,11 @@ _Perfect setup for Data Science work! 🚀_
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
+### Business Intelligence & Visualization
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+
 ### Tools & Platforms
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -156,6 +163,7 @@ _Perfect setup for Data Science work! 🚀_
 ## 📈 Learning Progress
 
 ### 🏅 Achievements Unlocked
+- [x] ✅ **Day 1: Course Orientation & Introduction**
 - [ ] 🐍 Python Fundamentals
 - [ ] 📊 Statistics Mastery
 - [ ] 🐼 Pandas Proficiency
@@ -167,10 +175,10 @@ _Perfect setup for Data Science work! 🚀_
 
 ### 📊 Weekly Progress Tracker
 ```
-Week 1: [░░░░░░░░░░] 20% - Starting Today! 🚀
+Week 1: [█.........] 10% - Course Introduction Complete! 🚀
 ```
 
-*Progress bars will be updated as I learn what the course covers!*
+*Progress bars will be updated weekly!*
 
 ---
 
@@ -190,11 +198,26 @@ Week 1: [░░░░░░░░░░] 20% - Starting Today! 🚀
 
 ## 📝 Daily Learning Log
 
-#### Day 1 - July 1st, 2025
-- ⏰ **Reporting at 3:00 PM**
-- 📝 *Will update after first class...*
+#### Day 1 - July 1st, 2025: Course Orientation & The World of Data
+- **Summary:** Today was the official start of the course! We began with a comprehensive overview of the Data Science field, the course structure, and career opportunities.
+- **Key Concepts Learned:**
+  - **Data Science vs. Data Analysis:** A crucial distinction was made. **Data Analysis** uses descriptive statistics to understand past data (e.g., "What was our sales total last quarter?"), while **Data Science** uses inferential statistics and ML to predict future outcomes (e.g., "What will our sales be next quarter?").
+  - **Statistics is the Backbone:** Understood that Descriptive (summarizing data) and Inferential (making predictions) statistics are fundamental to all data work.
+  - **The "What, Why, How":**
+    - **What:** The study of data.
+    - **Why:** To extract actionable insights.
+    - **How:** Using tools like Python, SQL, Tableau, and Power BI.
+- **Course Roadmap:**
+  1.  **Python:** Core programming fundamentals.
+  2.  **Python for Data Science:** Libraries (Pandas, NumPy, Matplotlib).
+  3.  **SQL:** Database querying.
+  4.  **Machine Learning:** Building predictive models.
+- **Action Items for Tomorrow:**
+  - 📖 Review basic statistics concepts.
+  - 🐍 Prepare for the first Python fundamentals class.
+  - 🛠️ Familiarize myself with the names and purposes of Excel, Tableau, and Power BI.
 
-> *The journey begins today! Updates will be added as I progress...*
+> *"The journey begins! Excited to dive into the core concepts and start coding."*
 
 ---
 
