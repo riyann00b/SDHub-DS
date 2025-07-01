@@ -198,7 +198,7 @@ Week 1: [█.........] 10% - Course Introduction Complete! 🚀
 
 ## 📝 Daily Learning Log
 
-#### Day 1 - July 1st, 2025: Course Orientation & The World of Data
+#### [Day 1 - July 1st, 2025: Course Orientation & The World of Data](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01-Foundation/notes/Day%20-%201.md)
 - **Summary:** Today was the official start of the course! We began with a comprehensive overview of the Data Science field, the course structure, and career opportunities.
 - **Key Concepts Learned:**
   - **Data Science vs. Data Analysis:** A crucial distinction was made. **Data Analysis** uses descriptive statistics to understand past data (e.g., "What was our sales total last quarter?"), while **Data Science** uses inferential statistics and ML to predict future outcomes (e.g., "What will our sales be next quarter?").
