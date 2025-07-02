@@ -1,9 +1,3 @@
-Of course! I have taken your rough notes, formatted them into a structured Markdown document, fact-checked the historical details, elaborated on key concepts, and created Mermaid diagrams for the visual elements.
-
-Here are your polished and enhanced class notes:
-
----
-
 # Data Science - Class 2 Notes
 
 ## 1. Applications of Data Science & Generative AI
@@ -131,7 +125,7 @@ Python is a multi-paradigm language, meaning you can write code in different sty
 The course will standardize on the **Anaconda distribution**. Anaconda is a popular all-in-one platform for data science that bundles Python, many essential libraries, and tools like the **Jupyter Notebook**. It simplifies package management through its `conda` environment system.
 
 However, as a Linux user seeking a faster, more modern workflow, I will be using **`uv`**.
-*   **My Personal Choice (`uv`)**: `uv` is an extremely fast Python package and environment manager. It serves as a lightweight and high-performance alternative to Anaconda for installing packages and managing virtual environments.
+*   **My Personal Choice (`uv`)**: [`uv`](https://docs.astral.sh/uv/) is an extremely fast Python package and environment manager. It serves as a lightweight and high-performance alternative to Anaconda for installing packages and managing virtual environments.
 
 Regardless of the installation method, our primary tool for coding and analysis will be the **Jupyter Notebook**.
 
