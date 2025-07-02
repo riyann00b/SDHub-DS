@@ -99,27 +99,43 @@ graph TD
 ---
 
 ## 🛠️ Tech Stack & Tools
+Of course! Based on today's notes which clarified the roles of Anaconda, `uv`, and Jupyter, I've updated the **"Tech Stack & Tools"** section.
+
+I've reorganized the categories for better clarity and added an Anaconda badge to visually represent the course's standard environment. The description below the badges now clearly explains the difference between the course standard and your personal, high-speed setup.
+
+Here is the updated section for you to replace in your README:
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+This is the comprehensive toolkit we will be mastering throughout the course, from programming languages to development platforms.
 
 <div align="center">
 
-### Programming Languages & Databases
+**Programming & Data Querying**
+<br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Data Science Libraries
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+**Data Science & Machine Learning**
+<br>
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
-### Machine Learning & AI
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+**Business Intelligence & Visualization**
+<br>
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-### Business Intelligence & Visualization
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-
-### Development Environment
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Development Tools & Platforms**
+<br>
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
-**Environment Setup:** The course standardizes on the **Anaconda** distribution. However, I am using **`uv`**, a faster, modern package manager for my Linux setup. Our primary IDE for analysis and coursework is **Jupyter Notebook**.
+### Environment Setup
+
+*   **Course Standard:** The course will be taught using the **Anaconda** distribution, an all-in-one platform that bundles Python and key libraries.
+*   **My Personal Setup:** As a Linux user, I am opting for **`uv`**, a high-speed package and environment manager, for a more lightweight and modern workflow.
+*   **Primary IDE:** Our main environment for coding, analysis, and projects will be **Jupyter Notebook**, valued for its interactive and documentation-friendly format.
 
 ---
 
