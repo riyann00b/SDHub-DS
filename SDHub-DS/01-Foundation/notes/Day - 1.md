@@ -52,7 +52,7 @@ flowchart TD
     A[Statistics] --> B[Descriptive Statistics]
     A --> C[Inferential Statistics]
     B --> D[Description of Data]
-    C --> E[Conclusions & Predictions]
+    C --> E[Conclusions/Infer & Predictions]
 ```
 
 ### Types of Statistics:
