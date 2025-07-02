@@ -111,6 +111,16 @@ Here is the updated section for you to replace in your README:
 
 This is the comprehensive toolkit we will be mastering throughout the course, from programming languages to development platforms.
 
+Excellent idea! Adding a badge for Astral/uv will make your personal tool choice much clearer and adds a nice modern touch to your stack.
+
+I've added the Astral/uv badge to the "Development Tools & Platforms" section. Here is the updated **"Tech Stack & Tools"** section for your README.
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+This is the comprehensive toolkit we will be mastering throughout the course, from programming languages to development platforms.
+
 <div align="center">
 
 **Programming & Data Querying**
@@ -127,9 +137,15 @@ This is the comprehensive toolkit we will be mastering throughout the course, fr
 
 **Development Tools & Platforms**
 <br>
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![Astral uv](https://img.shields.io/badge/Astral-uv-000000?style=for-the-badge&logo=astral&logoColor=white)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
+
+### Environment Setup
+
+*   **Course Standard:** The course will be taught using the **Anaconda** distribution, an all-in-one platform that bundles Python and key libraries.
+*   **My Personal Setup:** As a Linux user, I am opting for **`uv`** by Astral, a high-speed package and environment manager, for a more lightweight and modern workflow.
+*   **Primary IDE:** Our main environment for coding, analysis, and projects will be **Jupyter Notebook**, valued for its interactive and documentation-friendly format.
 
 ### Environment Setup
 
