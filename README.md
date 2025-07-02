@@ -121,6 +121,18 @@ I've added the Astral/uv badge to the "Development Tools & Platforms" section. H
 
 This is the comprehensive toolkit we will be mastering throughout the course, from programming languages to development platforms.
 
+You are absolutely right! My apologies for using the wrong colors. Thank you for providing the exact hex codes. That level of detail is fantastic.
+
+I have now created a new `uv` badge using the correct brand colors: a background of `#d6ff60` and the logo/text color of `#1e0e26`. It should look much more accurate now.
+
+Here is the updated **"Tech Stack & Tools"** section with the corrected badge.
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+This is the comprehensive toolkit we will be mastering throughout the course, from programming languages to development platforms.
+
 <div align="center">
 
 **Programming & Data Querying**
@@ -133,13 +145,19 @@ This is the comprehensive toolkit we will be mastering throughout the course, fr
 
 **Business Intelligence & Visualization**
 <br>
-![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)![Excel](https.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 **Development Tools & Platforms**
 <br>
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![Astral uv](https://img.shields.io/badge/Astral-uv-000000?style=for-the-badge&logo=astral&logoColor=white)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![Astral uv](https://img.shields.io/badge/Astral-uv-d6ff60?style=for-the-badge&logo=astral&logoColor=1e0e26)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
+
+### Environment Setup
+
+*   **Course Standard:** The course will be taught using the **Anaconda** distribution, an all-in-one platform that bundles Python and key libraries.
+*   **My Personal Setup:** As a Linux user, I am opting for **`uv`** by Astral, a high-speed package and environment manager, for a more lightweight and modern workflow.
+*   **Primary IDE:** Our main environment for coding, analysis, and projects will be **Jupyter Notebook**, valued for its interactive and documentation-friendly format.
 
 ### Environment Setup
 
