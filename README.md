@@ -40,15 +40,24 @@ Our 4.5-month journey is structured into three distinct phases, building from fo
 
 ```mermaid
 graph TD
-    subgraph "Phase 1: Foundations [1 Month]"
+    subgraph "Phase 1: Foundations"
+        style P1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+        P1_duration("🗓️ <b>Duration: 1 Month</b>")
+        style P1_duration fill:#b2ebf2,stroke:#00796b,color:#004d40
         A[🐍 Python Programming] --> B[📊 Python for Data Science <br> Pandas & NumPy];
     end
-    
-    subgraph "Phase 2: BI & Databases [1 Month]"
+
+    subgraph "Phase 2: BI & Databases"
+        style P2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+        P2_duration("🗓️ <b>Duration: 1 Month</b>")
+        style P2_duration fill:#ffe0b2,stroke:#f57c00,color:#e65100
         C[🗃️ SQL] --> D[📈 Business Intelligence <br> Power BI & Excel];
     end
-    
-    subgraph "Phase 3: Advanced AI [2.5 Months]"
+
+    subgraph "Phase 3: Advanced AI"
+        style P3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+        P3_duration("🗓️ <b>Duration: 2.5 Months</b>")
+        style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
         E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];
         F --> G[🗣️ Natural Language Processing];
         G --> H[🧠 Deep Learning];
