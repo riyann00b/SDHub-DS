@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
+![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)
+![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
 
 *📅 Course Duration: July 2025 - Ongoing*  
 *🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)*  
@@ -105,20 +107,27 @@ This is the comprehensive toolkit we will be mastering throughout the course.
 <div align="center">
 
 **Programming & Data Querying**
-<br>![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+<br>![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Data Science & Machine Learning**
 <br>
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 **Development Tools & Platforms**
 <br>
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)![Astral uv](https://img.shields.io/badge/Astral-uv-d6ff60?style=for-the-badge&logo=astral&logoColor=1e0e26)![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ### Environment Setup
-*   **Course Standard:** The course is taught using **Anaconda**.
+*   **Course Standard:** The course is taught using **Anaconda and Jupyter-NoteBook**.
 *   **My Personal Setup:** I am using **`uv`** by Astral for its speed and efficiency on Linux.
 *   **Primary IDE:** Our main environment for all coursework is **Jupyter Notebook**.
 
@@ -139,8 +148,6 @@ This is the comprehensive toolkit we will be mastering throughout the course.
 ```
 Week 1: [██████....] 60% - Python Fundamentals Underway!
 ```
-
-cd
 
 ## 📝 Daily Learning Log
 
