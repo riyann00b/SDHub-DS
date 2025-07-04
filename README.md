@@ -159,10 +159,12 @@ graph TD
 - [x] ✅ **Day 1 (July 1st):** Course Orientation & Data Science Introduction
 - [x] ✅ **Day 2 (July 2nd):** AI, ML, & DL Fundamentals
 - [x] ✅ **Day 3 (July 3rd):** Python Basics & Jupyter Notebook Mastery
+- [x] ✅ **Day 4 (July 4th):** User Input & Python Operators
 
 ### 📊 Current Progress
 ```
-Week 1: [██████....] 60% - Python Fundamentals in Progress
+Week 1: [████████..] 80% - Python Fundamentals in Progress
+Week 2: [..........] 80% - Starts on monday
 ```
 
 **📚 Topics Covered So Far:**
@@ -170,18 +172,54 @@ Week 1: [██████....] 60% - Python Fundamentals in Progress
 - AI, ML, DL distinctions and applications
 - Python variable naming and basic data types
 - Jupyter Notebook navigation and shortcuts
-- Markdown documentation in notebooks
+- Markdown for documentation
+- **User input with `input()` and type casting**
+- **Python Operators (Arithmetic, Comparison, Logical, etc.)**
 
 **🎯 Currently Learning:**
-- Python fundamentals and syntax
-- Jupyter Notebook best practices
-- Basic programming concepts
+- Mastering Python operators
+- Applying concepts with practical exercises
+- Understanding Bitwise operations
 
 ---
 
 ## 📝 Daily Learning Log
 
-### 📅 Week 1 (July 1-3, 2025)
+### 📅 Week 1 (July 1-4, 2025)
+
+<details>
+<summary><strong> [Day 4 - July 4th, 2025: User Input and Python Operators]() </strong></summary>
+
+**🎯 Session Focus:** Making programs interactive and performing operations.
+
+**📚 Key Concepts Learned:**
+- **Static vs. Dynamic Values:**
+  - **Static:** Hard-coded values in the program (e.g., `name = "Riyan"`).
+  - **Dynamic:** Values provided by the user during runtime.
+- **`input()` Function:**
+  - Used to get dynamic input from the user.
+  - **Crucial Rule:** It *always* returns a string.
+- **Type Casting:**
+  - The necessity of converting input strings to numbers using `int()` or `float()` for calculations.
+- **Python Operators:**
+  - **Arithmetic:** `+`, `-`, `*`, `/`, `//` (floor division), `%` (modulus), `**` (exponent).
+  - **Assignment:** `+=`, `-=`, `*=`, etc., as shortcuts.
+  - **Comparison:** `==`, `!=`, `>`, `<`, `>=`, `<=` to get `True`/`False` results.
+  - **Logical:** `and`, `or`, `not` to combine comparison results.
+  - **Membership:** `in`, `not in` to check for presence in a sequence.
+  - **Identity:** `is`, `is not` to check if two variables are the exact same object in memory.
+
+**💡 Key Insights:**
+- Type casting is non-negotiable when getting numerical input from users.
+- `is` and `==` are not the same; `==` checks for equal value, while `is` checks for identical memory location.
+- Understanding the full range of operators is key to writing expressive and efficient Python code.
+
+**🎯 Personal Action Items:**
+- [x] Consolidate today's notes into a clean Jupyter Notebook.
+- [ ] Practice the Bitwise operators homework to understand low-level data manipulation.
+- [ ] Write a simple calculator program combining `input()`, type casting, and arithmetic operators.
+
+</details>
 
 <details>
 <summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
@@ -343,7 +381,7 @@ Week 1: [██████....] 60% - Python Fundamentals in Progress
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 3 | **Sessions Completed:** 3 | **Concepts Learned:** 15+
+**Days Active:** 4 | **Sessions Completed:** 4 | **Concepts Learned:** 20+
 
 ---
 
