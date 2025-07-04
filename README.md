@@ -22,13 +22,40 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 ### 📁 Repository Structure
 ```
-📦 SDHub-DS
-├── 📁 notebooks/           # Jupyter notebooks from class
-├── 📁 daily_notes/         # Daily learning logs and insights
-├── 📁 practice/            # Personal practice exercises
-├── 📁 resources/           # Useful links and references
-└── 📝 README.md           # This documentation
+├── 📁 SDHub-DS/
+│   ├── 📁 01 Foundation/
+│   │   ├── 📁 01 Notes/
+│   │   │   ├── 📁 01 My Notes/                 # My detailed daily learning notes in Markdown
+│   │   │   │   └── 📝 01 Data Science Overview.md
+│   │   │   └── 📁 02 Sir Notes/                 # PDFs and materials from the instructor
+│   │   │       └── 📄 Day_01.pdf
+│   │   ├── 📁 02 Python Basics Code/
+│   │   │   ├── 📁 01 My Jupyter NoteBooks/       # My hands-on practice notebooks
+│   │   │   │   └── 📓 Python-Basics-Cleaned.ipynb
+│   │   │   └── 📁 02 Sir Jupyter NoteBooks/       # Notebooks provided by the instructor
+│   │   │       └── 📓 DS_01.ipynb
+│   │   ├── 📁 Projects/
+│   │   └── 📁 Resources/
+│   │
+│   ├── 📁 02 Bi-Excel-SQL/                      # (Content for Phase 2: BI & Databases)
+│   │   ├── 📁 01 Notes/
+│   │   ├── 📁 02 Projects/
+│   │   ├── 📁 03 datasets/
+│   │   └── 📁 04 Resources/
+│   │
+│   ├── 📁 03 Advanced AI/                       # (Content for Phase 3: Advanced AI)
+│   │   ├── 📁 01 Notes/
+│   │   ├── 📁 02 Projects/
+│   │   └── 📁 03 Resources/
+│   │
+│   └── 📁 Certifications/                      # Course and skill certifications
+│
+├── 📝 README.md                               # You are here!
+└── 📄 LICENSE
 ```
+>     💡 A Note on Folder Visibility:
+> The structure above shows the complete, intended layout of my repository. However, Git does not track empty directories. Therefore, some folders (like Projects/ or future phase folders) may not be visible on GitHub until I add the first file (e.g., a notebook, a note, or a placeholder .gitkeep file) to them. They will appear automatically as my journey progresses and I populate them with content!
+
 
 ---
 
