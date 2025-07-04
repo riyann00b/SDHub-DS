@@ -6,7 +6,7 @@
 ![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
 
-*📅 Course Duration: July 2025 - Ongoing*  
+*📅 Started: July 1st, 2025*  
 *🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)*  
 *🎯 Goal: Master Data Science & Analytics*
 
@@ -16,9 +16,19 @@
 
 ## 🌟 About This Repository
 
-Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)** at **Skills Development Hub (SD Hub)**! This repository serves as my digital learning journal, project showcase, and knowledge base throughout this transformative journey.
+Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills Development Hub (SD Hub)**! This repository serves as my digital learning journal, capturing my real-time progress, key insights, and hands-on practice as I navigate this transformative journey.
 
 > *"Data is the new oil, and I'm here to refine it!"* 🛢️➡️💎
+
+### 📁 Repository Structure
+```
+📦 SDHub-DS
+├── 📁 notebooks/           # Jupyter notebooks from class
+├── 📁 daily_notes/         # Daily learning logs and insights
+├── 📁 practice/            # Personal practice exercises
+├── 📁 resources/           # Useful links and references
+└── 📝 README.md           # This documentation
+```
 
 ---
 
@@ -29,36 +39,36 @@ Welcome to my comprehensive documentation of the **Data Science Course (Batch 2)
 ### 🎯 Course Details
 - **📚 Program:** Data Science & Analytics
 - **🏆 Batch:** 2
-- **📅 Start Date:** July 1st, 2025
+- **📅 Duration:** 4.5 months (July 2025 onwards)
 - **⏰ Schedule:** Monday to Friday, 3:30 PM - 5:30 PM
 - **📍 Location:** SD Hub Qutubshahi
 - **💻 Requirement:** Personal laptop mandatory
 
 ---
 
-## 📚 Learning Path & Curriculum
+## 📚 Course Curriculum Overview
 
-Our 4.5-month journey is structured into three distinct phases, building from foundational skills to advanced, cutting-edge AI concepts.
+Our instructor has outlined the learning journey in three main phases:
 
 ```mermaid
 graph TD
     subgraph "Phase 1: Foundations"
         style P1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-        P1_duration("🗓️ <b>Duration: 1 Month</b>")
+        P1_duration("🗓️ <b>Duration: ~1 Month</b>")
         style P1_duration fill:#b2ebf2,stroke:#00796b,color:#004d40
         A[🐍 Python Programming] --> B[📊 Python for Data Science <br> Pandas & NumPy];
     end
 
     subgraph "Phase 2: BI & Databases"
         style P2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-        P2_duration("🗓️ <b>Duration: 1 Month</b>")
+        P2_duration("🗓️ <b>Duration: ~1 Month</b>")
         style P2_duration fill:#ffe0b2,stroke:#f57c00,color:#e65100
         C[🗃️ SQL] --> D[📈 Business Intelligence <br> Power BI & Excel];
     end
 
     subgraph "Phase 3: Advanced AI"
         style P3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-        P3_duration("🗓️ <b>Duration: 2.5 Months</b>")
+        P3_duration("🗓️ <b>Duration: ~2.5 Months</b>")
         style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
         E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];
         F --> G[🗣️ Natural Language Processing];
@@ -70,6 +80,8 @@ graph TD
     B --> C;
     D --> E;
 ```
+
+*Note: This is the planned curriculum structure. I'll update with actual topics as we progress through the course.*
 
 ---
 
@@ -98,80 +110,176 @@ graph TD
 📅  Last Updated:   July 3rd, 2025
 ```
 
----
-
-## 🛠️ Tech Stack & Tools
-
-This is the comprehensive toolkit we will be mastering throughout the course.
+### 🛠️ Tools & Setup
+**Course Standard:** Anaconda + Jupyter Notebook  
+**My Setup:** `uv` package manager + Jupyter (for speed and efficiency on Linux)  
+**Primary IDE:** Jupyter Notebook (as required by course)
 
 <div align="center">
 
-**Programming & Data Querying**
-<br>![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Data Science & Machine Learning**
-<br>
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Development Tools & Platforms**
-<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
-![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
-
-### Environment Setup
-*   **Course Standard:** The course is taught using **Anaconda and Jupyter-NoteBook**.
-*   **My Personal Setup:** I am using **`uv`** by Astral for its speed and efficiency on Linux.
-*   **Primary IDE:** Our main environment for all coursework is **Jupyter Notebook**.
 
 ---
 
 ## 📈 Learning Progress
 
-### 🏅 Achievements Unlocked
-- [x] ✅ **Day 1: Course Orientation & Introduction**
-- [x] ✅ **Day 2: AI, ML, & DL Core Concepts**
-- [x] ✅ **Day 3: Python Fundamentals & Jupyter**
-- [ ] 📊 Statistics Mastery
-- [ ] 🐼 Pandas Proficiency
-- [ ] 🤖 Machine Learning Practitioner
-- [ ] 🎯 First Project Completed
+### 🏅 Completed Sessions
+- [x] ✅ **Day 1 (July 1st):** Course Orientation & Data Science Introduction
+- [x] ✅ **Day 2 (July 2nd):** AI, ML, & DL Fundamentals
+- [x] ✅ **Day 3 (July 3rd):** Python Basics & Jupyter Notebook Mastery
 
-### 📊 Weekly Progress Tracker
+### 📊 Current Progress
 ```
-Week 1: [██████....] 60% - Python Fundamentals Underway!
+Week 1: [██████....] 60% - Python Fundamentals in Progress
 ```
+
+**📚 Topics Covered So Far:**
+- Data Science vs Data Analysis concepts
+- AI, ML, DL distinctions and applications
+- Python variable naming and basic data types
+- Jupyter Notebook navigation and shortcuts
+- Markdown documentation in notebooks
+
+**🎯 Currently Learning:**
+- Python fundamentals and syntax
+- Jupyter Notebook best practices
+- Basic programming concepts
+
+---
 
 ## 📝 Daily Learning Log
 
-### Day 3 - July 3rd, 2025: Hands-on with Jupyter & Python Fundamentals
--   **Summary:** Today was a major step forward! I moved from theory to practice by setting up my environment, getting hands-on with Jupyter Notebook, and writing my first lines of Python code. This session was all about building a solid foundation for the work ahead.
--   **Key Concepts Learned:**
-    -   **Jupyter Notebook Mastery:** Learned the difference between **Command Mode** (blue border, for notebook-level actions) and **Edit Mode** (green border, for typing in cells). Practiced essential shortcuts like `Shift + Enter`, `Esc`, `A`, `B`, and `D,D`.
-    -   **Markdown for Documentation:** Got comfortable using Markdown to format text, create headings, lists, and add links/images directly in my notebook.
-    -   **Python's First Steps:**
-        -   **Variables & Identifiers:** Understood the rules for naming variables (must start with a letter or `_`, no special characters, case-sensitive).
-        -   **Basic Data Types:** Learned about `int`, `float`, `str`, and `bool`.
-        -   **Core Functions:** Used `print()` to display output and `type()` to check the data type of my variables.
--   **Action Items:**
-    -   Organize today's notes into a clean Jupyter Notebook.
-    -   Practice the variable declaration and `print()` syntax.
-    -   Experiment with more Jupyter shortcuts to improve my workflow.
+### 📅 Week 1 (July 1-3, 2025)
 
-### Day 2 - July 2nd, 2025: Diving into AI, ML, & DL
--   **Summary:** Covered the foundational concepts of Artificial Intelligence, Machine Learning, and Deep Learning. We explored the applications of Generative AI and the historical context of the field.
--   **Key Concepts Learned:** AI vs. ML vs. DL, Generative AI applications, historical context of Alan Turing, and key terminology like NLP and LLMs.
+<details>
+<summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
 
-### Day 1 - July 1st, 2025: Course Orientation & The World of Data
--   **Summary:** The official start! We received a comprehensive overview of the Data Science field, the course structure, and career opportunities.
--   **Key Concepts Learned:** Data Science vs. Data Analysis, the roles of descriptive and inferential statistics.
+**🎯 Session Focus:** Hands-on coding and environment setup
+
+**📚 Key Concepts Learned:**
+- **Jupyter Notebook Navigation:**
+  - Command Mode (blue border) vs Edit Mode (green border)
+  - Essential shortcuts: `Shift + Enter` (run cell), `Esc` (command mode), `A` (insert above), `B` (insert below), `D,D` (delete cell)
+  - Cell types: Code, Markdown, Raw
+  
+- **Markdown Documentation:**
+  - Creating headers with `#`, `##`, `###`
+  - Formatting text with **bold**, *italic*
+  - Creating lists and links
+  - Embedding images and structuring notes
+
+- **Python Fundamentals:**
+  - **Variable Naming Rules:**
+    - Must start with letter or underscore `_`
+    - Cannot start with numbers
+    - No special characters except underscore
+    - Case-sensitive (`name` ≠ `Name`)
+  - **Basic Data Types:**
+    - `int`: Integer numbers (e.g., `42`)
+    - `float`: Decimal numbers (e.g., `3.14`)
+    - `str`: Text strings (e.g., `"Hello"`)
+    - `bool`: True/False values
+  - **Essential Functions:**
+    - `print()`: Display output
+    - `type()`: Check data type of variable
+
+**💡 Key Insights:**
+- Jupyter notebooks are perfect for combining code, documentation, and results in one place
+- Good variable naming is crucial for code readability and maintenance
+- Markdown makes notebook documentation clean and professional
+
+**🎯 Personal Action Items:**
+- [x] Set up `uv` environment for faster package management
+- [x] Practice Jupyter shortcuts until they become muscle memory
+- [ ] Create a Python basics cheat sheet for quick reference
+
+</details>
+
+<details>
+<summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>
+
+**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL
+
+**📚 Key Concepts Learned:**
+- **AI vs ML vs DL Hierarchy:**
+  - **Artificial Intelligence (AI):** Broader field of making machines intelligent
+  - **Machine Learning (ML):** Subset of AI that learns from data
+  - **Deep Learning (DL):** Subset of ML using neural networks
+  
+- **Generative AI Applications:**
+  - Text generation (ChatGPT, Claude)
+  - Image generation (DALL-E, Midjourney)
+  - Code generation (GitHub Copilot)
+  - Impact on various industries
+
+- **Historical Context:**
+  - Alan Turing's contribution to AI field
+  - Evolution from rule-based systems to modern AI
+  - Current state of AI technology
+
+- **Key Terminology:**
+  - **NLP:** Natural Language Processing
+  - **LLM:** Large Language Models
+  - **Computer Vision:** AI understanding of images
+  - **Generative Models:** AI creating new content
+
+**💡 Key Insights:**
+- AI is not just one technology but a collection of approaches and techniques
+- Generative AI represents a paradigm shift in how we interact with computers
+- Understanding the history helps appreciate how far we've come
+
+**🔗 Topics to Explore Further:**
+- Alan Turing's work and the Turing Test
+- Different types of machine learning (supervised, unsupervised, reinforcement)
+- Real-world applications of AI in different industries
+
+</details>
+
+<details>
+<summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>
+
+**🎯 Session Focus:** Introduction and course orientation
+
+**📚 Key Concepts Learned:**
+- **Data Science vs Data Analysis:**
+  - Data Analysis: Examining data to find insights
+  - Data Science: Broader field including prediction, machine learning, and advanced analytics
+  
+- **Course Structure Overview:**
+  - 4.5-month intensive program
+  - Three distinct phases of learning
+  - Hands-on approach with real projects
+  
+- **Career Opportunities in Data Science:**
+  - Data Analyst
+  - Data Scientist
+  - ML Engineer
+  - Business Intelligence Analyst
+  - Various specializations available
+
+- **Statistics Foundation:**
+  - **Descriptive Statistics:** Summarizing and describing data
+  - **Inferential Statistics:** Making predictions and inferences from data
+  - Importance of statistical thinking in data science
+
+**💡 Key Insights:**
+- Data Science is interdisciplinary: combines statistics, programming, and domain knowledge
+- The field offers diverse career paths with different focus areas
+- Strong foundation in statistics is essential for success
+- Practical, hands-on experience is crucial
+
+**🎯 Course Expectations:**
+- Regular attendance and participation
+- Hands-on practice with real datasets
+- Building a portfolio of projects
+- Collaborative learning environment
+
+</details>
 
 ---
 
@@ -183,9 +291,18 @@ Week 1: [██████....] 60% - Python Fundamentals Underway!
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/riyann00b)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:riyannazeer786@gmail.com)
 
-*📬 Open to collaboration, discussions, and sharing knowledge!*
+*📬 Always open to discussions about data science, learning experiences, and collaboration!*
 
 </div>
+
+---
+
+## 📚 Learning Resources
+
+### 🔗 Useful Links I've Discovered
+- [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) - Official guide for Jupyter
+- [Python PEP 8 Style Guide](https://pep8.org/) - Python coding conventions
+- [Markdown Guide](https://www.markdownguide.org/) - Comprehensive Markdown reference
 
 ---
 
@@ -195,6 +312,11 @@ Week 1: [██████....] 60% - Python Fundamentals Underway!
 ![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+
+---
+
+**📊 Learning Analytics**  
+**Days Active:** 3 | **Sessions Completed:** 3 | **Concepts Learned:** 15+
 
 ---
 
