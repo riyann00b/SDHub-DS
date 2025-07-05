@@ -1,5 +1,6 @@
 # SDHub Data Science Course - Class 1 Notes
 
+**Date:** [01-07-2025] 
 ## Course Introduction & Overview
 
 ### Learning Path Flow Diagram

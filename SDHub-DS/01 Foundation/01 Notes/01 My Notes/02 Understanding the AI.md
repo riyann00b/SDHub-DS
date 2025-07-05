@@ -1,5 +1,7 @@
 # Data Science - Class 2 Notes
 
+**Date:** [02-07-2025] 
+
 ## 1. Applications of Data Science & Generative AI
 
 Data Science powers the generative models that create new content across various media.

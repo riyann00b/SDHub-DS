@@ -1,5 +1,7 @@
 # Data Science - Class 3 Notes 📊
 
+**Date:** [03-07-2025] 
+
 ## 1. Environment Setup & Introduction to Jupyter Notebook 🚀
 
 Today's session focused on preparing my development environment and getting acquainted with **Jupyter Notebook**, my primary tool for interactive data science work.
