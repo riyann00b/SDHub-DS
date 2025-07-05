@@ -188,9 +188,9 @@ Week 2: [..........] 80% - Starts on monday
 ### 📅 Week 1 (July 1-4, 2025)
 
 <details>
-<summary><strong> [Day 4 - July 4th, 2025: User Input and Python Operators]() </strong></summary>
+<summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>
 
-**🎯 Session Focus:** Making programs interactive and performing operations.
+**🎯 Session Focus:** Making programs interactive and performing operations [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md).
 
 **📚 Key Concepts Learned:**
 - **Static vs. Dynamic Values:**
@@ -224,7 +224,7 @@ Week 2: [..........] 80% - Starts on monday
 <details>
 <summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
 
-**🎯 Session Focus:** Hands-on coding and environment setup
+**🎯 Session Focus:** Hands-on coding and environment setup [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
 
 **📚 Key Concepts Learned:**
 - **Jupyter Notebook Navigation:**
@@ -268,7 +268,7 @@ Week 2: [..........] 80% - Starts on monday
 <details>
 <summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>
 
-**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL
+**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
 
 **📚 Key Concepts Learned:**
 - **AI vs ML vs DL Hierarchy:**
@@ -308,7 +308,7 @@ Week 2: [..........] 80% - Starts on monday
 <details>
 <summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>
 
-**🎯 Session Focus:** Introduction and course orientation
+**🎯 Session Focus:** Introduction and course orientation [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
 
 **📚 Key Concepts Learned:**
 - **Data Science vs Data Analysis:**
