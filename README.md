@@ -192,7 +192,7 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 <details>
 <summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
 
-**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/05%20Introduction%20to%20Strings.md)
+**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05%20Python%20Strings.md)
 
 **📚 Key Concepts Learned:**
 - **String Definition:** An immutable (unchangeable) sequence of characters.
