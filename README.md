@@ -184,7 +184,11 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 
 ## 📝 Daily Learning Log
 
-### 📅 Week 2 (July 7th Onwards)
+<details>
+<summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
+
+<br>
+
 <details>
 <summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
 
@@ -210,7 +214,12 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 
 </details>
 
-### 📅 Week 1 (July 1-4, 2025)
+</details>
+
+<details>
+<summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>
+
+<br>
 
 <details>
 <summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>
@@ -280,6 +289,8 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 **💡 Key Insights:**
 - Data Science is a blend of statistics, programming, and domain expertise.
 - Practical, hands-on experience is non-negotiable for success.
+
+</details>
 
 </details>
 
