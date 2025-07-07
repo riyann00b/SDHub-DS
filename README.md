@@ -134,7 +134,6 @@ graph TD
 🐧  OS:             Fedora Linux 42 (Workstation Edition)
 🖼️  Desktop:        GNOME 48 (Wayland)
 🔧  Kernel:         Linux 6.15.3-200.fc42.x86_64
-📅  Last Updated:   July 3rd, 2025
 ```
 
 ### 🛠️ Tools & Setup
@@ -160,189 +159,127 @@ graph TD
 - [x] ✅ **Day 2 (July 2nd):** AI, ML, & DL Fundamentals
 - [x] ✅ **Day 3 (July 3rd):** Python Basics & Jupyter Notebook Mastery
 - [x] ✅ **Day 4 (July 4th):** User Input & Python Operators
+- [x] ✅ **Day 5 (July 7th):** Introduction to Python Strings
 
 ### 📊 Current Progress
 ```
-Week 1: [████████..] 80% - Python Fundamentals in Progress
-Week 2: [..........] 80% - Starts on monday
+Week 1: [██████████] 100% - Python Fundamentals Complete!
+Week 2: [██........] 20% - Python Data Structures in Progress
 ```
 
 **📚 Topics Covered So Far:**
 - Data Science vs Data Analysis concepts
 - AI, ML, DL distinctions and applications
-- Python variable naming and basic data types
-- Jupyter Notebook navigation and shortcuts
-- Markdown for documentation
-- **User input with `input()` and type casting**
-- **Python Operators (Arithmetic, Comparison, Logical, etc.)**
+- Python syntax, variables, and data types
+- Jupyter Notebooks and Markdown
+- User input with `input()` and type casting
+- All Python Operators (Arithmetic, Logical, etc.)
+- **String data type, indexing, and slicing**
 
 **🎯 Currently Learning:**
-- Mastering Python operators
-- Applying concepts with practical exercises
-- Understanding Bitwise operations
+- Advanced string methods
+- Introduction to Python data structures (lists, tuples)
 
 ---
 
 ## 📝 Daily Learning Log
+
+### 📅 Week 2 (July 7th Onwards)
+<details>
+<summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
+
+**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/05%20Introduction%20to%20Strings.md)
+
+**📚 Key Concepts Learned:**
+- **String Definition:** An immutable (unchangeable) sequence of characters.
+- **String Creation:** Using single (`'...'`), double (`"..."`), or triple (`'''...'''`) quotes.
+- **String Access:**
+  - **Indexing:** Grabbing a single character using its position (e.g., `my_name[0]` for the first, `my_name[-1]` for the last).
+  - **Slicing:** Extracting a substring using a `[start:end:step]` format.
+- **Warm-up Practice:** Solved problems involving type casting and arithmetic operators to solidify previous concepts.
+
+**💡 Key Insights:**
+- The immutability of strings is a key concept. To "change" a string, you must create a new one.
+- Slicing, especially with `[::-1]` to reverse a string, is a powerful and concise feature of Python.
+- Negative indexing is extremely convenient for accessing items from the end of a sequence without needing to know its length.
+
+**🎯 Personal Action Items:**
+- [x] Consolidate today's notes and practice problems into a clean Jupyter notebook.
+- [ ] Explore built-in string methods like `.upper()`, `.lower()`, `.strip()`, and `.replace()`.
+- [ ] Practice more complex slicing patterns to become fluent.
+
+</details>
 
 ### 📅 Week 1 (July 1-4, 2025)
 
 <details>
 <summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>
 
-**🎯 Session Focus:** Making programs interactive and performing operations [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md).
+**🎯 Session Focus:** Making programs interactive and performing operations. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md)
 
 **📚 Key Concepts Learned:**
 - **Static vs. Dynamic Values:**
-  - **Static:** Hard-coded values in the program (e.g., `name = "Riyan"`).
+  - **Static:** Hard-coded values in the program.
   - **Dynamic:** Values provided by the user during runtime.
 - **`input()` Function:**
-  - Used to get dynamic input from the user.
-  - **Crucial Rule:** It *always* returns a string.
+  - Used to get dynamic input, always returns a string.
 - **Type Casting:**
-  - The necessity of converting input strings to numbers using `int()` or `float()` for calculations.
+  - The necessity of converting input strings to numbers using `int()` or `float()`.
 - **Python Operators:**
-  - **Arithmetic:** `+`, `-`, `*`, `/`, `//` (floor division), `%` (modulus), `**` (exponent).
-  - **Assignment:** `+=`, `-=`, `*=`, etc., as shortcuts.
-  - **Comparison:** `==`, `!=`, `>`, `<`, `>=`, `<=` to get `True`/`False` results.
-  - **Logical:** `and`, `or`, `not` to combine comparison results.
-  - **Membership:** `in`, `not in` to check for presence in a sequence.
-  - **Identity:** `is`, `is not` to check if two variables are the exact same object in memory.
+  - Covered the full suite: Arithmetic, Assignment, Comparison, Logical, Membership, and Identity.
 
 **💡 Key Insights:**
-- Type casting is non-negotiable when getting numerical input from users.
-- `is` and `==` are not the same; `==` checks for equal value, while `is` checks for identical memory location.
-- Understanding the full range of operators is key to writing expressive and efficient Python code.
-
-**🎯 Personal Action Items:**
-- [x] Consolidate today's notes into a clean Jupyter Notebook.
-- [ ] Practice the Bitwise operators homework to understand low-level data manipulation.
-- [ ] Write a simple calculator program combining `input()`, type casting, and arithmetic operators.
+- Type casting is non-negotiable when getting numerical input.
+- `is` and `==` are not the same; `==` checks value, while `is` checks memory location.
 
 </details>
 
 <details>
 <summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
 
-**🎯 Session Focus:** Hands-on coding and environment setup [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
+**🎯 Session Focus:** Hands-on coding and environment setup. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
 
 **📚 Key Concepts Learned:**
-- **Jupyter Notebook Navigation:**
-  - Command Mode (blue border) vs Edit Mode (green border)
-  - Essential shortcuts: `Shift + Enter` (run cell), `Esc` (command mode), `A` (insert above), `B` (insert below), `D,D` (delete cell)
-  - Cell types: Code, Markdown, Raw
-  
-- **Markdown Documentation:**
-  - Creating headers with `#`, `##`, `###`
-  - Formatting text with **bold**, *italic*
-  - Creating lists and links
-  - Embedding images and structuring notes
-
-- **Python Fundamentals:**
-  - **Variable Naming Rules:**
-    - Must start with letter or underscore `_`
-    - Cannot start with numbers
-    - No special characters except underscore
-    - Case-sensitive (`name` ≠ `Name`)
-  - **Basic Data Types:**
-    - `int`: Integer numbers (e.g., `42`)
-    - `float`: Decimal numbers (e.g., `3.14`)
-    - `str`: Text strings (e.g., `"Hello"`)
-    - `bool`: True/False values
-  - **Essential Functions:**
-    - `print()`: Display output
-    - `type()`: Check data type of variable
+- **Jupyter Notebook Navigation:** Command Mode vs. Edit Mode and essential shortcuts.
+- **Markdown Documentation:** Basics of formatting text and structuring notes.
+- **Python Fundamentals:** Variable naming rules and basic data types (`int`, `float`, `str`, `bool`).
 
 **💡 Key Insights:**
-- Jupyter notebooks are perfect for combining code, documentation, and results in one place
-- Good variable naming is crucial for code readability and maintenance
-- Markdown makes notebook documentation clean and professional
-
-**🎯 Personal Action Items:**
-- [x] Set up `uv` environment for faster package management
-- [x] Practice Jupyter shortcuts until they become muscle memory
-- [ ] Create a Python basics cheat sheet for quick reference
+- Good variable naming is crucial for code readability.
+- Jupyter notebooks are perfect for combining code, documentation, and results.
 
 </details>
 
 <details>
 <summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>
 
-**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
+**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
 
 **📚 Key Concepts Learned:**
-- **AI vs ML vs DL Hierarchy:**
-  - **Artificial Intelligence (AI):** Broader field of making machines intelligent
-  - **Machine Learning (ML):** Subset of AI that learns from data
-  - **Deep Learning (DL):** Subset of ML using neural networks
-  
-- **Generative AI Applications:**
-  - Text generation (ChatGPT, Claude)
-  - Image generation (DALL-E, Midjourney)
-  - Code generation (GitHub Copilot)
-  - Impact on various industries
-
-- **Historical Context:**
-  - Alan Turing's contribution to AI field
-  - Evolution from rule-based systems to modern AI
-  - Current state of AI technology
-
-- **Key Terminology:**
-  - **NLP:** Natural Language Processing
-  - **LLM:** Large Language Models
-  - **Computer Vision:** AI understanding of images
-  - **Generative Models:** AI creating new content
+- **AI vs ML vs DL Hierarchy:** Understood the relationship between these fields.
+- **Generative AI Applications:** Explored text, image, and code generation.
+- **Historical Context:** From Alan Turing to modern AI.
 
 **💡 Key Insights:**
-- AI is not just one technology but a collection of approaches and techniques
-- Generative AI represents a paradigm shift in how we interact with computers
-- Understanding the history helps appreciate how far we've come
-
-**🔗 Topics to Explore Further:**
-- Alan Turing's work and the Turing Test
-- Different types of machine learning (supervised, unsupervised, reinforcement)
-- Real-world applications of AI in different industries
+- AI is an interdisciplinary field with a rich history.
+- Generative AI is a paradigm shift in human-computer interaction.
 
 </details>
 
 <details>
 <summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>
 
-**🎯 Session Focus:** Introduction and course orientation [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
+**🎯 Session Focus:** Introduction and course orientation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
 
 **📚 Key Concepts Learned:**
-- **Data Science vs Data Analysis:**
-  - Data Analysis: Examining data to find insights
-  - Data Science: Broader field including prediction, machine learning, and advanced analytics
-  
-- **Course Structure Overview:**
-  - 4.5-month intensive program
-  - Three distinct phases of learning
-  - Hands-on approach with real projects
-  
-- **Career Opportunities in Data Science:**
-  - Data Analyst
-  - Data Scientist
-  - ML Engineer
-  - Business Intelligence Analyst
-  - Various specializations available
-
-- **Statistics Foundation:**
-  - **Descriptive Statistics:** Summarizing and describing data
-  - **Inferential Statistics:** Making predictions and inferences from data
-  - Importance of statistical thinking in data science
+- **Data Science vs Data Analysis:** Key differences and scopes.
+- **Course Structure Overview:** The three main phases of our learning journey.
+- **Career Opportunities:** Explored roles like Data Analyst, Data Scientist, etc.
+- **Statistics Foundation:** Descriptive vs. Inferential statistics.
 
 **💡 Key Insights:**
-- Data Science is interdisciplinary: combines statistics, programming, and domain knowledge
-- The field offers diverse career paths with different focus areas
-- Strong foundation in statistics is essential for success
-- Practical, hands-on experience is crucial
-
-**🎯 Course Expectations:**
-- Regular attendance and participation
-- Hands-on practice with real datasets
-- Building a portfolio of projects
-- Collaborative learning environment
+- Data Science is a blend of statistics, programming, and domain expertise.
+- Practical, hands-on experience is non-negotiable for success.
 
 </details>
 
@@ -381,7 +318,7 @@ Week 2: [..........] 80% - Starts on monday
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 4 | **Sessions Completed:** 4 | **Concepts Learned:** 20+
+**Days Active:** 5 | **Sessions Completed:** 5 | **Concepts Learned:** 25+
 
 ---
 
