@@ -8,63 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a4ab7b1f2661ad45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDHub-DS/01-Foundation/notes/Day - 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day - 1"
-            }
-          },
-          {
-            "id": "eea1a172a25e4981",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDHub-DS/01 Foundation/01 Notes/01 My Notes/01 Data Science Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 Data Science Overview"
-            }
-          },
-          {
-            "id": "1a6c60a154898637",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04 User Input & Operators"
-            }
-          },
-          {
             "id": "3513082384b3b7ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05 Python Strings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "05 Python Strings"
+            }
+          },
+          {
+            "id": "47c24939dc8bc1d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06 Strings & Intro to Lists.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 Strings & Intro to Lists"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3513082384b3b7ec",
+  "active": "47c24939dc8bc1d4",
   "lastOpenFiles": [
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter-NoteBooks/JNB/04_string_list_clean.ipynb",
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter-NoteBooks/JNB/string_list_clean.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05 Python Strings.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06 Strings & Intro to Lists.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
+    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Strings and list 05.pdf",
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/02_Sir_Jupyter_NoteBooks/String and List.ipynb",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/03 Python Fundamentals & Jupyter Mastery.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
+    "README.md",
     "SDHub-DS/01 Foundation/02 Python Basics Code/01 My Jupyter NoteBooks/01 JNB/02 Input methods and oparators.ipynb",
     "SDHub-DS/01 Foundation/02 Python Basics Code/01 My Jupyter NoteBooks/01 JNB/02.ipynb",
     "SDHub-DS/01 Foundation/02 Python Basics Code/01 My Jupyter NoteBooks/01 JNB/01 Python Fundamentals, MarkDown and Jupyter Mastery.ipynb",
@@ -226,11 +206,7 @@
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/01 Data Science Overview.md",
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/04 User Input & Operators.md",
     "SDHub-DS/01 Foundation/01 Notes/02 Sir Notes/Python DS01.pdf",
-    "SDHub-DS/01 Foundation/01 Notes/02 Sir Notes/DS_02.pdf",
-    "SDHub-DS/01 Foundation/01 Notes/02 Sir Notes/Day_01.pdf",
-    "README.md",
     "SDHub-DS/01-Foundation/notes/Day - 3.md",
-    "SDHub-DS/01-Foundation/python-basics/Python-Basics-Cleaned.ipynb",
     "SDHub-DS/01-Foundation/notes/Day - 1.md",
     "SDHub-DS/01-Foundation/notes/Day - 2.md",
     "Day-2.md"
