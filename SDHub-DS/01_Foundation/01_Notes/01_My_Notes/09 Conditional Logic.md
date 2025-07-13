@@ -1,7 +1,3 @@
-Of course. Let's transform today's notes into a comprehensive, detailed guide. We will break down every concept from your notebooks (`07.ipynb` and `Conditional Prog.ipynb`), explaining not just the "what" but the "why" behind every line of code, complete with visual aids to make the logic crystal clear.
-
----
-
 # A Deep Dive into Advanced Conditional Logic
 
 Today, we move beyond simple `if-else` statements and learn how to build programs that can handle complex, multi-layered decisions. We will master three core techniques: chaining conditions with `elif`, nesting conditions within each other, and writing them concisely with the ternary operator.

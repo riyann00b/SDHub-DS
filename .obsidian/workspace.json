@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09 Conditional Logic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "09 Conditional Logic"
             }
           }
         ]
@@ -168,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ec477e0489c0a0",
+  "active": "4ef58bdf01a4e64e",
   "lastOpenFiles": [
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09.md",
+    "README.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09 Conditional Logic.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/Practice Qustions/Python_Practice_Questions.docx",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/Practice Qustions",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08 Revision & Conditional Programming.md",
@@ -190,7 +191,6 @@
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/Untitled.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/01 Data Science Overview.md",
-    "README.md",
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/03 Python Fundamentals & Jupyter Mastery.md",
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/02 Understanding the AI.md",
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/01 Data Science Overview.md",
