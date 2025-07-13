@@ -18,7 +18,9 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 > *"Data is the new oil, and I'm here to refine it!"* 🛢️➡️💎
 
-### 📁 Repository Structure```
+### 📁 Repository Structure
+
+```
 ├── 📁 SDHub-DS/
 │   ├── 📁 01 Foundation/
 │   │   ├── 📁 01 Notes/
@@ -50,6 +52,7 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 ├── 📝 README.md                               # You are here!
 └── 📄 LICENSE
 ```
+
 >     💡 A Note on Folder Visibility:
 > The structure above shows the complete, intended layout of my repository. However, Git does not track empty directories. Therefore, some folders (like Projects/ or future phase folders) may not be visible on GitHub until I add the first file (e.g., a notebook, a note, or a placeholder .gitkeep file) to them. They will appear automatically as my journey progresses and I populate them with content!
 
@@ -182,7 +185,7 @@ Week 2: [██████████] 100% - Data Structures & Conditionals C
 <details>
 <summary><strong>Day 8 & 9 - July 10-11, 2025: Conditional Programming Mastery</strong></summary>
 
-**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08_Conditional_Programming_Mastery.md)
+**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes 8](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08%20Revision%20%26%20Conditional%20Programming.md) | [Notes 9](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09%20Conditional%20Logic.md)
 
 **📚 Key Concepts Learned:**
 - **`if-elif-else` Chains:** Mastered the flow for handling multiple, mutually exclusive conditions, as seen in the student grading problem.
@@ -205,7 +208,7 @@ Week 2: [██████████] 100% - Data Structures & Conditionals C
 <details>
 <summary><strong>Day 7 - July 9th, 2025: Sets and Dictionaries</strong></summary>
 
-**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07_Sets_and_Dictionaries.md)
+**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07%20Sets%20and%20Dictionaries.md)
 
 **📚 Key Concepts Learned:**
 - **Sets:**
