@@ -2,9 +2,7 @@
 
 <div align="center">
 
-![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)
-![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
+![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
 
 *📅 Started: July 1st, 2025*  
 *🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)*  
@@ -20,8 +18,7 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 > *"Data is the new oil, and I'm here to refine it!"* 🛢️➡️💎
 
-### 📁 Repository Structure
-```
+### 📁 Repository Structure```
 ├── 📁 SDHub-DS/
 │   ├── 📁 01 Foundation/
 │   │   ├── 📁 01 Notes/
@@ -143,8 +140,7 @@ graph TD
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -155,44 +151,103 @@ graph TD
 ## 📈 Learning Progress
 
 ### 🏅 Completed Sessions
-- [x] ✅ **Day 1 (July 1st):** Course Orientation & Data Science Introduction
-- [x] ✅ **Day 2 (July 2nd):** AI, ML, & DL Fundamentals
-- [x] ✅ **Day 3 (July 3rd):** Python Basics & Jupyter Notebook Mastery
-- [x] ✅ **Day 4 (July 4th):** User Input & Python Operators
-- [x] ✅ **Day 5 (July 7th):** Introduction to Python Strings
+- [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
+- [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
-Week 2: [██........] 20% - Python Data Structures in Progress
+Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 ```
 
 **📚 Topics Covered So Far:**
-- Data Science vs Data Analysis concepts
-- AI, ML, DL distinctions and applications
-- Python syntax, variables, and data types
-- Jupyter Notebooks and Markdown
-- User input with `input()` and type casting
-- All Python Operators (Arithmetic, Logical, etc.)
-- **String data type, indexing, and slicing**
+- **Data Science Concepts:** AI/ML/DL hierarchy, Data Science vs. Data Analysis.
+- **Python Fundamentals:** Syntax, variables, data types, operators.
+- **Environment:** Jupyter Notebooks, Markdown for documentation.
+- **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
+- **Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
 
 **🎯 Currently Learning:**
-- Advanced string methods
-- Introduction to Python data structures (lists, tuples)
+- Preparing to start **Loops** (`for`, `while`) to automate repetitive tasks.
 
 ---
 
 ## 📝 Daily Learning Log
 
-<details>
+<details open>
 <summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
 
 <br>
 
 <details>
+<summary><strong>Day 8 & 9 - July 10-11, 2025: Conditional Programming Mastery</strong></summary>
+
+**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08_Conditional_Programming_Mastery.md)
+
+**📚 Key Concepts Learned:**
+- **`if-elif-else` Chains:** Mastered the flow for handling multiple, mutually exclusive conditions, as seen in the student grading problem.
+- **Nested `if` Statements:** Understood how to create decisions within decisions, a concept solidified by the password and user verification exercises. The logic flows from a parent condition to a child condition.
+- **The `in` Operator:** Used this powerful keyword to check for membership within a list (`if name in user_list:`), making code cleaner and more readable.
+- **Ternary Operator:** Practiced the concise one-line `if-else` syntax (`value_if_true if condition else value_if_false`) for simple assignments like calculating square vs. cube.
+
+**💡 Key Insights:**
+- Nested conditions are the key to building programs that react to a sequence of user inputs.
+- The ternary operator is elegant for simple choices but should be avoided for complex logic to maintain readability.
+- Combining operators like `in` with conditional statements is a very "Pythonic" way to write code.
+
+**🎯 Personal Action Items:**
+- [x] Completed and documented all conditional programming exercises from the notebooks.
+- [x] Created a comprehensive study guide for this week's topics.
+- [ ] Begin preliminary reading on `for` and `while` loops to prepare for next week.
+
+</details>
+
+<details>
+<summary><strong>Day 7 - July 9th, 2025: Sets and Dictionaries</strong></summary>
+
+**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07_Sets_and_Dictionaries.md)
+
+**📚 Key Concepts Learned:**
+- **Sets:**
+  - **Definition:** Unordered collections with **no duplicate elements**.
+  - **Creation:** Using `{}` or the `set()` constructor.
+  - **Operations:** Mastered `.add()`, `.remove()`, `.union()`, `.intersection()`, and `.difference()`.
+- **Dictionaries:**
+  - **Definition:** Ordered (in Python 3.7+) collections of **key-value pairs**.
+  - **Rules:** Keys must be immutable and unique. Values can be anything.
+  - **CRUD Operations:** Practiced Creating (adding a new key), Reading (accessing a value), Updating (changing a value), and Deleting (`.pop()`) key-value pairs.
+
+**💡 Key Insights:**
+- Sets are incredibly efficient for removing duplicates from a list (`list(set(my_list))`).
+- The `TypeError` when trying to modify a tuple inside a dictionary was a critical lesson: a collection's mutability is distinct from the mutability of its contents.
+- Dictionaries are the foundation for more complex data structures like JSON, making them extremely important.
+
+</details>
+
+<details>
+<summary><strong>Day 6 - July 8th, 2025: Lists and Tuples</strong></summary>
+
+**🎯 Session Focus:** Deep dive into Python's sequence data types. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06_Lists_and_Tuples.md)
+
+**📚 Key Concepts Learned:**
+- **Lists:**
+  - **Definition:** Ordered, **mutable** (changeable) collections.
+  - **Operations:** Practiced `.append()` to add items and `.pop()` to remove them.
+- **Tuples:**
+  - **Definition:** Ordered, **immutable** (unchangeable) collections.
+  - **Immutability in Action:** Understood that to "add" an element, you must create a new tuple by concatenating the old one with a new one. `tup = tup + (new_item,)`.
+- **Indexing and Slicing:** Reinforced the `[start:stop:step]` syntax for both lists and tuples to access sub-sequences.
+
+**💡 Key Insights:**
+- The choice between a list and a tuple depends entirely on whether you need to modify the data after creation.
+- The trailing comma in `(item,)` is crucial for defining a single-element tuple.
+
+</details>
+
+<details>
 <summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
 
-**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05%20Python%20Strings.md)
+**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05_Python_Strings.md)
 
 **📚 Key Concepts Learned:**
 - **String Definition:** An immutable (unchangeable) sequence of characters.
@@ -206,11 +261,6 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 - The immutability of strings is a key concept. To "change" a string, you must create a new one.
 - Slicing, especially with `[::-1]` to reverse a string, is a powerful and concise feature of Python.
 - Negative indexing is extremely convenient for accessing items from the end of a sequence without needing to know its length.
-
-**🎯 Personal Action Items:**
-- [x] Consolidate today's notes and practice problems into a clean Jupyter notebook.
-- [ ] Explore built-in string methods like `.upper()`, `.lower()`, `.strip()`, and `.replace()`.
-- [ ] Practice more complex slicing patterns to become fluent.
 
 </details>
 
@@ -329,7 +379,7 @@ Week 2: [██........] 20% - Python Data Structures in Progress
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 5 | **Sessions Completed:** 5 | **Concepts Learned:** 25+
+**Days Active:** 9 | **Sessions Completed:** 9 | **Concepts Learned:** 40+
 
 ---
 

@@ -75,22 +75,22 @@ Mastering shortcuts requires understanding Jupyter's two primary modes.
 
 **The Most Important Shortcuts:**
 
-| Action | When to Use (Mode) | Shortcut |
-| :--- | :--- | :--- |
-| **Run Cell** | Command or Edit | `Ctrl + Enter` |
-| **Run Cell & Select Below** | Command or Edit | `Shift + Enter` |
-| **Run Cell & Insert Below** | Command or Edit | `Alt + Enter` |
-| **Switch to Markdown** | Command Mode | `M` |
-| **Switch to Code** | Command Mode | `Y` |
-| **Add Cell Above** | Command Mode | `A` |
-| **Add Cell Below** | Command Mode | `B` |
-| **Cut Cell** | Command Mode | `X` |
-| **Copy Cell** | Command Mode | `C` |
-| **Paste Cell** | Command Mode | `V` |
-| **Delete Cell** | Command Mode | `D, D` (Press twice) |
-| **Undo Cell Action** | Command Mode | `Z` |
-| **Toggle Line Numbers**| Command Mode | `L` |
-| **Save Notebook** | Command Mode | `S` |
+| Action                      | When to Use (Mode) | Shortcut             |
+| :-------------------------- | :----------------- | :------------------- |
+| **Run Cell**                | Command or Edit    | `Ctrl + Enter`       |
+| **Run Cell & Select Below** | Command or Edit    | `Shift + Enter`      |
+| **Run Cell & Insert Below** | Command or Edit    | `Alt + Enter`        |
+| **Switch to Markdown**      | Command Mode       | `M`                  |
+| **Switch to Code**          | Command Mode       | `Y`                  |
+| **Add Cell Above**          | Command Mode       | `A`                  |
+| **Add Cell Below**          | Command Mode       | `B`                  |
+| **Cut Cell**                | Command Mode       | `X`                  |
+| **Copy Cell**               | Command Mode       | `C`                  |
+| **Paste Cell**              | Command Mode       | `V`                  |
+| **Delete Cell**             | Command Mode       | `D, D` (Press twice) |
+| **Undo Cell Action**        | Command Mode       | `Z`                  |
+| **Toggle Line Numbers**     | Command Mode       | `L`                  |
+| **Save Notebook**           | Command Mode       | `S`                  |
 
 ---
 
