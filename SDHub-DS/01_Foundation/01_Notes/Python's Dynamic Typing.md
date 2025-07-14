@@ -1,5 +1,3 @@
-Of course. Here is a comprehensive guide to Python data types with code examples, a summary table, and a Mermaid diagram for visualization, updated as of July 2025.
-
 ### Understanding Python's Dynamic Typing
 
 Python is a dynamically-typed language, which means you don't need to explicitly declare the data type of a variable. The interpreter determines the type at runtime based on the value assigned to it. You can always check the type of any variable using the built-in `type()` function.
