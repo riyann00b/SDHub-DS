@@ -1,3 +1,62 @@
+### Variables: The Labeled Boxes of Programming
+
+A variable is a name you give to a memory location to store a piece of data. Think of it as a labeled box where you can put information.
+
+-   **Identifier:** The name of the variable (e.g., `age`).
+-   **Assignment Operator:** The equals sign (`=`), which tells Python to "put the value on the right into the variable on the left."
+-   **Data/Value:** The information stored in the variable (e.g., `28`).
+
+```python
+# identifier   assignment   data/value
+name         =            "Uwaish"
+age          =            28
+```
+
+**Rules for Identifiers (Variable Names):**
+*   Must start with a letter (a-z, A-Z) or an underscore (`_`).
+*   Cannot start with a number.
+*   Can only contain letters, numbers, and underscores.
+*   Are case-sensitive (`age` is different from `Age`).
+
+### Operators: The Tools for Doing Work
+
+Operators are special symbols that perform operations on variables and values.
+
+| Category | Operators | What they do |
+| :--- | :--- | :--- |
+| **Arithmetic** | `+`, `-`, `*`, `/`, `%` | Perform mathematical calculations. The **modulo (`%`)** gives the remainder of a division. |
+| **Assignment** | `=` | Assigns a value to a variable. |
+| **Comparison** | `==`, `!=`, `>`, `<` | Compares two values and results in `True` or `False`. |
+| **Logical** | `and`, `or`, `not` | Combines conditional statements. |
+
+### Data Types: The Different Kinds of Information
+
+Python needs to know what *kind* of data it's working with. Here's a recap:
+
+**1. Basic (Primitive) Types:**
+*   **Integer (`int`):** Whole numbers, like `10`, `-50`, `1000`.
+*   **Float (`float`):** Numbers with a decimal point, like `22.5`, `3.14`.
+*   **String (`str`):** Text, enclosed in single (`'`) or double (`"`) quotes.
+*   **Boolean (`bool`):** Represents truth values, can only be `True` or `False`.
+
+**2. Collection Types:** These are containers that hold other data.
+
+### Deep Dive: A Comparison of Collection Types
+
+This table summarizes everything you need to know about Python's four main collection types.
+
+| Feature                | List                 | Tuple                 | Set               | Dictionary                 |
+| :--------------------- | :------------------- | :-------------------- | :---------------- | :------------------------- |
+| **Syntax (Shape)**     | `[ ]`                | `( )`                 | `{ }` or `set()`  | `{key: value}`             |
+| **Is it Ordered?**     | **Yes**              | **Yes**               | **No**            | **Yes** (in Python 3.7+)   |
+| **Is it Mutable?**     | **Yes** (changeable) | **No** (unchangeable) | **Yes**           | **Yes**                    |
+| **Allows Duplicates?** | **Yes**              | **Yes**               | **No**            | Keys are unique            |
+| **Indexed By?**        | Number [0, 1, 2...]  | Number [0, 1, 2...]   | Not indexed       | Key                        |
+| **How to Update?**     | `my_list[0] = 'new'` | Cannot be updated     | N/A               | `my_dict['key'] = 'new'`   |
+| **How to Add?**        | `my_list.append()`   | Concatenate `+`       | `my_set.add()`    | `my_dict['new_key'] = val` |
+| **How to Delete?**     | `my_list.pop()`      | Cannot be deleted     | `my_set.remove()` | `my_dict.pop('key')`       |
+
+
 ### Understanding Python's Dynamic Typing
 
 Python is a dynamically-typed language, which means you don't need to explicitly declare the data type of a variable. The interpreter determines the type at runtime based on the value assigned to it. You can always check the type of any variable using the built-in `type()` function.
@@ -76,11 +135,11 @@ print(f"Imaginary part: {z.imag}")
 
 Used to store ordered collections of items.
 
-| Data Type | Description | Mutability | Example |
-| :--- | :--- | :--- | :--- |
-| **`str`** | An ordered sequence of Unicode characters. | Immutable | `s = "Python"` |
-| **`list`** | An ordered, flexible collection that can hold items of different types. | Mutable | `l = [1, "a", 3.14]` |
-| **`tuple`** | An ordered, fixed collection. Faster than lists but cannot be modified. | Immutable | `t = (1, "a", 3.14)` |
+| Data Type   | Description                                                             | Mutability | Example              |
+| :---------- | :---------------------------------------------------------------------- | :--------- | :------------------- |
+| **`str`**   | An ordered sequence of Unicode characters.                              | Immutable  | `s = "Python"`       |
+| **`list`**  | An ordered, flexible collection that can hold items of different types. | Mutable    | `l = [1, "a", 3.14]` |
+| **`tuple`** | An ordered, fixed collection. Faster than lists but cannot be modified. | Immutable  | `t = (1, "a", 3.14)` |
 
 **Accessing Elements (Indexing and Slicing):**
 

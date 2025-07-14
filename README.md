@@ -156,11 +156,13 @@ graph TD
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
+- [x] ✅ **Week 3 (Day 10):** Control Flow with `while` Loops.
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
+Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 ```
 
 **📚 Topics Covered So Far:**
@@ -168,16 +170,53 @@ Week 2: [██████████] 100% - Data Structures & Conditionals C
 - **Python Fundamentals:** Syntax, variables, data types, operators.
 - **Environment:** Jupyter Notebooks, Markdown for documentation.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
-- **Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
+- **Conditional Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
+- **Iterative Control Flow:** The `while` loop, including initialization, condition, and update steps.
 
 **🎯 Currently Learning:**
-- Preparing to start **Loops** (`for`, `while`) to automate repetitive tasks.
+- Advanced loop control (`break`, `continue`).
+- The `for` loop and iterating over sequences.
 
 ---
 
 ## 📝 Daily Learning Log
 
 <details open>
+<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
+
+<br>
+
+<details open>
+<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
+
+**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10_Control_Flow_and_While_Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter_NoteBooks/08.ipynb)
+
+**📚 Key Concepts Learned:**
+- **Introduction to Loops:** Understood why loops are essential for avoiding redundant code, contrasting the "manual" way of printing numbers 1-10 with the efficient loop method.
+- **The `while` Loop:** Mastered the core three-step process:
+  1.  **Initialization:** Setting up a counter variable before the loop (`num = 1`).
+  2.  **Condition:** The logical test that determines if the loop continues (`while num <= 10:`).
+  3.  **Operation/Update:** Modifying the counter variable inside the loop to progress towards the exit condition (`num += 1`).
+- **Practical Applications:**
+  - Implemented `while` loops for various tasks: counting up, counting down, and printing star patterns.
+  - Combined loops with user input (`input()`) to create programs with dynamic ranges.
+- **Loops with Conditionals:** Integrated `if-else` statements inside `while` loops to solve more complex problems, such as iterating through a range and labeling each number as "odd" or "even".
+
+**💡 Key Insights:**
+- The update step (`num += 1` or `num -= 1`) is the most critical part of a `while` loop. Forgetting it leads to an infinite loop that can freeze the program.
+- Loops are incredibly versatile. The same structure can be used for numerical calculations, generating text patterns, and processing lists of items.
+- Combining loops and conditionals is the foundational skill for building almost any complex program logic.
+
+**🎯 Personal Action Items:**
+- [x] Completed and documented all `while` loop exercises, including the corrected even number problem.
+- [ ] Read ahead on the `for` loop to understand how it differs from `while` and when to use each.
+- [ ] Create a small personal project that uses a `while` loop with user input, like a simple number guessing game.
+
+</details>
+
+</details>
+
+<details>
 <summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
 
 <br>
@@ -375,14 +414,13 @@ Week 2: [██████████] 100% - Data Structures & Conditionals C
 <div align="center">
 
 ### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
+![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
 
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 9 | **Sessions Completed:** 9 | **Concepts Learned:** 40+
+**Days Active:** 10 | **Sessions Completed:** 10 | **Concepts Learned:** 45+
 
 ---
 
