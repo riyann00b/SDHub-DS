@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "09 Conditional Logic"
             }
+          },
+          {
+            "id": "f3e0fa928b364d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SDHub-DS/01_Foundation/01_Notes/Python's Dynamic Typing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python's Dynamic Typing"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,10 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ef58bdf01a4e64e",
+  "active": "f3e0fa928b364d77",
   "lastOpenFiles": [
-    "README.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09 Conditional Logic.md",
+    "SDHub-DS/01_Foundation/01_Notes/Python's Dynamic Typing.md",
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/07_worksheet-1-cleaned.ipynb",
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/07_worksheet.ipynb",
+    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/07_worksheet",
+    "README.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/Practice Qustions/Python_Practice_Questions.docx",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/Practice Qustions",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08 Revision & Conditional Programming.md",
@@ -182,13 +201,10 @@
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Python Revision and String_04.pdf",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Strings and list 05.pdf",
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/sir-JNs/Revision and Conditional Prog.ipynb",
-    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Set and Dict.pdf",
     "SDHub-DS/01_Foundation/01_Notes/Prompt.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05 Python Strings.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/03 Python Fundamentals & Jupyter Mastery.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
-    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/07.ipynb",
-    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/Untitled.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/01 Data Science Overview.md",
     "SDHub-DS/01 Foundation/01 Notes/01 My Notes/03 Python Fundamentals & Jupyter Mastery.md",
