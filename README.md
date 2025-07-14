@@ -189,7 +189,7 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 <details open>
 <summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
 
-**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10_Control_Flow_and_While_Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter_NoteBooks/08.ipynb)
+**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/08%20Control%20Flow%20Programming.ipynb)
 
 **📚 Key Concepts Learned:**
 - **Introduction to Loops:** Understood why loops are essential for avoiding redundant code, contrasting the "manual" way of printing numbers 1-10 with the efficient loop method.
