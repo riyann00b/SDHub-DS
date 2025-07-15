@@ -4,7 +4,7 @@ Today's session focused on moving beyond simple sequential programming into the 
 
 ## 1. Conditional Logic Warm-up
 
-You started with a complex problem that combines multiple `if-else` statements. This is a great example of **nested conditional programming**.
+started with a complex problem that combines multiple `if-else` statements. This is a great example of **nested conditional programming**.
 
 ### The Challenge
 
