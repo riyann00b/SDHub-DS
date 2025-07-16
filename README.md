@@ -156,13 +156,13 @@ graph TD
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Days 10-11):** Control Flow with `while` and `for` Loops.
+- [x] ✅ **Week 3 (Days 10-12):** Control Flow with `while` and `for` Loops, and the power of Comprehensions.
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
-Week 3: [████......] 40%  - Control Flow & Loops in Progress...
+Week 3: [██████....] 60%  - Control Flow, Loops & Comprehensions in Progress...
 ```
 
 **📚 Topics Covered So Far:**
@@ -173,10 +173,11 @@ Week 3: [████......] 40%  - Control Flow & Loops in Progress...
 - **Conditional Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
 - **Iterative Control Flow:** The `while` loop and the `for` loop.
 - **Loop Control Keywords:** Using `break`, `continue`, and `pass` to manage loop execution.
+- **Pythonic Code:** Writing concise and efficient code with **List & Dictionary Comprehensions**.
 
 **🎯 Currently Learning:**
-- Advanced loop patterns (e.g., nested loops).
-- List comprehensions as a concise alternative to `for` loops.
+- Advanced loop patterns and nested comprehensions.
+- Beginning to write Python functions.
 
 ---
 
@@ -188,21 +189,71 @@ Week 3: [████......] 40%  - Control Flow & Loops in Progress...
 <br>
 
 <details open>
+<summary><strong>Day 12 - July 16th, 2025: Pythonic Data Manipulation with Comprehensions</strong></summary>
+
+**🎯 Session Focus:** Refactoring loops into elegant, one-line comprehensions for lists and dictionaries. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12%20Loops%20and%20Comprehensions.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/10%20Loop%20and%20comprehension.ipynb)
+
+**📚 Key Concepts Learned:**
+
+- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets from existing iterables, replacing multi-line `for` loops.
+
+- **List Comprehensions - The 3 Core Patterns:**
+  1.  **Simple Mapping:** Apply an expression to every item.
+      - **Syntax:** `[expression for item in iterable]`
+      ```mermaid
+      graph LR
+          subgraph Simple Comprehension
+              A(iterable) --"Yields"--> B(item);
+              B --"Processed by"--> C(expression);
+              C --"Appended to"--> D[New List];
+          end
+      ```
+  2.  **Filtering:** Include only items that meet a specific condition.
+      - **Syntax:** `[expression for item in iterable if condition]`
+      ```mermaid
+      graph TD
+          A[Get item] --> B{If condition is True?};
+          B -- Yes --> C(Apply expression);
+          B -- No --> D(Skip item);
+          C --> E[Append to List];
+      ```
+  3.  **Conditional Output:** Apply different expressions based on a condition.
+      - **Syntax:** `[val_if_true if condition else val_if_false for item in iterable]`
+      ```mermaid
+      graph TD
+          A[Get item] --> B{If condition is True?};
+          B -- Yes --> C(Result = value_if_true);
+          B -- No --> D(Result = value_if_false);
+          C --> E[Append Result];
+          D --> E;
+      ```
+
+- **Dictionary Comprehensions:** Mastered the syntax for creating dictionaries from iterables, specifying a key-value pair for each item.
+  - **Syntax:** `{key_expr: value_expr for item in iterable}`
+  - **Example:** `res = {i: i**2 for i in li}` creates a dictionary mapping each number to its square.
+
+**💡 Key Insights:**
+- Comprehensions are not just syntactic sugar; they are often more readable and can be faster than their equivalent `for` loop counterparts.
+- The placement of the `if` statement is crucial: at the end for filtering, and at the beginning for conditional output.
+- These patterns are fundamental to data wrangling with libraries like Pandas, where similar vectorized operations are common.
+
+**🎯 Personal Action Items:**
+- [x] Documented all comprehension exercises and created diagrams.
+- [x] Go back to the pass/fail and even/odd exercises from Day 11 and refactor them using list comprehensions.
+- [ ] Explore `set` comprehensions to see how they create unique collections.
+- [ ] Attempt a nested comprehension (e.g., flattening a list of lists).
+
+</details>
+
+<details>
 <summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>
 
 **🎯 Session Focus:** Using `for` loops to iterate over sequences and perform data manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
 
-**📚 Key Concepts Learned:**, using diagrams and flowcharts to make the concepts easy to understand.
+**📚 Key Concepts Learned:**
 
 - **The `for` Loop:** Understood its primary use for iterating over a known sequence (like a list, string, or tuple). It simplifies iteration by automatically managing the counter variable.
 - **Syntax and Flow:** `for item in collection:`. The loop runs once for each item in the collection.
-  ```mermaid
-  graph TD
-      A[Start] --> B(For each item in collection);
-      B -- More items --> C[Execute code block for the item];
-      C --> B;
-      B -- No more items --> D[End];
-  ```
 - **Practical Data Manipulation:**
   - Iterated through a list of numbers to identify and separate them into `odd` and `even` lists.
   - Processed a list of student scores to filter them into `pass` and `fail` categories.
@@ -215,11 +266,6 @@ Week 3: [████......] 40%  - Control Flow & Loops in Progress...
 - The `for` loop is the most "Pythonic" way to handle iteration over collections. It's more concise and less error-prone than a `while` loop with a manual counter.
 - Combining a `for` loop with an `if` statement is a powerful pattern for filtering data—a fundamental task in data analysis.
 - The ability to create new lists based on conditions within a loop (like the pass/fail example) is a core skill for data preparation and transformation.
-
-**🎯 Personal Action Items:**
-- [x] Completed and documented all `for` loop exercises from the notebook.
-- [ ] Explore **list comprehensions**, a more advanced and efficient way to create lists from `for` loops (e.g., `evens = [i for i in li if i % 2 == 0]`).
-- [ ] Practice with **nested loops** (a loop inside another loop) to solve more complex problems, like working with 2D lists (matrices).
 
 </details>
 
@@ -407,7 +453,7 @@ Week 3: [████......] 40%  - Control Flow & Loops in Progress...
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 11 | **Sessions Completed:** 11 | **Concepts Learned:** 50+
+**Days Active:** 12 | **Sessions Completed:** 12 | **Concepts Learned:** 55+
 
 ---
 
