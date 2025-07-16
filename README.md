@@ -156,13 +156,13 @@ graph TD
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Day 10):** Control Flow with `while` Loops.
+- [x] ✅ **Week 3 (Days 10-11):** Control Flow with `while` and `for` Loops.
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
-Week 3: [██........] 20%  - Control Flow & Loops in Progress...
+Week 3: [████......] 40%  - Control Flow & Loops in Progress...
 ```
 
 **📚 Topics Covered So Far:**
@@ -171,11 +171,12 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 - **Environment:** Jupyter Notebooks, Markdown for documentation.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
 - **Conditional Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
-- **Iterative Control Flow:** The `while` loop, including initialization, condition, and update steps.
+- **Iterative Control Flow:** The `while` loop and the `for` loop.
+- **Loop Control Keywords:** Using `break`, `continue`, and `pass` to manage loop execution.
 
 **🎯 Currently Learning:**
-- Advanced loop control (`break`, `continue`).
-- The `for` loop and iterating over sequences.
+- Advanced loop patterns (e.g., nested loops).
+- List comprehensions as a concise alternative to `for` loops.
 
 ---
 
@@ -187,30 +188,59 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 <br>
 
 <details open>
-<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
+<summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>
 
-**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/08%20Control%20Flow%20Programming.ipynb)
+**🎯 Session Focus:** Using `for` loops to iterate over sequences and perform data manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
 
-**📚 Key Concepts Learned:**
-- **Introduction to Loops:** Understood why loops are essential for avoiding redundant code, contrasting the "manual" way of printing numbers 1-10 with the efficient loop method.
-- **The `while` Loop:** Mastered the core three-step process:
-  1.  **Initialization:** Setting up a counter variable before the loop (`num = 1`).
-  2.  **Condition:** The logical test that determines if the loop continues (`while num <= 10:`).
-  3.  **Operation/Update:** Modifying the counter variable inside the loop to progress towards the exit condition (`num += 1`).
-- **Practical Applications:**
-  - Implemented `while` loops for various tasks: counting up, counting down, and printing star patterns.
-  - Combined loops with user input (`input()`) to create programs with dynamic ranges.
-- **Loops with Conditionals:** Integrated `if-else` statements inside `while` loops to solve more complex problems, such as iterating through a range and labeling each number as "odd" or "even".
+**📚 Key Concepts Learned:**, using diagrams and flowcharts to make the concepts easy to understand.
+
+- **The `for` Loop:** Understood its primary use for iterating over a known sequence (like a list, string, or tuple). It simplifies iteration by automatically managing the counter variable.
+- **Syntax and Flow:** `for item in collection:`. The loop runs once for each item in the collection.
+  ```mermaid
+  graph TD
+      A[Start] --> B(For each item in collection);
+      B -- More items --> C[Execute code block for the item];
+      C --> B;
+      B -- No more items --> D[End];
+  ```
+- **Practical Data Manipulation:**
+  - Iterated through a list of numbers to identify and separate them into `odd` and `even` lists.
+  - Processed a list of student scores to filter them into `pass` and `fail` categories.
+  - Filtered a list of names based on specific criteria (e.g., starting with a certain letter).
+- **`while` vs. `for` Loop:**
+  - **`while`:** Best when the number of iterations is unknown (e.g., waiting for user input).
+  - **`for`:** Best when you have a definite collection to iterate through.
 
 **💡 Key Insights:**
-- The update step (`num += 1` or `num -= 1`) is the most critical part of a `while` loop. Forgetting it leads to an infinite loop that can freeze the program.
-- Loops are incredibly versatile. The same structure can be used for numerical calculations, generating text patterns, and processing lists of items.
-- Combining loops and conditionals is the foundational skill for building almost any complex program logic.
+- The `for` loop is the most "Pythonic" way to handle iteration over collections. It's more concise and less error-prone than a `while` loop with a manual counter.
+- Combining a `for` loop with an `if` statement is a powerful pattern for filtering data—a fundamental task in data analysis.
+- The ability to create new lists based on conditions within a loop (like the pass/fail example) is a core skill for data preparation and transformation.
 
 **🎯 Personal Action Items:**
-- [x] Completed and documented all `while` loop exercises, including the corrected even number problem.
-- [ ] Read ahead on the `for` loop to understand how it differs from `while` and when to use each.
-- [ ] Create a small personal project that uses a `while` loop with user input, like a simple number guessing game.
+- [x] Completed and documented all `for` loop exercises from the notebook.
+- [ ] Explore **list comprehensions**, a more advanced and efficient way to create lists from `for` loops (e.g., `evens = [i for i in li if i % 2 == 0]`).
+- [ ] Practice with **nested loops** (a loop inside another loop) to solve more complex problems, like working with 2D lists (matrices).
+
+</details>
+
+<details>
+<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
+
+**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
+
+**📚 Key Concepts Learned:**
+- **Introduction to Loops:** Understood why loops are essential for avoiding redundant code.
+- **The `while` Loop:** Mastered the core three-step process:
+  1.  **Initialization:** Setting up a counter (`num = 1`).
+  2.  **Condition:** The test that determines if the loop continues (`while num <= 10:`).
+  3.  **Operation/Update:** Modifying the counter to progress towards the exit condition (`num += 1`).
+- **Loop Control Keywords:** Learned how `break` (stop), `continue` (skip), and `pass` (do nothing) alter the loop's flow.
+- **Practical Applications:** Built a simple password authentication system with a limited number of attempts, demonstrating the power of combining `while True`, `if`, and `break`.
+
+**💡 Key Insights:**
+- The update step (`num += 1`) is the most critical part of a `while` loop. Forgetting it leads to an infinite loop.
+- A `while True` loop combined with `break` is a standard pattern for creating programs that run until a specific exit condition is met inside the loop.
+- Combining loops and conditionals is the foundational skill for building almost any complex program logic.
 
 </details>
 
@@ -227,20 +257,14 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Building complex decision-making logic in Python. [Notes 8](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08%20Revision%20%26%20Conditional%20Programming.md) | [Notes 9](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09%20Conditional%20Logic.md)
 
 **📚 Key Concepts Learned:**
-- **`if-elif-else` Chains:** Mastered the flow for handling multiple, mutually exclusive conditions, as seen in the student grading problem.
-- **Nested `if` Statements:** Understood how to create decisions within decisions, a concept solidified by the password and user verification exercises. The logic flows from a parent condition to a child condition.
-- **The `in` Operator:** Used this powerful keyword to check for membership within a list (`if name in user_list:`), making code cleaner and more readable.
-- **Ternary Operator:** Practiced the concise one-line `if-else` syntax (`value_if_true if condition else value_if_false`) for simple assignments like calculating square vs. cube.
+- **`if-elif-else` Chains:** Mastered the flow for handling multiple, mutually exclusive conditions.
+- **Nested `if` Statements:** Understood how to create decisions within decisions.
+- **The `in` Operator:** Used this powerful keyword to check for membership within a list.
+- **Ternary Operator:** Practiced the concise one-line `if-else` syntax.
 
 **💡 Key Insights:**
 - Nested conditions are the key to building programs that react to a sequence of user inputs.
 - The ternary operator is elegant for simple choices but should be avoided for complex logic to maintain readability.
-- Combining operators like `in` with conditional statements is a very "Pythonic" way to write code.
-
-**🎯 Personal Action Items:**
-- [x] Completed and documented all conditional programming exercises from the notebooks.
-- [x] Created a comprehensive study guide for this week's topics.
-- [ ] Begin preliminary reading on `for` and `while` loops to prepare for next week.
 
 </details>
 
@@ -250,18 +274,11 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07%20Sets%20and%20Dictionaries.md)
 
 **📚 Key Concepts Learned:**
-- **Sets:**
-  - **Definition:** Unordered collections with **no duplicate elements**.
-  - **Creation:** Using `{}` or the `set()` constructor.
-  - **Operations:** Mastered `.add()`, `.remove()`, `.union()`, `.intersection()`, and `.difference()`.
-- **Dictionaries:**
-  - **Definition:** Ordered (in Python 3.7+) collections of **key-value pairs**.
-  - **Rules:** Keys must be immutable and unique. Values can be anything.
-  - **CRUD Operations:** Practiced Creating (adding a new key), Reading (accessing a value), Updating (changing a value), and Deleting (`.pop()`) key-value pairs.
+- **Sets:** Unordered collections with **no duplicate elements**. Mastered `.add()`, `.remove()`, `.union()`, etc.
+- **Dictionaries:** Ordered collections of **key-value pairs**. Practiced CRUD (Create, Read, Update, Delete) operations.
 
 **💡 Key Insights:**
 - Sets are incredibly efficient for removing duplicates from a list (`list(set(my_list))`).
-- The `TypeError` when trying to modify a tuple inside a dictionary was a critical lesson: a collection's mutability is distinct from the mutability of its contents.
 - Dictionaries are the foundation for more complex data structures like JSON, making them extremely important.
 
 </details>
@@ -272,17 +289,12 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Deep dive into Python's sequence data types. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06_Lists_and_Tuples.md)
 
 **📚 Key Concepts Learned:**
-- **Lists:**
-  - **Definition:** Ordered, **mutable** (changeable) collections.
-  - **Operations:** Practiced `.append()` to add items and `.pop()` to remove them.
-- **Tuples:**
-  - **Definition:** Ordered, **immutable** (unchangeable) collections.
-  - **Immutability in Action:** Understood that to "add" an element, you must create a new tuple by concatenating the old one with a new one. `tup = tup + (new_item,)`.
-- **Indexing and Slicing:** Reinforced the `[start:stop:step]` syntax for both lists and tuples to access sub-sequences.
+- **Lists:** Ordered, **mutable** (changeable) collections.
+- **Tuples:** Ordered, **immutable** (unchangeable) collections.
+- **Indexing and Slicing:** Reinforced the `[start:stop:step]` syntax.
 
 **💡 Key Insights:**
 - The choice between a list and a tuple depends entirely on whether you need to modify the data after creation.
-- The trailing comma in `(item,)` is crucial for defining a single-element tuple.
 
 </details>
 
@@ -292,17 +304,12 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05_Python_Strings.md)
 
 **📚 Key Concepts Learned:**
-- **String Definition:** An immutable (unchangeable) sequence of characters.
-- **String Creation:** Using single (`'...'`), double (`"..."`), or triple (`'''...'''`) quotes.
-- **String Access:**
-  - **Indexing:** Grabbing a single character using its position (e.g., `my_name[0]` for the first, `my_name[-1]` for the last).
-  - **Slicing:** Extracting a substring using a `[start:end:step]` format.
-- **Warm-up Practice:** Solved problems involving type casting and arithmetic operators to solidify previous concepts.
+- **String Definition:** An immutable sequence of characters.
+- **String Access:** Indexing and Slicing (`[start:end:step]`).
 
 **💡 Key Insights:**
 - The immutability of strings is a key concept. To "change" a string, you must create a new one.
-- Slicing, especially with `[::-1]` to reverse a string, is a powerful and concise feature of Python.
-- Negative indexing is extremely convenient for accessing items from the end of a sequence without needing to know its length.
+- Slicing, especially with `[::-1]` to reverse a string, is a powerful and concise feature.
 
 </details>
 
@@ -319,19 +326,13 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Making programs interactive and performing operations. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md)
 
 **📚 Key Concepts Learned:**
-- **Static vs. Dynamic Values:**
-  - **Static:** Hard-coded values in the program.
-  - **Dynamic:** Values provided by the user during runtime.
-- **`input()` Function:**
-  - Used to get dynamic input, always returns a string.
-- **Type Casting:**
-  - The necessity of converting input strings to numbers using `int()` or `float()`.
-- **Python Operators:**
-  - Covered the full suite: Arithmetic, Assignment, Comparison, Logical, Membership, and Identity.
+- **`input()` Function:** Always returns a string.
+- **Type Casting:** The necessity of converting input strings to numbers using `int()` or `float()`.
+- **Python Operators:** Covered Arithmetic, Assignment, Comparison, Logical, etc.
 
 **💡 Key Insights:**
 - Type casting is non-negotiable when getting numerical input.
-- `is` and `==` are not the same; `==` checks value, while `is` checks memory location.
+- `is` (checks memory location) and `==` (checks value) are not the same.
 
 </details>
 
@@ -341,13 +342,9 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **🎯 Session Focus:** Hands-on coding and environment setup. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
 
 **📚 Key Concepts Learned:**
-- **Jupyter Notebook Navigation:** Command Mode vs. Edit Mode and essential shortcuts.
-- **Markdown Documentation:** Basics of formatting text and structuring notes.
-- **Python Fundamentals:** Variable naming rules and basic data types (`int`, `float`, `str`, `bool`).
-
-**💡 Key Insights:**
-- Good variable naming is crucial for code readability.
-- Jupyter notebooks are perfect for combining code, documentation, and results.
+- **Jupyter Notebook Navigation:** Command Mode vs. Edit Mode.
+- **Markdown Documentation:** Basics of formatting text.
+- **Python Fundamentals:** Variable naming rules and basic data types.
 
 </details>
 
@@ -359,11 +356,6 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **📚 Key Concepts Learned:**
 - **AI vs ML vs DL Hierarchy:** Understood the relationship between these fields.
 - **Generative AI Applications:** Explored text, image, and code generation.
-- **Historical Context:** From Alan Turing to modern AI.
-
-**💡 Key Insights:**
-- AI is an interdisciplinary field with a rich history.
-- Generative AI is a paradigm shift in human-computer interaction.
 
 </details>
 
@@ -375,12 +367,7 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 **📚 Key Concepts Learned:**
 - **Data Science vs Data Analysis:** Key differences and scopes.
 - **Course Structure Overview:** The three main phases of our learning journey.
-- **Career Opportunities:** Explored roles like Data Analyst, Data Scientist, etc.
 - **Statistics Foundation:** Descriptive vs. Inferential statistics.
-
-**💡 Key Insights:**
-- Data Science is a blend of statistics, programming, and domain expertise.
-- Practical, hands-on experience is non-negotiable for success.
 
 </details>
 
@@ -420,7 +407,7 @@ Week 3: [██........] 20%  - Control Flow & Loops in Progress...
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 10 | **Sessions Completed:** 10 | **Concepts Learned:** 45+
+**Days Active:** 11 | **Sessions Completed:** 11 | **Concepts Learned:** 50+
 
 ---
 
