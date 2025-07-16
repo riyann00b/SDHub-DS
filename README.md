@@ -6,7 +6,7 @@
 
 *📅 Started: July 1st, 2025*  
 *🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)*  
-*🎯 Goal: Master Data Science & Analytics*
+*🎯 Goal: Master Data Science / Analytics & Gen-AI*
 
 </div>
 
