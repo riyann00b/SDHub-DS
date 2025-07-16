@@ -1,4 +1,6 @@
-# Python Study Notes Week 2, Day 8 : Revision & Conditional Programming
+# 📚 Python Study Notes Week 2, Day 8 : Revision & Conditional Programming
+
+**📅 Date:** July 10th, 2025
 
 Welcome! Today we will reinforce our understanding of Python's fundamentals and then take a major step forward into **Conditional Programming**. This is where our programs stop being simple, top-to-bottom scripts and start making intelligent decisions.
 

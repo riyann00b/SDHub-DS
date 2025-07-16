@@ -1,4 +1,6 @@
-# Python Study Notes: Week 2, Day 7 
+# 📚 Python Study Notes: Week 2, Day 7 
+
+**📅 Date:** July 9th, 2025
 
 Welcome! Today, our goal is to master three of Python's most essential data structures: **Tuples**, **Sets**, and **Dictionaries**. Think of these as different types of containers, each designed for a specific job. Understanding which container to use and why is a key step to becoming a proficient Python programmer.
 

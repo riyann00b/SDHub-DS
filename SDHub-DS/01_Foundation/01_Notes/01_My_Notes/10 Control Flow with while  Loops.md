@@ -1,4 +1,6 @@
-# **Week 3, Day 10: Mastering Control Flow with `while` Loops**
+#  📚 **Week 3, Day 10: Mastering Control Flow with `while` Loops**
+
+**📅 Date:** July 14th, 2025
 
 Today's session focused on moving beyond simple sequential programming into the dynamic world of control flow. You learned how to make your programs react to different conditions and how to repeat actions efficiently using loops.
 

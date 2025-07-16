@@ -1,4 +1,6 @@
-# A Deep Dive into Advanced Conditional Logic
+# 📚 Python Study Notes Week 2, Day 9 : A Deep Dive into Advanced Conditional Logic
+
+**📅 Date:** July 11th, 2025
 
 Today, we move beyond simple `if-else` statements and learn how to build programs that can handle complex, multi-layered decisions. We will master three core techniques: chaining conditions with `elif`, nesting conditions within each other, and writing them concisely with the ternary operator.
 
