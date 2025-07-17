@@ -1,61 +1,48 @@
 # 🚀 My Data Science Journey with SD Hub
 
-<div align="center">
+<div align="center">  
 
-![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
+![alt text](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)
 
-*📅 Started: July 1st, 2025*  
-*🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)*  
-*🎯 Goal: Master Data Science / Analytics & Gen-AI*
+![alt text](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)
 
-</div>
+![alt text](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
+
+📅 Started: July 1st, 2025  
+🕐 Class Timings: 3:30 PM - 5:30 PM (Mon-Fri)  
+🎯 Goal: Master Data Science / Analytics & Gen-AI
+
+</div>  
 
 ---
 
 ## 🌟 About This Repository
 
-Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills Development Hub (SD Hub)**! This repository serves as my digital learning journal, capturing my real-time progress, key insights, and hands-on practice as I navigate this transformative journey.
+Welcome to my documentation of the **Data Science & Gen Ai Course (Batch 2)** at **Skills Development Hub (SD Hub)**! This repository serves as my digital learning journal, capturing my real-time progress, key insights, and hands-on practice as I navigate this transformative journey.
 
-> *"Data is the new oil, and I'm here to refine it!"* 🛢️➡️💎
+> "Data is the new oil, and I'm here to refine it!" 🛢️➡️💎
 
 ### 📁 Repository Structure
 
-```
-├── 📁 SDHub-DS/
-│   ├── 📁 01 Foundation/
-│   │   ├── 📁 01 Notes/
-│   │   │   ├── 📁 01 My Notes/                 # My detailed daily learning notes in Markdown
-│   │   │   │   └── 📝 01 Data Science Overview.md
-│   │   │   └── 📁 02 Sir Notes/                 # PDFs and materials from the instructor
-│   │   │       └── 📄 Day_01.pdf
-│   │   ├── 📁 02 Python Basics Code/
-│   │   │   ├── 📁 01 My Jupyter NoteBooks/       # My hands-on practice notebooks
-│   │   │   │   └── 📓 Python-Basics-Cleaned.ipynb
-│   │   │   └── 📁 02 Sir Jupyter NoteBooks/       # Notebooks provided by the instructor
-│   │   │       └── 📓 DS_01.ipynb
-│   │   ├── 📁 Projects/
-│   │   └── 📁 Resources/
-│   │
-│   ├── 📁 02 Bi-Excel-SQL/                      # (Content for Phase 2: BI & Databases)
-│   │   ├── 📁 01 Notes/
-│   │   ├── 📁 02 Projects/
-│   │   ├── 📁 03 datasets/
-│   │   └── 📁 04 Resources/
-│   │
-│   ├── 📁 03 Advanced AI/                       # (Content for Phase 3: Advanced AI)
-│   │   ├── 📁 01 Notes/
-│   │   ├── 📁 02 Projects/
-│   │   └── 📁 03 Resources/
-│   │
-│   └── 📁 Certifications/                      # Course and skill certifications
-│
-├── 📝 README.md                               # You are here!
-└── 📄 LICENSE
-```
+Generated code
 
->     💡 A Note on Folder Visibility:
+      `├── 📁 SDHub-DS/ │   ├── 📁 01 Foundation/ │   │   ├── 📁 01 Notes/ │   │   │   ├── 📁 01 My Notes/                 # My detailed daily learning notes in Markdown │   │   │   │   └── 📝 01 Data Science Overview.md │   │   │   └── 📁 02 Sir Notes/                 # PDFs and materials from the instructor │   │   │       └── 📄 Day_01.pdf │   │   ├── 📁 02 Python Basics Code/ │   │   │   ├── 📁 01 My Jupyter NoteBooks/       # My hands-on practice notebooks │   │   │   │   └── 📓 Python-Basics-Cleaned.ipynb │   │   │   └── 📁 02 Sir Jupyter NoteBooks/       # Notebooks provided by the instructor │   │   │       └── 📓 DS_01.ipynb │   │   ├── 📁 Projects/ │   │   └── 📁 Resources/ │   │ │   ├── 📁 02 Bi-Excel-SQL/                      # (Content for Phase 2: BI & Databases) │   │   ├── 📁 01 Notes/ │   │   ├── 📁 02 Projects/ │   │   ├── 📁 03 datasets/ │   │   └── 📁 04 Resources/ │   │ │   ├── 📁 03 Advanced AI/                       # (Content for Phase 3: Advanced AI) │   │   ├── 📁 01 Notes/ │   │   ├── 📁 02 Projects/ │   │   └── 📁 03 Resources/ │   │ │   └── 📁 Certifications/                      # Course and skill certifications │ ├── 📝 README.md                               # You are here! └── 📄 LICENSE`
+    
+
+> Generated code
+> 
+>       `💡 A Note on Folder Visibility:`
+>     
+> 
+> IGNORE_WHEN_COPYING_START
+> 
+> content_copy download
+> 
+> Use code [with caution](https://support.google.com/legal/answer/13505487).
+> 
+> IGNORE_WHEN_COPYING_END
+> 
 > The structure above shows the complete, intended layout of my repository. However, Git does not track empty directories. Therefore, some folders (like Projects/ or future phase folders) may not be visible on GitHub until I add the first file (e.g., a notebook, a note, or a placeholder .gitkeep file) to them. They will appear automatically as my journey progresses and I populate them with content!
-
 
 ---
 
@@ -64,12 +51,19 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 **Skills Development Hub** is a premier destination for free job-oriented technology training programs, managed by **Professionals Solidarity Forum (PSF)** and supported by **Helping Hand Foundation (HHF)**. Their mission is to make quality education accessible to all, regardless of financial constraints.
 
 ### 🎯 Course Details
+
 - **📚 Program:** Data Science & Analytics
+    
 - **🏆 Batch:** 2
+    
 - **📅 Duration:** 4.5 months (July 2025 onwards)
+    
 - **⏰ Schedule:** Monday to Friday, 3:30 PM - 5:30 PM
+    
 - **📍 Location:** SD Hub Qutubshahi
+    
 - **💻 Requirement:** Personal laptop mandatory
+    
 
 ---
 
@@ -77,387 +71,427 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 Our instructor has outlined the learning journey in three main phases:
 
-```mermaid
-graph TD
-    subgraph "Phase 1: Foundations"
-        style P1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-        P1_duration("🗓️ <b>Duration: ~1 Month</b>")
-        style P1_duration fill:#b2ebf2,stroke:#00796b,color:#004d40
-        A[🐍 Python Programming] --> B[📊 Python for Data Science <br> Pandas & NumPy];
-    end
+Generated mermaid
 
-    subgraph "Phase 2: BI & Databases"
-        style P2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-        P2_duration("🗓️ <b>Duration: ~1 Month</b>")
-        style P2_duration fill:#ffe0b2,stroke:#f57c00,color:#e65100
-        C[🗃️ SQL] --> D[📈 Business Intelligence <br> Power BI & Excel];
-    end
+      `graph TD     subgraph "Phase 1: Foundations"         style P1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px         P1_duration("🗓️ <b>Duration: ~1 Month</b>")         style P1_duration fill:#b2ebf2,stroke:#00796b,color:#004d40         A[🐍 Python Programming] --> B[📊 Python for Data Science <br> Pandas & NumPy];     end      subgraph "Phase 2: BI & Databases"         style P2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px         P2_duration("🗓️ <b>Duration: ~1 Month</b>")         style P2_duration fill:#ffe0b2,stroke:#f57c00,color:#e65100         C[🗃️ SQL] --> D[📈 Business Intelligence <br> Power BI & Excel];     end      subgraph "Phase 3: Advanced AI"         style P3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px         P3_duration("🗓️ <b>Duration: ~2.5 Months</b>")         style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c         E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];         F --> G[🗣️ Natural Language Processing]; G --> H[🧠 Deep Learning];         H --> I[🎨 Generative AI];         I --> J[🧑‍💻 AI Workflow & Agentic AI];     end      B --> C;     D --> E;`
+    
 
-    subgraph "Phase 3: Advanced AI"
-        style P3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-        P3_duration("🗓️ <b>Duration: ~2.5 Months</b>")
-        style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
-        E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];
-        F --> G[🗣️ Natural Language Processing];
-        G --> H[🧠 Deep Learning];
-        H --> I[🎨 Generative AI];
-        I --> J[🧑‍💻 AI Workflow & Agentic AI];
-    end
+IGNORE_WHEN_COPYING_START
 
-    B --> C;
-    D --> E;
-```
+content_copy download
 
-*Note: This is the planned curriculum structure. I'll update with actual topics as we progress through the course.*
+Use code [with caution](https://support.google.com/legal/answer/13505487). Mermaid
+
+IGNORE_WHEN_COPYING_END
+
+Note: This is the planned curriculum structure. I'll update with actual topics as we progress through the course.
 
 ---
 
 ## 💻 My Development Environment
 
 ### 🖥️ System Specifications
-<div align="center">
 
-![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![AMD](https://img.shields.io/badge/AMD-Radeon_RX_5500M-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
-![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+<div align="center">  
 
-</div>
+![alt text](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
 
-```
-🏷️  Hardware Model: MSI Bravo 15 B5DD
-🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics × 12
-💾  Memory:         16.0 GiB RAM
-🎮  Graphics:       AMD Radeon™ Graphics + AMD Radeon™ RX 5500M
-💿  Storage:        512.1 GB SSD
-🐧  OS:             Fedora Linux 42 (Workstation Edition)
-🖼️  Desktop:        GNOME 48 (Wayland)
-🔧  Kernel:         Linux 6.15.3-200.fc42.x86_64
-```
+  
+
+![alt text](https://img.shields.io/badge/AMD-Radeon_RX_5500M-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
+
+  
+
+![alt text](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white)
+
+  
+
+![alt text](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+  
+
+![alt text](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+
+</div>  
+
+Generated code
+
+      `🏷️  Hardware Model: MSI Bravo 15 B5DD 🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics × 12 💾  Memory:         16.0 GiB RAM 🎮  Graphics:       AMD Radeon™ Graphics + AMD Radeon™ RX 5500M 💿  Storage:        512.1 GB SSD 🐧  OS:             Fedora Linux 42 (Workstation Edition) 🖼️  Desktop:        GNOME 48 (Wayland) 🔧  Kernel:         Linux 6.15.3-200.fc42.x86_64`
+    
+
+IGNORE_WHEN_COPYING_START
+
+content_copy download
+
+Use code [with caution](https://support.google.com/legal/answer/13505487).
+
+IGNORE_WHEN_COPYING_END
 
 ### 🛠️ Tools & Setup
+
 **Course Standard:** Anaconda + Jupyter Notebook  
-**My Setup:** `uv` package manager + Jupyter (for speed and efficiency on Linux)  
+**My Setup:** uv package manager + Jupyter (for speed and efficiency on Linux)  
 **Primary IDE:** Jupyter Notebook (as required by course)
 
-<div align="center">
+<div align="center">  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![alt text](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-</div>
+![alt text](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+  
+[
+
+![alt text](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)
+
+](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Fastral-sh%2Fuv)  
+
+![alt text](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>  
 
 ---
 
 ## 📈 Learning Progress
 
 ### 🏅 Completed Sessions
-- [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
-- [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Days 10-12):** Control Flow with `while` and `for` Loops, and the power of Comprehensions.
+
+- ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
+    
+- ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
+    
+- ✅ **Week 3 (Days 10-13):** Control Flow (Loops), Comprehensions, and Functional Programming.
+    
 
 ### 📊 Current Progress
-```
-Week 1: [██████████] 100% - Python Fundamentals Complete!
-Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
-Week 3: [██████....] 60%  - Control Flow, Loops & Comprehensions in Progress...
-```
+
+Generated code
+
+      `Week 1: [██████████] 100% - Python Fundamentals Complete! Week 2: [██████████] 100% - Data Structures & Conditionals Complete! Week 3: [██████████] 100% - Control Flow & Functions Complete!`
+    
+
+IGNORE_WHEN_COPYING_START
+
+content_copy download
+
+Use code [with caution](https://support.google.com/legal/answer/13505487).
+
+IGNORE_WHEN_COPYING_END
 
 **📚 Topics Covered So Far:**
+
 - **Data Science Concepts:** AI/ML/DL hierarchy, Data Science vs. Data Analysis.
+    
 - **Python Fundamentals:** Syntax, variables, data types, operators.
+    
 - **Environment:** Jupyter Notebooks, Markdown for documentation.
+    
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
-- **Conditional Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
-- **Iterative Control Flow:** The `while` loop and the `for` loop.
-- **Loop Control Keywords:** Using `break`, `continue`, and `pass` to manage loop execution.
-- **Pythonic Code:** Writing concise and efficient code with **List & Dictionary Comprehensions**.
+    
+- **Conditional Control Flow:** if, elif, else, nested conditions, and the ternary operator.
+    
+- **Iterative Control Flow:** The while loop and the for loop.
+    
+- **Loop Control Keywords:** Using break, continue, and pass to manage loop execution.
+    
+- **Pythonic Code:** Writing concise code with **List & Dictionary Comprehensions**.
+    
+- **Functional Programming:** Building reusable code with **Functions**, understanding **parameters**, the return keyword, and **variable scope**.
+    
 
 **🎯 Currently Learning:**
-- Advanced loop patterns and nested comprehensions.
-- Beginning to write Python functions.
+
+- Solidifying my understanding of functions.
+    
+- Preparing for the next phase of the course.
+    
 
 ---
 
 ## 📝 Daily Learning Log
 
-<details open>
-<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
+<details open>  
+<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>  
 
-<br>
+<br>  
 
-<details open>
-<summary><strong>Day 12 - July 16th, 2025: Pythonic Data Manipulation with Comprehensions</strong></summary>
+<details open>  
+<summary><strong>Day 13 - July 17th, 2025: Modularizing Code with Functional Programming</strong></summary>  
 
-**🎯 Session Focus:** Refactoring loops into elegant, one-line comprehensions for lists and dictionaries. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12%20Loops%20and%20Comprehensions.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/10%20Loop%20and%20comprehension.ipynb)
+**🎯 Session Focus:** Writing reusable, modular, and clean code using functions. [Notes](https://www.google.com/url?sa=E&q=%23) | [Notebook](https://www.google.com/url?sa=E&q=%23)
 
 **📚 Key Concepts Learned:**
 
-- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets from existing iterables, replacing multi-line `for` loops.
-
-- **List Comprehensions - The 3 Core Patterns:**
-  1.  **Simple Mapping:** Apply an expression to every item.
-      - **Syntax:** `[expression for item in iterable]`
-      ```mermaid
-      graph LR
-          subgraph Simple Comprehension
-              A(iterable) --"Yields"--> B(item);
-              B --"Processed by"--> C(expression);
-              C --"Appended to"--> D[New List];
-          end
-      ```
-  2.  **Filtering:** Include only items that meet a specific condition.
-      - **Syntax:** `[expression for item in iterable if condition]`
-      ```mermaid
-      graph TD
-          A[Get item] --> B{If condition is True?};
-          B -- Yes --> C(Apply expression);
-          B -- No --> D(Skip item);
-          C --> E[Append to List];
-      ```
-  3.  **Conditional Output:** Apply different expressions based on a condition.
-      - **Syntax:** `[val_if_true if condition else val_if_false for item in iterable]`
-      ```mermaid
-      graph TD
-          A[Get item] --> B{If condition is True?};
-          B -- Yes --> C(Result = value_if_true);
-          B -- No --> D(Result = value_if_false);
-          C --> E[Append Result];
-          D --> E;
-      ```
-
-- **Dictionary Comprehensions:** Mastered the syntax for creating dictionaries from iterables, specifying a key-value pair for each item.
-  - **Syntax:** `{key_expr: value_expr for item in iterable}`
-  - **Example:** `res = {i: i**2 for i in li}` creates a dictionary mapping each number to its square.
+- **Functional Programming:** Introduced to the paradigm of building programs by defining and composing functions, promoting a DRY (Don't Repeat Yourself) coding style.
+    
+- **User-Defined Functions:** Mastered the core mechanics:
+    
+    1. **Definition:** Using the def keyword to create a new function.
+        
+    2. **Parameters & Arguments:** Understood that parameters are the placeholders in the function definition, and arguments are the actual values passed during the function call.
+        
+    3. **The return Keyword:** Learned the critical difference between print() (displaying a value) and return (sending a value back to the caller for further use).
+        
+- **Function Lifecycle Diagram:**
+    
+    Generated mermaid
+    
+          ``graph TD     subgraph FunctionLifecycle         A["Define Function (`def my_func(param):`)"] --> B["Call Function (`result = my_func(arg)`)"];         B --> C{"Execute Code within Function"};         C --> D["`return` sends value back"];         D --> E["Store returned value in `result`"];     end``
+        
+    
+    IGNORE_WHEN_COPYING_START
+    
+    content_copy download
+    
+    Use code [with caution](https://support.google.com/legal/answer/13505487). Mermaid
+    
+    IGNORE_WHEN_COPYING_END
+    
+- **Variable Scope:** Differentiated between:
+    
+    - **Local Scope:** Variables created inside a function; they only exist within that function.
+        
+    - **Global Scope:** Variables created outside any function; accessible from anywhere in the script.
+        
+- **Recursive Functions:** Explored the advanced concept of a function that calls itself to solve a problem, using the factorial calculation (n! = n * (n-1)!) as the primary example.
+    
 
 **💡 Key Insights:**
-- Comprehensions are not just syntactic sugar; they are often more readable and can be faster than their equivalent `for` loop counterparts.
-- The placement of the `if` statement is crucial: at the end for filtering, and at the beginning for conditional output.
-- These patterns are fundamental to data wrangling with libraries like Pandas, where similar vectorized operations are common.
+
+- Functions are the most important building blocks for organized and scalable programs. They turn complex problems into smaller, manageable pieces.
+    
+- Capturing a function's output with return is far more powerful than just printing it, as it allows the result to be used in other parts of the program.
+    
+- A good understanding of local vs. global scope is essential for writing bug-free code and avoiding unintended side effects.
+    
 
 **🎯 Personal Action Items:**
-- [x] Documented all comprehension exercises and created diagrams.
-- [x] Go back to the pass/fail and even/odd exercises from Day 11 and refactor them using list comprehensions.
-- [ ] Explore `set` comprehensions to see how they create unique collections.
-- [ ] Attempt a nested comprehension (e.g., flattening a list of lists).
 
-</details>
+- Documented all function exercises and concepts from the notebook.
+    
+- Refactor the pass/fail and even/odd sorting exercises from Day 11 into callable functions that return the sorted lists.
+    
+- Write a new function that takes a string and returns a dictionary counting the vowels and consonants.
+    
+- Read more about the Python global keyword to understand when (and when not) to use it.
+    
 
-<details>
-<summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>
+</details>  
 
-**🎯 Session Focus:** Using `for` loops to iterate over sequences and perform data manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
+<details>  
+<summary><strong>Day 12 - July 16th, 2025: Pythonic Data Manipulation with Comprehensions</strong></summary>  
+
+**🎯 Session Focus:** Refactoring loops into elegant, one-line comprehensions for lists and dictionaries. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12%20Loops%20and%20Comprehensions.md) | [Notebook](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/10%20Loop%20and%20comprehension.ipynb)
 
 **📚 Key Concepts Learned:**
 
-- **The `for` Loop:** Understood its primary use for iterating over a known sequence (like a list, string, or tuple). It simplifies iteration by automatically managing the counter variable.
-- **Syntax and Flow:** `for item in collection:`. The loop runs once for each item in the collection.
-- **Practical Data Manipulation:**
-  - Iterated through a list of numbers to identify and separate them into `odd` and `even` lists.
-  - Processed a list of student scores to filter them into `pass` and `fail` categories.
-  - Filtered a list of names based on specific criteria (e.g., starting with a certain letter).
-- **`while` vs. `for` Loop:**
-  - **`while`:** Best when the number of iterations is unknown (e.g., waiting for user input).
-  - **`for`:** Best when you have a definite collection to iterate through.
+- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets from existing iterables, replacing multi-line for loops.
+    
+- **List Comprehensions - The 3 Core Patterns:**
+    
+    1. **Simple Mapping:** Apply an expression to every item.
+        
+        - **Syntax:** [expression for item in iterable]
+            
+    2. **Filtering:** Include only items that meet a specific condition.
+        
+        - **Syntax:** [expression for item in iterable if condition]
+            
+    3. **Conditional Output:** Apply different expressions based on a condition.
+        
+        - **Syntax:** [val_if_true if condition else val_if_false for item in iterable]
+            
+- **Dictionary Comprehensions:** Mastered the syntax for creating dictionaries from iterables, specifying a key-value pair for each item.
+    
+    - **Syntax:** {key_expr: value_expr for item in iterable}
+        
 
 **💡 Key Insights:**
-- The `for` loop is the most "Pythonic" way to handle iteration over collections. It's more concise and less error-prone than a `while` loop with a manual counter.
-- Combining a `for` loop with an `if` statement is a powerful pattern for filtering data—a fundamental task in data analysis.
-- The ability to create new lists based on conditions within a loop (like the pass/fail example) is a core skill for data preparation and transformation.
 
-</details>
+- Comprehensions are not just syntactic sugar; they are often more readable and can be faster than their equivalent for loop counterparts.
+    
+- The placement of the if statement is crucial: at the end for filtering, and at the beginning for conditional output.
+    
+- These patterns are fundamental to data wrangling with libraries like Pandas, where similar vectorized operations are common.
+    
 
-<details>
-<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
+</details>  
 
-**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
+<details>  
+<summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>  
+
+**🎯 Session Focus:** Using for loops to iterate over sequences and perform data manipulation. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
 
 **📚 Key Concepts Learned:**
-- **Introduction to Loops:** Understood why loops are essential for avoiding redundant code.
-- **The `while` Loop:** Mastered the core three-step process:
-  1.  **Initialization:** Setting up a counter (`num = 1`).
-  2.  **Condition:** The test that determines if the loop continues (`while num <= 10:`).
-  3.  **Operation/Update:** Modifying the counter to progress towards the exit condition (`num += 1`).
-- **Loop Control Keywords:** Learned how `break` (stop), `continue` (skip), and `pass` (do nothing) alter the loop's flow.
-- **Practical Applications:** Built a simple password authentication system with a limited number of attempts, demonstrating the power of combining `while True`, `if`, and `break`.
+
+- **The for Loop:** Understood its primary use for iterating over a known sequence (like a list, string, or tuple).
+    
+- **Practical Data Manipulation:** Filtered lists of numbers into odd/even, scores into pass/fail, and names based on specific criteria.
+    
+- **while vs. for Loop:** Distinguished the use cases: while for unknown iteration counts, for for definite collections.
+    
 
 **💡 Key Insights:**
-- The update step (`num += 1`) is the most critical part of a `while` loop. Forgetting it leads to an infinite loop.
-- A `while True` loop combined with `break` is a standard pattern for creating programs that run until a specific exit condition is met inside the loop.
-- Combining loops and conditionals is the foundational skill for building almost any complex program logic.
 
-</details>
+- Combining a for loop with an if statement is a powerful pattern for filtering data—a fundamental task in data analysis.
+    
 
-</details>
+</details>  
 
-<details>
-<summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
+<details>  
+<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>  
 
-<br>
-
-<details>
-<summary><strong>Day 8 & 9 - July 10-11, 2025: Conditional Programming Mastery</strong></summary>
-
-**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes 8](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08%20Revision%20%26%20Conditional%20Programming.md) | [Notes 9](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09%20Conditional%20Logic.md)
+**🎯 Session Focus:** Moving from sequential to iterative programming using while loops. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
 
 **📚 Key Concepts Learned:**
-- **`if-elif-else` Chains:** Mastered the flow for handling multiple, mutually exclusive conditions.
-- **Nested `if` Statements:** Understood how to create decisions within decisions.
-- **The `in` Operator:** Used this powerful keyword to check for membership within a list.
-- **Ternary Operator:** Practiced the concise one-line `if-else` syntax.
+
+- **The while Loop:** Mastered the three-step process: Initialization, Condition, and Update.
+    
+- **Loop Control Keywords:** Learned how break, continue, and pass alter the loop's flow.
+    
+- **Practical Applications:** Built a simple password authentication system with a limited number of attempts.
+    
 
 **💡 Key Insights:**
-- Nested conditions are the key to building programs that react to a sequence of user inputs.
-- The ternary operator is elegant for simple choices but should be avoided for complex logic to maintain readability.
 
-</details>
+- The update step (num += 1) is the most critical part of a while loop to avoid an infinite loop.
+    
 
-<details>
-<summary><strong>Day 7 - July 9th, 2025: Sets and Dictionaries</strong></summary>
+</details>  
 
-**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07%20Sets%20and%20Dictionaries.md)
+</details>  
 
-**📚 Key Concepts Learned:**
-- **Sets:** Unordered collections with **no duplicate elements**. Mastered `.add()`, `.remove()`, `.union()`, etc.
-- **Dictionaries:** Ordered collections of **key-value pairs**. Practiced CRUD (Create, Read, Update, Delete) operations.
+<details>  
+<summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>  
 
-**💡 Key Insights:**
-- Sets are incredibly efficient for removing duplicates from a list (`list(set(my_list))`).
-- Dictionaries are the foundation for more complex data structures like JSON, making them extremely important.
+<br>  
 
-</details>
+<details>  
+<summary><strong>Day 8 & 9 - July 10-11, 2025: Conditional Programming Mastery</strong></summary>  
 
-<details>
-<summary><strong>Day 6 - July 8th, 2025: Lists and Tuples</strong></summary>
+**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes 8](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08%20Revision%20%26%20Conditional%20Programming.md) | [Notes 9](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09%20Conditional%20Logic.md)
 
-**🎯 Session Focus:** Deep dive into Python's sequence data types. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06_Lists_and_Tuples.md)
+</details>  
 
-**📚 Key Concepts Learned:**
-- **Lists:** Ordered, **mutable** (changeable) collections.
-- **Tuples:** Ordered, **immutable** (unchangeable) collections.
-- **Indexing and Slicing:** Reinforced the `[start:stop:step]` syntax.
+<details>  
+<summary><strong>Day 7 - July 9th, 2025: Sets and Dictionaries</strong></summary>  
 
-**💡 Key Insights:**
-- The choice between a list and a tuple depends entirely on whether you need to modify the data after creation.
+**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07%20Sets%20and%20Dictionaries.md)
 
-</details>
+</details>  
 
-<details>
-<summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
+<details>  
+<summary><strong>Day 6 - July 8th, 2025: Lists and Tuples</strong></summary>  
 
-**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05_Python_Strings.md)
+**🎯 Session Focus:** Deep dive into Python's sequence data types. [Notes](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Friyann00b%2FSDHub-DS%2Fblob%2Fmain%2FSDHub-DS%2F01_Foundation%2F01_Notes%2F01_My_Notes%2F06_Lists_and_Tuples.md)
 
-**📚 Key Concepts Learned:**
-- **String Definition:** An immutable sequence of characters.
-- **String Access:** Indexing and Slicing (`[start:end:step]`).
+</details>  
 
-**💡 Key Insights:**
-- The immutability of strings is a key concept. To "change" a string, you must create a new one.
-- Slicing, especially with `[::-1]` to reverse a string, is a powerful and concise feature.
+<details>  
+<summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>  
 
-</details>
+**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Friyann00b%2FSDHub-DS%2Fblob%2Fmain%2FSDHub-DS%2F01_Foundation%2F01_Notes%2F01_My_Notes%2F05_Python_Strings.md)
 
-</details>
+</details>  
 
-<details>
-<summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>
+</details>  
 
-<br>
+<details>  
+<summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>  
 
-<details>
-<summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>
+<br>  
 
-**🎯 Session Focus:** Making programs interactive and performing operations. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md)
+<details>  
+<summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>  
 
-**📚 Key Concepts Learned:**
-- **`input()` Function:** Always returns a string.
-- **Type Casting:** The necessity of converting input strings to numbers using `int()` or `float()`.
-- **Python Operators:** Covered Arithmetic, Assignment, Comparison, Logical, etc.
+**🎯 Session Focus:** Making programs interactive and performing operations. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md)
 
-**💡 Key Insights:**
-- Type casting is non-negotiable when getting numerical input.
-- `is` (checks memory location) and `==` (checks value) are not the same.
+</details>  
 
-</details>
+<details>  
+<summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>  
 
-<details>
-<summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
+**🎯 Session Focus:** Hands-on coding and environment setup. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
 
-**🎯 Session Focus:** Hands-on coding and environment setup. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
+</details>  
 
-**📚 Key Concepts Learned:**
-- **Jupyter Notebook Navigation:** Command Mode vs. Edit Mode.
-- **Markdown Documentation:** Basics of formatting text.
-- **Python Fundamentals:** Variable naming rules and basic data types.
+<details>  
+<summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>  
 
-</details>
+**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
 
-<details>
-<summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>
+</details>  
 
-**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
+<details>  
+<summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>  
 
-**📚 Key Concepts Learned:**
-- **AI vs ML vs DL Hierarchy:** Understood the relationship between these fields.
-- **Generative AI Applications:** Explored text, image, and code generation.
+**🎯 Session Focus:** Introduction and course orientation. [Notes](https://www.google.com/url?sa=E&q=https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
 
-</details>
+</details>  
 
-<details>
-<summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>
-
-**🎯 Session Focus:** Introduction and course orientation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
-
-**📚 Key Concepts Learned:**
-- **Data Science vs Data Analysis:** Key differences and scopes.
-- **Course Structure Overview:** The three main phases of our learning journey.
-- **Statistics Foundation:** Descriptive vs. Inferential statistics.
-
-</details>
-
-</details>
+</details>  
 
 ---
 
 ## 🤝 Connect & Collaborate
 
-<div align="center">
+<div align="center">  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-riyan-nazeer/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/riyann00b)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:riyannazeer786@gmail.com)
+[](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-riyan-nazeer%2F)
 
-*📬 Always open to discussions about data science, learning experiences, and collaboration!*
+[![alt text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-riyan-nazeer%2F)
 
-</div>
+  
+[
+
+![alt text](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Friyann00b)  
+[
+
+![alt text](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+](https://www.google.com/url?sa=E&q=mailto%3Ariyannazeer786%40gmail.com)
+
+📬 Always open to discussions about data science, learning experiences, and collaboration!
+
+</div>  
 
 ---
 
 ## 📚 Learning Resources
 
 ### 🔗 Useful Links I've Discovered
-- [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) - Official guide for Jupyter
-- [Python PEP 8 Style Guide](https://pep8.org/) - Python coding conventions
-- [Markdown Guide](https://www.markdownguide.org/) - Comprehensive Markdown reference
+
+- [Jupyter Notebook Documentation](https://www.google.com/url?sa=E&q=https%3A%2F%2Fjupyter-notebook.readthedocs.io%2F) - Official guide for Jupyter
+    
+- [Python PEP 8 Style Guide](https://www.google.com/url?sa=E&q=https%3A%2F%2Fpep8.org%2F) - Python coding conventions
+    
+- [Markdown Guide](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.markdownguide.org%2F) - Comprehensive Markdown reference
+    
 
 ---
 
-<div align="center">
+<div align="center">  
 
 ### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+
+![alt text](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square)
+
+![alt text](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square)
+
+  
+
+![alt text](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
 
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 12 | **Sessions Completed:** 12 | **Concepts Learned:** 55+
+**Days Active:** 13 | **Sessions Completed:** 13 | **Concepts Learned:** 60+
 
 ---
 
-*"The journey of a thousand miles begins with a single step"* 🚶‍♂️  
+"The journey of a thousand miles begins with a single step" 🚶‍♂️  
 **Started:** July 1st, 2025 | **Status:** Learning & Growing 🌱
 
 **Made with ❤️ and lots of ☕ during my Data Science journey at SD Hub**
