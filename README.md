@@ -156,13 +156,13 @@ G --> H[🧠 Deep Learning];
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Days 10-13):** Control Flow (Loops), Comprehensions, and Functional Programming.
+- [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and a deep dive into Functional Programming (`def`, `*args`, `**kwargs`, `lambda`, `map`, `reduce`).
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
-Week 3: [█████████ ] 90% - Control Flow & Functions almost Complete!
+Week 3: [██████████] 100% - Control Flow & Functions Complete!
 ```
 
 **📚 Topics Covered So Far:**
@@ -174,11 +174,13 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 - **Iterative Control Flow:** The `while` loop and the `for` loop.
 - **Loop Control Keywords:** Using `break`, `continue`, and `pass` to manage loop execution.
 - **Pythonic Code:** Writing concise code with **List & Dictionary Comprehensions**.
-- **Functional Programming:** Building reusable code with **Functions**, understanding **parameters**, the `return` keyword, and **variable scope**.
+- **Functional Programming:**
+    -  **Core Concepts:** `def`, parameters, `return`, and variable scope.
+    -  **Advanced Concepts:** `*args`, `**kwargs`, `lambda`, `map`, and `reduce`.
 
 **🎯 Currently Learning:**
-- Solidifying my understanding of functions.
-- Preparing for the next phase of the course.
+- Phase 1 complete! Consolidating my Python knowledge.
+- Preparing for Phase 2: BI & Databases.
 
 ---
 
@@ -190,6 +192,59 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 <br>
 
 <details open>
+<summary><strong>Day 14 - July 19th, 2025 (Saturday Session): Advanced Functional Programming</strong></summary>
+
+> **Note:** This was a special Saturday class to compensate for the holiday on Friday (July 18th), which was declared due to heavy rain.
+
+**🎯 Session Focus:** Mastering flexible and powerful functional programming tools: `*args`, `**kwargs`, `lambda`, `map`, and `reduce`. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14%20Advanced%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter_NoteBooks/Functional_Programming_Guide.ipynb)
+
+**📚 Key Concepts Learned:**
+
+- **Flexible Function Arguments:**
+    - **`*args`:** Understood how it captures a variable number of *positional* arguments into a **tuple**. This is perfect for functions that need to process an unknown number of items, like a custom `sum()` function.
+    - **`**kwargs`:** Learned how it captures a variable number of *keyword* arguments into a **dictionary**, allowing for highly flexible functions that accept optional named attributes.
+    - **Argument Order:** Mastered the mandatory function signature order: `standard_args`, `*args`, `**kwargs`.
+
+- **`lambda` (Anonymous Functions):** Solidified the concept of `lambda` as a concise way to create small, one-line functions, especially useful inside other functions like `map` and `reduce`.
+    - **Syntax:** `lambda arguments: expression`
+    - **Conditional Logic:** Practiced the ternary syntax: `value_if_true if condition else value_if_false`.
+
+- **The `map` and `reduce` Functions:**
+    - **`map(function, iterable)`:** Applies a function to *every* item in an iterable.
+        ```mermaid
+        graph TD
+            subgraph Input List
+                A[1] --> B[2] --> C[3]
+            end
+            E((map: λ x: x*2))
+            subgraph Output List
+                F[2] --> G[4] --> H[6]
+            end
+            A --> E --> F; B --> E --> G; C --> E --> H;
+        ```
+    - **`reduce(function, iterable)`:** Cumulatively applies a function to a sequence to "reduce" it to a single value. (Requires import from `functools`).
+        ```mermaid
+        graph TD
+            A[1] --> C{1 + 2 = 3};
+            B[2] --> C;
+            C --> E{3 + 3 = 6};
+            D[3] --> E;
+        ```
+
+**💡 Key Insights:**
+- `*args` and `**kwargs` are game-changers for creating professional, adaptable functions that don't force the user to provide a fixed set of inputs.
+- The combination of `lambda` with `map` is an incredibly powerful and "Pythonic" pattern for data transformation, replacing clunky `for` loops.
+- Finally understood the common errors from my previous notebooks—passing keyword arguments to a `*args`-only function was the main culprit. The distinction is now crystal clear.
+
+**🎯 Personal Action Items:**
+- [x] Created a new, clean Jupyter Notebook summarizing all the functional programming concepts.
+- [x] Documented today's special session in my Markdown notes and this README.
+- [ ] Write a function `create_report(student_name, *grades, **report_details)` that uses all three types of arguments to generate a formatted student report string.
+- [ ] Revisit the `pass`/`fail` exercise and rewrite it as a single line using `map` and a `lambda` function.
+
+</details>
+
+<details>
 <summary><strong>Day 13 - July 17th, 2025: Modularizing Code with Functional Programming</strong></summary>
 
 **🎯 Session Focus:** Writing reusable, modular, and clean code using functions. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/11%20Fuctional%20Programming.ipynb)
@@ -197,39 +252,13 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 **📚 Key Concepts Learned:**
 
 - **Functional Programming:** Introduced to the paradigm of building programs by defining and composing functions, promoting a DRY (Don't Repeat Yourself) coding style.
-
-- **User-Defined Functions:** Mastered the core mechanics:
-    1.  **Definition:** Using the `def` keyword to create a new function.
-    2.  **Parameters & Arguments:** Understood that parameters are the placeholders in the function definition, and arguments are the actual values passed during the function call.
-    3.  **The `return` Keyword:** Learned the critical difference between `print()` (displaying a value) and `return` (sending a value back to the caller for further use).
-
-- **Function Lifecycle Diagram:**
-    ```mermaid
-    graph TD
-        subgraph FunctionLifecycle
-            A["Define Function (`def my_func(param):`)"] --> B["Call Function (`result = my_func(arg)`)"];
-            B --> C{"Execute Code within Function"};
-            C --> D["`return` sends value back"];
-            D --> E["Store returned value in `result`"];
-        end
-    ```
-
-- **Variable Scope:** Differentiated between:
-    - **Local Scope:** Variables created inside a function; they only exist within that function.
-    - **Global Scope:** Variables created outside any function; accessible from anywhere in the script.
-
-- **Recursive Functions:** Explored the advanced concept of a function that calls itself to solve a problem, using the factorial calculation (`n! = n * (n-1)!`) as the primary example.
+- **User-Defined Functions:** Mastered the core mechanics of `def`, parameters vs. arguments, and the critical `return` keyword.
+- **Variable Scope:** Differentiated between local and global scope.
+- **Recursive Functions:** Explored the concept of a function that calls itself.
 
 **💡 Key Insights:**
-- Functions are the most important building blocks for organized and scalable programs. They turn complex problems into smaller, manageable pieces.
-- Capturing a function's output with `return` is far more powerful than just printing it, as it allows the result to be used in other parts of the program.
-- A good understanding of local vs. global scope is essential for writing bug-free code and avoiding unintended side effects.
-
-**🎯 Personal Action Items:**
-- [x] Documented all function exercises and concepts from the notebook.
-- [ ] Refactor the pass/fail and even/odd sorting exercises from Day 11 into callable functions that return the sorted lists.
-- [ ] Write a new function that takes a string and returns a dictionary counting the vowels and consonants.
-- [ ] Read more about the Python `global` keyword to understand when (and when not) to use it.
+- Functions are the most important building blocks for organized and scalable programs.
+- Capturing a function's output with `return` is far more powerful than just printing it.
 
 </details>
 
@@ -239,24 +268,11 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 **🎯 Session Focus:** Refactoring loops into elegant, one-line comprehensions for lists and dictionaries. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12%20Loops%20and%20Comprehensions.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/10%20Loop%20and%20comprehension.ipynb)
 
 **📚 Key Concepts Learned:**
-
-- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets from existing iterables, replacing multi-line `for` loops.
-
-- **List Comprehensions - The 3 Core Patterns:**
-  1.  **Simple Mapping:** Apply an expression to every item.
-      - **Syntax:** `[expression for item in iterable]`
-  2.  **Filtering:** Include only items that meet a specific condition.
-      - **Syntax:** `[expression for item in iterable if condition]`
-  3.  **Conditional Output:** Apply different expressions based on a condition.
-      - **Syntax:** `[val_if_true if condition else val_if_false for item in iterable]`
-
-- **Dictionary Comprehensions:** Mastered the syntax for creating dictionaries from iterables, specifying a key-value pair for each item.
-  - **Syntax:** `{key_expr: value_expr for item in iterable}`
+- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets.
+- **Core Patterns:** Mastered simple mapping, filtering (`if` at the end), and conditional output (`if/else` at the beginning).
 
 **💡 Key Insights:**
-- Comprehensions are not just syntactic sugar; they are often more readable and can be faster than their equivalent `for` loop counterparts.
-- The placement of the `if` statement is crucial: at the end for filtering, and at the beginning for conditional output.
-- These patterns are fundamental to data wrangling with libraries like Pandas, where similar vectorized operations are common.
+- Comprehensions are often more readable and can be faster than their equivalent `for` loop counterparts.
 
 </details>
 
@@ -266,12 +282,8 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 **🎯 Session Focus:** Using `for` loops to iterate over sequences and perform data manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
 
 **📚 Key Concepts Learned:**
-- **The `for` Loop:** Understood its primary use for iterating over a known sequence (like a list, string, or tuple).
-- **Practical Data Manipulation:** Filtered lists of numbers into `odd`/`even`, scores into `pass`/`fail`, and names based on specific criteria.
+- **The `for` Loop:** Understood its primary use for iterating over a known sequence.
 - **`while` vs. `for` Loop:** Distinguished the use cases: `while` for unknown iteration counts, `for` for definite collections.
-
-**💡 Key Insights:**
-- Combining a `for` loop with an `if` statement is a powerful pattern for filtering data—a fundamental task in data analysis.
 
 </details>
 
@@ -283,10 +295,6 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 **📚 Key Concepts Learned:**
 - **The `while` Loop:** Mastered the three-step process: Initialization, Condition, and Update.
 - **Loop Control Keywords:** Learned how `break`, `continue`, and `pass` alter the loop's flow.
-- **Practical Applications:** Built a simple password authentication system with a limited number of attempts.
-
-**💡 Key Insights:**
-- The update step (`num += 1`) is the most critical part of a `while` loop to avoid an infinite loop.
 
 </details>
 
@@ -294,72 +302,12 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 
 <details>
 <summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
-
-<br>
-
-<details>
-<summary><strong>Day 8 & 9 - July 10-11, 2025: Conditional Programming Mastery</strong></summary>
-
-**🎯 Session Focus:** Building complex decision-making logic in Python. [Notes 8](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/08%20Revision%20%26%20Conditional%20Programming.md) | [Notes 9](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09%20Conditional%20Logic.md)
-
-</details>
-
-<details>
-<summary><strong>Day 7 - July 9th, 2025: Sets and Dictionaries</strong></summary>
-
-**🎯 Session Focus:** Understanding and implementing Python's powerful key-value and unique-item collections. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07%20Sets%20and%20Dictionaries.md)
-
-</details>
-
-<details>
-<summary><strong>Day 6 - July 8th, 2025: Lists and Tuples</strong></summary>
-
-**🎯 Session Focus:** Deep dive into Python's sequence data types. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06_Lists_and_Tuples.md)
-
-</details>
-
-<details>
-<summary><strong>Day 5 - July 7th, 2025: Introduction to Python Strings</strong></summary>
-
-**🎯 Session Focus:** Revising operators and a deep dive into string manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/05_Python_Strings.md)
-
-</details>
-
+<!-- Collapsed for brevity -->
 </details>
 
 <details>
 <summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>
-
-<br>
-
-<details>
-<summary><strong> Day 4 - July 4th, 2025: User Input and Python Operators </strong></summary>
-
-**🎯 Session Focus:** Making programs interactive and performing operations. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/04%20User%20Input%20%26%20Operators.md)
-
-</details>
-
-<details>
-<summary><strong>Day 3 - July 3rd, 2025: Python Fundamentals & Jupyter Mastery</strong></summary>
-
-**🎯 Session Focus:** Hands-on coding and environment setup. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/03%20Python%20Fundamentals%20%26%20Jupyter%20Mastery.md)
-
-</details>
-
-<details>
-<summary><strong>Day 2 - July 2nd, 2025: Understanding the AI Landscape</strong></summary>
-
-**🎯 Session Focus:** Conceptual foundation of AI, ML, and DL. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/02%20Understanding%20the%20AI.md)
-
-</details>
-
-<details>
-<summary><strong>Day 1 - July 1st, 2025: Course Kickoff & Data Science Overview</strong></summary>
-
-**🎯 Session Focus:** Introduction and course orientation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01%20Foundation/01%20Notes/01%20My%20Notes/01%20Data%20Science%20Overview.md)
-
-</details>
-
+<!-- Collapsed for brevity -->
 </details>
 
 ---
@@ -396,7 +344,7 @@ Week 3: [█████████ ] 90% - Control Flow & Functions almost Com
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 13 | **Sessions Completed:** 13 | **Concepts Learned:** 60+
+**Days Active:** 14 | **Sessions Completed:** 14 | **Concepts Learned:** 65+
 
 ---
 
