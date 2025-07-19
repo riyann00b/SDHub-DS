@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14 Functional Programming.md",
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13 Functional Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 Functional Programming"
+              "title": "13 Functional Programming"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,10 +170,10 @@
   },
   "active": "7b4fcf9b948ede11",
   "lastOpenFiles": [
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14 Functional Programming.md",
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/12 cleaned.ipynb",
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/12.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13 Functional Programming.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14 Functional Programming.md",
     "README.md",
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/11 Loops & List Comprehension Practice.ipynb",
     "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/11 Fuctional Programming Cleaned.ipynb",
@@ -194,7 +193,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/07 Sets and Dictionaries.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/06 Strings & Intro to Lists.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/01 Data Science Overview.md",
-    "SDHub-DS/01_Foundation/02_Python_Basics_Code/Code JNs/JNB/09.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/03 Python Fundamentals & Jupyter Mastery.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
