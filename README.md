@@ -196,7 +196,7 @@ Week 3: [██████████] 100% - Control Flow & Functions Complet
 
 > **Note:** This was a special Saturday class to compensate for the holiday on Friday (July 18th), which was declared due to heavy rain.
 
-**🎯 Session Focus:** Mastering flexible and powerful functional programming tools: `*args`, `**kwargs`, `lambda`, `map`, and `reduce`. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14%20Advanced%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/01_My_Jupyter_NoteBooks/Functional_Programming_Guide.ipynb)
+**🎯 Session Focus:** Mastering flexible and powerful functional programming tools: `*args`, `**kwargs`, `lambda`, `map`, and `reduce`. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/12%20functional%20programming.ipynb)
 
 **📚 Key Concepts Learned:**
 
