@@ -157,29 +157,29 @@ graph TD
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
 - [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
-- [x] ✅ **Week 4 (Day 15):** UDFs, `lambda`, `map`, and Introduction to Object-Oriented Programming with Classes.
+- [x] ✅ **Week 4 (Days 15-16):** Object-Oriented Programming (OOP): Classes, Objects, and the Four Pillars of OOP.
 
 ### 📊 Current Progress
-```
+```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
-Week 4: [█.........] 10%  - OOP and Advanced Python Started!
+Week 4: [████......] 40%  - OOP and Advanced Python In Progress!
 ```
 
 **📚 Topics Covered So Far:**
-- **Python Paradigms:** Procedural, Functional, and now Object-Oriented Programming (OOP).
+- **Python Paradigms:** Procedural, Functional, and Object-Oriented Programming (OOP).
 - **Core Programming:** Variables, data types, operators, I/O.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
 - **Control Flow:** `if`/`elif`/`else`, `while`/`for` loops, `break`/`continue`/`pass`.
 - **Pythonic Code:** List/Dictionary Comprehensions.
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `reduce`.
-- **Object-Oriented Programming:** `class` keyword, `__init__` constructor, attributes (`self.x`), and methods.
+- **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars: **Inheritance, Polymorphism, Encapsulation, and Abstraction**.
 
 **🎯 Currently Learning:**
-- Deepening my understanding of Python Classes and Objects.
-- Preparing for how OOP principles will apply to data science libraries.
-- Getting ready for Phase 2: BI & Databases.
+- Applying OOP principles to build more robust and organized applications.
+- Understanding how data science libraries like Pandas and Scikit-learn are built on OOP concepts.
+- Preparing for the transition from pure Python to data manipulation libraries.
 
 ---
 
@@ -191,6 +191,54 @@ Week 4: [█.........] 10%  - OOP and Advanced Python Started!
 <br>
 
 <details open>
+<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
+
+**🎯 Session Focus:** Deepening my understanding of Object-Oriented Programming by exploring its four fundamental pillars: Inheritance, Polymorphism, Encapsulation, and Abstraction. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/16%20OOP%20Pillars.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/14%20OOP.ipynb)
+
+**📚 Key Concepts Learned:**
+
+Today's session was all about the "why" behind OOP. These four principles are the design philosophy that makes OOP so powerful for building complex, reliable software.
+
+| Pillar | Analogy | Description |
+| :--- | :--- | :--- |
+| **Encapsulation** | A Capsule 💊 | Bundling data (attributes) and methods (functions) that operate on the data into a single unit (a class). This protects data from accidental modification. The `bank` and `sdhub` classes are perfect examples. |
+| **Inheritance** | Family Traits 👨‍👩‍👧 | A new class (child) can inherit properties and methods from an existing class (parent). This promotes code reuse. |
+| **Polymorphism** | A Shapeshifter | "Many forms." It allows objects of different classes to be treated as objects of a common superclass, enabling methods to have the same name but different behaviors. |
+| **Abstraction** | A Car's Dashboard 🚗 | Hiding the complex implementation details and showing only the essential features. When we call `riyan.deposite()`, we don't need to know *how* it works, just that it deposits the money. |
+
+- **Inheritance in Practice:** We implemented a clear example where a `child` class inherits from a `parent` class.
+
+  ```python
+  class parent:
+      def property(self):
+          print("father property")
+
+  class child(parent):
+      pass # Inherits 'property' method
+
+  riyan = child()
+  riyan.property() # Output: father property
+  ```
+  ```mermaid
+  graph TD
+      A[Parent Class] -- Inherits --> B[Child Class];
+  ```
+
+**💡 Key Insights:**
+- OOP is more than just a way to write code; it's a way to *design* systems. It forces you to think about the structure of your problem before you start coding.
+- The `bank` class from the notebook is a great example of **encapsulation**. The `Amount` is an attribute that can only be safely modified by methods like `deposite()`, not directly. This ensures data integrity.
+- Understanding inheritance is crucial for using data science libraries like Scikit-learn, where we often create custom classes that inherit from a base estimator class.
+
+**🎯 Personal Action Items:**
+- [x] Update the progress bar and topics list in this README.
+- [ ] Add docstrings to the `bank` and `sdhub` classes to explain what they do, what their parameters are, and what they return.
+- [ ] Create a `SavingsAccount` class that **inherits** from the `bank` class and adds a new attribute, `interest_rate`.
+- [ ] Override the `info()` method in the new `SavingsAccount` class to also display the interest rate, demonstrating **polymorphism**.
+- [ ] Research how the `pandas.DataFrame` is an example of an OOP class. What are some of its key attributes and methods?
+
+</details>
+
+<details>
 <summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
 
 **🎯 Session Focus:** Consolidating knowledge of User-Defined Functions (UDFs) and transitioning to Object-Oriented Programming (OOP) by learning Python Classes. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/15%20UDFs%20and%20Classes.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/13%20UDFs%20and%20Classes.ipynb)
@@ -236,8 +284,8 @@ graph TD
 
 **🎯 Personal Action Items:**
 - [x] Create a new, clean Jupyter Notebook summarizing UDFs and Classes with visual examples.
-- [ ] Create a `Car` class with attributes `make`, `model`, `year` and a method `get_description()` that returns a formatted string.
-- [ ] Refactor the Celsius-to-Fahrenheit function from the notebook into a `TemperatureConverter` class with methods like `to_fahrenheit()` and `to_celsius()`.
+- [x] Create a `Car` class with attributes `make`, `model`, `year` and a method `get_description()` that returns a formatted string.
+- [x] Refactor the Celsius-to-Fahrenheit function from the notebook into a `TemperatureConverter` class with methods like `to_fahrenheit()` and `to_celsius()`.
 
 </details>
 </details>
@@ -366,7 +414,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 15 | **Sessions Completed:** 15 | **Concepts Learned:** 70+
+**Days Active:** 16 | **Sessions Completed:** 16 | **Concepts Learned:** 75+
 
 ---
 
