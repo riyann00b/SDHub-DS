@@ -157,14 +157,14 @@ graph TD
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
 - [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
-- [x] ✅ **Week 4 (Days 15-16):** Object-Oriented Programming (OOP): Classes, Objects, and the Four Pillars of OOP.
+- [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP) & File Handling.
 
 ### 📊 Current Progress
 ```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
-Week 4: [████......] 40%  - OOP and Advanced Python In Progress!
+Week 4: [██████....] 60%  - OOP & File Handling In Progress!
 ```
 
 **📚 Topics Covered So Far:**
@@ -175,11 +175,12 @@ Week 4: [████......] 40%  - OOP and Advanced Python In Progress!
 - **Pythonic Code:** List/Dictionary Comprehensions.
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `reduce`.
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars: **Inheritance, Polymorphism, Encapsulation, and Abstraction**.
+- **File Handling:** The `with open(...)` statement, file modes (`'r'`, `'w'`, `'a'`), and methods like `.read()` and `.write()`.
 
 **🎯 Currently Learning:**
-- Applying OOP principles to build more robust and organized applications.
-- Understanding how data science libraries like Pandas and Scikit-learn are built on OOP concepts.
-- Preparing for the transition from pure Python to data manipulation libraries.
+- Applying OOP and File Handling to create simple data persistence applications.
+- Understanding how to handle potential errors like `FileNotFoundError` during file operations.
+- Preparing to use these foundational skills for reading datasets into libraries like Pandas.
 
 ---
 
@@ -191,183 +192,68 @@ Week 4: [████......] 40%  - OOP and Advanced Python In Progress!
 <br>
 
 <details open>
-<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
+<summary><strong>Day 17 - July 23rd, 2025: Persisting Data with File Handling</strong></summary>
 
-**🎯 Session Focus:** Deepening my understanding of Object-Oriented Programming by exploring its four fundamental pillars: Inheritance, Polymorphism, Encapsulation, and Abstraction. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/16%20OOP%20Pillars.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/14%20OOP.ipynb)
+**🎯 Session Focus:** Combining our knowledge of Object-Oriented Programming with the crucial skill of File Handling, allowing our Python programs to save and load data from files. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb)
 
 **📚 Key Concepts Learned:**
 
-Today's session was all about the "why" behind OOP. These four principles are the design philosophy that makes OOP so powerful for building complex, reliable software.
+Today was about making our programs remember things! We bridged the gap between our code and the computer's file system.
 
-| Pillar | Analogy | Description |
-| :--- | :--- | :--- |
-| **Encapsulation** | A Capsule 💊 | Bundling data (attributes) and methods (functions) that operate on the data into a single unit (a class). This protects data from accidental modification. The `bank` and `sdhub` classes are perfect examples. |
-| **Inheritance** | Family Traits 👨‍👩‍👧 | A new class (child) can inherit properties and methods from an existing class (parent). This promotes code reuse. |
-| **Polymorphism** | A Shapeshifter | "Many forms." It allows objects of different classes to be treated as objects of a common superclass, enabling methods to have the same name but different behaviors. |
-| **Abstraction** | A Car's Dashboard 🚗 | Hiding the complex implementation details and showing only the essential features. When we call `riyan.deposite()`, we don't need to know *how* it works, just that it deposits the money. |
+1.  **File Handling:** The process of creating, reading, updating, and deleting files.
+2.  **The `open()` function:** The gateway to file operations. We learned it takes two key arguments: the `file_path` and the `mode`.
+3.  **File Modes:** Understanding the different "modes" is crucial for preventing errors.
 
-- **Inheritance in Practice:** We implemented a clear example where a `child` class inherits from a `parent` class.
+    | Mode | Description | Behavior |
+    | :--: | :--- | :--- |
+    | `'r'` | **Read** | Opens an existing file for reading. **Error if file doesn't exist.** |
+    | `'w'` | **Write** | Opens a file for writing. **Overwrites existing file** or creates a new one. |
+    | `'a'` | **Append** | Opens a file for appending. **Adds to the end of the file** or creates a new one. |
+    | `'x'` | **Create** | Exclusively creates a new file. **Error if file already exists.** |
 
-  ```python
-  class parent:
-      def property(self):
-          print("father property")
+4.  **The `with` Statement (Best Practice):** This is the modern, safe way to handle files. It automatically closes the file for you, even if errors occur.
 
-  class child(parent):
-      pass # Inherits 'property' method
-
-  riyan = child()
-  riyan.property() # Output: father property
-  ```
-  ```mermaid
-  graph TD
-      A[Parent Class] -- Inherits --> B[Child Class];
-  ```
+    ```mermaid
+    graph TD
+        A[Start] --> B(Open file with `with` statement);
+        B --> C{Perform operations: <br> read, write, etc.};
+        C --> D[Leave the `with` block];
+        D --> E(File is automatically and safely closed!);
+        C -- Error Occurs --> D;
+    ```
+    ```python
+    # A simple example creating my own notes file
+    with open('riyan_notes.txt', 'w') as file:
+        file.write("I, Riyan, now know how to create files with Python!")
+    ```
 
 **💡 Key Insights:**
-- OOP is more than just a way to write code; it's a way to *design* systems. It forces you to think about the structure of your problem before you start coding.
-- The `bank` class from the notebook is a great example of **encapsulation**. The `Amount` is an attribute that can only be safely modified by methods like `deposite()`, not directly. This ensures data integrity.
-- Understanding inheritance is crucial for using data science libraries like Scikit-learn, where we often create custom classes that inherit from a base estimator class.
+- File Handling is the first step towards real-world data science. Before we can analyze data with Pandas, we first need to be able to *read* it from a file (`.csv`, `.txt`, `.json`, etc.).
+- The difference between `'w'` (write) and `'a'` (append) is critical. One wrong letter can wipe out an entire file. The `with` statement is a non-negotiable best practice for safety.
+- Combining OOP and file handling is powerful. For instance, an object can now have a method like `riyan.save_progress()` that writes its own attributes to a file.
 
 **🎯 Personal Action Items:**
 - [x] Update the progress bar and topics list in this README.
-- [ ] Add docstrings to the `bank` and `sdhub` classes to explain what they do, what their parameters are, and what they return.
-- [ ] Create a `SavingsAccount` class that **inherits** from the `bank` class and adds a new attribute, `interest_rate`.
-- [ ] Override the `info()` method in the new `SavingsAccount` class to also display the interest rate, demonstrating **polymorphism**.
-- [ ] Research how the `pandas.DataFrame` is an example of an OOP class. What are some of its key attributes and methods?
+- [ ] Create a `Student` class for myself (`riyan`) that has a method `.save_to_file()` which writes the student's details (name, course, etc.) to a text file.
+- [ ] Write a script that prompts for multiple lines of input (like a daily journal) and **appends** each line to a file named `my_journal.txt`.
+- [ ] Research how to handle the `FileNotFoundError` using a `try...except` block when trying to read a file that might not exist.
 
 </details>
 
 <details>
+<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details>
 <summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
-
-**🎯 Session Focus:** Consolidating knowledge of User-Defined Functions (UDFs) and transitioning to Object-Oriented Programming (OOP) by learning Python Classes. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/15%20UDFs%20and%20Classes.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/13%20UDFs%20and%20Classes.ipynb)
-
-**📚 Key Concepts Learned:**
-
-- **User-Defined Functions (UDFs):** Reviewed how to create modular, reusable code blocks. Functions are the building blocks of procedural programming.
-- **Lambda Functions:** Recapped these "sticky-note" functions for quick, anonymous, one-line operations, especially with `map`.
-- **Object-Oriented Programming (OOP):** Introduced to the core concepts of OOP. Instead of just functions, we now create "objects" that bundle data (attributes) and functions (methods) together.
-
-| Concept | Analogy | Description |
-| :--- | :--- | :--- |
-| **Class** | Car Blueprint 🚗 | The template/design for creating objects. |
-| **Object** | A specific Car | An instance of a class with its own data. `my_car = Car()` |
-| **Attribute** | Color, Model | A variable belonging to an object (`self.name`). |
-| **Method** | `drive()`, `honk()` | A function belonging to an object (`def info(self):`). |
-
-- **The `class` Keyword:** Understood the syntax for defining a blueprint.
-- **The `__init__` Constructor:** Learned this special method is the "factory setup" that runs automatically when an object is created. It's used to initialize attributes.
-
-```mermaid
-classDiagram
-    class Human{
-        +String name
-        +String colour
-        +info()
-    }
-```
-
-```mermaid
-graph TD
-    A[Start: riyan = Human Riyan green] --> B{Call __init__ method}
-    B --> C[Set self.name = Riyan]
-    B --> D[Set self.colour = green]
-    C --> E[Object riyan is created and ready!]
-    D --> E
-```
-
-**💡 Key Insights:**
-- The shift from procedural (a script of functions) to OOP (a system of interacting objects) is a major step in writing scalable and organized code.
-- Classes allow us to model real-world things (like a Bank Account, a User, or a Car) directly in our code, making it more intuitive.
-- The `self` keyword was the missing puzzle piece for me—it's the way an object refers to *itself* inside the class definition.
-
-**🎯 Personal Action Items:**
-- [x] Create a new, clean Jupyter Notebook summarizing UDFs and Classes with visual examples.
-- [x] Create a `Car` class with attributes `make`, `model`, `year` and a method `get_description()` that returns a formatted string.
-- [x] Refactor the Celsius-to-Fahrenheit function from the notebook into a `TemperatureConverter` class with methods like `to_fahrenheit()` and `to_celsius()`.
-
+<!-- Collapsed for brevity -->
 </details>
 </details>
 
 <details>
 <summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
-
-<br>
-
-<details>
-<summary><strong>Day 14 - July 19th, 2025 (Saturday Session): Advanced Functional Programming</strong></summary>
-
-> **Note:** This was a special Saturday class to compensate for the holiday on Friday (July 18th), which was declared due to heavy rain.
-
-**🎯 Session Focus:** Mastering flexible and powerful functional programming tools: `*args`, `**kwargs`, `lambda`, `map`, and `reduce`. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/12%20functional%20programming.ipynb)
-
-**📚 Key Concepts Learned:**
-
-- **Flexible Function Arguments:**
-    - **`*args`:** Understood how it captures a variable number of *positional* arguments into a **tuple**. This is perfect for functions that need to process an unknown number of items, like a custom `sum()` function.
-    - **`**kwargs`:** Learned how it captures a variable number of *keyword* arguments into a **dictionary**, allowing for highly flexible functions that accept optional named attributes.
-    - **Argument Order:** Mastered the mandatory function signature order: `standard_args`, `*args`, `**kwargs`.
-
-- **`lambda` (Anonymous Functions):** Solidified the concept of `lambda` as a concise way to create small, one-line functions, especially useful inside other functions like `map` and `reduce`.
-    - **Syntax:** `lambda arguments: expression`
-    - **Conditional Logic:** Practiced the ternary syntax: `value_if_true if condition else value_if_false`.
-
-- **The `map` and `reduce` Functions:**
-    - **`map(function, iterable)`:** Applies a function to *every* item in an iterable.
-        ```mermaid
-        graph TD
-            subgraph Input List
-                A[1] --> B[2] --> C[3]
-            end
-            E((map: λ x: x*2))
-            subgraph Output List
-                F[2] --> G[4] --> H[6]
-            end
-            A --> E --> F; B --> E --> G; C --> E --> H;
-        ```
-    - **`reduce(function, iterable)`:** Cumulatively applies a function to a sequence to "reduce" it to a single value. (Requires import from `functools`).
-        ```mermaid
-        graph TD
-            A[1] --> C{1 + 2 = 3};
-            B[2] --> C;
-            C --> E{3 + 3 = 6};
-            D[3] --> E;
-        ```
-
-**💡 Key Insights:**
-- `*args` and `**kwargs` are game-changers for creating professional, adaptable functions that don't force the user to provide a fixed set of inputs.
-- The combination of `lambda` with `map` is an incredibly powerful and "Pythonic" pattern for data transformation, replacing clunky `for` loops.
-- Finally understood the common errors from my previous notebooks—passing keyword arguments to a `*args`-only function was the main culprit. The distinction is now crystal clear.
-
-**🎯 Personal Action Items:**
-- [x] Created a new, clean Jupyter Notebook summarizing all the functional programming concepts.
-- [x] Documented today's special session in my Markdown notes and this README.
-- [x] Write a function `create_report(student_name, *grades, **report_details)` that uses all three types of arguments to generate a formatted student report string.
-- [x] Revisit the `pass`/`fail` exercise and rewrite it as a single line using `map` and a `lambda` function.
-
-</details>
-
-<details>
-<summary><strong>Day 13 - July 17th, 2025: Modularizing Code with Functional Programming</strong></summary>
 <!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>Day 12 - July 16th, 2025: Pythonic Data Manipulation with Comprehensions</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
 </details>
 
 <details>
@@ -414,7 +300,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 16 | **Sessions Completed:** 16 | **Concepts Learned:** 75+
+**Days Active:** 17 | **Sessions Completed:** 17 | **Concepts Learned:** 80+
 
 ---
 
