@@ -118,8 +118,7 @@ graph TD
 <div align="center">
 
 ![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![AMD](https://img.shields.io/badge/AMD-Radeon_RX_5500M-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) 
+![AMD](https://img.shields.io/badge/AMD-Radeon_RX_5500M-ED1C24?style=for-the-badge&logo=amd&logoColor=white) ![Fedora](https://img.shields.io/badge/Fedora_42-294172?style=for-the-badge&logo=fedora&logoColor=white) 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
 ![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
 
@@ -157,14 +156,14 @@ graph TD
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
 - [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
-- [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP) & File Handling.
+- [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP), File I/O, and Exception Handling.
 
 ### 📊 Current Progress
 ```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
-Week 4: [██████....] 60%  - OOP & File Handling In Progress!
+Week 4: [██████....] 60%  - OOP, Files & Error Handling In Progress!
 ```
 
 **📚 Topics Covered So Far:**
@@ -175,12 +174,13 @@ Week 4: [██████....] 60%  - OOP & File Handling In Progress!
 - **Pythonic Code:** List/Dictionary Comprehensions.
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `reduce`.
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars: **Inheritance, Polymorphism, Encapsulation, and Abstraction**.
-- **File Handling:** The `with open(...)` statement, file modes (`'r'`, `'w'`, `'a'`), and methods like `.read()` and `.write()`.
+- **File Handling:** The `open()` function, file modes (`'r'`, `'w'`, `'a'`), and the `with` statement for safe file operations.
+- **Exception Handling:** Using `try`, `except`, and `finally` blocks to gracefully manage runtime errors like `ValueError`, `ZeroDivisionError`, and `FileNotFoundError`.
 
 **🎯 Currently Learning:**
-- Applying OOP and File Handling to create simple data persistence applications.
-- Understanding how to handle potential errors like `FileNotFoundError` during file operations.
-- Preparing to use these foundational skills for reading datasets into libraries like Pandas.
+- Building robust programs by combining OOP, File Handling, and Exception Handling.
+- Implementing `try...except...finally` for solid user input validation and file I/O operations.
+- Preparing to apply these skills to read and process datasets using libraries like Pandas.
 
 ---
 
@@ -192,51 +192,98 @@ Week 4: [██████....] 60%  - OOP & File Handling In Progress!
 <br>
 
 <details open>
-<summary><strong>Day 17 - July 23rd, 2025: Persisting Data with File Handling</strong></summary>
+<summary><strong>Day 17 - July 23rd, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
 
-**🎯 Session Focus:** Combining our knowledge of Object-Oriented Programming with the crucial skill of File Handling, allowing our Python programs to save and load data from files. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb)
+**🎯 Session Focus:** Building reliable programs by mastering File Handling (to persist data) and Exception Handling (to manage errors gracefully). [My Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Sir's%20Jupyter%20NoteBooks/16%20File%20%26%20Exception%20handling.ipynb)
 
 **📚 Key Concepts Learned:**
 
-Today was about making our programs remember things! We bridged the gap between our code and the computer's file system.
+Today, we learned how to make our programs interact with the file system and how to stop them from crashing when things go wrong. These two concepts are foundational for any real-world application.
 
-1.  **File Handling:** The process of creating, reading, updating, and deleting files.
-2.  **The `open()` function:** The gateway to file operations. We learned it takes two key arguments: the `file_path` and the `mode`.
-3.  **File Modes:** Understanding the different "modes" is crucial for preventing errors.
+### 📂 1. File Handling
 
-    | Mode | Description | Behavior |
-    | :--: | :--- | :--- |
-    | `'r'` | **Read** | Opens an existing file for reading. **Error if file doesn't exist.** |
-    | `'w'` | **Write** | Opens a file for writing. **Overwrites existing file** or creates a new one. |
-    | `'a'` | **Append** | Opens a file for appending. **Adds to the end of the file** or creates a new one. |
-    | `'x'` | **Create** | Exclusively creates a new file. **Error if file already exists.** |
+This is the process of creating, reading, updating, and deleting files using Python.
 
-4.  **The `with` Statement (Best Practice):** This is the modern, safe way to handle files. It automatically closes the file for you, even if errors occur.
+**File Modes:** The `open()` function requires a 'mode' to know what we plan to do.
 
-    ```mermaid
-    graph TD
-        A[Start] --> B(Open file with `with` statement);
-        B --> C{Perform operations: <br> read, write, etc.};
-        C --> D[Leave the `with` block];
-        D --> E(File is automatically and safely closed!);
-        C -- Error Occurs --> D;
-    ```
-    ```python
-    # A simple example creating my own notes file
-    with open('riyan_notes.txt', 'w') as file:
-        file.write("I, Riyan, now know how to create files with Python!")
-    ```
+| Mode | Name | Description |
+|:----:|:---|:---|
+| `'r'` | **Read** | Opens a file for reading. **Raises an error** if the file does not exist. (Default) |
+| `'w'` | **Write** | Opens a file for writing. **Creates the file** if it does not exist, and **overwrites the content** if it does. |
+| `'a'` | **Append** | Opens a file for appending. **Creates the file** if it does not exist and **adds new content to the end**. |
+| `r+` | Read+ | Opens for both reading and writing. |
+
+**The `with` Statement (Context Manager):** This is the **best practice** for working with files. It ensures the file is automatically closed, even if errors occur.
+
+```mermaid
+graph TD
+    A[Start] --> B(Open file using with open)
+    B --> C{Perform operations: read write etc}
+    C --> D[Automatically leave the with block]
+    D --> E(File is safely closed!)
+    C -->|Exception Occurs!| D
+```
+
+### 🛡️ 2. Exception Handling
+
+This is how we manage errors that happen while our program is running. It prevents the program from crashing and allows us to respond to errors in a controlled way.
+
+**The `try...except` Block:** We put risky code in the `try` block. If an error occurs, the code in the `except` block is executed.
+
+```mermaid
+graph TD
+    A[Start] --> B{Try Block};
+    B -- No Exception --> C[Execute Code in Try];
+    C --> F[Continue Program];
+    B -- Exception Occurs --> D{Matching Except Block?};
+    D -- Yes --> E[Execute Code in Except];
+    E --> F;
+    D -- No --> G[❌ Program Crashes];
+```
+*Example: Handling bad user input.*
+```python
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("That's not a valid number!")
+```
+
+**The `try...except...finally` Block:** The `finally` block **always executes**, no matter what. It's perfect for cleanup tasks, like closing files.
+
+```mermaid
+graph TD
+    subgraph "Execution Flow"
+        A[Start] --> B{Try Block};
+        B -- No Exception --> C[Execute Try Code];
+        B -- Exception Occurs --> D[Execute Except Code];
+        C --> E{Finally Block};
+        D --> E;
+        E --> F[Execute Finally Code];
+        F --> G[End];
+    end
+```
+*Example: Reading a file robustly.*
+```python
+try:
+    with open('data.txt', 'r') as file:
+        print(file.read())
+except FileNotFoundError:
+    print("Error: The file 'data.txt' was not found.")
+finally:
+    print("--> File handling finished.")
+```
 
 **💡 Key Insights:**
-- File Handling is the first step towards real-world data science. Before we can analyze data with Pandas, we first need to be able to *read* it from a file (`.csv`, `.txt`, `.json`, etc.).
-- The difference between `'w'` (write) and `'a'` (append) is critical. One wrong letter can wipe out an entire file. The `with` statement is a non-negotiable best practice for safety.
-- Combining OOP and file handling is powerful. For instance, an object can now have a method like `riyan.save_progress()` that writes its own attributes to a file.
+- **Synergy is Key:** File Handling and Exception Handling go hand-in-hand. You should rarely write file I/O code without wrapping it in a `try...except` block to handle potential errors like `FileNotFoundError`.
+- **Building Reliability:** These concepts are the bedrock of reliable software. Before we can even think about analyzing data with Pandas, we must be able to load it from a CSV or text file without our program crashing if the file is missing or corrupted.
+- **From Theory to Practice:** Combining OOP with these skills is powerful. An object can now have methods like `.save_state()` and `.load_state()` that use `try...except` blocks to safely write and read their own data to a file.
 
 **🎯 Personal Action Items:**
 - [x] Update the progress bar and topics list in this README.
-- [ ] Create a `Student` class for myself (`riyan`) that has a method `.save_to_file()` which writes the student's details (name, course, etc.) to a text file.
-- [ ] Write a script that prompts for multiple lines of input (like a daily journal) and **appends** each line to a file named `my_journal.txt`.
-- [ ] Research how to handle the `FileNotFoundError` using a `try...except` block when trying to read a file that might not exist.
+- [x] Researched and implemented `try...except` for `FileNotFoundError`.
+- [ ] Create a `Student` class for myself (`riyan`) that has a method `.save_to_file()` which writes the student's details to a text file, handling potential `IOError`.
+- [ ] Create a corresponding `.load_from_file()` method in the `Student` class that uses `try-except` to handle `FileNotFoundError`.
+- [ ] Write a calculator script that asks for two numbers and an operator, and handles both `ValueError` (for non-numeric input) and `ZeroDivisionError`.
 
 </details>
 
@@ -300,7 +347,7 @@ Today was about making our programs remember things! We bridged the gap between 
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 17 | **Sessions Completed:** 17 | **Concepts Learned:** 80+
+**Days Active:** 17 | **Sessions Completed:** 17 | **Concepts Learned:** 85+
 
 ---
 
