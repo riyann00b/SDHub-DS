@@ -158,8 +158,6 @@ graph TD
 - [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
 - [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP), File I/O, and Exception Handling.
 
-My [Notes](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes) and my [Jupyter Notebook code](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB)
-
 ### 📊 Current Progress
 ```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
@@ -183,6 +181,137 @@ Week 4: [██████....] 60%  - OOP, Files & Error Handling In Progress!
 - Building robust programs by combining OOP, File Handling, and Exception Handling.
 - Implementing `try...except...finally` for solid user input validation and file I/O operations.
 - Preparing to apply these skills to read and process datasets using libraries like Pandas.
+
+---
+
+## 📝 Daily Learning Log
+
+<details open>
+<summary><strong>📅 Week 4 (July 21st Onwards)</strong></summary>
+
+<br>
+
+<details open>
+<summary><strong>Day 17 - July 23rd, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
+
+**🎯 Session Focus:** Building reliable programs by mastering File Handling (to persist data) and Exception Handling (to manage errors gracefully). [My Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Sir's%20Jupyter%20NoteBooks/16%20File%20%26%20Exception%20handling.ipynb)
+
+**📚 Key Concepts Learned:**
+
+Today, we learned how to make our programs interact with the file system and how to stop them from crashing when things go wrong. These two concepts are foundational for any real-world application.
+
+### 📂 1. File Handling
+
+This is the process of creating, reading, updating, and deleting files using Python.
+
+**File Modes:** The `open()` function requires a 'mode' to know what we plan to do.
+
+| Mode | Name | Description |
+|:----:|:---|:---|
+| `'r'` | **Read** | Opens a file for reading. **Raises an error** if the file does not exist. (Default) |
+| `'w'` | **Write** | Opens a file for writing. **Creates the file** if it does not exist, and **overwrites the content** if it does. |
+| `'a'` | **Append** | Opens a file for appending. **Creates the file** if it does not exist and **adds new content to the end**. |
+| `r+` | Read+ | Opens for both reading and writing. |
+
+**The `with` Statement (Context Manager):** This is the **best practice** for working with files. It ensures the file is automatically closed, even if errors occur.
+
+```mermaid
+graph TD
+    A[Start] --> B(Open file using with open)
+    B --> C{Perform operations: read write etc}
+    C --> D[Automatically leave the with block]
+    D --> E(File is safely closed!)
+    C -->|Exception Occurs!| D
+```
+
+### 🛡️ 2. Exception Handling
+
+This is how we manage errors that happen while our program is running. It prevents the program from crashing and allows us to respond to errors in a controlled way.
+
+**The `try...except` Block:** We put risky code in the `try` block. If an error occurs, the code in the `except` block is executed.
+
+```mermaid
+graph TD
+    A[Start] --> B{Try Block};
+    B -- No Exception --> C[Execute Code in Try];
+    C --> F[Continue Program];
+    B -- Exception Occurs --> D{Matching Except Block?};
+    D -- Yes --> E[Execute Code in Except];
+    E --> F;
+    D -- No --> G[❌ Program Crashes];
+```
+*Example: Handling bad user input.*
+```python
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("That's not a valid number!")
+```
+
+**The `try...except...finally` Block:** The `finally` block **always executes**, no matter what. It's perfect for cleanup tasks, like closing files.
+
+```mermaid
+graph TD
+    subgraph "Execution Flow"
+        A[Start] --> B{Try Block};
+        B -- No Exception --> C[Execute Try Code];
+        B -- Exception Occurs --> D[Execute Except Code];
+        C --> E{Finally Block};
+        D --> E;
+        E --> F[Execute Finally Code];
+        F --> G[End];
+    end
+```
+*Example: Reading a file robustly.*
+```python
+try:
+    with open('data.txt', 'r') as file:
+        print(file.read())
+except FileNotFoundError:
+    print("Error: The file 'data.txt' was not found.")
+finally:
+    print("--> File handling finished.")
+```
+
+**💡 Key Insights:**
+- **Synergy is Key:** File Handling and Exception Handling go hand-in-hand. You should rarely write file I/O code without wrapping it in a `try...except` block to handle potential errors like `FileNotFoundError`.
+- **Building Reliability:** These concepts are the bedrock of reliable software. Before we can even think about analyzing data with Pandas, we must be able to load it from a CSV or text file without our program crashing if the file is missing or corrupted.
+- **From Theory to Practice:** Combining OOP with these skills is powerful. An object can now have methods like `.save_state()` and `.load_state()` that use `try...except` blocks to safely write and read their own data to a file.
+
+**🎯 Personal Action Items:**
+- [x] Update the progress bar and topics list in this README.
+- [x] Researched and implemented `try...except` for `FileNotFoundError`.
+- [ ] Create a `Student` class for myself (`riyan`) that has a method `.save_to_file()` which writes the student's details to a text file, handling potential `IOError`.
+- [ ] Create a corresponding `.load_from_file()` method in the `Student` class that uses `try-except` to handle `FileNotFoundError`.
+- [ ] Write a calculator script that asks for two numbers and an operator, and handles both `ValueError` (for non-numeric input) and `ZeroDivisionError`.
+
+</details>
+
+<details>
+<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details>
+<summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+</details>
+
+<details>
+<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details>
+<summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details>
+<summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
 
 ---
 
