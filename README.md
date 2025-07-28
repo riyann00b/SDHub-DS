@@ -192,7 +192,7 @@ Week 4: [██████....] 60%  - OOP, Files & Error Handling In Progress!
 <br>
 
 <details open>
-<summary><strong>Day 17 - July 23rd, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
+<summary><strong>Day 18 - July 24th, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
 
 **🎯 Session Focus:** Building reliable programs by mastering File Handling (to persist data) and Exception Handling (to manage errors gracefully). [My Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Sir's%20Jupyter%20NoteBooks/16%20File%20%26%20Exception%20handling.ipynb)
 
@@ -288,12 +288,12 @@ finally:
 </details>
 
 <details>
-<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
+<summary><strong>Day 17 - July 23rd, 2025: The Four Pillars of OOP</strong></summary>
 <!-- Collapsed for brevity -->
 </details>
 
 <details>
-<summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
+<summary><strong>Day 16 - July 22nd, 2025: From Functions to Classes</strong></summary>
 <!-- Collapsed for brevity -->
 </details>
 </details>
