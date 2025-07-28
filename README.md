@@ -99,7 +99,7 @@ graph TD
         style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
         E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];
         F --> G[🗣️ Natural Language Processing];
-G --> H[🧠 Deep Learning];
+        G --> H[🧠 Deep Learning];
         H --> I[🎨 Generative AI];
         I --> J[🧑‍💻 AI Workflow & Agentic AI];
     end
@@ -156,42 +156,98 @@ G --> H[🧠 Deep Learning];
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and a deep dive into Functional Programming (`def`, `*args`, `**kwargs`, `lambda`, `map`, `reduce`).
+- [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
+- [x] ✅ **Week 4 (Day 15):** UDFs, `lambda`, `map`, and Introduction to Object-Oriented Programming with Classes.
 
 ### 📊 Current Progress
 ```
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
+Week 4: [█.........] 10%  - OOP and Advanced Python Started!
 ```
 
 **📚 Topics Covered So Far:**
-- **Data Science Concepts:** AI/ML/DL hierarchy, Data Science vs. Data Analysis.
-- **Python Fundamentals:** Syntax, variables, data types, operators.
-- **Environment:** Jupyter Notebooks, Markdown for documentation.
+- **Python Paradigms:** Procedural, Functional, and now Object-Oriented Programming (OOP).
+- **Core Programming:** Variables, data types, operators, I/O.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
-- **Conditional Control Flow:** `if`, `elif`, `else`, nested conditions, and the ternary operator.
-- **Iterative Control Flow:** The `while` loop and the `for` loop.
-- **Loop Control Keywords:** Using `break`, `continue`, and `pass` to manage loop execution.
-- **Pythonic Code:** Writing concise code with **List & Dictionary Comprehensions**.
-- **Functional Programming:**
-    -  **Core Concepts:** `def`, parameters, `return`, and variable scope.
-    -  **Advanced Concepts:** `*args`, `**kwargs`, `lambda`, `map`, and `reduce`.
+- **Control Flow:** `if`/`elif`/`else`, `while`/`for` loops, `break`/`continue`/`pass`.
+- **Pythonic Code:** List/Dictionary Comprehensions.
+- **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `reduce`.
+- **Object-Oriented Programming:** `class` keyword, `__init__` constructor, attributes (`self.x`), and methods.
 
 **🎯 Currently Learning:**
-- Phase 1 complete! Consolidating my Python knowledge.
-- Preparing for Phase 2: BI & Databases.
+- Deepening my understanding of Python Classes and Objects.
+- Preparing for how OOP principles will apply to data science libraries.
+- Getting ready for Phase 2: BI & Databases.
 
 ---
 
 ## 📝 Daily Learning Log
 
 <details open>
-<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
+<summary><strong>📅 Week 4 (July 21st Onwards)</strong></summary>
 
 <br>
 
 <details open>
+<summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
+
+**🎯 Session Focus:** Consolidating knowledge of User-Defined Functions (UDFs) and transitioning to Object-Oriented Programming (OOP) by learning Python Classes. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/15%20UDFs%20and%20Classes.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/13%20UDFs%20and%20Classes.ipynb)
+
+**📚 Key Concepts Learned:**
+
+- **User-Defined Functions (UDFs):** Reviewed how to create modular, reusable code blocks. Functions are the building blocks of procedural programming.
+- **Lambda Functions:** Recapped these "sticky-note" functions for quick, anonymous, one-line operations, especially with `map`.
+- **Object-Oriented Programming (OOP):** Introduced to the core concepts of OOP. Instead of just functions, we now create "objects" that bundle data (attributes) and functions (methods) together.
+
+| Concept | Analogy | Description |
+| :--- | :--- | :--- |
+| **Class** | Car Blueprint 🚗 | The template/design for creating objects. |
+| **Object** | A specific Car | An instance of a class with its own data. `my_car = Car()` |
+| **Attribute** | Color, Model | A variable belonging to an object (`self.name`). |
+| **Method** | `drive()`, `honk()` | A function belonging to an object (`def info(self):`). |
+
+- **The `class` Keyword:** Understood the syntax for defining a blueprint.
+- **The `__init__` Constructor:** Learned this special method is the "factory setup" that runs automatically when an object is created. It's used to initialize attributes.
+
+```mermaid
+classDiagram
+    class Human{
+        +String name
+        +String colour
+        +info()
+    }
+```
+
+```mermaid
+graph TD
+    A[Start: riyan = Human Riyan green] --> B{Call __init__ method}
+    B --> C[Set self.name = Riyan]
+    B --> D[Set self.colour = green]
+    C --> E[Object riyan is created and ready!]
+    D --> E
+```
+
+**💡 Key Insights:**
+- The shift from procedural (a script of functions) to OOP (a system of interacting objects) is a major step in writing scalable and organized code.
+- Classes allow us to model real-world things (like a Bank Account, a User, or a Car) directly in our code, making it more intuitive.
+- The `self` keyword was the missing puzzle piece for me—it's the way an object refers to *itself* inside the class definition.
+
+**🎯 Personal Action Items:**
+- [x] Create a new, clean Jupyter Notebook summarizing UDFs and Classes with visual examples.
+- [ ] Create a `Car` class with attributes `make`, `model`, `year` and a method `get_description()` that returns a formatted string.
+- [ ] Refactor the Celsius-to-Fahrenheit function from the notebook into a `TemperatureConverter` class with methods like `to_fahrenheit()` and `to_celsius()`.
+
+</details>
+</details>
+
+<details>
+<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
+
+<br>
+
+<details>
 <summary><strong>Day 14 - July 19th, 2025 (Saturday Session): Advanced Functional Programming</strong></summary>
 
 > **Note:** This was a special Saturday class to compensate for the holiday on Friday (July 18th), which was declared due to heavy rain.
@@ -239,63 +295,29 @@ Week 3: [██████████] 100% - Control Flow & Functions Complet
 **🎯 Personal Action Items:**
 - [x] Created a new, clean Jupyter Notebook summarizing all the functional programming concepts.
 - [x] Documented today's special session in my Markdown notes and this README.
-- [ ] Write a function `create_report(student_name, *grades, **report_details)` that uses all three types of arguments to generate a formatted student report string.
-- [ ] Revisit the `pass`/`fail` exercise and rewrite it as a single line using `map` and a `lambda` function.
+- [x] Write a function `create_report(student_name, *grades, **report_details)` that uses all three types of arguments to generate a formatted student report string.
+- [x] Revisit the `pass`/`fail` exercise and rewrite it as a single line using `map` and a `lambda` function.
 
 </details>
 
 <details>
 <summary><strong>Day 13 - July 17th, 2025: Modularizing Code with Functional Programming</strong></summary>
-
-**🎯 Session Focus:** Writing reusable, modular, and clean code using functions. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13%20Functional%20Programming.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/11%20Fuctional%20Programming.ipynb)
-
-**📚 Key Concepts Learned:**
-
-- **Functional Programming:** Introduced to the paradigm of building programs by defining and composing functions, promoting a DRY (Don't Repeat Yourself) coding style.
-- **User-Defined Functions:** Mastered the core mechanics of `def`, parameters vs. arguments, and the critical `return` keyword.
-- **Variable Scope:** Differentiated between local and global scope.
-- **Recursive Functions:** Explored the concept of a function that calls itself.
-
-**💡 Key Insights:**
-- Functions are the most important building blocks for organized and scalable programs.
-- Capturing a function's output with `return` is far more powerful than just printing it.
-
+<!-- Collapsed for brevity -->
 </details>
 
 <details>
 <summary><strong>Day 12 - July 16th, 2025: Pythonic Data Manipulation with Comprehensions</strong></summary>
-
-**🎯 Session Focus:** Refactoring loops into elegant, one-line comprehensions for lists and dictionaries. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12%20Loops%20and%20Comprehensions.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/10%20Loop%20and%20comprehension.ipynb)
-
-**📚 Key Concepts Learned:**
-- **Comprehensions:** Understood that comprehensions are a concise, "Pythonic" way to create lists, dictionaries, or sets.
-- **Core Patterns:** Mastered simple mapping, filtering (`if` at the end), and conditional output (`if/else` at the beginning).
-
-**💡 Key Insights:**
-- Comprehensions are often more readable and can be faster than their equivalent `for` loop counterparts.
-
+<!-- Collapsed for brevity -->
 </details>
 
 <details>
 <summary><strong>Day 11 - July 15th, 2025: Mastering Iteration with `for` Loops</strong></summary>
-
-**🎯 Session Focus:** Using `for` loops to iterate over sequences and perform data manipulation. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11%20%20Python%20Loops%20%60while%60%20and%20%60for%60.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
-
-**📚 Key Concepts Learned:**
-- **The `for` Loop:** Understood its primary use for iterating over a known sequence.
-- **`while` vs. `for` Loop:** Distinguished the use cases: `while` for unknown iteration counts, `for` for definite collections.
-
+<!-- Collapsed for brevity -->
 </details>
 
 <details>
 <summary><strong>Day 10 - July 14th, 2025: Control Flow and `while` Loops</strong></summary>
-
-**🎯 Session Focus:** Moving from sequential to iterative programming using `while` loops. [Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10%20Control%20Flow%20with%20while%20%20Loops.md) | [Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/09%20While%20loop%20.ipynb)
-
-**📚 Key Concepts Learned:**
-- **The `while` Loop:** Mastered the three-step process: Initialization, Condition, and Update.
-- **Loop Control Keywords:** Learned how `break`, `continue`, and `pass` alter the loop's flow.
-
+<!-- Collapsed for brevity -->
 </details>
 
 </details>
@@ -344,7 +366,7 @@ Week 3: [██████████] 100% - Control Flow & Functions Complet
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 14 | **Sessions Completed:** 14 | **Concepts Learned:** 65+
+**Days Active:** 15 | **Sessions Completed:** 15 | **Concepts Learned:** 70+
 
 ---
 
