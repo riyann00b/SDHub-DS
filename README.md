@@ -158,6 +158,8 @@ graph TD
 - [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
 - [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP), File I/O, and Exception Handling.
 
+My [Notes](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes) and my [Jupyter Notebook code](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB)
+
 ### 📊 Current Progress
 ```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
