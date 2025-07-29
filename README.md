@@ -163,7 +163,7 @@ Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
-Week 5: [█.........]  10% - Python for Data Science
+Week 5: [██........]  20% - Python for Data Science
 ```
 
 **📚 Foundational Python Topics Covered:**
@@ -176,10 +176,10 @@ Week 5: [█.........]  10% - Python for Data Science
 - **Robust Programming:** File Handling (`with open(...)`) and Exception Handling (`try`, `except`, `finally`).
 
 **🎯 Currently Learning: Week 5 - Python for Data Science**
-- **NumPy:** Understanding the fundamentals of numerical computing in Python.
+- **NumPy:** Fundamentals of numerical computing.
 - **NDArrays:** Creating and manipulating N-dimensional arrays.
-- **Array Attributes:** Exploring `.shape`, `.ndim`, `.size`, and `.dtype`.
-- **Reshaping:** Dynamically changing the structure of arrays for analysis.
+- **Array Creation Functions:** `np.arange()`, `np.linspace()`, `np.ones()`, `np.zeros()`, `np.identity()`, `np.random.randint()`.
+- **Array Operations:** Indexing, slicing (e.g., `arr[start:stop]`), and flipping (`arr[::-1]`).
 
 ---
 
@@ -191,9 +191,63 @@ Week 5: [█.........]  10% - Python for Data Science
 <br>
 
 <details open>
+<summary><strong>Day 21 - July 29th, 2025: NumPy Array Creation and Slicing Mastery</strong></summary>
+
+**🎯 Session Focus:** Building on our NumPy foundation, we dove deep into the various methods for creating arrays and the powerful techniques for accessing, slicing, and manipulating their elements. [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/21%20Introduction%20to%20NumPy%20Part%202.md) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Cleaned/02%20Numpy.ipynb)
+
+**📚 Key Concepts Learned:**
+
+Today was about moving from manual array creation to more programmatic and efficient methods, and then learning to precisely select the data we need from within those arrays.
+
+### 🛠️ 1. NumPy's Array Creation Toolkit
+
+We explored a suite of functions for generating arrays without manually typing lists. This is crucial for creating test data or initializing arrays for computation.
+
+| Function | Purpose | Key Parameters |
+| :--- | :--- | :--- |
+| `np.arange()` | Generate values within a step-based range. | `start`, `stop`, `step` |
+| `np.linspace()` | Generate a specific number of evenly spaced values. | `start`, `stop`, `num` |
+| `np.ones()` / `np.zeros()` | Create arrays filled with 1s or 0s. | `shape` (a tuple) |
+| `np.identity()` | Create a square identity matrix (1s on the diagonal). | `n` (number of rows/cols) |
+| `np.random.randint()`| Create an array with random integers. | `low`, `high`, `size` (shape) |
+
+### 🎯 2. Accessing Elements: Indexing vs. Slicing
+
+This was the core concept of the day. Understanding the difference is vital for data manipulation.
+
+*   **Indexing:** Retrieves a single element, reducing the dimension.
+    *   `arr2d[1, 1]` returns a **scalar** (a single number).
+*   **Slicing:** Retrieves a subarray, *preserving* the dimension.
+    *   `arr2d[1:2, 1:2]` returns a **2D array** (of shape `(1,1)`).
+
+```mermaid
+graph TD
+    A[arr2d<br>(a 3x3 array)] --> B{Access Method};
+    B --> C["Indexing: `arr`<br>Returns the element at Row 1, Col 2"];
+    B --> D["Slicing: `arr[0:2, 1:3]`<br>Returns a new 2D array (sub-matrix)"];
+```
+
+### 🔪 3. Advanced Slicing and Flipping
+
+Slicing is not just for selecting parts; it's also for reordering. The `start:stop:step` syntax is incredibly powerful.
+
+*   **Select every other element:** `arr[::2]`
+*   **Reverse an array (Flipping):** The trick is to use a negative step of `-1`.
+    *   `arr[::-1]` -> Flips rows.
+    *   `arr[:, ::-1]` -> Flips columns.
+    *   `arr[::-1, ::-1]` -> Flips both rows and columns.
+
+**💡 Key Insights:**
+- **The Right Tool for the Job:** Use `arange` for integer steps, but `linspace` when you need a specific number of points in a range (especially for floats).
+- **Slicing is Non-Destructive:** Slicing creates a *view* or a *copy* of the original array but doesn't modify the original in place (unless you explicitly assign to the slice). This is a key safety feature.
+- **Dimensionality Matters:** Always be aware of whether your operation returns a single value or a subarray. An indexing error can silently change the dimensions of your data and break your entire analysis pipeline later on.
+
+</details>
+
+<details>
 <summary><strong>Day 20 - July 28th, 2025: Introduction to NumPy - The Bedrock of Data Science</strong></summary>
 
-**🎯 Session Focus:** Transitioning from core Python to specialized data science libraries, starting with **NumPy**. We learned why NumPy is essential, how its `ndarray` object works, and how to create and reshape arrays. [My Notebook](link-to-your-week5-notebook) | [Sir's Notebook](link-to-sir's-week5-notebook)
+**🎯 Session Focus:** Transitioning from core Python to specialized data science libraries, starting with **NumPy**. We learned why NumPy is essential, how its `ndarray` object works, and how to create and reshape arrays. [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20%20NumPy%20for%20Data%20Science.md) | [Jupyter Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Cleaned/01%20Python%20For%20DA-DS%20Numpy_cleaned.ipynb)
 
 **📚 Key Concepts Learned:**
 
@@ -250,7 +304,7 @@ This is the most critical concept of the day. We learned to visualize arrays and
 ```mermaid
 graph TD
     subgraph "1D Array: Shape (4,)"
-        A[0] --- B[1] --- C[2] --- D[3]
+        A --- B --- C --- D
     end
     subgraph "2D Array: Shape (2, 3)"
         direction LR
@@ -282,6 +336,7 @@ graph TD
 - **Efficiency Matters:** Using `np.arange(24).reshape(2, 3, 4)` is vastly superior to manually typing out a 3D array. This is the professional way to generate structured data.
 
 </details>
+
 </details>
 
 <details>
@@ -339,7 +394,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 20 | **Sessions Completed:** 20 | **Concepts Learned:** 100+
+**Days Active:** 21 | **Sessions Completed:** 21 | **Concepts Learned:** 100+
 
 ---
 
