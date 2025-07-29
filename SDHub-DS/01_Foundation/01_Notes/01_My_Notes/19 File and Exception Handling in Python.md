@@ -1,6 +1,6 @@
 # 📝 Week 4, Day 19:  File and Exception Handling in Python
 
-**Date: 25-7-2025 Fridayday
+**Date: 25-7-2025 Friday
 ## 📂 File Handling
 
 File handling is a crucial part of any web application. It allows us to create, read, update, and delete files. Python has several functions for creating, reading, updating, and deleting files.

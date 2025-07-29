@@ -1,5 +1,7 @@
 # Week 5, Day 20: Introduction to NumPy for Data Science
 
+**Date: 28-7-2025 Monday
+
 Welcome to your first formal session on Python for Data Science! Building on your Python programming foundation, we now dive into **NumPy** (*Numerical Python*), the cornerstone library for numerical and scientific computing in Python.
 
 ## The Python for Data Analysis Ecosystem
