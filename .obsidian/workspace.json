@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 NumPy for Data Science.md",
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20 NumPy for Data Science.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4d248efe2046e0a4",
@@ -184,10 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e2702d055321d49",
+  "active": "73ec477e0489c0a0",
   "lastOpenFiles": [
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19 File and Exception Handling in Python.md",
-    "20 NumPy for Data Science.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20 NumPy for Data Science.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17 Object-Oriented Programming in Python.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/16 Python Practice Qustions.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/15 Python Loops & List Comprehension.md",
