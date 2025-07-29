@@ -1,0 +1,7 @@
+Python is a programming language and has the following features:
+
+1. Open Source
+2. Platform Independent
+3. Supports all Paradigm
+4. Vast Collection of Libraries
+5. User Friendly

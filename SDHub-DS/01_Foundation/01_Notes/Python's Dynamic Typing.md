@@ -4,7 +4,7 @@ A variable is a name you give to a memory location to store a piece of data. Thi
 
 -   **Identifier:** The name of the variable (e.g., `age`).
 -   **Assignment Operator:** The equals sign (`=`), which tells Python to "put the value on the right into the variable on the left."
--   **Data/Value:** The information stored in the variable (e.g., `28`).
+-   **Data/Value:** The information stored in the variable (e.g., `28`).z
 
 ```python
 # identifier   assignment   data/value

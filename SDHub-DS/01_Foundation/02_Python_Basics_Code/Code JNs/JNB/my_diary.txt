@@ -1,0 +1,2 @@
+I learned about file handling.
+Appending this new line!
