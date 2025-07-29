@@ -155,32 +155,31 @@ graph TD
 ### 🏅 Completed Sessions
 - [x] ✅ **Week 1 (Days 1-5):** Course Orientation, AI/ML Concepts, Python Fundamentals, User Input, Operators, and Strings.
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures (Lists, Tuples, Sets, Dictionaries) and Conditional Programming.
-- [x] ✅ **Week 3 (Days 10-14):** Control Flow (Loops), Comprehensions, and Functional Programming (`def`, `*args`, `**kwargs`).
-- [x] ✅ **Week 4 (Days 15-17):** Object-Oriented Programming (OOP), File I/O, and Exception Handling.
+- [x] ✅ **Week 3 (Days 10-14):** Functional Programming (`def`, `*args`, `**kwargs`), Scope, and Lambda Functions.
+- [x] ✅ **Week 4 (Days 15-18):** Loops, List Comprehensions, Object-Oriented Programming (OOP), File I/O, and Exception Handling.
 
 ### 📊 Current Progress
 ```progress
 Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
-Week 4: [██████....] 60%  - OOP, Files & Error Handling In Progress!
+Week 4: [██████████] 100%  - Iteration, OOP & File Handling Complete!
 ```
 
 **📚 Topics Covered So Far:**
-- **Python Paradigms:** Procedural, Functional, and Object-Oriented Programming (OOP).
 - **Core Programming:** Variables, data types, operators, I/O.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
 - **Control Flow:** `if`/`elif`/`else`, `while`/`for` loops, `break`/`continue`/`pass`.
-- **Pythonic Code:** List/Dictionary Comprehensions.
+- **Pythonic Code:** List Comprehensions, Dictionary Comprehensions.
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `reduce`.
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars: **Inheritance, Polymorphism, Encapsulation, and Abstraction**.
 - **File Handling:** The `open()` function, file modes (`'r'`, `'w'`, `'a'`), and the `with` statement for safe file operations.
 - **Exception Handling:** Using `try`, `except`, and `finally` blocks to gracefully manage runtime errors like `ValueError`, `ZeroDivisionError`, and `FileNotFoundError`.
 
 **🎯 Currently Learning:**
-- Building robust programs by combining OOP, File Handling, and Exception Handling.
-- Implementing `try...except...finally` for solid user input validation and file I/O operations.
-- Preparing to apply these skills to read and process datasets using libraries like Pandas.
+- Solidifying OOP concepts and preparing to apply them to data-centric projects.
+- Using file and exception handling to build robust data loading and processing pipelines.
+- Preparing to transition to NumPy and Pandas for numerical data manipulation.
 
 ---
 
@@ -191,8 +190,8 @@ Week 4: [██████....] 60%  - OOP, Files & Error Handling In Progress!
 
 <br>
 
-<details open>
-<summary><strong>Day 17 - July 23rd, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
+<details>
+<summary><strong>Day 19 - July 25th, 2025: File & Exception Handling: Making Programs Robust</strong></summary>
 
 **🎯 Session Focus:** Building reliable programs by mastering File Handling (to persist data) and Exception Handling (to manage errors gracefully). [My Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17%20OOP%20and%20File%20Handling.md) | [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Code%20JNs/JNB/15%20OOPs%20and%20file-handling.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/02_Python_Basics_Code/Sir's%20Jupyter%20NoteBooks/16%20File%20%26%20Exception%20handling.ipynb)
 
@@ -278,23 +277,98 @@ finally:
 - **Building Reliability:** These concepts are the bedrock of reliable software. Before we can even think about analyzing data with Pandas, we must be able to load it from a CSV or text file without our program crashing if the file is missing or corrupted.
 - **From Theory to Practice:** Combining OOP with these skills is powerful. An object can now have methods like `.save_state()` and `.load_state()` that use `try...except` blocks to safely write and read their own data to a file.
 
+</details>
+
+<details>
+<summary><strong>Day 17 & 18 - July 23rd, 24th 2025: OOP</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details>
+<summary><strong>Day 16 - July 22nd, 2025: From Functions to Classes</strong></summary>
+<!-- Collapsed for brevity -->
+</details>
+
+<details open>
+<summary><strong>Day 15 - July 21st, 2025: Loops & List Comprehension: Mastering Iteration</strong></summary>
+    
+**🎯 Session Focus:** Mastering iterative tasks with `while` and `for` loops, and learning to write elegant, efficient, and Pythonic code using List Comprehensions. [My Practice Notebook](link-to-your-notebook) | [Sir's Notebook](link-to-sir's-notebook)
+
+**📚 Key Concepts Learned:**
+
+### 🔁 1. While Loops
+A `while` loop repeatedly executes a code block as long as a specified condition remains `True`. It's ideal for situations where you don't know the exact number of iterations beforehand.
+
+**Flowchart:**
+```mermaid
+graph TD
+    A[Start] --> B{Condition?};
+    B -- True --> C[Execute Code Block];
+    C --> B;
+    B -- False --> D[End];
+```
+*Example: Reversing a number.*
+```python
+number = 123
+reversed_num = 0
+while number > 0:
+    digit = number % 10
+    reversed_num = (reversed_num * 10) + digit
+    number //= 10
+print(f"Reversed number is: {reversed_num}") # Output: 321
+```
+    
+### 🔂 2. For Loops
+A `for` loop iterates over a sequence (like a list, tuple, string, or range) and executes a code block for each item. It's perfect for when you need to process every item in a collection.
+
+**Flowchart:**
+```mermaid
+graph TD
+    A[Start] --> B{For each item in sequence};
+    B -- More items --> C[Execute Code Block];
+    C --> B;
+    B -- No more items --> D[End];
+```
+*Example: Finding prime numbers in a range.*
+```python
+for num in range(10, 51):
+    if num > 1:
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else: # This 'else' belongs to the 'for' loop
+            print(num)
+```
+
+### 🧠 3. List Comprehensions
+List comprehensions provide a concise and readable way to create lists. They are often more efficient than using a `for` loop and `.append()`.
+
+**Structure Breakdown:**
+`new_list = [expression for item in iterable if condition]`
+
+| Part | Description | Example |
+| :--- | :--- | :--- |
+| `expression` | The value to include in the new list. | `x**2` |
+| `for item in iterable` | The loop over the source sequence. | `for x in range(1, 11)` |
+| `if condition` | (Optional) A filter to include only certain items. | `if x % 2 == 0`|
+
+*Example: Create a list of Fahrenheit temperatures from Celsius.*```python
+celsius = [0, 10, 20, 30, 40]
+fahrenheit = [(c * 9/5) + 32 for c in celsius]
+print(fahrenheit) # Output: [32.0, 50.0, 68.0, 86.0, 104.0]
+
+**💡 Key Insights:**
+- **Right Tool for the Job:** Use `while` loops for condition-based iteration and `for` loops for sequence-based iteration.
+- **Pythonic Elegance:** List comprehensions are not just syntactic sugar; they are a hallmark of clean, readable, and efficient Python code. Mastering them is a key step towards writing professional-grade scripts.
+- **Foundation for Data Science:** Iteration is fundamental. We will use these loop concepts constantly to process rows in a dataset, manipulate lists of features, and train machine learning models.
+
 **🎯 Personal Action Items:**
-- [x] Update the progress bar and topics list in this README.
-- [x] Researched and implemented `try...except` for `FileNotFoundError`.
-- [ ] Create a `Student` class for myself (`riyan`) that has a method `.save_to_file()` which writes the student's details to a text file, handling potential `IOError`.
-- [ ] Create a corresponding `.load_from_file()` method in the `Student` class that uses `try-except` to handle `FileNotFoundError`.
-- [ ] Write a calculator script that asks for two numbers and an operator, and handles both `ValueError` (for non-numeric input) and `ZeroDivisionError`.
+- [x] Update README with this new entry and fix date ordering.
+- [ ] Create a list of the first 20 Fibonacci numbers using a `while` loop.
+- [ ] Write a script that finds common elements between two lists using a nested `for` loop.
+- [ ] Re-write the script from the previous point using a list comprehension for a more concise solution.
+- [ ] Use a list comprehension to create a list of all consonant characters from a given sentence.
 
-</details>
-
-<details>
-<summary><strong>Day 16 - July 22nd, 2025: The Four Pillars of OOP</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>Day 15 - July 21st, 2025: From Functions to Classes</strong></summary>
-<!-- Collapsed for brevity -->
 </details>
 </details>
 
@@ -347,7 +421,7 @@ finally:
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 17 | **Sessions Completed:** 17 | **Concepts Learned:** 85+
+**Days Active:** 18 | **Sessions Completed:** 18 | **Concepts Learned:** 90+
 
 ---
 
