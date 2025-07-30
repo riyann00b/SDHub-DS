@@ -195,7 +195,7 @@ Week 5: [████......]  40% - Python for Data Science
 <details open>
 <summary><strong>Day 22 - July 30th, 2025: Advanced NumPy Array Operations</strong></summary>
 
-**🎯 Session Focus:** Mastering advanced array manipulation by combining, splitting, and performing conditional and statistical operations on NumPy arrays. [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Cleaned/03_Numpy_part-3.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Sir/NumpyDS_03.ipynb)
+**🎯 Session Focus:** Mastering advanced array manipulation by combining, splitting, and performing conditional and statistical operations on NumPy arrays. [My Note](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22%20NumPy%20Operations.md) | [Jyputer Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/03%20Numpy%20Part-3.ipynb)
 
 **📚 Key Concepts Learned:**
 
