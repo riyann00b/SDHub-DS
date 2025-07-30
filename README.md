@@ -163,7 +163,7 @@ Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
-Week 5: [██........]  20% - Python for Data Science
+Week 5: [████......]  40% - Python for Data Science
 ```
 
 **📚 Foundational Python Topics Covered:**
@@ -177,9 +177,11 @@ Week 5: [██........]  20% - Python for Data Science
 
 **🎯 Currently Learning: Week 5 - Python for Data Science**
 - **NumPy:** Fundamentals of numerical computing.
-- **NDArrays:** Creating and manipulating N-dimensional arrays.
-- **Array Creation Functions:** `np.arange()`, `np.linspace()`, `np.ones()`, `np.zeros()`, `np.identity()`, `np.random.randint()`.
-- **Array Operations:** Indexing, slicing (e.g., `arr[start:stop]`), and flipping (`arr[::-1]`).
+- **NDArrays:** Creation (`np.array`, `np.arange`, `np.linspace`), attributes (`shape`, `ndim`), and reshaping.
+- **Array Manipulation:** Indexing, slicing, flipping (`arr[::-1]`), transposing (`.T`), and flattening (`.flatten()`).
+- **Array Combination:** Stacking arrays horizontally (`hstack`), vertically (`vstack`), and depth-wise (`dstack`).
+- **Conditional Logic:** Using `np.where` for vectorized if-else operations.
+- **Mathematical & Statistical Functions:** `sum`, `mean`, `std`, `var`, `min`, `max`.
 
 ---
 
@@ -191,6 +193,63 @@ Week 5: [██........]  20% - Python for Data Science
 <br>
 
 <details open>
+<summary><strong>Day 22 - July 30th, 2025: Advanced NumPy Array Operations</strong></summary>
+
+**🎯 Session Focus:** Mastering advanced array manipulation by combining, splitting, and performing conditional and statistical operations on NumPy arrays. [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Cleaned/03_Numpy_part-3.ipynb) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Sir/NumpyDS_03.ipynb)
+
+**📚 Key Concepts Learned:**
+
+Today, we built a powerful toolkit for shaping and analyzing data with NumPy. We moved beyond simple creation and slicing to complex manipulations.
+
+### 🛠️ 1. Combining Arrays (Stacking)
+
+We learned three ways to join arrays, each serving a different dimensional purpose. The key is ensuring the shapes are compatible.
+
+| Function | Purpose | Axis | Requirement |
+| :--- | :--- | :--- | :--- |
+| `np.hstack()` | Combine arrays **horizontally** (side-by-side) | Columns (Axis 1) | Same number of rows |
+| `np.vstack()` | Combine arrays **vertically** (one on top of another) | Rows (Axis 0) | Same number of columns |
+| `np.dstack()` | Stack arrays along a **third (depth) axis** | Depth (Axis 2) | Same shape (rows & cols) |
+
+### 🔪 2. Splitting Arrays
+
+The reverse of stacking, these functions break one large array into several smaller ones.
+- **`np.hsplit()`**: Splits an array horizontally.
+- **`np.vsplit()`**: Splits an array vertically.
+- **Crucial Rule:** The split must result in arrays of equal shape. An array with 8 columns can be `hsplit` into 2, 4, or 8 parts, but not 3.
+
+### 🤔 3. Conditional Logic with `np.where()`
+
+This is NumPy's vectorized version of an if-else statement. It's incredibly fast because it avoids Python loops.
+
+**Syntax:** `np.where(condition, value_if_true, value_if_false)`
+
+```mermaid
+graph TD
+    A{Element in Array} --> B{Condition True?};
+    B -- Yes --> C[Assign `value_if_true`];
+    B -- No --> D[Assign `value_if_false`];
+    C --> E[New Array];
+    D --> E;
+```
+We also saw how to **nest `np.where`** to handle `if-elif-else` scenarios for more complex conditions.
+
+### ✨ 4. Other Essential Functions
+
+- **Transpose (`.T`)**: Swaps rows and columns, effectively rotating the matrix. Shape `(4, 3)` becomes `(3, 4)`.
+- **Flatten vs. Ravel**: Both convert a multi-dimensional array to 1D.
+    - `flatten()`: Creates a **new copy** in memory. Safer, but uses more memory.
+    - `ravel()`: Creates a **view** of the original array if possible. Faster and more memory-efficient.
+- **`np.nditer()`**: The specialized, high-performance iterator for looping through every element in an N-dimensional array.
+
+**💡 Key Insights:**
+- **Vectorization is King:** Functions like `np.where` and other NumPy operations are "vectorized," meaning they operate on the entire array at once at the C-level, making them orders of magnitude faster than Python `for` loops.
+- **Shape Compatibility:** The most common source of errors in array combination is mismatched shapes. Always check `.shape` before attempting to stack arrays.
+- **Copy vs. View:** Understanding when a function returns a copy (`flatten`) versus a view (`ravel`, slicing) is critical for memory management and preventing unintended changes to your original data.
+
+</details>
+
+<details>
 <summary><strong>Day 21 - July 29th, 2025: NumPy Array Creation and Slicing Mastery</strong></summary>
 
 **🎯 Session Focus:** Building on our NumPy foundation, we dove deep into the various methods for creating arrays and the powerful techniques for accessing, slicing, and manipulating their elements. [My Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/21%20Introduction%20to%20NumPy%20Part%202.md) | [Sir's Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/Cleaned/02%20Numpy.ipynb)
@@ -219,13 +278,6 @@ This was the core concept of the day. Understanding the difference is vital for 
     *   `arr2d[1, 1]` returns a **scalar** (a single number).
 *   **Slicing:** Retrieves a subarray, *preserving* the dimension.
     *   `arr2d[1:2, 1:2]` returns a **2D array** (of shape `(1,1)`).
-
-```mermaid
-graph TD
-    A[arr2d<br>(a 3x3 array)] --> B{Access Method};
-    B --> C["Indexing: `arr`<br>Returns the element at Row 1, Col 2"];
-    B --> D["Slicing: `arr[0:2, 1:3]`<br>Returns a new 2D array (sub-matrix)"];
-```
 
 ### 🔪 3. Advanced Slicing and Flipping
 
@@ -337,28 +389,6 @@ graph TD
 
 </details>
 
-</details>
-
-<details>
-<summary><strong>📅 Week 4 (July 21st Onwards)</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>📅 Week 3 (July 14th Onwards)</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>📅 Week 2 (July 7th Onwards)</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
-<details>
-<summary><strong>📅 Week 1 (July 1-4, 2025)</strong></summary>
-<!-- Collapsed for brevity -->
-</details>
-
 ---
 
 ## 🤝 Connect & Collaborate
@@ -394,7 +424,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 21 | **Sessions Completed:** 21 | **Concepts Learned:** 100+
+**Days Active:** 22 | **Sessions Completed:** 22 | **Concepts Learned:** 100+
 
 ---
 
