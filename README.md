@@ -191,7 +191,7 @@ Week 5: [██████....]  60% - Python for Data Science
 <details open>
 <summary><strong>Day 23 - July 31st, 2025: NumPy Practice & Pandas Introduction</strong></summary>
 
-**🎯 Session Focus:** Solidifying NumPy skills through hands-on practice and transitioning to the next core library, Pandas, by understanding its fundamental data structures. [My Practice Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Numpy_practice.ipynb) | [My Pandas Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Pands%20Intoduction%20Part-1.ipynb)
+**🎯 Session Focus:** Solidifying NumPy skills through hands-on practice and transitioning to the next core library, Pandas, by understanding its fundamental data structures. [My Practice Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Numpy_practice.ipynb) | [My Pandas JNB](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Pands%20Intoduction%20Part-1.ipynb)
 
 **📚 Key Concepts Learned:**
 
