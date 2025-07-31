@@ -163,7 +163,7 @@ Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
-Week 5: [████......]  40% - Python for Data Science
+Week 5: [██████....]  60% - Python for Data Science
 ```
 
 **📚 Foundational Python Topics Covered:**
@@ -172,27 +172,80 @@ Week 5: [████......]  40% - Python for Data Science
 - **Control Flow:** `if`/`elif`/`else`, `while`/`for` loops, `break`/`continue`/`pass`.
 - **Pythonic Code:** List Comprehensions, Dictionary Comprehensions.
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `filter`, `reduce`.
-- **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars: **Inheritance, Polymorphism, Encapsulation, and Abstraction**.
+- **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars.
 - **Robust Programming:** File Handling (`with open(...)`) and Exception Handling (`try`, `except`, `finally`).
 
 **🎯 Currently Learning: Week 5 - Python for Data Science**
-- **NumPy:** Fundamentals of numerical computing.
-- **NDArrays:** Creation (`np.array`, `np.arange`, `np.linspace`), attributes (`shape`, `ndim`), and reshaping.
-- **Array Manipulation:** Indexing, slicing, flipping (`arr[::-1]`), transposing (`.T`), and flattening (`.flatten()`).
-- **Array Combination:** Stacking arrays horizontally (`hstack`), vertically (`vstack`), and depth-wise (`dstack`).
-- **Conditional Logic:** Using `np.where` for vectorized if-else operations.
-- **Mathematical & Statistical Functions:** `sum`, `mean`, `std`, `var`, `min`, `max`.
+- **NumPy:** Fundamentals, `ndarray` object, array creation (`arange`, `linspace`), manipulation (`reshape`, slicing, stacking), conditional logic (`where`), and statistical functions.
+- **Pandas:** Introduction to `Series` and `DataFrame` data structures.
 
 ---
 
 ## 📝 Daily Learning Log
 
 <details open>
-<summary><strong>📅 Week 5 (July 28th Onwards) - Python for Data Science Begins!</strong></summary>
+<summary><strong>📅 Week 5 (July 28th Onwards) - Python for Data Science!</strong></summary>
 
 <br>
 
 <details open>
+<summary><strong>Day 23 - July 31st, 2025: NumPy Practice & Pandas Introduction</strong></summary>
+
+**🎯 Session Focus:** Solidifying NumPy skills through hands-on practice and transitioning to the next core library, Pandas, by understanding its fundamental data structures. [My Practice Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Numpy_practice.ipynb) | [My Pandas Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Pands%20Intoduction%20Part-1.ipynb)
+
+**📚 Key Concepts Learned:**
+
+<p>Today was a two-part session. First, we reinforced our NumPy knowledge with a practical workout. Then, we took our first step into Pandas, the most powerful tool for data manipulation in Python.</p>
+
+### 🏋️ 1. NumPy Practice Session
+<p>This session was all about applying the concepts we've learned. We tackled problems across several key areas:</p>
+<ul>
+    <li><strong>Array Creation:</strong> Using <code>np.arange</code>, <code>np.zeros</code>, <code>np.random.randint</code>, and <code>np.linspace</code> to generate data.</li>
+    <li><strong>Indexing and Slicing:</strong> Extracting specific elements, rows, columns, and subarrays.</li>
+    <li><strong>Array Operations:</strong> Performing element-wise math (addition, multiplication) and calculating aggregate statistics (mean, std).</li>
+    <li><strong>Reshaping and Stacking:</strong> Changing array dimensions with <code>.reshape()</code> and combining arrays with <code>hstack</code>/<code>vstack</code>.</li>
+    <li><strong>Logical Filtering:</strong> Using boolean masks and <code>np.where</code> to select data based on conditions.</li>
+</ul>
+
+### 🐼 2. Introduction to Pandas
+<p>If NumPy is the engine for numerical data, Pandas is the entire vehicle for data analysis. It provides labeled data structures that are intuitive and powerful.</p>
+
+<h4>The Core Data Structures:</h4>
+<ol>
+    <li><strong>The Series (1D):</strong> Think of a Series as a single column in a spreadsheet. It's a one-dimensional labeled array, where the labels are called the <strong>index</strong>.
+    <br>
+    <em>Analogy: A list of items with a name tag for each item.</em>
+    <pre><code># A Series with a default integer index
+s1 = pd.Series()
+# 0    10
+# 1    20
+# 2    30</code></pre>
+    </li>
+    <li><strong>The DataFrame (2D):</strong> This is the workhorse of Pandas. A DataFrame is a two-dimensional table, like a full spreadsheet or an SQL table, with labeled rows and columns.
+    <br>
+    <em>Analogy: A dictionary of Series, where each Series is a column.</em>
+    </li>
+</ol>
+
+<h4>Visualizing the DataFrame:</h4>
+<p>A DataFrame is a collection of Series that share the same index. This is the key relationship to understand.</p>
+
+| | Name (Series 1) | Age (Series 2) |
+| :--- | :--- | :-- |
+| **Index 0**| Alice | 25 |
+| **Index 1**| Bob | 30 |
+
+<br>
+
+**💡 Key Insights:**
+<ul>
+    <li><strong>Practice Makes Permanent:</strong> The NumPy session proved that knowing the functions isn't enough; practice is required to solve problems efficiently.</li>
+    <li><strong>From Numbers to Information:</strong> NumPy gives us powerful arrays. Pandas takes those arrays and adds labels (indexes, column names), turning raw numbers into structured, queryable information.</li>
+    <li><strong>The Building Blocks:</strong> Understanding that a DataFrame is fundamentally a collection of Series is crucial. It clarifies how operations on columns work and simplifies the mental model of the library.</li>
+</ul>
+</details>
+
+<details>
 <summary><strong>Day 22 - July 30th, 2025: Advanced NumPy Array Operations</strong></summary>
 
 **🎯 Session Focus:** Mastering advanced array manipulation by combining, splitting, and performing conditional and statistical operations on NumPy arrays. [My Note](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22%20NumPy%20Operations.md) | [Jyputer Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/03%20Numpy%20Part-3.ipynb)
@@ -388,6 +441,7 @@ graph TD
 - **Efficiency Matters:** Using `np.arange(24).reshape(2, 3, 4)` is vastly superior to manually typing out a 3D array. This is the professional way to generate structured data.
 
 </details>
+</details>
 
 ---
 
@@ -424,7 +478,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 22 | **Sessions Completed:** 22 | **Concepts Learned:** 100+
+**Days Active:** 23 | **Sessions Completed:** 23 | **Concepts Learned:** 100+
 
 ---
 
