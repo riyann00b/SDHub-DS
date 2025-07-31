@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22 NumPy Operations.md",
+                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22 NumPy Operations"
+              "title": "23 NumPy Practice & Pandas Introduction"
             }
           }
         ],
@@ -185,16 +185,19 @@
   },
   "active": "3e2702d055321d49",
   "lastOpenFiles": [
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/03 Numpy Operations.ipynb",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/21 Introduction to NumPy Part 2.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22 NumPy Operations.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
+    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/21 Introduction to NumPy Part 2.md",
+    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/02 Numpy.ipynb",
+    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/01 Python For DA-DS Numpy.ipynb",
+    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_4/Numpy -01.pdf",
+    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/File Handling.pdf",
+    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Comprehension.pdf",
+    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/03 Numpy Operations.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/01 Python For DA-DS Numpy_Part-1.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/02 Numpy_Part-2.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/03 Numpy Part-3.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/02 Numpy.ipynb~",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/02 Numpy.ipynb",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/01 Python For DA-DS Numpy_cleaned.ipynb",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20 NumPy for Data Science.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19 File and Exception Handling in Python.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17 Object-Oriented Programming in Python.md",
@@ -204,9 +207,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/18 Object-Oriented Programming & File Handling.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13 Functional Programming.md",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/Sir JNB/NumpyDS_01.ipynb",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/NumpyDS_01.ipynb",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/01 Python For DA-DS Numpy.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11  Python Loops `while` and `for`.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12 Loops and Comprehensions.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10 Control Flow with while  Loops.md",
