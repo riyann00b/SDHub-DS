@@ -40,6 +40,7 @@ venv.bak/
 *.sqlite
 *.db
 *.parquet
+*.xlsx
 
 # Model files
 *.model
