@@ -1,3 +1,4 @@
+
 # 🚀 My Data Science Journey with SD Hub
 
 <div align="center">
@@ -156,6 +157,7 @@ graph TD
 - [x] ✅ **Week 2 (Days 6-9):** Python Data Structures & Conditional Programming.
 - [x] ✅ **Week 3 (Days 10-14):** Functional Programming, Scope, & Lambda Functions.
 - [x] ✅ **Week 4 (Days 15-19):** Loops, Comprehensions, OOP, & File/Exception Handling.
+- [x] ✅ **Week 5 (Days 20-24):** Python for Data Science - NumPy & Pandas Intro.
 
 ### 📊 Current Progress
 ```progress
@@ -163,10 +165,11 @@ Week 1: [██████████] 100% - Python Fundamentals Complete!
 Week 2: [██████████] 100% - Data Structures & Conditionals Complete!
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
-Week 5: [██████....]  60% - Python for Data Science
+Week 5: [██████████] 100% - NumPy & Pandas Intro Complete!
+Week 6: [..........]   0% - Advanced Pandas
 ```
 
-**📚 Foundational Python Topics Covered:**
+**📚 Foundational Topics Covered:**
 - **Core Programming:** Variables, data types, operators, I/O.
 - **Data Structures:** In-depth study of Lists, Tuples, Sets, and Dictionaries.
 - **Control Flow:** `if`/`elif`/`else`, `while`/`for` loops, `break`/`continue`/`pass`.
@@ -174,61 +177,133 @@ Week 5: [██████....]  60% - Python for Data Science
 - **Functional Programming:** `def`, `return`, scope, `*args`, `**kwargs`, `lambda`, `map`, `filter`, `reduce`.
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars.
 - **Robust Programming:** File Handling (`with open(...)`) and Exception Handling (`try`, `except`, `finally`).
+- **NumPy:** Completed module on array creation, manipulation, conditional logic, and statistical functions.
+- **Pandas:** Introduction to `Series` & `DataFrame`, creation methods, indexing, and file I/O.
 
-**🎯 Currently Learning: Week 5 - Python for Data Science**
-- **NumPy:** Fundamentals, `ndarray` object, array creation (`arange`, `linspace`), manipulation (`reshape`, slicing, stacking), conditional logic (`where`), and statistical functions.
-- **Pandas:** Introduction to `Series` and `DataFrame` data structures.
+**🎯 Currently Learning: Week 6 - Advanced Pandas**
+- **Continuing with Pandas:** Mastering data selection with `.loc` and `.iloc`.
+- **Up Next:** Data cleaning (handling missing values), grouping with `groupby`, and merging DataFrames.
 
 ---
 
 ## 📝 Daily Learning Log
 
-<details open>
-<summary><strong>📅 Week 5 (July 28th Onwards) - Python for Data Science!</strong></summary>
+<details>
+<summary><strong>📅 Week 6 (August 4th Onwards) - Advanced Pandas</strong></summary>
+<br>
+
+*Log entries for this week will appear here as I complete them.*
+
+</details>
+
+<details>
+<summary><strong>📅 Week 5 (July 28th - August 1st) - Python for Data Science!</strong></summary>
 
 <br>
 
-<details open>
-<summary><strong>Day 23 - July 31st, 2025: NumPy Practice & Pandas Introduction</strong></summary>
+<details>
+<summary><strong>Day 24 - August 1st, 2025: Pandas Data Structures and File I/O</strong></summary>
 
-**🎯 Session Focus:** Solidifying NumPy skills through hands-on practice and transitioning to the next core library, Pandas, by understanding its fundamental data structures. [My Practice Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Numpy_practice.ipynb) | [My Pandas JNB](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Pands%20Intoduction%20Part-1.ipynb)
+**🎯 Session Focus:** Deep dive into Pandas, understanding its core `Series` and `DataFrame` structures, learning various creation methods, and mastering how to read data from external files like CSV and Excel. [Consolidated Notebook](https://github.com/riyann00b/SDHub-DS/blob/main/path/to/your/new/Pandas_Week5_Notes.ipynb)
 
 **📚 Key Concepts Learned:**
 
-<p>Today was a two-part session. First, we reinforced our NumPy knowledge with a practical workout. Then, we took our first step into Pandas, the most powerful tool for data manipulation in Python.</p>
+Today, we officially completed the Python for Data Science foundation by mastering the fundamentals of Pandas. We synthesized information from multiple notebooks and practical sessions into a coherent understanding of data manipulation.
+
+### 🐼 1. Core Pandas Data Structures
+
+Pandas introduces two primary structures that are the bedrock of any analysis.
+```mermaid
+graph TD
+    A["Pandas Library"] --> B["Series (1D Data)"]
+    A --> C["DataFrame (2D Data)"]
+```
+- **`pd.Series` (1D):** A one-dimensional labeled array. Think of it as a single column of data.
+  ```python
+  # A Series from a list (auto-indexed)
+  s1 = pd.Series([10, 20, 30])
+  
+  # A Series from a dictionary (keys become the index)
+  s2 = pd.Series({101: "Riyan", 102: "Amaan"})
+  ```
+- **`pd.DataFrame` (2D):** A two-dimensional table with labeled rows and columns. This is the main object we will work with. The most common creation method is from a dictionary of lists or arrays.
+  ```python
+  di = {
+      'Name': ['Riyan', 'Amaan', 'Adnan'],
+      'Age': [20, 22, 23]
+  }
+  df = pd.DataFrame(di)
+  ```
+
+### 🏷️ 2. Custom Indexing
+
+While DataFrames get a default numerical index (`0, 1, 2...`), we can provide a more meaningful one.
+
+> **Key Rule:** The length of the index must match the number of rows.
+```python
+df_custom = pd.DataFrame(
+    {'Course': ['DS', 'DevOps'], 'Score': [90, 80]}, 
+    index=['Riyan', 'Amaan']
+)
+```
+This creates a table where `Riyan` and `Amaan` are the row labels instead of `0` and `1`.
+
+### 📂 3. Reading Data from Files
+
+A critical skill is loading external datasets into a DataFrame.
+- **`pd.read_csv('filename.csv')`:** For comma-separated files.
+- **`pd.read_excel('filename.xlsx')`:** For Excel files.
+
+**File Path Rules:**
+1.  **Same Directory:** If the data file and notebook are in the same folder, just use the filename.
+2.  **Different Directory:** Provide the full, absolute path to the file.
+    > *Pro Tip for Windows:* Use forward slashes `/` or double backslashes `\\` in your path to avoid errors.
+
+<br>
+
+**💡 Key Insights:**
+- **Structure is Key:** Pandas gives structure and meaning to raw data. A NumPy array is just a grid of numbers; a DataFrame is a table with named columns and labeled rows, making it instantly more interpretable.
+- **The Index is Powerful:** The index is more than just a label; it's the key to fast data retrieval, alignment, and joining, which we will explore later.
+- **Garbage In, Garbage Out:** The ability to load data correctly with `read_csv` and `read_excel` is the absolute first step of any data analysis workflow. Mastering this prevents many future headaches.
+- **Foundation Complete:** With NumPy for computation and Pandas for manipulation, we now have the complete foundational toolkit for data analysis in Python!
+
+</details>
+
+<details>
+<summary><strong>Day 23 - July 31st, 2025: NumPy Practice & Pandas Introduction</strong></summary>
+
+**🎯 Session Focus:** Solidifying NumPy skills through hands-on practice and transitioning to the next core library, Pandas, by understanding its fundamental data structures. [My Notes](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/01_Notes/01_My_Notes/24%20Introduction%20to%20Pandas.md) | [My Code JNB](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/01_Foundation/03%20Python%20For%20Data%20Science/JNB/04%20Pands%20Intoduction%20Part-1-2.ipynb)
+
+**📚 Key Concepts Learned:**
+
+Today was a two-part session. First, we reinforced our NumPy knowledge with a practical workout. Then, we took our first step into Pandas, the most powerful tool for data manipulation in Python.
 
 ### 🏋️ 1. NumPy Practice Session
-<p>This session was all about applying the concepts we've learned. We tackled problems across several key areas:</p>
-<ul>
-    <li><strong>Array Creation:</strong> Using <code>np.arange</code>, <code>np.zeros</code>, <code>np.random.randint</code>, and <code>np.linspace</code> to generate data.</li>
-    <li><strong>Indexing and Slicing:</strong> Extracting specific elements, rows, columns, and subarrays.</li>
-    <li><strong>Array Operations:</strong> Performing element-wise math (addition, multiplication) and calculating aggregate statistics (mean, std).</li>
-    <li><strong>Reshaping and Stacking:</strong> Changing array dimensions with <code>.reshape()</code> and combining arrays with <code>hstack</code>/<code>vstack</code>.</li>
-    <li><strong>Logical Filtering:</strong> Using boolean masks and <code>np.where</code> to select data based on conditions.</li>
-</ul>
+This session was all about applying the concepts we've learned. We tackled problems across several key areas:
+- **Array Creation:** Using `np.arange`, `np.zeros`, `np.random.randint`, and `np.linspace` to generate data.
+- **Indexing and Slicing:** Extracting specific elements, rows, columns, and subarrays.
+- **Array Operations:** Performing element-wise math (addition, multiplication) and calculating aggregate statistics (mean, std).
+- **Reshaping and Stacking:** Changing array dimensions with `.reshape()` and combining arrays with `hstack`/`vstack`.
+- **Logical Filtering:** Using boolean masks and `np.where` to select data based on conditions.
 
 ### 🐼 2. Introduction to Pandas
-<p>If NumPy is the engine for numerical data, Pandas is the entire vehicle for data analysis. It provides labeled data structures that are intuitive and powerful.</p>
+If NumPy is the engine for numerical data, Pandas is the entire vehicle for data analysis. It provides labeled data structures that are intuitive and powerful.
 
-<h4>The Core Data Structures:</h4>
-<ol>
-    <li><strong>The Series (1D):</strong> Think of a Series as a single column in a spreadsheet. It's a one-dimensional labeled array, where the labels are called the <strong>index</strong>.
-    <br>
-    <em>Analogy: A list of items with a name tag for each item.</em>
-    <pre><code># A Series with a default integer index
-s1 = pd.Series()
-# 0    10
-# 1    20
-# 2    30</code></pre>
-    </li>
-    <li><strong>The DataFrame (2D):</strong> This is the workhorse of Pandas. A DataFrame is a two-dimensional table, like a full spreadsheet or an SQL table, with labeled rows and columns.
-    <br>
-    <em>Analogy: A dictionary of Series, where each Series is a column.</em>
-    </li>
-</ol>
+#### The Core Data Structures:
+1.  **The Series (1D):** Think of a Series as a single column in a spreadsheet. It's a one-dimensional labeled array, where the labels are called the **index**.
+    *Analogy: A list of items with a name tag for each item.*
+    ```python
+    # A Series with a default integer index
+    s1 = pd.Series([10, 20, 30])
+    # 0    10
+    # 1    20
+    # 2    30
+    ```
+2.  **The DataFrame (2D):** This is the workhorse of Pandas. A DataFrame is a two-dimensional table, like a full spreadsheet or an SQL table, with labeled rows and columns.
+    *Analogy: A dictionary of Series, where each Series is a column.*
 
-<h4>Visualizing the DataFrame:</h4>
-<p>A DataFrame is a collection of Series that share the same index. This is the key relationship to understand.</p>
+#### Visualizing the DataFrame:
+A DataFrame is a collection of Series that share the same index. This is the key relationship to understand.
 
 | | Name (Series 1) | Age (Series 2) |
 | :--- | :--- | :-- |
@@ -238,11 +313,10 @@ s1 = pd.Series()
 <br>
 
 **💡 Key Insights:**
-<ul>
-    <li><strong>Practice Makes Permanent:</strong> The NumPy session proved that knowing the functions isn't enough; practice is required to solve problems efficiently.</li>
-    <li><strong>From Numbers to Information:</strong> NumPy gives us powerful arrays. Pandas takes those arrays and adds labels (indexes, column names), turning raw numbers into structured, queryable information.</li>
-    <li><strong>The Building Blocks:</strong> Understanding that a DataFrame is fundamentally a collection of Series is crucial. It clarifies how operations on columns work and simplifies the mental model of the library.</li>
-</ul>
+- **Practice Makes Permanent:** The NumPy session proved that knowing the functions isn't enough; practice is required to solve problems efficiently.
+- **From Numbers to Information:** NumPy gives us powerful arrays. Pandas takes those arrays and adds labels (indexes, column names), turning raw numbers into structured, queryable information.
+- **The Building Blocks:** Understanding that a DataFrame is fundamentally a collection of Series is crucial. It clarifies how operations on columns work and simplifies the mental model of the library.
+
 </details>
 
 <details>
@@ -285,6 +359,7 @@ graph TD
     C --> E[New Array];
     D --> E;
 ```
+
 We also saw how to **nest `np.where`** to handle `if-elif-else` scenarios for more complex conditions.
 
 ### ✨ 4. Other Essential Functions
@@ -327,20 +402,20 @@ We explored a suite of functions for generating arrays without manually typing l
 
 This was the core concept of the day. Understanding the difference is vital for data manipulation.
 
-*   **Indexing:** Retrieves a single element, reducing the dimension.
-    *   `arr2d[1, 1]` returns a **scalar** (a single number).
-*   **Slicing:** Retrieves a subarray, *preserving* the dimension.
-    *   `arr2d[1:2, 1:2]` returns a **2D array** (of shape `(1,1)`).
+- **Indexing:** Retrieves a single element, reducing the dimension.
+    - `arr2d[1, 1]` returns a **scalar** (a single number).
+- **Slicing:** Retrieves a subarray, *preserving* the dimension.
+    - `arr2d[1:2, 1:2]` returns a **2D array** (of shape `(1,1)`).
 
 ### 🔪 3. Advanced Slicing and Flipping
 
 Slicing is not just for selecting parts; it's also for reordering. The `start:stop:step` syntax is incredibly powerful.
 
-*   **Select every other element:** `arr[::2]`
-*   **Reverse an array (Flipping):** The trick is to use a negative step of `-1`.
-    *   `arr[::-1]` -> Flips rows.
-    *   `arr[:, ::-1]` -> Flips columns.
-    *   `arr[::-1, ::-1]` -> Flips both rows and columns.
+- **Select every other element:** `arr[::2]`
+- **Reverse an array (Flipping):** The trick is to use a negative step of `-1`.
+    - `arr[::-1]` -> Flips rows.
+    - `arr[:, ::-1]` -> Flips columns.
+    - `arr[::-1, ::-1]` -> Flips both rows and columns.
 
 **💡 Key Insights:**
 - **The Right Tool for the Job:** Use `arange` for integer steps, but `linspace` when you need a specific number of points in a range (especially for floats).
@@ -376,6 +451,7 @@ graph TD
     end
     A --> B & C & D & E
 ```
+
 NumPy is the foundation upon which many other data science libraries are built.
 
 ### 🥊 2. Python Lists vs. NumPy Arrays
@@ -393,18 +469,18 @@ While Python lists are flexible, NumPy arrays are optimized for numerical tasks.
 
 The core of NumPy is the **n-dimensional array** (`ndarray`). We explored its key attributes:
 
-*   `arr.ndim`: Number of dimensions (e.g., 1 for a vector, 2 for a matrix).
-*   `arr.shape`: A tuple showing the size of each dimension (e.g., `(3, 4)` for 3 rows, 4 columns).
-*   `arr.size`: Total number of elements in the array.
-*   `arr.dtype`: The data type of the elements (e.g., `int64`, `float64`).
+-   `arr.ndim`: Number of dimensions (e.g., 1 for a vector, 2 for a matrix).
+-   `arr.shape`: A tuple showing the size of each dimension (e.g., `(3, 4)` for 3 rows, 4 columns).
+-   `arr.size`: Total number of elements in the array.
+-   `arr.dtype`: The data type of the elements (e.g., `int64`, `float64`).
 
 ### 📐 4. Understanding Dimensions & Shape
 
 This is the most critical concept of the day. We learned to visualize arrays and their shapes.
 
-*   **1D Array (Vector):** A single row. Shape: `(elements,)` -> `(4,)`
-*   **2D Array (Matrix):** Rows and columns. Shape: `(rows, cols)` -> `(2, 3)`
-*   **3D Array (Tensor):** Layers of 2D arrays. Shape: `(layers, rows, cols)` -> `(2, 2, 2)`
+- **1D Array (Vector):** A single row. Shape: `(elements,)` -> `(4,)`
+- **2D Array (Matrix):** Rows and columns. Shape: `(rows, cols)` -> `(2, 3)`
+- **3D Array (Tensor):** Layers of 2D arrays. Shape: `(layers, rows, cols)` -> `(2, 2, 2)`
 
 ```mermaid
 graph TD
@@ -463,6 +539,7 @@ graph TD
 
 ### 🔗 Useful Links I've Discovered
 - [NumPy Official Documentation](https://numpy.org/doc/stable/) - The definitive guide for NumPy.
+- [Pandas Official Documentation](https://pandas.pydata.org/docs/) - The official, comprehensive guide for Pandas.
 - [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) - Official guide for Jupyter.
 - [Python PEP 8 Style Guide](https://pep8.org/) - Python coding conventions.
 - [Markdown Guide](https://www.markdownguide.org/) - Comprehensive Markdown reference.
@@ -472,13 +549,12 @@ graph TD
 <div align="center">
 
 ### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
 
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 23 | **Sessions Completed:** 23 | **Concepts Learned:** 100+
+**Days Active:** 24 | **Sessions Completed:** 24 | **Concepts Learned:** 100+
 
 ---
 
