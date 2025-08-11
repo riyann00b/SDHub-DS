@@ -24,7 +24,7 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 ├── 📁 SDHub-DS/
 │   ├── 📁 01 Foundation/
 │   │   ├── 📁 01 Notes/
-│   │   │   ├── 📁 01 My Notes/                 # My detailed daily learning notes in Markdown
+│   │   │   ├── 📁 02 My Notes/                 # My detailed daily learning notes in Markdown
 │   │   │   │   └── 📝 01 Data Science Overview.md
 │   │   │   └── 📁 02 Sir Notes/                 # PDFs and materials from the instructor
 │   │   │       └── 📄 Day_01.pdf
@@ -167,7 +167,7 @@ Week 3: [██████████] 100% - Control Flow & Functions Complet
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
 Week 5: [██████████] 100% - NumPy & Pandas Intro Complete!
 Week 6: [██████████] 100% - Advanced Pandas Complete!
-Week 7: [..........]   0% - Data Visualization
+Week 7: [██........]  20% - Data Preprocessing & Cleaning
 ```
 
 **📚 Foundational Topics Covered:**
@@ -179,16 +179,101 @@ Week 7: [..........]   0% - Data Visualization
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars.
 - **Robust Programming:** File Handling (`with open(...)`) and Exception Handling (`try`, `except`, `finally`).
 - **NumPy:** Completed module on array creation, manipulation, conditional logic, and statistical functions.
-- **Pandas:** Intro, `Series` & `DataFrame`, File I/O, Advanced Indexing (`.loc`, `.iloc`), Filtering, Grouping (`.groupby`), Aggregating (`.agg`), Reshaping (`.pivot_table`, `crosstab`), and handling Time Series (`.dt`) and String (`.str`) data.
+- **Pandas:** Intro, `Series` & `DataFrame`, File I/O, Advanced Indexing, Filtering, Grouping, Aggregating, Reshaping, Time Series (`.dt`), and String (`.str`) data.
 
-**🎯 Currently Learning: Week 7 - Data Visualization**
-- **Up Next:** Creating compelling charts and graphs with Matplotlib and Seaborn.
+**🎯 Currently Learning: Week 7 - Data Preprocessing & Cleaning**
+- **Up Next:** Data Visualization with Matplotlib and Seaborn.
 
 ---
 
 ## 📝 Daily Learning Log
 
 <details open>
+<summary><strong>📅 Week 7 (August 11th - 15th) - Data Preprocessing & Visualization</strong></summary>
+<br>
+
+<details>
+<summary><strong>Day 29 - August 11th, 2025: Mastering Data Preprocessing & Cleaning</strong></summary>
+
+**🎯 Session Focus:** Tackling the messy reality of data by learning systematic techniques to handle inconsistent formats, duplicate records, and missing values using Pandas.
+
+**📚 Key Concepts Learned:**
+
+Today's session was dedicated to one of the most critical and time-consuming stages in any data science project: **Data Preprocessing**. We learned that reliable analysis is impossible without clean, well-structured data.
+
+### 🧹 1. Fixing Rows and Columns
+Often, a single column contains multiple pieces of information. We learned to split these "composite" columns to make the data usable.
+
+**Example:** A 'Profit' column with mixed currencies needs to be standardized.
+```python
+# Initial messy DataFrame
+df = pd.DataFrame({'Profit':['100 USD','40 CAD','1000 INR']})
+
+# 1. Split amount and currency into new columns
+df[['Amount','Currency']] = df['Profit'].str.split(' ', expand=True)
+
+# 2. Convert Amount to a number
+df['Amount'] = df['Amount'].astype(int)
+
+# 3. Create a standardized column (e.g., in INR)
+rates = {'USD': 85, 'CAD': 45, 'INR': 1}
+df['Profit in INR'] = df['Amount'] * df['Currency'].map(rates)
+```
+This process transforms messy, unusable text data into clean, analysis-ready numerical data.
+
+### 📋 2. Handling Duplicates
+Duplicate records can introduce bias and lead to incorrect statistical summaries. The process to handle them is straightforward.
+
+```mermaid
+graph TD
+    A[Start] --> B{Identify Duplicates}
+    B --> C[Count duplicates with df.duplicated sum]
+    C --> D{Any duplicates?}
+    D -->|Yes| E[Display duplicates with df duplicated filter]
+    E --> F[Remove duplicates with drop_duplicates]
+    F --> G[End]
+    D -->|No| G
+```
+- **Identify & Count:** `df.duplicated().sum()`
+- **Display:** `df[df.duplicated()]`
+- **Remove:** `df.drop_duplicates(inplace=True)`
+
+### ❓ 3. Handling Missing Values (NaN)
+Missing data is a pervasive issue. We learned a structured approach to identifying and dealing with `NaN` (Not a Number) values.
+
+```mermaid
+graph TD
+    A[Start] --> B{Identify Missing Values}
+    B --> C[Count missing with df isnull sum]
+    C --> D[Calculate % of missing values]
+    D --> E{High percentage?}
+    E -->|Yes| F[Consider dropping the column]
+    E -->|No| G{Choose an imputation method}
+    G --> H[Fill with specific value]
+    G --> I[Forward fill or backward fill]
+    G --> J[Use interpolation]
+    F --> K[End]
+    H --> K
+    I --> K
+    J --> K
+```
+**Key Imputation Strategies:**
+- **Dropping (`.dropna()`):** Quick but can cause significant data loss. Best for when there are very few missing rows.
+- **Filling with a Statistic (`.fillna()`):**
+  - **Mean:** Good for normally distributed numerical data.
+  - **Median:** Better for skewed data with outliers.
+  - **Mode:** For categorical (text) data.
+- **Interpolation (`.interpolate()`):** An advanced technique that intelligently estimates missing values based on their neighbors. This is often a superior method for time-series or sequential data.
+
+**💡 Key Insights:**
+- **Cleaning is 80% of the Work:** This session reinforced the famous data science adage. The quality of your input data dictates the quality of your output.
+- **There's No Single Best Method:** The choice of how to handle missing values (drop vs. mean vs. interpolate) depends heavily on the context, the amount of missing data, and the nature of the variable.
+- **Systematic Approach is Crucial:** Having a clear workflow (Identify -> Analyze -> Treat) for duplicates and missing values ensures that you don't miss anything and that your data preparation is reproducible.
+
+</details>
+</details>
+
+<details>
 <summary><strong>📅 Week 6 (August 4th - 8th) - Advanced Pandas</strong></summary>
 <br>
 
@@ -700,7 +785,7 @@ Manually typing multi-dimensional arrays is inefficient. The "dynamic" approach 
 ---
 
 **📊 Learning Analytics**  
-**Days Active:** 24 | **Sessions Completed:** 24 | **Concepts Learned:** 100+
+**Days Active:** 25 | **Sessions Completed:** 25 | **Concepts Learned:** 100+
 
 ---
 
