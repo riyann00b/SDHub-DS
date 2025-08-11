@@ -1,4 +1,4 @@
-# Week 5, Day 23:  Introduction to Pandas
+# Week 5, Day 24:  Introduction to Pandas
 
 **Date:** August 1, 2025
 **Topic:** Pandas Fundamentals - Data Structures & File I/O
