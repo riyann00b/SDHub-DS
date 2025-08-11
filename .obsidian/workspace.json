@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
+                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25-28 Advanced Pandas"
+              "title": "29 Pandas for Data Analysis & Preprocessing"
             }
           }
         ],
@@ -200,9 +200,10 @@
   },
   "active": "2b750e22c362be8f",
   "lastOpenFiles": [
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
-    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/04 Pands Intoduction Part-1.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/dataset.csv",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/05 Pandas Introduction.ipynb~",
@@ -235,7 +236,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/01 Data Science Overview.md",
-    "README.md",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/2.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/1.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_2/11-DS.jpeg",
