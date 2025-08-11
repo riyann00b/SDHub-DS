@@ -1,4 +1,3 @@
-
 # 🚀 My Data Science Journey with SD Hub
 
 <div align="center">
@@ -158,6 +157,7 @@ graph TD
 - [x] ✅ **Week 3 (Days 10-14):** Functional Programming, Scope, & Lambda Functions.
 - [x] ✅ **Week 4 (Days 15-19):** Loops, Comprehensions, OOP, & File/Exception Handling.
 - [x] ✅ **Week 5 (Days 20-24):** Python for Data Science - NumPy & Pandas Intro.
+- [x] ✅ **Week 6 (Days 24-27):** Advanced Pandas - Indexing, Grouping, & Manipulation.
 
 ### 📊 Current Progress
 ```progress
@@ -166,7 +166,8 @@ Week 2: [██████████] 100% - Data Structures & Conditionals C
 Week 3: [██████████] 100% - Control Flow & Functions Complete!
 Week 4: [██████████] 100% - Advanced Python Concepts Complete!
 Week 5: [██████████] 100% - NumPy & Pandas Intro Complete!
-Week 6: [..........]   0% - Advanced Pandas
+Week 6: [██████████] 100% - Advanced Pandas Complete!
+Week 7: [..........]   0% - Data Visualization
 ```
 
 **📚 Foundational Topics Covered:**
@@ -178,21 +179,216 @@ Week 6: [..........]   0% - Advanced Pandas
 - **Object-Oriented Programming:** `class`, `__init__`, attributes (`self.x`), methods, and the four pillars.
 - **Robust Programming:** File Handling (`with open(...)`) and Exception Handling (`try`, `except`, `finally`).
 - **NumPy:** Completed module on array creation, manipulation, conditional logic, and statistical functions.
-- **Pandas:** Introduction to `Series` & `DataFrame`, creation methods, indexing, and file I/O.
+- **Pandas:** Intro, `Series` & `DataFrame`, File I/O, Advanced Indexing (`.loc`, `.iloc`), Filtering, Grouping (`.groupby`), Aggregating (`.agg`), Reshaping (`.pivot_table`, `crosstab`), and handling Time Series (`.dt`) and String (`.str`) data.
 
-**🎯 Currently Learning: Week 6 - Advanced Pandas**
-- **Continuing with Pandas:** Mastering data selection with `.loc` and `.iloc`.
-- **Up Next:** Data cleaning (handling missing values), grouping with `groupby`, and merging DataFrames.
+**🎯 Currently Learning: Week 7 - Data Visualization**
+- **Up Next:** Creating compelling charts and graphs with Matplotlib and Seaborn.
 
 ---
 
 ## 📝 Daily Learning Log
 
-<details>
-<summary><strong>📅 Week 6 (August 4th Onwards) - Advanced Pandas</strong></summary>
+<details open>
+<summary><strong>📅 Week 6 (August 4th - 8th) - Advanced Pandas</strong></summary>
 <br>
 
-*Log entries for this week will appear here as I complete them.*
+> *Note: I was unwell this week and missed the live classes. These notes are my consolidated summary after reviewing the class notebooks (`DS_Pandas_03`, `04`, `DSP`, `06`).*
+
+<details>
+<summary><strong>Day 27 - August 8th, 2025: Time Series & String Manipulation</strong></summary>
+
+**🎯 Session Focus:** Cleaning real-world data by handling date/time columns and extracting information from text columns using Pandas' powerful `.dt` and `.str` accessors.
+
+**📚 Key Concepts Learned:**
+
+Today was all about **data cleaning** and **feature engineering**. We learned that data rarely comes in a perfect format, and it's our job to fix it.
+
+### 🕒 1. Time Series with the `.dt` Accessor
+When a date column is loaded, it's often an `object` (string). We must convert it to a `datetime` object to unlock its special properties.
+
+**Workflow:**
+1.  **Convert to Datetime**: `pd.to_datetime(df['Date_Column'])`
+2.  **Access Properties**: Use `.dt` to extract year, month, day, etc.
+
+```python
+# Assume 'Date' column is a string like '01-02-2023'
+df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y')
+
+# Now, create new features
+df['Year'] = df['Date'].dt.year
+df['Month_Name'] = df['Date'].dt.month_name()
+```
+
+### ✍️ 2. String Manipulation with the `.str` Accessor
+Similarly, the `.str` accessor lets us perform powerful string operations on entire columns at once.
+
+| `.str` Method | Purpose |
+| :--- | :--- |
+| `.lower()` / `.upper()` | Change case. |
+| `.title()` / `.capitalize()` | Title-case or capitalize. |
+| `.split('delimiter', expand=True)` | Split strings into new columns. |
+| `.replace('old', 'new')` | Replace a substring. |
+
+**Example: Extracting Username and Domain from an Email**
+```python
+email_df[['Username', 'Domain']] = email_df['Email'].str.split('@', expand=True)
+```
+
+**💡 Key Insights:**
+- **Data is Never Clean:** This session underscored that a significant part of a data scientist's job is cleaning and preparing data before analysis can even begin.
+- **Accessors are Superpowers:** Using `.dt` and `.str` is efficient, readable, and avoids slow Python `for` loops. They are the idiomatic Pandas way to handle date and string data.
+- **Feature Engineering is Creativity:** Creating a new `Age` column from a `DOB` or a `Domain` column from an `Email` is how we add value and create better inputs for analysis and machine learning models.
+
+</details>
+
+<details>
+<summary><strong>Day 26 - August 7th, 2025: Grouping, Aggregating, and Reshaping Data</strong></summary>
+
+**🎯 Session Focus:** Mastering data summarization using the **Split-Apply-Combine** strategy with `.groupby()`, and learning to reshape data into insightful reports with `.pivot_table()` and `pd.crosstab()`.
+
+**📚 Key Concepts Learned:**
+
+This session was about moving from viewing raw data to calculating meaningful summaries.
+
+### 🧠 1. The Split-Apply-Combine Strategy
+
+### 🧮 2. `.groupby()` in Action
+- **Single Grouping:** `df.groupby('Product')['Profit'].sum()` calculates the total profit for each product.
+- **Multiple Grouping:** `df.groupby(['Segment', 'Product'])['Profit'].mean()` calculates the average profit for each combination.
+- **Multiple Aggregations with `.agg()`**: This allows applying different functions to different columns.
+  ```python
+  df.groupby('Segment').agg(
+      Total_Profit=('Profit', 'sum'),
+      Average_Sales=('Gross Sales', 'mean')
+  )
+  ```
+
+### 🔄 3. Reshaping Data for Readability
+- **`.pivot_table()`**: Creates a spreadsheet-style summary. It's excellent for seeing the relationship between three variables.
+  ```python
+  # Shows total profit, with Products as rows and Segments as columns
+  df.pivot_table(index='Product', columns='Segment', values='Profit', aggfunc='sum')
+  ```
+- **`pd.crosstab()`**: A specialized tool to **count the frequency** of occurrences between two categorical columns.
+  ```python
+  # Counts how many times each product was sold in each country
+  pd.crosstab(df['Product'], df['Country'])
+  ```
+
+**💡 Key Insights:**
+- **`groupby` is the Engine of Analysis:** It's arguably the most powerful method in Pandas for data analysis, allowing you to slice your data into logical chunks and analyze them independently.
+- **Pivoting Creates Perspective:** A pivot table can turn a long, hard-to-read table into a wide, intuitive summary that immediately highlights patterns and outliers.
+- **Choose the Right Tool:** Use `groupby` for general-purpose aggregation. Use `pivot_table` when you need a 2D grid summary. Use `crosstab` specifically for frequency counting.
+
+</details>
+
+<details>
+<summary><strong>Day 25 - August 5th, 2025: Data Inspection & Descriptive Statistics</strong></summary>
+
+**🎯 Session Focus:** Learning the essential toolkit for **Exploratory Data Analysis (EDA)** to understand a new dataset's structure, content, and potential issues like missing data.
+
+**📚 Key Concepts Learned:**
+
+Before analyzing, we must *inspect*. Today was about the first commands you run after `pd.read_csv()`.
+
+### 🔍 The Data Inspection Toolkit
+
+| Method | Purpose | What It Answers |
+| :--- | :--- | :--- |
+| `df.head()` / `df.tail()` | **Preview Data** | "What does my data look like?" |
+| `df.info()` | **Technical Summary**| "What are the column types? Is any data missing?" |
+| `df.describe()` | **Numerical Stats** | "What is the mean, min, max of my numerical columns?" |
+| `df.describe(include='object')`| **Categorical Stats** | "What are the most common text values?" |
+| `df.columns` | **Column Names** | "What are all the column names?" |
+
+### 📊 Practical Application
+```python
+# Load the data
+df = pd.read_csv('FinData.csv')
+
+# 1. Get the structure and find missing values
+df.info() 
+# Instantly reveals that 'Discount Band' has nulls.
+
+# 2. Get a feel for numerical distributions
+df.describe()
+# We can quickly see the average profit and also identify potential outliers
+# by comparing the mean to the 50% (median) and the max value.
+
+# 3. Understand categorical data
+df.describe(include='object')
+# Tells us 'Government' is the most frequent segment.
+```
+
+**💡 Key Insights:**
+- **EDA is Non-Negotiable:** Never skip these steps. A few lines of inspection code can save hours of debugging by revealing missing data, incorrect data types, or unexpected outliers early on.
+- **`.info()` is Your Best Friend:** It's the fastest way to get a high-level overview of your DataFrame's health, especially concerning null values and memory usage.
+- **Statistics Tell a Story:** `describe()` provides the first chapter of your data's story. Is the `mean` much higher than the `median` (50%)? That suggests a right-skewed distribution with high-value outliers.
+
+</details>
+
+<details>
+<summary><strong>Day 24 - August 4th, 2025: Advanced Indexing & Slicing</strong></summary>
+
+**🎯 Session Focus:** Moving beyond basic indexing to master precise data selection using `.loc[]` (label-based) and `.iloc[]` (integer-based) accessors, and applying conditional filtering.
+
+**📚 Key Concepts Learned:**
+
+Today, we learned the fundamental difference between selecting data by its *name* versus its *position*. This is a critical distinction that prevents common errors.
+
+### 📍 `.iloc` vs `.loc`: The Definitive Guide
+
+| Accessor | Selection Method | Key Characteristic | Slicing Behavior |
+| :--- | :--- | :--- | :--- |
+| **`.iloc`** | **I**nteger **LOC**ation | Uses the integer **position** of rows/columns. | `[start:stop]` (stop is **exclusive**) |
+| **`.loc`** | **LOC**ation (Label) | Uses the index **label/name**. | `[start:stop]` (stop is **inclusive**) |
+
+
+
+### 🔎 Examples in Action
+
+```python
+# --- .iloc (Position) ---
+# Select the first row (position 0)
+df.iloc[0]
+
+# Select the first 3 rows (positions 0, 1, 2)
+df.iloc[0:3]
+
+# Select the cell at the first row, second column
+df.iloc[0, 1] # Returns 22
+
+# --- .loc (Label) ---
+# First, set a meaningful index
+df_indexed = df.set_index('Name')
+
+# Select the row for 'Uwaish'
+df_indexed.loc['Uwaish']
+
+# Select the 'Age' for 'Khan'
+df_indexed.loc['Khan', 'Age'] # Returns 24
+```
+
+### ❔ Conditional Filtering (Boolean Indexing)
+This powerful technique lets you select data based on conditions.
+```python
+# Get all rows where Age is greater than 23
+condition = df['Age'] > 23
+df[condition]
+
+# A more direct way:
+df[df['Age'] > 23]
+
+# Get the 'Name' and 'Gender' for people who are 25 or younger
+df.loc[df['Age'] <= 25, ['Name', 'Gender']]
+```
+
+**💡 Key Insights:**
+- **Clarity and Precision:** Using `.loc` and `.iloc` is more explicit and less ambiguous than using basic `[]` indexing for complex selections. This makes code easier to read and debug.
+- **The Power of a Good Index:** While `.iloc` always works, `.loc` becomes incredibly powerful and intuitive when you have a meaningful index (like names, IDs, or dates) instead of the default `0, 1, 2...`.
+- **Filtering is Fundamental:** The `df[condition]` pattern is one of the most common and essential operations in all of data analysis.
+
+</details>
 
 </details>
 
@@ -213,11 +409,7 @@ Today, we officially completed the Python for Data Science foundation by masteri
 ### 🐼 1. Core Pandas Data Structures
 
 Pandas introduces two primary structures that are the bedrock of any analysis.
-```mermaid
-graph TD
-    A["Pandas Library"] --> B["Series (1D Data)"]
-    A --> C["DataFrame (2D Data)"]
-```
+
 - **`pd.Series` (1D):** A one-dimensional labeled array. Think of it as a single column of data.
   ```python
   # A Series from a list (auto-indexed)
@@ -225,8 +417,7 @@ graph TD
   
   # A Series from a dictionary (keys become the index)
   s2 = pd.Series({101: "Riyan", 102: "Amaan"})
-  ```
-- **`pd.DataFrame` (2D):** A two-dimensional table with labeled rows and columns. This is the main object we will work with. The most common creation method is from a dictionary of lists or arrays.
+  ```- **`pd.DataFrame` (2D):** A two-dimensional table with labeled rows and columns. This is the main object we will work with. The most common creation method is from a dictionary of lists or arrays.
   ```python
   di = {
       'Name': ['Riyan', 'Amaan', 'Adnan'],
@@ -351,15 +542,6 @@ This is NumPy's vectorized version of an if-else statement. It's incredibly fast
 
 **Syntax:** `np.where(condition, value_if_true, value_if_false)`
 
-```mermaid
-graph TD
-    A{Element in Array} --> B{Condition True?};
-    B -- Yes --> C[Assign `value_if_true`];
-    B -- No --> D[Assign `value_if_false`];
-    C --> E[New Array];
-    D --> E;
-```
-
 We also saw how to **nest `np.where`** to handle `if-elif-else` scenarios for more complex conditions.
 
 ### ✨ 4. Other Essential Functions
@@ -437,21 +619,6 @@ Today marked a pivotal shift in our course. We moved beyond general programming 
 
 Python's strength lies in its ecosystem of libraries. Think of Python as a university and its libraries as specialized colleges.
 
-```mermaid
-graph TD
-    subgraph "Python University"
-        A[Python Core Language]
-    end
-
-    subgraph "Specialized Colleges"
-        B(NumPy - Numerical Computing)
-        C(Pandas - Data Manipulation)
-        D(Matplotlib - Visualization)
-        E(Seaborn - Advanced Visualization)
-    end
-    A --> B & C & D & E
-```
-
 NumPy is the foundation upon which many other data science libraries are built.
 
 ### 🥊 2. Python Lists vs. NumPy Arrays
@@ -482,20 +649,6 @@ This is the most critical concept of the day. We learned to visualize arrays and
 - **2D Array (Matrix):** Rows and columns. Shape: `(rows, cols)` -> `(2, 3)`
 - **3D Array (Tensor):** Layers of 2D arrays. Shape: `(layers, rows, cols)` -> `(2, 2, 2)`
 
-```mermaid
-graph TD
-    subgraph "1D Array: Shape (4,)"
-        A --- B --- C --- D
-    end
-    subgraph "2D Array: Shape (2, 3)"
-        direction LR
-        R1[Row 1] --> C1[0 1 2]
-        R2[Row 2] --> C2[3 4 5]
-    end
-    subgraph "3D Array: Shape (2, 2, 2)"
-        L1[Layer 1: 1,1 2,2] --> L2[Layer 2: 3,3 4,4]
-    end
-```
 
 ### 🪄 5. Dynamic Creation with `.reshape()`
 
@@ -503,13 +656,6 @@ Manually typing multi-dimensional arrays is inefficient. The "dynamic" approach 
 
 **The Golden Rule of Reshaping:** The `size` of the old array must equal the product of the new shape's dimensions. (e.g., An array of size 12 can be reshaped to `(3, 4)` because 3 * 4 = 12).
 
-```mermaid
-graph TD
-    A[1D Array: range 6 - size = 6] --> B{Reshape}
-    B --> C[Shape 2,3 - 2 * 3 = 6]
-    B --> D[Shape 3,2 - 3 * 2 = 6]
-    B --> E[Shape 6,1 - 6 * 1 = 6]
-```
 
 **💡 Key Insights:**
 - **Foundation First:** Mastering NumPy is non-negotiable. Pandas DataFrames, which we'll learn next, are built on top of NumPy arrays.
