@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "29 Pandas for Data Analysis & Preprocessing"
             }
+          },
+          {
+            "id": "8ab9bfc1b57d2453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/30 Visualization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "30 Visualization"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4d248efe2046e0a4",
@@ -198,10 +211,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b750e22c362be8f",
+  "active": "8ab9bfc1b57d2453",
   "lastOpenFiles": [
-    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/30 Visualization.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/04 Pands Intoduction Part-1.ipynb",
@@ -235,7 +249,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/03 Python Fundamentals & Jupyter Mastery.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/01 Data Science Overview.md",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/2.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/1.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_2/11-DS.jpeg",
