@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4d248efe2046e0a4",
@@ -185,13 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5356c2df12278e94",
+  "active": "73ec477e0489c0a0",
   "lastOpenFiles": [
+    "Project-Architecture.md",
+    "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
     "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Hackathon.ipynb",
     "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Untitled.ipynb",
     "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Dataset/ecommerce_dataset.csv",
     "SDHub-DS/01 Foundation/Hackathon/Claude-4 sonnet.md",
-    "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
     "SDHub-DS/01 Foundation/Hackathon/ChatGPT-5.md",
     "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Practice.ipynb",
     "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Dataset/my_file (1).csv",
@@ -210,7 +210,6 @@
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/04 Pands Intoduction Part-1.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/dataset.csv",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/05 Pandas Introduction.ipynb~",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22 NumPy Operations.md",
