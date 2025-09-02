@@ -33,14 +33,12 @@ env.bak/
 venv.bak/
 
 # Data files
-*.csv
 *.json
 *.pkl
 *.h5
 *.sqlite
 *.db
 *.parquet
-*.xlsx
 
 # Model files
 *.model
@@ -72,3 +70,6 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# obsidian
+.obsidian/

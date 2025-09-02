@@ -1,0 +1,1001 @@
+ID,Name,Age,City,Product,Price,Quantity,Purchase Date,Email,Feedback
+1.0,Bob,19,New York,Shoes,135.41,2.0,2021-09-16,user0@example.com,
+2.0,Judy,twenty,,Shirt,306.92,4.0,2021-03-17,user1@example.com,Average
+3.0,Frank,47,Miami,Shirt,465.8,4.0,2022-09-28,user2@example.com,Good
+4.0,   Hannah,twenty,New York,Shoes,250.79,-1.0,invalid_date,user3@example.com,Average
+5.0,Judy,40,   ,Pants,49.18,5.0,2020-05-18,user4@example.com,Good
+6.0,Frank,,Dallas,Watch,39.74,2.0,2022-05-05,user5@example.com,
+7.0,Alice,twenty,Houston,Bag,469.74,1.0,2021-09-26,user6@example.com,Good
+8.0,Grace,twenty,Chicago,Shirt,190.84,1.0,2021-11-22,user7@example.com,Bad
+9.0,Eve,,   ,Tie,413.59,5.0,2022-08-31,user8@example.com,Average
+10.0,David,52,Chicago,Hat,29.92,,2023-05-25,user9@example.com,N/A
+11.0,Bob,,   ,Watch,158.91,5.0,2020-10-10,user10@example.com,Good
+12.0,,,New York,Socks,480.69,,2022-08-01,user11@example.com,Good
+13.0,Bob,,New York,Socks,365.33,2.0,2023-09-28,user12@example.com,
+14.0,Judy,,Chicago,Shoes,102.84,1.0,2024-01-30,user13@example.com,Average
+15.0,David,41,Dallas,Socks,131.89,4.0,2023-07-03,user14@example.com,Good
+16.0,Judy,43,Chicago,Socks,97.66,2.0,2022-04-18,,
+17.0,Judy,twenty,Los Angeles,,213.44,3.0,2022-03-20,user16@example.com,Average
+18.0,Ivan,,,Shoes,322.93,,2020-04-03,user17@example.com,Excellent   
+19.0,Alice,,   ,Socks,234.77,-1.0,2022-06-26,user18@example.com,Good
+,Alice,,Los Angeles,Shirt,442.58,2.0,2023-08-15,user19@example.com,Good
+21.0,Frank,,   ,Bag,98.39,1.0,2020-12-05,,Average
+22.0,David,twenty,San Francisco,Shoes,175.38,4.0,2023-03-17,user21@example.com,Bad
+23.0,Charlie,twenty,Dallas,Tie,499.23,5.0,2023-12-19,user22@example.com,Average
+24.0,Ivan,twenty,Los Angeles,Shirt,182.64,4.0,2023-08-14,user23@example.com,Average
+25.0,David,25,   ,Tie,495.82,5.0,2023-02-19,user24@example.com,N/A
+26.0,Bob,,Phoenix,Shoes,192.14,3.0,2023-06-21,user25@example.com,Excellent   
+27.0,   Hannah,,   ,Shirt,220.99,2.0,2020-04-18,user26@example.com,N/A
+28.0,David,,Chicago,,308.12,1.0,2022-12-04,user27@example.com,Bad
+29.0,Ivan,66,Chicago,Bag,114.82,3.0,2022-09-01,user28@example.com,Good
+30.0,David,twenty,San Francisco,Shirt,463.81,2.0,2020-02-08,user29@example.com,Excellent   
+31.0,David,,Miami,Watch,481.21,5.0,2022-12-25,user30@example.com,Average
+32.0,Frank,50,   ,Watch,204.57,1.0,2020-02-08,user31@example.com,Bad
+33.0,Charlie,20,Chicago,Tie,491.65,1.0,2021-02-25,user32@example.com,Excellent   
+34.0,Ivan,twenty,,Shirt,263.63,,2023-12-16,user33@example.com,Bad
+35.0,Alice,,Dallas,Watch,157.9,5.0,2023-04-01,user34@example.com,
+36.0,Eve,,   ,Shoes,118.72,4.0,2022-12-28,user35@example.com,N/A
+37.0,Charlie,twenty,Houston,Socks,20.63,-1.0,2022-04-02,user36@example.com,Good
+38.0,Charlie,50,Dallas,Socks,347.96,4.0,2022-10-03,user37@example.com,Average
+39.0,   Hannah,twenty,Chicago,Shoes,281.29,-1.0,2020-02-17,user38@example.com,Bad
+40.0,Eve,38,San Francisco,Shoes,463.7,,2021-01-04,user39@example.com,Good
+41.0,Charlie,twenty,Phoenix,Pants,28.49,4.0,2022-12-17,user40@example.com,
+42.0,Bob,,Phoenix,Bag,77.82,1.0,2021-06-10,user41@example.com,Average
+43.0,Judy,,Chicago,Hat,295.26,2.0,2020-07-22,user42@example.com,Bad
+44.0,Alice,twenty,Chicago,Pants,407.43,,2021-08-07,user43@example.com,Excellent   
+45.0,Charlie,,New York,Socks,205.9,2.0,2021-06-07,user44@example.com,Excellent   
+46.0,Alice,twenty,Dallas,Bag,369.79,2.0,2020-11-11,user45@example.com,
+47.0,Frank,,San Francisco,Watch,398.52,-1.0,2022-04-14,user46@example.com,
+48.0,David,70,Dallas,Pants,414.6,-1.0,2020-04-30,user47@example.com,
+49.0,Ivan,,New York,Watch,292.35,-1.0,2021-10-28,user48@example.com,Good
+50.0,Frank,61,Chicago,,301.66,3.0,2023-12-31,user49@example.com,Average
+51.0,Alice,twenty,Dallas,Shoes,368.09,3.0,2022-03-09,user50@example.com,Average
+52.0,Charlie,twenty,   ,Bag,48.45,,2020-10-18,user51@example.com,N/A
+53.0,Eve,twenty,Dallas,Bag,387.74,4.0,2021-10-25,user52@example.com,Average
+54.0,Alice,twenty,Houston,Pants,410.4,4.0,2020-09-04,user53@example.com,Bad
+55.0,Charlie,,Dallas,Shirt,435.24,2.0,2021-05-05,user54@example.com,N/A
+56.0,Mallory,twenty,Los Angeles,Shoes,121.09,4.0,2023-04-15,user55@example.com,
+57.0,Grace,54,Miami,Shoes,305.13,-1.0,2022-11-07,user56@example.com,Excellent   
+58.0,   Hannah,64,Chicago,Tie,N/A,2.0,2022-02-27,user57@example.com,Average
+59.0,Bob,,   ,Tie,197.42,5.0,2021-07-05,user58@example.com,N/A
+60.0,Mallory,twenty,Los Angeles,Socks,30.18,2.0,2022-08-09,user59@example.com,Bad
+61.0,Bob,twenty,Houston,Bag,83.29,-1.0,2020-05-14,user60@example.com,Excellent   
+62.0,,,   ,Bag,118.19,3.0,2022-04-14,user61@example.com,Bad
+63.0,,twenty,   ,Shirt,368.47,,2020-02-08,user62@example.com,Average
+64.0,Frank,33,Chicago,Watch,228.35,,2023-04-15,user63@example.com,Bad
+65.0,   Hannah,twenty,Los Angeles,Hat,257.32,2.0,2021-05-19,,
+66.0,Ivan,25,   ,,151.99,4.0,2023-08-27,,N/A
+67.0,Bob,,Miami,Hat,74.77,2.0,2021-09-15,user66@example.com,Bad
+68.0,,,New York,Socks,290.01,4.0,2022-07-02,user67@example.com,Average
+69.0,   Hannah,,Phoenix,Bag,N/A,-1.0,2023-07-26,,Average
+70.0,David,62,Houston,Pants,51.69,2.0,2020-10-18,user69@example.com,Good
+71.0,Ivan,twenty,Houston,Pants,389.17,1.0,2020-12-10,user70@example.com,Average
+72.0,Alice,twenty,Los Angeles,Pants,76.09,3.0,2023-01-05,user71@example.com,N/A
+73.0,Mallory,twenty,   ,Hat,249.05,3.0,2023-02-10,user72@example.com,Excellent   
+74.0,Judy,64,Phoenix,Tie,106.09,2.0,2020-01-03,user73@example.com,
+75.0,   Hannah,63,Los Angeles,Watch,370.48,5.0,2023-06-25,user74@example.com,N/A
+76.0,Eve,51,New York,Hat,45.11,4.0,2020-12-08,user75@example.com,Bad
+77.0,,,New York,Shirt,168.47,2.0,invalid_date,user76@example.com,
+78.0,Judy,,San Francisco,Pants,53.9,3.0,2022-09-14,,
+79.0,Alice,,Miami,Tie,217.53,5.0,2021-05-28,user78@example.com,Good
+80.0,Alice,38,San Francisco,Shoes,167.16,,2022-02-17,user79@example.com,Bad
+81.0,,twenty,Chicago,Bag,21.86,,2023-07-18,user80@example.com,N/A
+82.0,Grace,twenty,San Francisco,Shoes,493.95,4.0,2022-11-11,user81@example.com,
+83.0,Grace,twenty,Miami,Bag,495.18,1.0,2020-11-26,,Excellent   
+84.0,Judy,twenty,San Francisco,Shirt,81.45,1.0,2023-02-27,user83@example.com,Average
+85.0,Bob,twenty,   ,Watch,N/A,4.0,2020-07-02,user84@example.com,N/A
+86.0,,twenty,,Shirt,107.85,2.0,2020-09-08,user85@example.com,Excellent   
+87.0,Mallory,twenty,San Francisco,Watch,381.29,-1.0,2024-01-24,user86@example.com,Excellent   
+88.0,,48,Los Angeles,Shirt,65.06,3.0,2021-07-26,user87@example.com,Average
+89.0,Bob,,Miami,Hat,474.98,,2021-03-07,user88@example.com,
+90.0,Bob,,Dallas,Tie,435.69,4.0,2021-10-13,user89@example.com,Average
+91.0,Frank,,Houston,Shoes,16.73,,2021-12-02,user90@example.com,
+92.0,Ivan,,Chicago,,64.53,2.0,2023-12-20,user91@example.com,
+93.0,Charlie,63,Miami,,21.15,,2021-05-18,user92@example.com,
+94.0,Bob,twenty,Los Angeles,Pants,273.62,4.0,2021-10-20,,
+95.0,Charlie,,New York,Hat,266.4,,2022-07-30,,
+96.0,Eve,,Phoenix,Shirt,246.68,4.0,2021-11-03,user95@example.com,Good
+97.0,Ivan,twenty,New York,Watch,79.26,,invalid_date,user96@example.com,N/A
+98.0,Judy,,   ,Tie,19.01,5.0,2023-08-16,user97@example.com,Good
+99.0,Ivan,twenty,Phoenix,Shirt,335.13,3.0,2023-05-31,user98@example.com,
+100.0,   Hannah,twenty,Los Angeles,Hat,N/A,1.0,2020-01-20,,Good
+,Mallory,,Los Angeles,,149.17,1.0,2022-04-26,user100@example.com,Bad
+102.0,Frank,,   ,Shoes,312.8,5.0,2023-11-27,user101@example.com,N/A
+103.0,Grace,67,Chicago,Shoes,330.83,1.0,2022-03-15,user102@example.com,Average
+104.0,Ivan,36,San Francisco,,N/A,1.0,2023-08-22,user103@example.com,Bad
+105.0,   Hannah,twenty,Chicago,Tie,142.94,3.0,2023-01-08,user104@example.com,N/A
+106.0,Eve,,Los Angeles,Watch,333.45,2.0,invalid_date,user105@example.com,N/A
+107.0,,twenty,,Tie,19.35,4.0,2023-10-07,user106@example.com,Average
+108.0,   Hannah,twenty,Los Angeles,Pants,328.21,3.0,2020-09-09,user107@example.com,Bad
+109.0,Ivan,48,   ,Tie,196.54,5.0,2022-02-09,user108@example.com,N/A
+110.0,Grace,twenty,Dallas,Tie,58.81,,2022-01-03,user109@example.com,N/A
+111.0,Bob,twenty,Dallas,,434.72,-1.0,2023-11-28,user110@example.com,N/A
+112.0,Mallory,,Miami,,101.34,5.0,2020-09-12,user111@example.com,Average
+113.0,Bob,26,New York,Socks,234.41,,2021-01-30,user112@example.com,Good
+114.0,Judy,twenty,San Francisco,Pants,20.53,,2021-03-29,user113@example.com,
+115.0,Judy,55,Chicago,Shoes,269.41,-1.0,2021-07-29,user114@example.com,Bad
+116.0,   Hannah,33,Dallas,,202.77,1.0,2023-12-23,,
+117.0,Mallory,twenty,San Francisco,Hat,179.92,1.0,2020-07-03,user116@example.com,Excellent   
+118.0,David,twenty,Chicago,Hat,316.36,3.0,2023-07-04,user117@example.com,Good
+119.0,Grace,32,New York,Socks,489.34,5.0,2024-01-10,user118@example.com,
+120.0,,,Los Angeles,Watch,407.83,5.0,2022-10-08,,N/A
+121.0,David,twenty,   ,,440.55,4.0,2020-03-16,,
+122.0,Grace,48,Houston,Pants,409.28,3.0,2023-12-12,user121@example.com,Good
+123.0,Frank,61,Houston,,N/A,4.0,2021-03-04,user122@example.com,Good
+124.0,,twenty,San Francisco,Shoes,147.29,,invalid_date,user123@example.com,Good
+,Grace,,,Shoes,449.62,3.0,2023-07-31,user124@example.com,Average
+126.0,Grace,,,Shoes,53.02,2.0,2021-07-22,user125@example.com,Excellent   
+,Mallory,twenty,Phoenix,,480.7,5.0,2022-10-08,user126@example.com,Good
+128.0,Bob,,Phoenix,Watch,316.51,1.0,2021-01-31,user127@example.com,Average
+129.0,Frank,,Phoenix,Shoes,127.78,5.0,2023-03-04,user128@example.com,N/A
+130.0,Grace,59,Houston,Bag,485.56,2.0,2023-05-19,user129@example.com,Good
+131.0,Frank,67,Los Angeles,Shirt,171.35,3.0,2020-05-13,user130@example.com,Average
+132.0,Judy,twenty,New York,Pants,111.31,2.0,2020-05-13,user131@example.com,N/A
+133.0,Eve,twenty,San Francisco,Tie,275.26,5.0,2023-03-13,user132@example.com,
+134.0,Frank,twenty,Dallas,Shirt,432.67,4.0,2022-12-07,user133@example.com,Excellent   
+135.0,Charlie,20,,Watch,355.52,3.0,2021-07-15,user134@example.com,Average
+136.0,Judy,44,Miami,Pants,76.27,4.0,2023-10-20,user135@example.com,Good
+137.0,,,Chicago,Bag,488.13,2.0,invalid_date,user136@example.com,Good
+138.0,Bob,,New York,Hat,467.18,1.0,2023-10-20,user137@example.com,Excellent   
+139.0,Bob,twenty,   ,Watch,165.57,3.0,2021-06-01,user138@example.com,N/A
+140.0,Bob,36,New York,Shirt,474.81,,2022-07-18,user139@example.com,Excellent   
+141.0,Bob,,San Francisco,Shirt,165.62,5.0,invalid_date,user140@example.com,N/A
+142.0,Grace,twenty,Los Angeles,Shoes,366.27,4.0,2023-10-10,user141@example.com,Excellent   
+143.0,Bob,,Phoenix,Bag,441.26,2.0,2020-04-16,user142@example.com,Excellent   
+144.0,Mallory,,Dallas,Shoes,211.51,3.0,2021-10-23,user143@example.com,Good
+145.0,Mallory,twenty,Miami,Tie,467.55,1.0,2022-04-13,user144@example.com,Excellent   
+146.0,Frank,,Houston,Tie,467.29,3.0,2023-10-24,user145@example.com,Bad
+147.0,Charlie,twenty,Los Angeles,Socks,391.76,1.0,2022-10-11,user146@example.com,N/A
+148.0,   Hannah,,New York,Tie,100.53,2.0,2020-03-30,user147@example.com,Bad
+149.0,Alice,30,Houston,Hat,309.87,4.0,2021-04-04,user148@example.com,N/A
+150.0,Ivan,39,Chicago,Shoes,287.85,-1.0,invalid_date,user149@example.com,Excellent   
+151.0,   Hannah,,Phoenix,Bag,123.77,-1.0,2022-12-26,user150@example.com,
+152.0,   Hannah,,Los Angeles,Watch,186.04,3.0,2020-01-11,user151@example.com,Bad
+153.0,Frank,63,Miami,Bag,243.54,,2021-11-16,user152@example.com,Bad
+154.0,Judy,twenty,Los Angeles,Bag,306.31,3.0,2023-03-17,user153@example.com,Excellent   
+155.0,Bob,,Phoenix,Shoes,193.24,4.0,2021-04-07,user154@example.com,Excellent   
+156.0,Grace,twenty,San Francisco,Pants,250.81,3.0,2022-05-17,user155@example.com,Bad
+157.0,Frank,66,Miami,,104.7,3.0,2021-05-26,user156@example.com,Average
+158.0,Judy,twenty,Miami,Socks,N/A,5.0,2021-11-05,user157@example.com,Excellent   
+159.0,Grace,,Phoenix,Hat,17.36,-1.0,2023-07-06,user158@example.com,Average
+160.0,Mallory,,Los Angeles,Tie,212.39,-1.0,2020-02-27,user159@example.com,Excellent   
+161.0,Alice,,,Watch,494.24,3.0,2020-02-19,user160@example.com,Good
+162.0,Eve,,San Francisco,Pants,42.41,5.0,2023-07-06,user161@example.com,
+163.0,Ivan,60,Chicago,Shoes,492.96,3.0,2021-05-27,user162@example.com,N/A
+164.0,Eve,29,   ,Bag,250.07,4.0,2022-08-27,user163@example.com,Excellent   
+165.0,Frank,,San Francisco,Bag,234.2,2.0,2021-11-28,user164@example.com,Bad
+166.0,Bob,33,   ,Shirt,208.38,3.0,2021-11-14,user165@example.com,Good
+167.0,Ivan,,Chicago,Socks,N/A,,2021-04-29,user166@example.com,Good
+168.0,   Hannah,,Miami,,196.38,4.0,2023-05-13,user167@example.com,Good
+169.0,David,,New York,Bag,309.64,-1.0,2020-07-14,user168@example.com,Bad
+170.0,Charlie,,Phoenix,Shoes,300.96,2.0,2023-03-31,,N/A
+171.0,Judy,twenty,Miami,Hat,439.13,5.0,2020-05-04,user170@example.com,Good
+172.0,,54,Miami,Tie,265.12,-1.0,2022-02-11,user171@example.com,N/A
+173.0,David,twenty,Phoenix,Pants,415.23,,2023-11-21,user172@example.com,Good
+174.0,Bob,twenty,Houston,Bag,N/A,,2020-09-18,user173@example.com,Bad
+175.0,Frank,33,Phoenix,Pants,264.16,-1.0,2022-06-24,user174@example.com,Bad
+176.0,   Hannah,60,Dallas,Shoes,370.23,4.0,2023-06-04,,Good
+177.0,Frank,,New York,Pants,262.9,1.0,2020-05-14,user176@example.com,
+178.0,Bob,,Chicago,Pants,34.15,2.0,2020-04-24,user177@example.com,Good
+179.0,Eve,twenty,Los Angeles,Tie,205.04,2.0,2021-08-26,user178@example.com,N/A
+180.0,Ivan,,Los Angeles,Tie,415.53,1.0,2022-04-02,user179@example.com,
+181.0,David,62,   ,Pants,217.01,2.0,2022-04-21,user180@example.com,
+182.0,Grace,,,Shoes,36.73,2.0,2023-05-12,user181@example.com,Good
+183.0,   Hannah,twenty,San Francisco,,79.7,1.0,2023-07-01,user182@example.com,Good
+184.0,Ivan,32,Dallas,Shoes,231.33,4.0,invalid_date,user183@example.com,Average
+185.0,Ivan,,Houston,Hat,65.45,3.0,2022-05-26,user184@example.com,
+186.0,Judy,,,Shoes,469.54,2.0,2023-06-22,user185@example.com,
+187.0,Judy,twenty,New York,Hat,76.3,,2023-08-26,user186@example.com,Bad
+188.0,   Hannah,,San Francisco,Shirt,230.93,4.0,2020-02-23,user187@example.com,Bad
+189.0,Alice,twenty,,Watch,299.25,4.0,2021-11-03,user188@example.com,N/A
+190.0,Ivan,twenty,San Francisco,,108.95,1.0,2020-08-09,user189@example.com,Average
+191.0,Judy,twenty,,Hat,132.54,4.0,2023-05-03,user190@example.com,N/A
+192.0,Mallory,70,Miami,Shoes,454.51,1.0,2023-04-29,user191@example.com,Excellent   
+193.0,Eve,66,Dallas,Hat,362.0,4.0,2021-01-31,user192@example.com,
+194.0,Alice,twenty,Houston,Bag,65.94,3.0,2020-09-15,user193@example.com,Excellent   
+195.0,Charlie,68,Miami,,187.84,,2021-06-08,user194@example.com,N/A
+196.0,Eve,,Phoenix,Socks,198.2,5.0,2022-09-12,user195@example.com,Good
+197.0,Mallory,twenty,Los Angeles,Shoes,260.72,4.0,2022-06-29,user196@example.com,
+198.0,Eve,41,San Francisco,Shoes,195.55,4.0,2020-10-08,user197@example.com,Bad
+199.0,Frank,54,New York,Shoes,386.45,4.0,2020-05-03,user198@example.com,Excellent   
+200.0,Frank,twenty,,Shoes,287.09,1.0,2023-04-12,user199@example.com,Good
+201.0,Alice,50,Dallas,,83.54,-1.0,2023-08-27,user200@example.com,Bad
+202.0,Charlie,twenty,,Shirt,97.64,,2021-09-29,user201@example.com,Bad
+203.0,Charlie,27,Dallas,Bag,215.6,-1.0,2023-01-13,,Excellent   
+204.0,Ivan,twenty,Dallas,Watch,386.63,2.0,2020-10-28,user203@example.com,Excellent   
+205.0,Judy,46,Chicago,Watch,316.96,1.0,2023-05-20,user204@example.com,Bad
+206.0,Grace,61,Los Angeles,Tie,74.47,3.0,2022-01-25,user205@example.com,Bad
+207.0,Bob,twenty,Miami,Bag,315.05,1.0,2022-11-26,user206@example.com,N/A
+208.0,Charlie,49,Chicago,Tie,234.73,2.0,2023-10-21,user207@example.com,Excellent   
+209.0,Mallory,,Chicago,Pants,276.32,-1.0,2021-05-01,user208@example.com,Excellent   
+210.0,Judy,69,Houston,Socks,N/A,3.0,2023-02-19,user209@example.com,N/A
+211.0,Alice,47,Houston,Socks,126.56,2.0,2022-05-14,user210@example.com,Bad
+212.0,Bob,,Chicago,,243.1,-1.0,2021-02-14,,
+213.0,Mallory,twenty,New York,Tie,48.91,2.0,2021-02-16,user212@example.com,
+214.0,   Hannah,twenty,San Francisco,Shirt,129.91,,2021-11-30,user213@example.com,Average
+215.0,David,twenty,Los Angeles,Bag,313.69,5.0,2022-09-01,user214@example.com,Average
+216.0,Grace,,San Francisco,Watch,414.37,-1.0,2022-08-15,user215@example.com,Excellent   
+217.0,Grace,64,Houston,Socks,N/A,3.0,2021-11-09,user216@example.com,Good
+218.0,,,Chicago,Hat,330.11,5.0,2023-03-05,user217@example.com,N/A
+219.0,Frank,70,Dallas,Bag,N/A,,2023-06-15,user218@example.com,
+220.0,Charlie,65,Phoenix,Socks,336.83,5.0,2021-11-04,user219@example.com,Average
+221.0,Frank,55,   ,,156.24,2.0,2022-07-19,user220@example.com,Excellent   
+222.0,Eve,,Los Angeles,,34.03,5.0,2020-03-27,user221@example.com,Average
+223.0,Mallory,twenty,Los Angeles,Shoes,97.34,1.0,2020-01-08,user222@example.com,
+224.0,Frank,twenty,San Francisco,Shoes,309.43,5.0,2023-11-20,,
+225.0,Ivan,21,,Tie,301.53,-1.0,2023-07-01,user224@example.com,Excellent   
+226.0,Ivan,48,San Francisco,Shoes,96.94,5.0,2022-09-11,,Good
+227.0,Bob,,,Bag,293.69,2.0,2021-11-09,user226@example.com,
+228.0,Alice,29,   ,Pants,55.63,4.0,2022-02-08,user227@example.com,
+229.0,Charlie,twenty,Phoenix,Shoes,190.6,1.0,2021-01-12,user228@example.com,
+230.0,Charlie,twenty,,Pants,43.16,2.0,2020-01-14,user229@example.com,Bad
+231.0,Ivan,,Miami,Hat,279.73,-1.0,2020-05-31,user230@example.com,Good
+232.0,Alice,,New York,Shirt,75.93,4.0,2023-02-10,user231@example.com,Average
+233.0,Judy,,Dallas,Bag,144.47,,2021-08-18,user232@example.com,
+234.0,Bob,twenty,Dallas,Watch,267.08,1.0,2023-07-16,user233@example.com,Good
+235.0,Eve,twenty,,Hat,309.91,3.0,2022-01-07,user234@example.com,N/A
+236.0,,twenty,San Francisco,Pants,367.57,1.0,invalid_date,user235@example.com,
+237.0,Judy,40,Los Angeles,Pants,493.72,3.0,invalid_date,user236@example.com,Good
+238.0,Grace,twenty,San Francisco,Pants,347.44,,2020-12-22,user237@example.com,N/A
+239.0,,twenty,Chicago,,493.28,,2021-06-20,user238@example.com,Average
+240.0,Ivan,twenty,Chicago,Tie,308.33,1.0,2021-11-26,user239@example.com,Good
+241.0,,32,Dallas,Shirt,267.44,4.0,2021-05-18,user240@example.com,Excellent   
+242.0,Grace,66,Dallas,Hat,183.39,3.0,2020-02-14,,Excellent   
+243.0,Eve,,Dallas,Socks,285.69,5.0,2021-06-20,user242@example.com,Excellent   
+244.0,David,twenty,Los Angeles,,319.61,1.0,2020-02-12,user243@example.com,N/A
+245.0,   Hannah,,Los Angeles,Shirt,98.15,-1.0,2020-10-08,user244@example.com,
+246.0,Bob,,Dallas,Shoes,357.21,3.0,2020-08-15,user245@example.com,Good
+247.0,Frank,70,Los Angeles,Shoes,10.77,2.0,2021-03-06,,Average
+248.0,Grace,,Phoenix,Shoes,N/A,1.0,2021-05-06,user247@example.com,Bad
+249.0,Bob,40,,Hat,67.78,1.0,2022-02-01,user248@example.com,
+250.0,Eve,35,   ,Tie,401.79,4.0,2022-12-15,user249@example.com,Excellent   
+251.0,Judy,64,San Francisco,Pants,212.88,-1.0,2023-06-30,user250@example.com,
+252.0,Judy,twenty,Phoenix,Socks,284.6,,2023-12-27,,Average
+253.0,Ivan,twenty,San Francisco,Shoes,15.54,,2020-10-22,user252@example.com,Good
+254.0,,67,Miami,Hat,148.0,4.0,2020-09-24,user253@example.com,Bad
+255.0,   Hannah,33,Dallas,Shoes,160.81,4.0,2021-01-27,user254@example.com,Average
+256.0,Judy,22,Dallas,Pants,168.72,,2023-11-23,user255@example.com,N/A
+257.0,Eve,56,Miami,Tie,N/A,3.0,2023-05-12,user256@example.com,N/A
+258.0,Alice,twenty,New York,Tie,177.27,5.0,2023-07-26,,Bad
+259.0,David,twenty,Chicago,Pants,311.84,,2020-04-04,user258@example.com,Average
+260.0,Grace,21,Phoenix,Pants,N/A,1.0,2023-04-17,user259@example.com,Excellent   
+261.0,Ivan,65,San Francisco,Bag,171.95,3.0,2023-01-01,user260@example.com,N/A
+262.0,Alice,,Chicago,Shoes,339.51,1.0,2020-10-31,user261@example.com,
+263.0,Alice,twenty,Dallas,Tie,400.65,,2020-04-19,user262@example.com,N/A
+264.0,David,31,Dallas,Pants,245.93,5.0,2021-07-27,user263@example.com,Good
+265.0,Eve,twenty,San Francisco,Shoes,447.11,4.0,2022-11-06,user264@example.com,Bad
+266.0,David,36,New York,Pants,174.2,3.0,2022-09-28,user265@example.com,Excellent   
+267.0,Charlie,twenty,San Francisco,Watch,212.84,,2020-06-15,user266@example.com,Bad
+268.0,Eve,,   ,Pants,419.2,,2023-09-20,user267@example.com,Average
+269.0,Eve,twenty,Houston,Bag,365.23,-1.0,2020-12-08,user268@example.com,Excellent   
+,Frank,twenty,New York,Socks,272.58,5.0,2023-08-14,,Excellent   
+271.0,Bob,,Miami,Tie,345.89,2.0,2022-02-05,user270@example.com,N/A
+272.0,Alice,,Phoenix,Tie,445.13,2.0,2022-08-08,user271@example.com,Average
+273.0,,twenty,   ,Shoes,485.11,-1.0,2023-12-30,user272@example.com,
+274.0,Mallory,51,New York,Watch,25.27,1.0,2023-11-23,user273@example.com,Excellent   
+275.0,Grace,,   ,Shirt,316.99,-1.0,2022-10-10,user274@example.com,Bad
+276.0,Charlie,35,Phoenix,Hat,289.78,,2023-04-05,,Average
+277.0,Charlie,twenty,Phoenix,Shoes,301.64,3.0,2023-04-10,user276@example.com,Excellent   
+278.0,Grace,65,Phoenix,Tie,378.25,3.0,2021-02-28,,Average
+279.0,   Hannah,twenty,Miami,Shoes,164.1,-1.0,2021-02-19,user278@example.com,
+280.0,Mallory,twenty,Los Angeles,Shoes,N/A,1.0,2021-04-25,user279@example.com,Good
+281.0,David,49,Houston,Pants,253.56,,2021-09-18,,Excellent   
+282.0,   Hannah,twenty,Chicago,Hat,231.43,1.0,2022-02-11,,
+283.0,   Hannah,,Phoenix,Socks,115.91,5.0,2022-02-05,user282@example.com,
+284.0,Judy,twenty,Miami,Tie,64.99,5.0,2020-06-22,user283@example.com,
+285.0,Frank,twenty,   ,Pants,391.12,4.0,2020-06-21,user284@example.com,N/A
+286.0,Bob,,Phoenix,Tie,227.45,1.0,2022-11-28,user285@example.com,Excellent   
+287.0,Grace,,San Francisco,Pants,N/A,4.0,2023-04-10,user286@example.com,Bad
+288.0,Mallory,42,Dallas,Tie,255.03,3.0,invalid_date,user287@example.com,N/A
+289.0,Alice,twenty,Los Angeles,Bag,462.58,2.0,2021-11-19,user288@example.com,Excellent   
+290.0,Grace,48,Houston,Watch,266.58,2.0,2022-08-15,user289@example.com,N/A
+,Alice,,Miami,Pants,80.21,-1.0,2022-01-22,user290@example.com,Excellent   
+292.0,,63,Houston,,412.85,-1.0,2021-10-11,user291@example.com,N/A
+293.0,Bob,,San Francisco,Shoes,341.59,4.0,2020-02-20,user292@example.com,Average
+294.0,Frank,twenty,Miami,Tie,365.04,1.0,2021-04-23,user293@example.com,Bad
+295.0,Ivan,,,Tie,359.7,1.0,2020-06-04,user294@example.com,Excellent   
+296.0,Grace,twenty,   ,Shirt,12.01,-1.0,2020-06-17,user295@example.com,Average
+297.0,Ivan,,New York,Hat,346.66,2.0,2022-10-24,user296@example.com,N/A
+,Grace,,,Socks,52.67,2.0,2023-08-11,,N/A
+299.0,Mallory,,Chicago,Socks,32.61,4.0,2021-07-20,user298@example.com,Average
+300.0,Judy,59,Los Angeles,Pants,332.9,-1.0,2020-07-20,user299@example.com,N/A
+301.0,Grace,,Phoenix,Shirt,293.0,4.0,2022-01-07,user300@example.com,N/A
+302.0,Eve,twenty,,Shoes,447.15,3.0,invalid_date,,
+303.0,Bob,64,San Francisco,Hat,104.35,,2021-02-06,user302@example.com,Good
+304.0,Grace,,Chicago,Bag,166.38,-1.0,2021-05-27,user303@example.com,Good
+305.0,Alice,twenty,,Bag,67.65,,2023-10-31,,Good
+306.0,Frank,twenty,Dallas,Socks,144.08,2.0,2021-01-25,user305@example.com,Excellent   
+307.0,Charlie,20,New York,Pants,N/A,1.0,2020-10-09,user306@example.com,Bad
+308.0,Ivan,twenty,Chicago,Tie,261.89,3.0,2024-01-06,user307@example.com,Bad
+309.0,,twenty,Houston,Shirt,181.66,4.0,2021-06-18,user308@example.com,Good
+310.0,Mallory,53,Houston,Pants,79.36,-1.0,invalid_date,user309@example.com,Excellent   
+311.0,Frank,48,New York,Shoes,148.8,4.0,2021-12-10,user310@example.com,Good
+312.0,Bob,,Houston,Tie,44.91,,2022-04-07,user311@example.com,
+313.0,Grace,18,New York,Tie,175.98,-1.0,2023-04-02,user312@example.com,Excellent   
+314.0,Bob,twenty,Miami,Shoes,73.74,3.0,2020-01-25,user313@example.com,
+315.0,David,twenty,New York,Bag,340.99,,2022-11-15,user314@example.com,Average
+316.0,Grace,,   ,Bag,36.36,5.0,2020-11-01,user315@example.com,Bad
+317.0,Ivan,twenty,Houston,Shirt,97.7,2.0,2021-04-11,user316@example.com,Excellent   
+318.0,Grace,twenty,Phoenix,Shirt,300.45,3.0,2021-03-05,user317@example.com,Bad
+319.0,   Hannah,,   ,Shoes,352.69,,2022-11-22,user318@example.com,Good
+320.0,Bob,twenty,Miami,Pants,163.1,1.0,2023-02-05,user319@example.com,Bad
+321.0,Grace,,,Tie,359.32,-1.0,2024-01-19,user320@example.com,Excellent   
+322.0,Eve,,San Francisco,Bag,271.41,3.0,2021-11-28,user321@example.com,
+323.0,Mallory,twenty,Los Angeles,Shoes,380.31,5.0,2021-10-03,user322@example.com,
+324.0,Frank,,New York,Socks,74.58,2.0,2022-05-28,,Good
+325.0,David,,Houston,Bag,460.65,4.0,2023-11-30,user324@example.com,Good
+326.0,Frank,,   ,Socks,233.24,4.0,2022-06-17,user325@example.com,N/A
+327.0,Charlie,47,Miami,,358.01,4.0,2023-02-17,user326@example.com,Average
+328.0,Bob,twenty,Dallas,Shoes,123.53,4.0,invalid_date,user327@example.com,Good
+329.0,   Hannah,,Miami,Bag,431.94,3.0,2020-09-19,user328@example.com,Good
+330.0,Judy,,Chicago,Socks,457.3,5.0,2020-01-20,user329@example.com,Excellent   
+331.0,Bob,,Miami,Hat,352.81,5.0,2023-09-11,user330@example.com,Good
+332.0,   Hannah,twenty,Dallas,Shoes,396.5,4.0,2021-11-26,user331@example.com,
+333.0,   Hannah,twenty,,Socks,232.11,1.0,2022-05-21,,Average
+334.0,David,27,   ,,N/A,-1.0,2022-04-06,,N/A
+335.0,Frank,twenty,   ,Tie,182.21,4.0,2023-11-15,user334@example.com,Excellent   
+336.0,Frank,twenty,Chicago,Tie,93.69,-1.0,2021-10-29,user335@example.com,Good
+337.0,Mallory,,Phoenix,Shirt,306.18,3.0,2023-03-08,user336@example.com,Bad
+338.0,Judy,36,Los Angeles,Socks,60.44,5.0,2020-10-11,user337@example.com,Average
+339.0,Charlie,,Phoenix,Pants,400.41,2.0,2021-11-07,user338@example.com,Good
+340.0,David,,New York,Watch,328.23,4.0,2023-05-19,user339@example.com,Excellent   
+341.0,Bob,54,San Francisco,Shoes,271.05,,2023-03-21,user340@example.com,
+342.0,Charlie,twenty,New York,Hat,212.59,4.0,2022-02-19,user341@example.com,
+343.0,Eve,twenty,Chicago,Shirt,278.5,1.0,2022-03-11,user342@example.com,Bad
+344.0,David,,Dallas,Watch,198.07,1.0,2022-03-02,,Excellent   
+345.0,Charlie,,Houston,Tie,408.82,5.0,2020-08-10,user344@example.com,N/A
+346.0,Ivan,twenty,Houston,Bag,394.31,3.0,2022-07-13,user345@example.com,N/A
+347.0,Charlie,,Houston,Socks,395.79,4.0,2021-09-15,,Bad
+348.0,Judy,47,Houston,Watch,125.72,,2020-08-01,user347@example.com,Bad
+349.0,Bob,,Phoenix,Hat,48.17,2.0,2020-12-29,user348@example.com,Average
+350.0,Charlie,28,San Francisco,Shoes,291.35,,invalid_date,user349@example.com,
+351.0,Judy,twenty,,Shoes,300.16,,2022-09-27,user350@example.com,
+352.0,,49,New York,Tie,281.99,,invalid_date,user351@example.com,Excellent   
+353.0,,twenty,New York,Bag,96.33,2.0,2022-03-01,user352@example.com,Average
+354.0,Ivan,twenty,Miami,Shirt,44.11,4.0,2021-04-22,user353@example.com,Bad
+355.0,Ivan,20,Chicago,Bag,408.89,5.0,2022-12-09,user354@example.com,Bad
+356.0,,twenty,Chicago,Shoes,195.67,,2020-04-27,user355@example.com,Excellent   
+357.0,Judy,21,Dallas,Socks,333.48,,2020-01-23,user356@example.com,Bad
+358.0,Ivan,44,New York,Hat,410.35,5.0,2022-04-21,user357@example.com,
+359.0,Judy,58,Houston,,452.6,1.0,2020-08-14,user358@example.com,N/A
+360.0,Judy,twenty,Phoenix,Socks,10.09,3.0,2022-05-06,user359@example.com,Bad
+361.0,Ivan,27,Dallas,,83.12,4.0,2020-05-20,user360@example.com,Good
+362.0,Frank,twenty,Phoenix,Shirt,201.09,4.0,2021-02-26,user361@example.com,N/A
+363.0,Judy,,Phoenix,Pants,105.88,1.0,2021-02-25,user362@example.com,Good
+364.0,Frank,twenty,San Francisco,Socks,165.13,-1.0,2023-12-24,user363@example.com,Excellent   
+365.0,Charlie,twenty,San Francisco,Tie,457.47,4.0,2020-11-21,user364@example.com,Excellent   
+366.0,,,   ,Watch,472.23,3.0,2021-09-27,user365@example.com,Good
+367.0,Bob,,Miami,Watch,491.46,2.0,2022-10-26,,Bad
+368.0,,19,Phoenix,Bag,53.75,2.0,2022-07-28,user367@example.com,Good
+,,twenty,Houston,Socks,N/A,,2020-01-16,user368@example.com,Bad
+370.0,Judy,44,Miami,Tie,208.06,3.0,2022-07-01,user369@example.com,Good
+371.0,Eve,twenty,Phoenix,,154.15,-1.0,2022-03-28,user370@example.com,Average
+372.0,Eve,,,Tie,278.95,2.0,2021-05-20,,
+373.0,Ivan,,Dallas,Watch,354.64,5.0,2023-03-11,user372@example.com,N/A
+374.0,Alice,twenty,San Francisco,Socks,186.03,4.0,2022-07-31,,N/A
+375.0,Frank,twenty,Dallas,Hat,434.18,3.0,2020-03-21,user374@example.com,Good
+376.0,   Hannah,,Los Angeles,Socks,354.09,5.0,2021-08-12,user375@example.com,Average
+377.0,Bob,69,New York,Bag,165.88,1.0,2022-07-23,user376@example.com,Bad
+378.0,Eve,24,,Bag,196.97,5.0,2023-12-28,user377@example.com,Excellent   
+379.0,,51,   ,Shoes,334.62,1.0,2022-03-11,user378@example.com,Excellent   
+380.0,,33,,Pants,102.23,1.0,2020-12-24,user379@example.com,Excellent   
+381.0,Alice,twenty,Dallas,,463.0,5.0,2021-01-02,user380@example.com,Excellent   
+382.0,Alice,,Dallas,Bag,85.59,1.0,2022-06-03,user381@example.com,N/A
+383.0,Frank,,Phoenix,Bag,338.33,5.0,2023-09-11,user382@example.com,
+384.0,Eve,,Phoenix,Shoes,45.16,4.0,2023-03-10,user383@example.com,Bad
+385.0,Bob,,Los Angeles,Watch,N/A,4.0,2023-12-01,user384@example.com,Bad
+386.0,Judy,54,Miami,Watch,248.48,1.0,2021-05-05,user385@example.com,N/A
+387.0,Bob,62,Los Angeles,Tie,495.21,4.0,2020-11-19,user386@example.com,
+388.0,Ivan,twenty,   ,,324.7,,2023-07-10,user387@example.com,N/A
+389.0,Ivan,70,Phoenix,Socks,233.45,,2023-09-27,user388@example.com,Average
+390.0,   Hannah,twenty,   ,Pants,306.17,5.0,2023-11-30,user389@example.com,Average
+391.0,Grace,66,Phoenix,Shirt,98.1,-1.0,2021-03-20,user390@example.com,N/A
+392.0,,,Phoenix,Hat,280.5,3.0,2022-04-22,user391@example.com,N/A
+393.0,Ivan,,Phoenix,Shoes,184.1,3.0,2023-02-06,user392@example.com,Bad
+394.0,   Hannah,,Houston,Pants,306.24,3.0,2022-01-25,user393@example.com,Good
+,Mallory,twenty,Chicago,Shirt,424.93,5.0,2020-08-03,user394@example.com,
+396.0,Alice,twenty,,Hat,255.85,1.0,2021-10-29,user395@example.com,
+397.0,,28,Houston,Bag,277.62,-1.0,2020-12-03,,Excellent   
+398.0,Ivan,,New York,Socks,489.33,5.0,2022-11-02,user397@example.com,
+399.0,Judy,,Dallas,,355.39,1.0,invalid_date,user398@example.com,Good
+400.0,David,54,San Francisco,Bag,245.95,1.0,invalid_date,user399@example.com,N/A
+401.0,Frank,51,   ,Tie,79.62,,2023-10-15,user400@example.com,Good
+402.0,Ivan,32,Chicago,Shoes,491.95,,2022-02-19,user401@example.com,Bad
+403.0,,twenty,New York,Pants,391.65,4.0,2022-03-28,user402@example.com,N/A
+404.0,   Hannah,,Miami,Socks,48.33,2.0,2022-03-23,user403@example.com,Average
+405.0,Charlie,20,Phoenix,Shoes,53.34,-1.0,invalid_date,user404@example.com,Good
+406.0,Alice,,Phoenix,Shirt,373.43,2.0,2023-12-23,user405@example.com,Good
+407.0,,twenty,San Francisco,Pants,48.26,-1.0,2021-10-31,user406@example.com,
+408.0,Bob,60,San Francisco,Shoes,401.07,4.0,2022-08-08,user407@example.com,Bad
+409.0,Frank,,San Francisco,Tie,35.86,1.0,2020-05-19,user408@example.com,Good
+410.0,Mallory,19,New York,Socks,391.48,1.0,2023-09-07,user409@example.com,N/A
+411.0,Bob,55,Dallas,Shirt,261.2,4.0,2022-06-15,,N/A
+412.0,   Hannah,twenty,Dallas,Shirt,369.57,,2021-07-25,user411@example.com,Average
+413.0,Judy,,Houston,Watch,480.68,3.0,2020-12-15,user412@example.com,Good
+414.0,Charlie,,   ,Hat,151.71,3.0,2023-05-28,user413@example.com,Bad
+415.0,Alice,twenty,Houston,,N/A,5.0,2021-08-25,user414@example.com,Average
+416.0,David,twenty,,Shirt,377.22,,2022-03-11,user415@example.com,Average
+417.0,Mallory,twenty,Miami,Tie,286.22,4.0,2023-10-07,,
+418.0,,,   ,Shoes,241.85,-1.0,2023-10-19,user417@example.com,Excellent   
+419.0,,twenty,,Socks,35.29,,2022-06-21,user418@example.com,Average
+420.0,   Hannah,twenty,Phoenix,Socks,406.36,4.0,2021-03-19,user419@example.com,Good
+421.0,   Hannah,64,Chicago,Tie,150.54,5.0,2023-10-14,user420@example.com,Bad
+422.0,Ivan,twenty,,Bag,257.74,-1.0,2022-06-24,user421@example.com,Average
+423.0,Charlie,40,Chicago,Watch,146.15,3.0,2023-07-24,user422@example.com,Good
+424.0,Frank,,Phoenix,Tie,147.68,3.0,2023-08-05,,N/A
+425.0,Frank,32,Los Angeles,Shoes,16.96,-1.0,2023-09-13,user424@example.com,N/A
+426.0,Eve,twenty,Miami,Pants,95.56,-1.0,2022-03-10,user425@example.com,Bad
+427.0,Grace,twenty,Chicago,Shoes,84.06,2.0,2022-06-28,user426@example.com,N/A
+,Grace,,Phoenix,Shoes,405.84,2.0,2020-01-10,user427@example.com,N/A
+429.0,Frank,,,Shoes,353.38,2.0,invalid_date,user428@example.com,N/A
+430.0,Judy,twenty,Chicago,Hat,401.69,1.0,2021-02-17,user429@example.com,Average
+431.0,Ivan,,   ,Bag,178.0,,2022-02-06,,
+432.0,Alice,49,Los Angeles,Watch,81.08,5.0,2021-02-13,user431@example.com,N/A
+433.0,Judy,twenty,Houston,Hat,85.53,3.0,2022-05-13,user432@example.com,Good
+434.0,Judy,,   ,Shoes,496.86,-1.0,invalid_date,user433@example.com,N/A
+435.0,Frank,twenty,Houston,Tie,126.59,,invalid_date,user434@example.com,Excellent   
+436.0,Bob,twenty,Phoenix,Bag,322.41,1.0,2023-10-24,user435@example.com,Good
+437.0,Frank,42,San Francisco,Bag,369.84,4.0,2021-03-27,user436@example.com,N/A
+438.0,Bob,twenty,   ,Hat,324.71,5.0,2020-07-16,user437@example.com,
+439.0,   Hannah,36,   ,Tie,66.84,1.0,2023-09-22,user438@example.com,Average
+440.0,Judy,63,Phoenix,Pants,205.38,1.0,2020-12-08,user439@example.com,Excellent   
+441.0,Grace,,Dallas,Shoes,375.61,4.0,invalid_date,user440@example.com,Good
+442.0,Eve,,Phoenix,,270.94,1.0,2021-10-31,user441@example.com,Good
+443.0,Eve,twenty,Miami,Hat,355.75,1.0,2023-07-07,user442@example.com,Average
+444.0,Mallory,twenty,Los Angeles,Shoes,81.12,2.0,2021-02-28,user443@example.com,
+445.0,Judy,,Miami,Pants,15.81,,2022-03-20,user444@example.com,Average
+446.0,Ivan,41,New York,Shirt,229.92,4.0,2020-09-04,user445@example.com,Bad
+447.0,Charlie,23,Dallas,Watch,481.26,4.0,2020-08-04,user446@example.com,Average
+448.0,Frank,,Dallas,Socks,30.1,,2020-12-21,user447@example.com,Good
+449.0,Bob,,Dallas,,322.34,4.0,invalid_date,user448@example.com,Bad
+450.0,Ivan,24,Los Angeles,Socks,221.58,-1.0,2020-01-25,user449@example.com,Bad
+451.0,Judy,23,Miami,Socks,430.59,,2022-07-28,user450@example.com,N/A
+452.0,Charlie,,Houston,Tie,140.87,,2023-09-09,user451@example.com,Excellent   
+453.0,Frank,twenty,,Hat,330.63,5.0,2023-08-24,user452@example.com,Average
+454.0,Eve,,Los Angeles,Bag,388.84,,2020-03-30,user453@example.com,Excellent   
+455.0,Judy,24,San Francisco,Shoes,369.81,4.0,2021-03-23,user454@example.com,Good
+456.0,Mallory,,,Shirt,105.51,3.0,2023-05-11,user455@example.com,Bad
+457.0,Judy,53,Phoenix,Shirt,348.24,5.0,2020-07-27,,
+458.0,Grace,twenty,San Francisco,Bag,278.33,-1.0,2023-03-11,user457@example.com,Good
+459.0,Charlie,,New York,Watch,417.53,5.0,2020-07-13,user458@example.com,N/A
+460.0,Ivan,42,Chicago,Bag,N/A,3.0,2023-07-16,user459@example.com,N/A
+461.0,Mallory,,Chicago,Tie,60.91,,2023-10-20,user460@example.com,Excellent   
+462.0,Bob,42,Houston,,117.51,,2023-11-21,user461@example.com,Good
+463.0,Eve,twenty,   ,,104.61,,2020-12-25,user462@example.com,Average
+464.0,   Hannah,twenty,San Francisco,Watch,N/A,,2023-11-09,user463@example.com,Good
+465.0,Grace,51,Dallas,Hat,469.87,4.0,2023-09-26,user464@example.com,
+466.0,Judy,,Miami,Tie,419.37,-1.0,2021-11-17,user465@example.com,N/A
+467.0,Frank,28,Chicago,Hat,322.66,3.0,invalid_date,user466@example.com,Excellent   
+468.0,Charlie,,   ,Shoes,68.79,1.0,2022-07-08,user467@example.com,N/A
+469.0,Judy,,Chicago,Socks,73.65,2.0,2023-08-04,user468@example.com,Good
+470.0,Mallory,27,Los Angeles,Tie,450.95,2.0,2022-10-28,user469@example.com,N/A
+471.0,Mallory,,Miami,Shoes,483.91,1.0,2020-01-28,user470@example.com,
+472.0,Judy,,   ,Watch,350.87,2.0,2023-06-16,,Bad
+473.0,   Hannah,,Chicago,Pants,238.81,1.0,2020-09-11,user472@example.com,Average
+474.0,Bob,68,   ,Socks,323.0,-1.0,2022-05-27,user473@example.com,Excellent   
+475.0,Judy,,New York,Bag,145.43,1.0,2023-06-23,user474@example.com,Good
+476.0,Judy,twenty,New York,Shirt,452.66,,2020-10-08,user475@example.com,Good
+477.0,Grace,,Miami,Bag,168.47,2.0,2021-08-30,user476@example.com,Good
+478.0,   Hannah,twenty,Phoenix,Shirt,46.26,-1.0,2022-02-08,user477@example.com,
+479.0,Frank,,Houston,Bag,197.57,1.0,2020-03-18,user478@example.com,N/A
+480.0,Alice,24,Chicago,Watch,39.43,2.0,2024-01-25,user479@example.com,Bad
+481.0,Frank,37,Dallas,,139.69,4.0,2022-06-27,user480@example.com,Excellent   
+,Eve,,Chicago,Shirt,250.94,,2021-11-04,user481@example.com,Average
+483.0,Charlie,,Miami,Bag,309.05,2.0,2021-10-12,user482@example.com,
+484.0,David,,Los Angeles,Watch,251.11,,2020-03-22,user483@example.com,
+485.0,Frank,,Chicago,Bag,386.67,2.0,2022-04-29,user484@example.com,Average
+486.0,,twenty,Dallas,Tie,325.24,4.0,2021-08-13,user485@example.com,Bad
+487.0,David,56,San Francisco,Watch,360.55,-1.0,2021-04-14,user486@example.com,Good
+488.0,David,,San Francisco,Shoes,45.73,,2021-11-09,user487@example.com,Good
+489.0,Charlie,twenty,San Francisco,Socks,132.79,-1.0,2021-02-25,user488@example.com,Good
+490.0,Charlie,,San Francisco,Tie,449.29,-1.0,2023-09-23,user489@example.com,Bad
+491.0,Bob,38,Miami,Shoes,323.76,5.0,2023-11-08,user490@example.com,N/A
+492.0,Eve,,San Francisco,Hat,335.66,2.0,2021-03-31,user491@example.com,N/A
+493.0,Bob,twenty,New York,,353.03,1.0,2022-02-20,user492@example.com,
+494.0,   Hannah,twenty,New York,Shoes,291.57,3.0,2021-01-10,user493@example.com,Excellent   
+495.0,   Hannah,twenty,,Shoes,470.56,-1.0,2020-01-13,user494@example.com,Excellent   
+496.0,Mallory,68,Houston,Tie,223.67,4.0,2022-10-03,user495@example.com,Excellent   
+497.0,   Hannah,,   ,Shoes,392.66,2.0,2021-01-29,user496@example.com,Good
+498.0,Alice,,New York,Shoes,274.66,4.0,2020-10-16,user497@example.com,N/A
+499.0,Judy,41,   ,Shirt,N/A,4.0,2020-09-14,user498@example.com,
+500.0,Frank,54,,Watch,410.81,1.0,2023-04-28,user499@example.com,Good
+501.0,Ivan,twenty,Houston,Shirt,287.95,1.0,2021-02-22,user500@example.com,
+502.0,Charlie,twenty,New York,Socks,185.87,2.0,2020-06-09,user501@example.com,
+503.0,Ivan,twenty,New York,Hat,206.3,2.0,2022-08-14,user502@example.com,Excellent   
+504.0,Grace,twenty,Houston,Hat,479.82,,2024-01-17,user503@example.com,Bad
+505.0,Charlie,twenty,Houston,,271.97,,2022-05-18,user504@example.com,
+506.0,Charlie,,   ,Socks,49.42,4.0,2021-05-24,user505@example.com,Excellent   
+507.0,Charlie,,Phoenix,,385.59,4.0,2023-03-26,user506@example.com,
+508.0,Mallory,62,Chicago,Bag,96.54,4.0,2023-07-25,user507@example.com,N/A
+509.0,Ivan,,Los Angeles,Bag,N/A,1.0,2022-09-12,user508@example.com,Bad
+510.0,Charlie,,San Francisco,Shoes,103.59,-1.0,2022-01-06,,Good
+511.0,Mallory,twenty,,Watch,449.27,4.0,2020-12-09,,
+512.0,,37,Dallas,Hat,186.04,5.0,2022-05-15,user511@example.com,Good
+513.0,Alice,twenty,Phoenix,Watch,320.07,2.0,2022-06-06,,N/A
+514.0,Grace,twenty,Chicago,Shirt,78.57,2.0,2022-09-14,,Average
+515.0,Frank,,Los Angeles,Socks,362.67,3.0,invalid_date,user514@example.com,Average
+516.0,Judy,,New York,,249.72,5.0,2020-06-19,user515@example.com,Bad
+517.0,Mallory,,Phoenix,Shirt,274.87,-1.0,2021-09-06,user516@example.com,Average
+518.0,David,,Phoenix,Bag,271.63,-1.0,2020-11-08,user517@example.com,
+,,twenty,Miami,Pants,230.16,4.0,2020-12-25,user518@example.com,Good
+520.0,Ivan,,,Shoes,28.15,1.0,2022-08-07,user519@example.com,Bad
+521.0,Eve,52,Dallas,,396.01,3.0,2021-08-03,user520@example.com,Bad
+522.0,Mallory,,,,N/A,1.0,2023-05-26,user521@example.com,Good
+523.0,,twenty,   ,Hat,405.48,1.0,2021-11-13,user522@example.com,N/A
+524.0,David,twenty,San Francisco,Tie,234.6,,2022-08-19,user523@example.com,Good
+525.0,   Hannah,23,Chicago,Watch,438.39,-1.0,2021-01-23,user524@example.com,Bad
+526.0,David,67,   ,Pants,293.88,,invalid_date,user525@example.com,
+527.0,Eve,twenty,Miami,Hat,28.07,4.0,2024-02-04,user526@example.com,Excellent   
+528.0,,40,   ,Shoes,330.38,4.0,2022-10-03,user527@example.com,N/A
+529.0,David,twenty,Houston,Hat,459.83,-1.0,2022-05-01,user528@example.com,N/A
+530.0,Frank,twenty,Chicago,Hat,N/A,4.0,2022-02-03,user529@example.com,Good
+531.0,Judy,twenty,San Francisco,Hat,73.96,,2021-09-22,user530@example.com,Good
+532.0,Ivan,,New York,Watch,34.48,5.0,2023-04-19,user531@example.com,Excellent   
+533.0,,,Houston,Hat,398.91,5.0,2020-03-20,user532@example.com,Bad
+534.0,,,Houston,Hat,93.64,,2020-09-11,user533@example.com,Good
+535.0,Eve,24,Chicago,Hat,410.72,5.0,2023-03-04,user534@example.com,Good
+536.0,Grace,,Houston,Hat,253.6,3.0,2022-06-12,user535@example.com,Good
+537.0,   Hannah,twenty,New York,Tie,118.08,1.0,2024-01-19,user536@example.com,Bad
+538.0,   Hannah,twenty,Dallas,,218.84,4.0,2023-12-23,user537@example.com,
+539.0,Grace,twenty,,Pants,491.27,4.0,2023-11-11,user538@example.com,Bad
+540.0,Charlie,twenty,Chicago,Shirt,168.88,4.0,2020-04-28,user539@example.com,Average
+541.0,David,,Los Angeles,Shirt,292.22,5.0,2022-05-18,user540@example.com,Good
+542.0,Ivan,,   ,Shirt,419.85,5.0,2021-05-11,user541@example.com,Average
+543.0,Charlie,twenty,New York,Shoes,384.47,,2022-01-10,user542@example.com,Average
+544.0,Eve,twenty,San Francisco,Tie,174.4,5.0,2023-10-17,user543@example.com,N/A
+545.0,Alice,50,Phoenix,Shoes,79.21,,invalid_date,user544@example.com,Excellent   
+546.0,Judy,40,,Bag,351.18,-1.0,2020-10-29,user545@example.com,Bad
+547.0,,48,Dallas,Shoes,224.94,-1.0,2022-07-21,,Average
+548.0,Frank,,New York,Shoes,29.94,4.0,2020-10-28,user547@example.com,Bad
+549.0,   Hannah,23,Dallas,,425.21,2.0,2023-05-18,,N/A
+550.0,Bob,64,New York,Tie,391.05,,2023-09-19,,
+551.0,Mallory,,Los Angeles,,N/A,1.0,2020-01-26,user550@example.com,
+552.0,   Hannah,,New York,Shoes,13.11,5.0,2020-07-08,user551@example.com,Excellent   
+553.0,Bob,68,New York,Tie,53.68,1.0,2022-02-26,user552@example.com,Good
+554.0,Eve,,Los Angeles,Watch,444.59,4.0,2023-04-15,user553@example.com,Excellent   
+555.0,Bob,,San Francisco,Shoes,405.63,5.0,2020-06-13,user554@example.com,Good
+556.0,Charlie,,Miami,Pants,349.26,3.0,2021-01-21,user555@example.com,Good
+557.0,Eve,twenty,San Francisco,Bag,323.51,5.0,2020-12-05,user556@example.com,Average
+558.0,,,Los Angeles,Watch,211.9,1.0,2021-06-01,user557@example.com,N/A
+559.0,   Hannah,,,Socks,309.16,3.0,2022-10-22,user558@example.com,Bad
+560.0,Charlie,twenty,Phoenix,Hat,N/A,,2023-09-10,user559@example.com,
+561.0,Grace,25,Miami,Tie,254.94,4.0,2023-04-15,user560@example.com,Excellent   
+562.0,Bob,twenty,Chicago,Pants,317.32,4.0,2022-04-22,user561@example.com,Excellent   
+563.0,David,twenty,Houston,Shoes,180.45,1.0,2024-01-30,,Average
+564.0,,69,New York,Bag,N/A,4.0,2020-08-11,user563@example.com,Bad
+565.0,Frank,65,Phoenix,Socks,67.58,5.0,2021-12-06,user564@example.com,
+566.0,Alice,51,San Francisco,Shoes,56.89,,2021-07-04,user565@example.com,Excellent   
+567.0,Grace,53,Los Angeles,Bag,382.95,3.0,2022-03-26,user566@example.com,Average
+568.0,Alice,twenty,,Shoes,117.45,4.0,2020-01-14,user567@example.com,Average
+569.0,Grace,,Phoenix,Bag,333.07,,2022-10-04,user568@example.com,N/A
+570.0,   Hannah,,Dallas,,104.92,4.0,invalid_date,user569@example.com,Average
+571.0,Frank,58,Dallas,Socks,345.77,1.0,2023-11-27,user570@example.com,Excellent   
+572.0,David,twenty,Chicago,Pants,242.46,2.0,2022-05-03,user571@example.com,Bad
+573.0,Grace,,San Francisco,Shoes,338.37,3.0,2022-06-01,user572@example.com,N/A
+574.0,Bob,43,Los Angeles,Shirt,N/A,,2022-02-06,user573@example.com,Average
+575.0,Frank,twenty,,Bag,149.68,2.0,2020-10-02,user574@example.com,Average
+576.0,David,,Dallas,Shoes,173.8,4.0,2021-01-07,user575@example.com,Excellent   
+577.0,Alice,,Los Angeles,,381.62,3.0,2020-08-13,user576@example.com,N/A
+578.0,Frank,42,Phoenix,Shoes,N/A,4.0,2021-03-11,user577@example.com,N/A
+579.0,Bob,63,Los Angeles,Shoes,463.18,2.0,2020-04-30,user578@example.com,Good
+580.0,Mallory,,Los Angeles,Hat,394.89,5.0,2021-01-27,user579@example.com,Good
+581.0,Judy,twenty,Miami,Socks,66.87,2.0,2022-04-17,user580@example.com,Average
+582.0,Frank,69,Houston,Tie,363.49,5.0,2023-07-02,user581@example.com,
+583.0,Charlie,54,Dallas,Shirt,169.73,,2023-07-27,,Excellent   
+584.0,Charlie,twenty,Houston,,341.66,3.0,2021-08-23,,N/A
+585.0,Alice,,Phoenix,,391.7,5.0,2020-09-12,,
+586.0,Eve,38,,Tie,58.05,-1.0,2021-12-01,user585@example.com,Average
+587.0,,47,Houston,Watch,436.24,-1.0,invalid_date,user586@example.com,Good
+588.0,Mallory,twenty,   ,Pants,118.12,,2022-09-20,user587@example.com,Bad
+589.0,Charlie,twenty,San Francisco,Bag,247.36,,2020-07-25,user588@example.com,Bad
+590.0,Mallory,,Phoenix,Watch,81.02,4.0,invalid_date,user589@example.com,N/A
+591.0,,,Chicago,Hat,232.95,2.0,2020-01-15,user590@example.com,Bad
+592.0,,,New York,Watch,76.84,3.0,2020-03-26,,Average
+593.0,Ivan,55,,Shoes,319.69,,2022-12-05,user592@example.com,Excellent   
+594.0,Alice,,Miami,Tie,109.08,,2022-02-08,user593@example.com,N/A
+595.0,Bob,twenty,Houston,,349.18,4.0,2021-06-28,user594@example.com,Bad
+596.0,Alice,twenty,Miami,,76.89,4.0,2022-08-27,user595@example.com,Good
+597.0,Eve,,   ,Pants,234.7,-1.0,2023-05-22,user596@example.com,Average
+598.0,David,twenty,Houston,Shoes,178.35,,2022-01-29,user597@example.com,Excellent   
+,Charlie,twenty,New York,Socks,305.78,,2021-12-03,user598@example.com,Bad
+600.0,   Hannah,,New York,Hat,322.62,,2021-05-05,user599@example.com,Good
+601.0,Mallory,25,Los Angeles,Socks,93.27,3.0,2023-09-24,user600@example.com,Bad
+602.0,Ivan,37,Los Angeles,,428.95,-1.0,2023-06-04,user601@example.com,Excellent   
+603.0,   Hannah,,Dallas,,429.92,4.0,2021-12-30,user602@example.com,
+604.0,Grace,62,Miami,Socks,497.88,-1.0,2020-07-24,user603@example.com,Excellent   
+605.0,Bob,,Chicago,Watch,420.12,-1.0,invalid_date,user604@example.com,
+606.0,Eve,twenty,Los Angeles,Shoes,367.71,2.0,2022-04-02,,Good
+607.0,David,twenty,,Pants,130.86,5.0,2020-10-11,,Good
+608.0,Eve,,Los Angeles,Tie,293.94,2.0,invalid_date,user607@example.com,
+609.0,Bob,,Los Angeles,Pants,299.97,3.0,2022-12-22,,Good
+610.0,Alice,twenty,Phoenix,Tie,291.11,,2023-12-03,user609@example.com,Average
+611.0,David,twenty,Houston,Hat,N/A,,2021-05-24,user610@example.com,Average
+612.0,Grace,twenty,Miami,Shirt,29.63,1.0,2023-06-20,user611@example.com,N/A
+613.0,Judy,,Phoenix,Watch,386.62,,2022-08-31,user612@example.com,
+614.0,Ivan,36,Phoenix,Hat,N/A,4.0,2023-09-14,user613@example.com,Average
+615.0,,,Miami,Bag,244.84,2.0,2023-07-30,user614@example.com,Good
+616.0,Bob,twenty,New York,Socks,412.43,2.0,2021-10-21,user615@example.com,Good
+617.0,Bob,,Los Angeles,Socks,127.85,2.0,invalid_date,user616@example.com,Average
+618.0,,,Chicago,Hat,16.09,2.0,2020-04-03,,N/A
+619.0,Ivan,26,New York,Pants,475.47,5.0,2021-10-28,user618@example.com,
+620.0,   Hannah,,Phoenix,Pants,154.94,4.0,2021-04-23,user619@example.com,
+621.0,Alice,twenty,   ,Shoes,54.46,1.0,2022-03-30,user620@example.com,Good
+622.0,Judy,,   ,Shoes,159.37,-1.0,2020-06-15,user621@example.com,
+623.0,   Hannah,twenty,San Francisco,Pants,430.38,4.0,2022-09-02,user622@example.com,
+624.0,Ivan,,Los Angeles,Socks,21.96,4.0,2023-12-03,user623@example.com,
+625.0,David,,Los Angeles,Shoes,388.2,3.0,2022-02-27,user624@example.com,Good
+626.0,Mallory,49,New York,Pants,208.63,2.0,2021-02-03,user625@example.com,Bad
+627.0,Charlie,twenty,New York,Bag,191.51,2.0,2022-12-01,user626@example.com,Bad
+628.0,Eve,19,Chicago,Bag,320.37,5.0,2024-01-07,user627@example.com,
+629.0,Grace,36,Chicago,,44.64,1.0,2020-09-18,user628@example.com,Bad
+630.0,Alice,35,   ,Shoes,173.12,1.0,2020-06-27,user629@example.com,Excellent   
+631.0,Ivan,,   ,Watch,N/A,3.0,2023-10-10,user630@example.com,
+632.0,Frank,,Miami,Watch,142.2,3.0,2022-08-14,user631@example.com,N/A
+633.0,David,twenty,Dallas,Bag,275.79,3.0,2022-07-02,user632@example.com,Good
+634.0,Ivan,,Phoenix,Tie,395.97,,2022-09-14,user633@example.com,Excellent   
+635.0,Grace,twenty,Los Angeles,Shoes,441.62,2.0,2021-05-08,user634@example.com,Average
+636.0,Charlie,twenty,   ,Socks,36.86,2.0,2020-12-15,user635@example.com,Good
+637.0,Judy,,   ,Shirt,340.58,-1.0,2023-09-13,user636@example.com,N/A
+,Judy,twenty,Chicago,Pants,64.37,-1.0,2020-08-04,user637@example.com,Average
+639.0,Bob,,Los Angeles,Shoes,313.38,5.0,2024-01-05,user638@example.com,Good
+640.0,   Hannah,52,San Francisco,Hat,95.88,1.0,invalid_date,user639@example.com,N/A
+641.0,Frank,twenty,San Francisco,Watch,42.83,-1.0,2021-10-30,user640@example.com,Average
+642.0,Bob,twenty,Miami,Shoes,110.31,1.0,2021-07-28,user641@example.com,Average
+643.0,   Hannah,,Phoenix,Shirt,126.93,3.0,2021-06-11,,N/A
+644.0,   Hannah,twenty,San Francisco,Shoes,244.46,4.0,2023-10-05,user643@example.com,Bad
+645.0,   Hannah,59,Miami,,294.26,1.0,2020-10-05,user644@example.com,Good
+646.0,   Hannah,37,San Francisco,Watch,112.8,5.0,2023-07-21,user645@example.com,Average
+647.0,   Hannah,,Chicago,,120.46,2.0,2020-07-04,user646@example.com,Excellent   
+648.0,Alice,40,Los Angeles,,141.01,1.0,2021-11-12,user647@example.com,N/A
+649.0,Grace,46,Chicago,Bag,145.8,5.0,2023-03-25,user648@example.com,
+650.0,,67,New York,Bag,179.16,2.0,2023-05-15,user649@example.com,
+651.0,Alice,twenty,Chicago,Watch,268.07,4.0,2021-12-03,user650@example.com,Excellent   
+652.0,Judy,twenty,Los Angeles,,357.81,3.0,2024-01-09,user651@example.com,Excellent   
+653.0,Grace,twenty,San Francisco,Shoes,271.1,3.0,2024-01-24,user652@example.com,Good
+654.0,Frank,twenty,Dallas,Socks,314.27,-1.0,2023-08-08,,Good
+655.0,Eve,45,Miami,Shirt,473.23,3.0,2022-06-13,user654@example.com,N/A
+656.0,Mallory,57,Dallas,,471.03,-1.0,2021-04-02,,
+657.0,Alice,68,Miami,Tie,447.03,1.0,2021-08-18,user656@example.com,Excellent   
+658.0,Frank,70,Chicago,Hat,49.28,-1.0,2020-07-01,user657@example.com,Excellent   
+659.0,Bob,69,Dallas,Tie,151.3,5.0,2023-04-27,user658@example.com,Average
+660.0,Frank,,San Francisco,Tie,63.59,3.0,2020-08-25,user659@example.com,N/A
+661.0,David,,   ,Bag,351.57,2.0,2020-09-17,,
+662.0,Mallory,twenty,Dallas,Pants,438.75,-1.0,2022-02-17,user661@example.com,
+663.0,Judy,,New York,Watch,317.37,,2020-01-04,user662@example.com,N/A
+664.0,Judy,,Chicago,,485.09,-1.0,2023-04-23,user663@example.com,Excellent   
+665.0,Bob,twenty,Miami,,74.69,5.0,2022-03-05,user664@example.com,N/A
+666.0,Ivan,twenty,Miami,Bag,227.49,5.0,2021-10-16,user665@example.com,N/A
+667.0,Mallory,61,Los Angeles,Shoes,152.84,,2023-10-23,user666@example.com,Average
+668.0,Frank,,San Francisco,Shoes,437.18,1.0,2020-09-15,user667@example.com,Bad
+669.0,Charlie,,Miami,Shirt,474.25,,2023-05-17,user668@example.com,
+670.0,Alice,59,New York,Socks,211.73,1.0,2020-08-06,user669@example.com,
+671.0,Frank,62,Los Angeles,Tie,326.57,4.0,2023-01-07,user670@example.com,Excellent   
+672.0,   Hannah,33,Phoenix,Watch,300.75,-1.0,2021-10-09,user671@example.com,Bad
+673.0,Frank,,   ,Shoes,422.53,4.0,2021-08-30,user672@example.com,Bad
+674.0,Judy,twenty,New York,Pants,159.0,-1.0,2022-10-20,user673@example.com,Good
+675.0,Charlie,,,Pants,396.78,-1.0,2020-10-28,user674@example.com,Average
+676.0,Judy,twenty,Dallas,,137.4,1.0,2020-10-25,user675@example.com,Excellent   
+677.0,,,Dallas,Socks,485.65,1.0,2023-12-10,user676@example.com,Average
+678.0,Mallory,,Houston,Tie,33.19,-1.0,invalid_date,user677@example.com,Good
+679.0,,,   ,Tie,233.4,5.0,2022-10-25,user678@example.com,Bad
+680.0,Judy,twenty,,Socks,462.82,5.0,2020-09-09,user679@example.com,N/A
+681.0,Charlie,68,,Shirt,149.77,-1.0,2023-12-17,user680@example.com,Average
+682.0,Charlie,twenty,Dallas,Shirt,421.27,-1.0,2023-07-16,user681@example.com,Average
+683.0,Bob,,Los Angeles,Pants,336.51,1.0,2022-10-10,user682@example.com,N/A
+684.0,Mallory,,San Francisco,,126.57,-1.0,2022-02-10,user683@example.com,
+,,,Houston,Hat,N/A,5.0,2021-11-13,user684@example.com,Good
+686.0,Alice,twenty,Miami,,71.97,1.0,2024-01-07,user685@example.com,N/A
+687.0,Eve,twenty,   ,,100.4,5.0,2024-02-09,user686@example.com,Average
+688.0,David,twenty,San Francisco,Watch,27.0,1.0,2021-04-05,user687@example.com,Average
+689.0,Alice,twenty,Chicago,Watch,178.49,2.0,2020-04-17,user688@example.com,Average
+690.0,David,twenty,,Tie,274.53,,2021-01-01,user689@example.com,Excellent   
+691.0,Alice,40,Dallas,Socks,157.76,1.0,2024-01-29,user690@example.com,Average
+692.0,Frank,twenty,New York,Watch,208.24,-1.0,2023-09-12,user691@example.com,Excellent   
+693.0,Eve,43,New York,Shoes,81.24,2.0,2020-11-22,user692@example.com,N/A
+694.0,   Hannah,45,Chicago,,166.91,3.0,2023-01-27,user693@example.com,Good
+695.0,Grace,,,Tie,N/A,2.0,2022-05-15,user694@example.com,Good
+696.0,   Hannah,,Miami,Bag,488.04,,2021-12-14,user695@example.com,Average
+697.0,,twenty,Miami,Shoes,355.67,3.0,2022-03-11,user696@example.com,N/A
+698.0,Eve,54,Chicago,Socks,152.02,,2024-01-28,user697@example.com,Excellent   
+699.0,Alice,,Los Angeles,Pants,490.54,4.0,2023-11-27,user698@example.com,Average
+700.0,Judy,,Miami,Pants,82.07,-1.0,2023-12-06,user699@example.com,Average
+701.0,David,61,   ,Shoes,454.37,5.0,2022-03-17,user700@example.com,Bad
+702.0,Eve,20,Houston,Pants,347.68,4.0,2021-10-24,user701@example.com,
+703.0,Frank,,   ,Hat,451.09,,2023-04-03,user702@example.com,
+704.0,Alice,19,Phoenix,Watch,279.97,-1.0,2020-04-20,user703@example.com,Good
+705.0,Judy,,New York,Shirt,206.8,1.0,2023-12-24,user704@example.com,
+706.0,Frank,47,,Hat,228.53,2.0,2023-09-02,user705@example.com,Good
+707.0,Eve,45,Houston,Pants,36.97,,2020-10-08,user706@example.com,
+708.0,Bob,62,,Socks,295.88,3.0,2022-09-15,user707@example.com,Good
+709.0,Frank,,San Francisco,Shirt,468.48,3.0,2020-10-23,user708@example.com,Average
+710.0,Grace,,San Francisco,Shirt,21.05,-1.0,2021-02-04,,
+711.0,Grace,twenty,Houston,Shirt,228.27,2.0,2020-01-19,user710@example.com,Excellent   
+712.0,Mallory,,Los Angeles,Shoes,52.81,1.0,2023-03-24,user711@example.com,N/A
+713.0,,,Miami,Bag,105.28,-1.0,2020-10-29,user712@example.com,Bad
+714.0,Grace,twenty,Miami,Shoes,306.49,2.0,2022-05-24,user713@example.com,
+715.0,Frank,28,Dallas,Shoes,455.14,4.0,2020-12-10,user714@example.com,Good
+716.0,Charlie,twenty,Miami,Socks,82.49,4.0,2020-07-15,user715@example.com,N/A
+717.0,,twenty,Los Angeles,Bag,191.12,-1.0,2022-08-28,,Good
+718.0,Mallory,62,Miami,Shirt,149.48,-1.0,2020-04-17,user717@example.com,Average
+719.0,,twenty,Miami,Shirt,488.99,1.0,2022-11-21,user718@example.com,N/A
+720.0,Frank,twenty,   ,Watch,52.92,2.0,2023-04-30,user719@example.com,N/A
+721.0,   Hannah,24,Los Angeles,Tie,227.67,-1.0,2020-10-31,user720@example.com,Average
+722.0,Eve,,Miami,Pants,403.81,-1.0,2022-04-07,user721@example.com,Good
+723.0,Bob,22,New York,Shirt,404.78,4.0,2020-08-31,user722@example.com,
+724.0,Mallory,55,Los Angeles,Socks,217.68,3.0,2022-09-27,user723@example.com,Bad
+725.0,Grace,twenty,San Francisco,Watch,78.39,3.0,2023-05-05,user724@example.com,Average
+726.0,Bob,46,San Francisco,Hat,52.18,5.0,2023-08-29,user725@example.com,Average
+727.0,Grace,twenty,New York,Hat,242.56,2.0,2023-11-17,user726@example.com,Average
+728.0,Ivan,39,,Watch,493.45,1.0,2023-10-05,user727@example.com,
+729.0,Charlie,twenty,,Shoes,480.45,3.0,2022-08-07,user728@example.com,Bad
+730.0,   Hannah,,New York,Pants,53.34,3.0,2023-08-24,user729@example.com,Bad
+731.0,Eve,22,Los Angeles,Pants,458.06,,2023-07-19,user730@example.com,Excellent   
+732.0,Frank,42,Dallas,Bag,282.35,-1.0,2022-01-22,,Bad
+733.0,Bob,64,Dallas,Pants,380.07,4.0,invalid_date,user732@example.com,Bad
+734.0,Bob,,Phoenix,Shoes,101.14,3.0,2020-09-06,,N/A
+735.0,Frank,,,Shoes,281.39,,2023-10-01,user734@example.com,Excellent   
+736.0,Judy,,,,N/A,,2021-04-05,user735@example.com,Good
+737.0,Eve,67,Houston,,418.95,2.0,invalid_date,user736@example.com,Bad
+738.0,Eve,twenty,Miami,Shoes,284.05,2.0,2023-03-18,user737@example.com,Good
+739.0,,27,   ,Shoes,23.15,-1.0,2023-11-21,user738@example.com,Excellent   
+740.0,Ivan,twenty,   ,Bag,N/A,-1.0,2023-04-29,user739@example.com,Good
+741.0,Mallory,twenty,New York,Watch,478.45,5.0,2022-09-18,,Bad
+742.0,Grace,59,Houston,Bag,241.55,4.0,2023-12-10,,Excellent   
+743.0,Charlie,,Miami,Shoes,447.42,-1.0,2023-03-16,user742@example.com,N/A
+744.0,Mallory,64,   ,Pants,251.02,2.0,2021-10-28,user743@example.com,
+745.0,,twenty,,Bag,129.93,2.0,2023-01-05,,N/A
+746.0,Frank,,Dallas,Pants,145.84,-1.0,2023-12-06,user745@example.com,Average
+747.0,,twenty,Dallas,Tie,42.7,4.0,invalid_date,user746@example.com,Good
+748.0,Alice,46,Miami,Tie,294.72,4.0,2023-01-03,user747@example.com,N/A
+749.0,Mallory,23,   ,Shoes,435.49,4.0,2022-12-21,,Excellent   
+750.0,Frank,26,Miami,Tie,243.26,4.0,2022-11-28,user749@example.com,Bad
+751.0,Ivan,twenty,Los Angeles,Socks,68.6,-1.0,2023-01-08,user750@example.com,Good
+752.0,Grace,,Los Angeles,Bag,291.88,5.0,2023-08-27,user751@example.com,Excellent   
+753.0,Eve,,Houston,Bag,89.8,-1.0,2021-02-28,,Average
+754.0,Judy,68,New York,Watch,166.64,,2020-08-28,user753@example.com,Average
+755.0,Alice,,   ,,76.39,3.0,2023-05-11,user754@example.com,Good
+756.0,Bob,59,   ,Shoes,143.61,1.0,2020-01-11,user755@example.com,Excellent   
+757.0,Judy,twenty,Phoenix,Bag,456.93,4.0,2021-10-05,user756@example.com,Average
+758.0,Judy,twenty,,Hat,152.03,2.0,2020-09-20,user757@example.com,N/A
+759.0,Grace,twenty,,Shirt,468.8,-1.0,2023-08-29,user758@example.com,Excellent   
+760.0,Frank,twenty,   ,Shoes,385.56,1.0,2023-02-25,,Good
+761.0,   Hannah,twenty,Los Angeles,Watch,56.31,,2020-03-12,user760@example.com,N/A
+762.0,Mallory,37,New York,,276.42,-1.0,2020-09-12,user761@example.com,Bad
+763.0,Judy,twenty,Chicago,Socks,415.14,5.0,2022-01-14,,Average
+764.0,Charlie,50,Miami,Watch,157.53,1.0,2020-12-17,user763@example.com,Good
+765.0,Alice,,Chicago,Pants,347.29,1.0,2023-09-09,user764@example.com,Good
+766.0,Charlie,twenty,San Francisco,Watch,294.22,3.0,invalid_date,user765@example.com,N/A
+767.0,Ivan,21,Los Angeles,Shoes,16.32,3.0,2022-11-29,user766@example.com,
+768.0,Judy,,Phoenix,Shoes,192.78,4.0,2021-08-23,user767@example.com,Good
+769.0,,25,Dallas,Bag,176.75,-1.0,2022-06-30,user768@example.com,N/A
+770.0,Alice,twenty,Houston,Pants,60.18,2.0,2022-10-01,user769@example.com,Good
+771.0,Charlie,56,Houston,,118.35,4.0,2022-12-06,user770@example.com,Bad
+772.0,Bob,51,Los Angeles,Watch,449.56,1.0,2021-12-22,user771@example.com,Bad
+773.0,David,,San Francisco,Shoes,417.39,4.0,2022-11-11,user772@example.com,Average
+774.0,Judy,,Houston,Bag,270.73,-1.0,2020-07-21,user773@example.com,N/A
+775.0,Frank,,Miami,Shoes,380.59,1.0,2020-04-01,user774@example.com,Average
+776.0,Frank,twenty,Houston,Shoes,235.64,,2021-01-20,user775@example.com,Excellent   
+777.0,Grace,61,   ,Shoes,411.23,,2021-03-16,user776@example.com,
+778.0,Ivan,,Los Angeles,Watch,244.96,2.0,2023-05-18,user777@example.com,Good
+779.0,Alice,67,San Francisco,Shoes,187.66,5.0,2023-04-26,,Excellent   
+780.0,Ivan,twenty,New York,Socks,445.97,1.0,2020-09-20,user779@example.com,
+781.0,Charlie,22,Dallas,Watch,384.16,,2022-05-14,user780@example.com,Average
+782.0,Judy,34,Los Angeles,Tie,357.85,,2021-06-06,user781@example.com,Bad
+783.0,,20,Miami,Hat,N/A,-1.0,2023-08-23,user782@example.com,Good
+784.0,Frank,,Miami,Shoes,118.96,,2022-03-30,,Average
+785.0,Frank,,Dallas,Bag,79.76,5.0,2021-06-04,user784@example.com,N/A
+786.0,,twenty,,,71.42,3.0,2023-11-23,,Average
+787.0,Bob,,Chicago,Hat,48.52,4.0,2021-02-21,user786@example.com,Average
+788.0,Ivan,twenty,Miami,Socks,394.17,4.0,2024-02-09,,
+789.0,Charlie,43,New York,Bag,389.6,,2023-07-20,,Excellent   
+790.0,   Hannah,twenty,,Socks,30.83,,2021-01-29,user789@example.com,Average
+791.0,Frank,twenty,New York,Socks,398.6,5.0,2023-02-28,user790@example.com,
+792.0,Grace,,,Hat,39.04,-1.0,2022-11-13,user791@example.com,Average
+793.0,Frank,,San Francisco,Pants,133.98,3.0,2022-05-09,user792@example.com,N/A
+794.0,Judy,twenty,Dallas,Socks,337.12,,2021-10-09,user793@example.com,Good
+795.0,Eve,31,Miami,Socks,393.36,,2022-06-07,user794@example.com,Bad
+796.0,David,,,Hat,110.65,3.0,2023-05-21,user795@example.com,Average
+797.0,Bob,twenty,Chicago,Watch,100.54,3.0,2021-07-07,user796@example.com,Good
+798.0,Alice,twenty,Dallas,Shirt,54.48,1.0,2020-08-13,user797@example.com,Average
+799.0,Mallory,twenty,Chicago,Socks,471.5,-1.0,2022-04-13,user798@example.com,Bad
+800.0,Charlie,,Chicago,Hat,180.44,3.0,2023-08-04,user799@example.com,N/A
+801.0,,,Los Angeles,Bag,255.31,5.0,2021-11-14,user800@example.com,Good
+802.0,   Hannah,64,San Francisco,Tie,128.49,5.0,2020-10-26,user801@example.com,Good
+803.0,Grace,21,Dallas,Watch,58.56,2.0,2021-04-07,user802@example.com,N/A
+804.0,   Hannah,,Dallas,Watch,16.85,,2020-07-19,user803@example.com,Bad
+805.0,Bob,,   ,Bag,103.86,4.0,2021-03-31,user804@example.com,Average
+806.0,Eve,twenty,,Watch,451.81,4.0,2020-08-03,user805@example.com,N/A
+807.0,Eve,,San Francisco,Socks,487.05,,2020-09-09,user806@example.com,Excellent   
+808.0,Mallory,twenty,San Francisco,Hat,114.87,2.0,2024-01-31,user807@example.com,Excellent   
+809.0,,twenty,Dallas,Shirt,356.8,5.0,2023-04-20,user808@example.com,N/A
+810.0,David,29,Houston,Pants,298.8,5.0,2022-09-29,user809@example.com,N/A
+811.0,Ivan,twenty,Phoenix,Pants,479.3,-1.0,2021-12-15,user810@example.com,Excellent   
+812.0,Eve,twenty,San Francisco,Watch,183.86,5.0,2021-07-31,user811@example.com,Average
+813.0,Mallory,18,   ,Shirt,114.99,,2023-05-29,,Bad
+814.0,,,Phoenix,Shoes,65.29,4.0,2020-04-08,user813@example.com,
+815.0,David,twenty,Miami,Tie,70.57,,2022-03-08,user814@example.com,N/A
+816.0,Bob,twenty,Chicago,Shoes,76.6,3.0,2023-10-20,user815@example.com,Good
+817.0,Charlie,34,Chicago,Watch,355.32,-1.0,2022-12-24,user816@example.com,Excellent   
+818.0,Bob,41,San Francisco,Tie,29.9,-1.0,2022-04-04,user817@example.com,Excellent   
+819.0,,,Dallas,Shoes,66.7,,2020-09-18,user818@example.com,Bad
+820.0,Charlie,64,,Hat,304.19,4.0,2023-11-07,user819@example.com,
+821.0,Mallory,67,Phoenix,,488.33,-1.0,2020-11-14,user820@example.com,Excellent   
+822.0,,,,Shoes,281.42,2.0,2020-10-19,,Good
+823.0,Bob,twenty,   ,Pants,429.13,3.0,2021-07-01,user822@example.com,Good
+824.0,Judy,,,Shoes,44.11,1.0,2024-01-25,user823@example.com,Bad
+825.0,Frank,twenty,Houston,Bag,243.08,1.0,2022-01-28,user824@example.com,N/A
+826.0,Judy,58,Houston,Shoes,97.86,5.0,2021-05-25,user825@example.com,N/A
+827.0,Frank,,Houston,Pants,250.91,3.0,2022-05-06,user826@example.com,N/A
+828.0,Mallory,,Dallas,Shirt,224.65,4.0,2021-01-09,user827@example.com,Excellent   
+829.0,Bob,,Phoenix,Watch,51.65,,2021-12-25,user828@example.com,N/A
+830.0,   Hannah,54,   ,Watch,206.31,,2022-10-25,user829@example.com,Excellent   
+831.0,   Hannah,41,Chicago,Pants,59.84,,2022-05-26,user830@example.com,
+832.0,Eve,34,Chicago,Shoes,489.15,2.0,2024-01-11,user831@example.com,N/A
+833.0,Eve,twenty,,Shoes,487.85,5.0,2021-04-13,user832@example.com,Excellent   
+834.0,Charlie,64,,Hat,301.53,5.0,2020-06-27,user833@example.com,Good
+835.0,Mallory,twenty,   ,Shirt,70.15,3.0,2022-04-12,user834@example.com,N/A
+836.0,Mallory,50,Los Angeles,Pants,365.35,2.0,2020-07-03,user835@example.com,Good
+837.0,Mallory,20,   ,Shoes,359.61,1.0,2020-06-06,user836@example.com,N/A
+838.0,Judy,33,,Shoes,143.76,5.0,2020-07-10,user837@example.com,
+839.0,Charlie,,Miami,Hat,325.48,5.0,2020-04-27,user838@example.com,Excellent   
+840.0,Frank,42,Dallas,,243.15,3.0,2021-08-08,user839@example.com,N/A
+841.0,   Hannah,29,Dallas,Socks,208.18,5.0,2022-10-06,user840@example.com,N/A
+842.0,David,twenty,San Francisco,Watch,146.66,3.0,2020-01-22,user841@example.com,
+843.0,Bob,twenty,,Shoes,62.94,-1.0,2022-05-18,user842@example.com,Average
+844.0,David,44,Phoenix,,253.66,,2024-02-05,user843@example.com,Average
+845.0,Charlie,38,San Francisco,Shoes,75.96,2.0,2022-10-16,user844@example.com,Bad
+846.0,David,twenty,New York,Shoes,35.9,1.0,2023-10-18,,N/A
+847.0,,,,,342.27,1.0,2023-11-30,user846@example.com,Average
+848.0,Alice,70,Los Angeles,Shirt,197.49,-1.0,2020-01-29,user847@example.com,Bad
+849.0,Frank,,New York,Pants,84.84,5.0,2020-01-15,user848@example.com,Average
+850.0,   Hannah,twenty,San Francisco,Shoes,57.2,5.0,2023-12-09,user849@example.com,Bad
+851.0,Ivan,61,Chicago,Watch,378.29,3.0,2021-12-07,user850@example.com,Average
+852.0,Frank,29,New York,Socks,398.44,2.0,2023-09-16,user851@example.com,Bad
+853.0,,twenty,New York,Shirt,334.43,-1.0,2022-12-17,user852@example.com,
+854.0,   Hannah,,Houston,Bag,138.22,-1.0,2020-03-27,user853@example.com,Average
+855.0,Charlie,,Phoenix,Shoes,431.24,3.0,2020-12-11,,Excellent   
+856.0,Ivan,,Chicago,Pants,476.76,,2022-12-08,user855@example.com,Good
+857.0,Bob,38,Phoenix,Hat,N/A,4.0,2020-12-24,user856@example.com,Excellent   
+858.0,Bob,,Phoenix,Watch,458.32,5.0,2020-09-30,user857@example.com,Bad
+859.0,Eve,,Chicago,Socks,164.13,1.0,2020-04-14,user858@example.com,
+860.0,Grace,,New York,Shoes,235.23,,2022-02-15,user859@example.com,Excellent   
+861.0,Mallory,,Phoenix,Shirt,N/A,1.0,2020-08-19,user860@example.com,
+862.0,Mallory,twenty,Houston,Hat,431.58,-1.0,2023-10-22,user861@example.com,Average
+863.0,,,,Socks,355.97,3.0,2023-01-09,user862@example.com,Good
+864.0,   Hannah,twenty,New York,Shoes,75.9,3.0,2020-08-29,user863@example.com,Average
+865.0,Grace,49,   ,Hat,248.85,,2022-09-16,user864@example.com,N/A
+866.0,Grace,twenty,Miami,Shoes,340.76,5.0,2021-03-12,user865@example.com,N/A
+867.0,Ivan,66,Los Angeles,Hat,345.83,3.0,invalid_date,user866@example.com,Good
+868.0,Bob,27,Dallas,Shoes,243.2,1.0,2022-03-17,user867@example.com,Average
+869.0,Charlie,44,,Shirt,258.28,1.0,2021-09-16,user868@example.com,Excellent   
+870.0,Frank,twenty,Houston,Bag,252.4,-1.0,2023-08-09,,
+871.0,Judy,twenty,,Hat,312.3,,2020-03-13,user870@example.com,N/A
+872.0,Bob,62,San Francisco,Shoes,489.11,1.0,2023-06-19,user871@example.com,Bad
+873.0,,39,Houston,Socks,23.79,4.0,2020-04-27,user872@example.com,
+874.0,,twenty,,Watch,N/A,3.0,2023-06-14,user873@example.com,
+875.0,Judy,twenty,Phoenix,,180.95,5.0,2021-09-03,user874@example.com,Bad
+876.0,   Hannah,,New York,Pants,23.18,,2020-01-11,user875@example.com,N/A
+877.0,Frank,24,San Francisco,Shoes,177.22,1.0,2024-01-19,user876@example.com,Bad
+878.0,Charlie,51,San Francisco,Bag,179.12,4.0,2021-12-27,user877@example.com,N/A
+879.0,   Hannah,,San Francisco,Bag,182.12,3.0,invalid_date,user878@example.com,Bad
+880.0,Judy,21,   ,Shirt,131.33,2.0,2021-02-08,,
+881.0,Ivan,,,Watch,300.34,-1.0,2022-11-19,user880@example.com,Excellent   
+882.0,Charlie,23,New York,Shoes,42.1,,2022-04-21,user881@example.com,N/A
+,Charlie,twenty,New York,Watch,175.42,5.0,2022-09-25,user882@example.com,Excellent   
+884.0,Grace,twenty,Phoenix,Hat,N/A,5.0,invalid_date,user883@example.com,Bad
+885.0,   Hannah,,Houston,,235.85,,2021-05-27,user884@example.com,N/A
+886.0,Alice,65,Dallas,Shoes,288.34,,2022-03-20,user885@example.com,Average
+887.0,Bob,55,Miami,Hat,140.64,,2022-01-16,user886@example.com,Average
+888.0,   Hannah,50,Houston,Shirt,298.11,5.0,2021-01-08,user887@example.com,Average
+889.0,Charlie,,   ,Hat,195.09,-1.0,2021-07-05,user888@example.com,Average
+890.0,Eve,twenty,Dallas,Socks,290.54,5.0,2022-06-17,user889@example.com,Good
+891.0,Charlie,54,,,59.03,2.0,2022-06-18,user890@example.com,Good
+892.0,Charlie,twenty,Dallas,Shoes,174.62,3.0,2021-12-25,user891@example.com,
+893.0,Frank,26,Houston,Pants,384.8,3.0,2020-01-12,user892@example.com,
+894.0,Mallory,,Houston,Watch,311.27,3.0,2023-12-23,user893@example.com,N/A
+895.0,David,,Phoenix,Tie,223.64,,2021-01-23,user894@example.com,Bad
+896.0,Frank,twenty,Miami,Shirt,425.19,-1.0,2020-09-30,user895@example.com,N/A
+897.0,   Hannah,,Chicago,Socks,421.79,-1.0,2021-11-09,user896@example.com,
+898.0,Eve,,Los Angeles,Hat,150.8,,2020-11-24,user897@example.com,Excellent   
+899.0,Bob,32,Chicago,Shoes,N/A,5.0,2022-09-08,user898@example.com,Bad
+900.0,Eve,30,Chicago,Shoes,206.99,,2021-06-28,user899@example.com,Bad
+901.0,David,twenty,,Tie,374.02,2.0,2022-09-28,user900@example.com,
+902.0,Judy,24,Los Angeles,Shoes,423.65,,2023-10-28,,Good
+903.0,   Hannah,24,San Francisco,Tie,175.05,4.0,2021-10-27,user902@example.com,Bad
+904.0,Eve,,New York,Pants,402.58,5.0,2022-03-29,user903@example.com,Good
+905.0,Charlie,,San Francisco,,112.77,,2022-03-07,user904@example.com,
+906.0,Judy,twenty,Phoenix,Shirt,329.25,2.0,2020-08-08,user905@example.com,Average
+907.0,Eve,40,,Hat,404.02,1.0,2020-09-15,user906@example.com,N/A
+908.0,Ivan,,Phoenix,Pants,274.57,3.0,2022-10-21,user907@example.com,Excellent   
+909.0,   Hannah,,Chicago,Shoes,207.13,5.0,invalid_date,user908@example.com,
+910.0,Bob,25,Chicago,Shirt,232.08,5.0,2020-04-16,user909@example.com,Excellent   
+911.0,   Hannah,twenty,Dallas,Tie,98.49,2.0,2021-12-01,user910@example.com,Good
+912.0,Judy,twenty,Phoenix,,N/A,-1.0,2023-05-07,user911@example.com,Bad
+913.0,Charlie,twenty,New York,Shoes,432.73,-1.0,2022-06-08,user912@example.com,Good
+914.0,Ivan,20,   ,Shoes,114.35,3.0,2021-07-31,user913@example.com,
+915.0,Ivan,38,Miami,,373.68,4.0,2022-05-28,user914@example.com,Good
+916.0,Charlie,twenty,Chicago,Pants,469.21,1.0,2020-11-08,user915@example.com,Excellent   
+917.0,Charlie,,New York,Bag,311.07,2.0,2021-01-17,,Bad
+918.0,Judy,twenty,Chicago,Shirt,222.52,,2020-08-23,user917@example.com,Good
+919.0,Ivan,twenty,   ,Pants,317.11,4.0,2023-12-06,user918@example.com,Bad
+920.0,Mallory,,Dallas,Shoes,188.49,-1.0,2022-05-28,user919@example.com,N/A
+921.0,Ivan,70,New York,Hat,83.73,4.0,2023-12-17,user920@example.com,N/A
+922.0,Frank,,Dallas,,157.14,1.0,2020-07-30,,
+923.0,Ivan,twenty,Phoenix,Bag,166.14,1.0,2022-10-25,user922@example.com,
+924.0,Alice,twenty,Miami,,41.57,1.0,2021-01-21,user923@example.com,Average
+925.0,Alice,33,Dallas,Shoes,212.09,4.0,2023-04-25,,Bad
+926.0,Bob,47,,Hat,326.56,2.0,2020-10-31,user925@example.com,
+927.0,Alice,69,   ,Shoes,304.6,4.0,2020-09-27,user926@example.com,Excellent   
+928.0,Judy,25,Los Angeles,Socks,65.64,2.0,2021-07-14,,N/A
+929.0,Ivan,21,   ,,130.34,4.0,2020-10-26,,Bad
+930.0,Eve,26,,Pants,237.44,1.0,2023-06-16,user929@example.com,Excellent   
+931.0,Judy,,Houston,Watch,223.71,3.0,2020-04-14,user930@example.com,Average
+932.0,David,twenty,Chicago,Shoes,28.13,,2022-12-11,user931@example.com,Good
+933.0,Ivan,twenty,,Shoes,76.85,5.0,2023-07-21,user932@example.com,Average
+934.0,Grace,twenty,Los Angeles,Shoes,403.73,4.0,2021-03-30,user933@example.com,Average
+935.0,Ivan,,,Bag,96.23,5.0,2022-09-08,user934@example.com,N/A
+936.0,Judy,70,Chicago,Watch,482.26,5.0,2022-05-24,,N/A
+937.0,Alice,19,San Francisco,Bag,19.76,5.0,2021-09-15,user936@example.com,N/A
+938.0,,twenty,,Shoes,51.13,-1.0,2022-01-14,user937@example.com,Good
+939.0,Judy,46,,Hat,434.91,4.0,2021-12-19,user938@example.com,Excellent   
+940.0,   Hannah,,San Francisco,Tie,209.43,-1.0,2021-05-20,user939@example.com,Good
+941.0,Eve,25,Los Angeles,Pants,332.14,3.0,2020-04-07,user940@example.com,Good
+942.0,Judy,47,   ,Bag,472.15,5.0,2020-01-02,user941@example.com,Excellent   
+943.0,Eve,twenty,Houston,,78.87,4.0,2021-10-20,user942@example.com,Average
+944.0,,twenty,Houston,,369.9,,2022-08-24,user943@example.com,
+945.0,David,,   ,Shoes,265.76,4.0,2023-05-27,user944@example.com,
+946.0,Judy,,   ,Watch,475.34,4.0,2021-01-13,user945@example.com,Excellent   
+947.0,Grace,,   ,Tie,133.39,,2022-10-03,user946@example.com,
+948.0,Eve,,Phoenix,Bag,126.66,4.0,2021-09-15,user947@example.com,Excellent   
+949.0,,31,Houston,Pants,405.28,,2023-10-02,user948@example.com,
+950.0,Bob,,Dallas,Shirt,296.32,4.0,invalid_date,user949@example.com,Average
+951.0,Mallory,46,,Bag,376.7,-1.0,2020-09-23,user950@example.com,
+952.0,Alice,twenty,Miami,Pants,217.21,2.0,2022-01-10,user951@example.com,Excellent   
+953.0,Charlie,twenty,,Shoes,95.83,2.0,2023-04-21,user952@example.com,Bad
+954.0,,twenty,New York,Watch,225.34,5.0,2022-01-31,user953@example.com,Excellent   
+955.0,Grace,,Los Angeles,Watch,298.85,2.0,2021-07-19,user954@example.com,Bad
+956.0,,twenty,   ,Bag,193.61,4.0,2022-02-25,user955@example.com,Excellent   
+,,48,Miami,,165.08,,2020-08-05,user956@example.com,N/A
+958.0,David,,Houston,Shoes,344.54,4.0,2023-05-17,user957@example.com,N/A
+959.0,Frank,42,Dallas,Shoes,440.92,2.0,2023-04-16,user958@example.com,Good
+960.0,Ivan,44,Dallas,Bag,187.87,,2023-09-02,user959@example.com,Bad
+961.0,Charlie,twenty,Houston,Socks,412.47,5.0,2021-01-30,,Good
+962.0,Frank,twenty,New York,Pants,N/A,-1.0,2020-07-21,user961@example.com,N/A
+963.0,Mallory,twenty,   ,Shoes,306.85,5.0,2023-01-24,user962@example.com,N/A
+964.0,Frank,68,San Francisco,Tie,334.49,1.0,2021-09-09,user963@example.com,Average
+965.0,Mallory,twenty,Los Angeles,,348.43,,2021-02-17,user964@example.com,Excellent   
+966.0,Frank,,San Francisco,Tie,127.44,2.0,2020-11-10,,Excellent   
+967.0,Grace,,Phoenix,Hat,161.54,4.0,invalid_date,user966@example.com,
+968.0,Charlie,twenty,,,187.8,4.0,2023-02-01,user967@example.com,
+969.0,Frank,,Phoenix,Shirt,69.81,1.0,2023-02-21,user968@example.com,Average
+970.0,   Hannah,,New York,Bag,430.25,,2022-01-19,user969@example.com,
+971.0,   Hannah,29,,Socks,455.8,2.0,2024-01-09,user970@example.com,Bad
+972.0,Bob,twenty,   ,Hat,489.22,5.0,2022-06-12,user971@example.com,N/A
+973.0,Frank,32,,Bag,54.22,3.0,2022-05-08,user972@example.com,Excellent   
+974.0,David,,,Shoes,125.38,1.0,2022-10-28,user973@example.com,N/A
+975.0,,,Miami,Bag,446.22,5.0,2020-12-07,user974@example.com,Average
+976.0,Bob,,Miami,Pants,319.36,-1.0,2023-11-27,user975@example.com,Good
+977.0,Eve,twenty,New York,Tie,385.7,4.0,2021-08-16,user976@example.com,Bad
+978.0,,32,Phoenix,Watch,26.6,1.0,invalid_date,user977@example.com,Average
+979.0,David,24,Houston,,413.37,1.0,2023-11-21,user978@example.com,
+980.0,Charlie,60,   ,Socks,240.83,3.0,2022-03-25,user979@example.com,Average
+981.0,Bob,twenty,,,422.17,5.0,2022-12-26,user980@example.com,Good
+982.0,Alice,twenty,Los Angeles,Shirt,439.61,3.0,2020-06-02,user981@example.com,N/A
+983.0,Eve,21,Los Angeles,Shirt,413.96,1.0,2022-11-09,user982@example.com,N/A
+984.0,Grace,,Chicago,Bag,258.1,5.0,2022-03-10,user983@example.com,N/A
+985.0,Ivan,40,,Shirt,305.04,2.0,2021-07-10,user984@example.com,N/A
+986.0,Grace,29,,Shoes,371.51,1.0,2020-01-08,user985@example.com,N/A
+987.0,David,,New York,Pants,23.4,3.0,2021-03-22,user986@example.com,
+988.0,Charlie,twenty,Los Angeles,Pants,324.38,3.0,2020-01-19,user987@example.com,Average
+989.0,Frank,,Houston,Shoes,397.6,3.0,2022-11-16,user988@example.com,Average
+990.0,Ivan,55,Houston,Hat,206.32,3.0,2023-12-20,user989@example.com,
+991.0,Mallory,twenty,San Francisco,Shirt,163.72,3.0,2021-06-14,user990@example.com,Average
+992.0,Frank,twenty,Los Angeles,Shoes,87.33,4.0,2021-03-27,user991@example.com,Bad
+993.0,David,54,Houston,Hat,485.14,1.0,2021-07-03,,Bad
+994.0,Charlie,54,,Shirt,383.95,-1.0,2020-12-16,user993@example.com,Good
+995.0,,,San Francisco,Shoes,346.02,2.0,2022-12-28,user994@example.com,Excellent   
+996.0,   Hannah,,Los Angeles,Tie,166.51,2.0,2020-03-21,user995@example.com,Excellent   
+997.0,,,Chicago,Socks,370.23,-1.0,2021-07-22,user996@example.com,Bad
+998.0,,20,New York,Shoes,346.86,5.0,2021-07-07,user997@example.com,
+999.0,Eve,21,Miami,Bag,401.77,4.0,2020-04-15,user998@example.com,N/A
+1000.0,,56,   ,Tie,213.1,1.0,2021-05-24,user999@example.com,Average
