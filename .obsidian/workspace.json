@@ -4,67 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "fbc47b56054df583",
+        "id": "d965d9d0dfe9172a",
         "type": "tabs",
         "children": [
           {
-            "id": "b5c92727b629d356",
+            "id": "1a934739596c7ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19 File and Exception Handling in Python.md",
+                "file": "SDHub-DS/01 Foundation/Hackathon/Claude-4 sonnet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19 File and Exception Handling in Python"
+              "title": "Claude-4 sonnet"
             }
           },
           {
-            "id": "3e2702d055321d49",
+            "id": "5356c2df12278e94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
+                "file": "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24 Introduction to Pandas"
-            }
-          },
-          {
-            "id": "2b750e22c362be8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29 Pandas for Data Analysis & Preprocessing"
-            }
-          },
-          {
-            "id": "8ab9bfc1b57d2453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/30 Visualization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "30 Visualization"
+              "title": "Data Cleaning"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4d248efe2046e0a4",
@@ -137,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SDHub-DS/01-Foundation/notes/Day - 1.md",
+                "file": "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Day - 1"
+              "title": "Backlinks for Data Cleaning"
             }
           },
           {
@@ -203,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,27 +185,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ab9bfc1b57d2453",
+  "active": "5356c2df12278e94",
   "lastOpenFiles": [
-    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Hackathon.ipynb",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Untitled.ipynb",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Dataset/ecommerce_dataset.csv",
+    "SDHub-DS/01 Foundation/Hackathon/Claude-4 sonnet.md",
+    "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
+    "SDHub-DS/01 Foundation/Hackathon/ChatGPT-5.md",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Practice.ipynb",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Dataset/my_file (1).csv",
+    "SDHub-DS/01 Foundation/Hackathon/Google Ai Studio Gmini 2.5 pro.md",
+    "SDHub-DS/01 Foundation/01_Notes/Python's Dynamic Typing.md",
+    "SDHub-DS/01 Foundation/Hackathon",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/32 EDA Case Study.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/32 EDA.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/31 EDA.md",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/11 EDA.ipynb",
+    "SDHub-DS/01 Foundation/03 Python For Data Science/JNB/Dataset/CardioGoodFitness.csv",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/30 Visualization.md",
+    "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/29 Pandas for Data Analysis & Preprocessing.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/25-28 Advanced Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
     "SDHub-DS/01 Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/04 Pands Intoduction Part-1.ipynb",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/dataset.csv",
     "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/05 Pandas Introduction.ipynb~",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/05 Pandas Introduction.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/23 NumPy Practice & Pandas Introduction.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/24 Introduction to Pandas.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/22 NumPy Operations.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/21 Introduction to NumPy Part 2.md",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/02 Numpy.ipynb",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/01 Python For DA-DS Numpy.ipynb",
-    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_4/Numpy -01.pdf",
-    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/File Handling.pdf",
-    "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Comprehension.pdf",
-    "SDHub-DS/01_Foundation/03 Python For Data Science/JNB/Cleaned/03 Numpy Operations.ipynb",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20 NumPy for Data Science.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19 File and Exception Handling in Python.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17 Object-Oriented Programming in Python.md",
@@ -240,15 +223,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14 Functional Programming.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/18 Object-Oriented Programming & File Handling.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/13 Functional Programming.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/11  Python Loops `while` and `for`.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/12 Loops and Comprehensions.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/10 Control Flow with while  Loops.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/09 Conditional Logic.md",
-    "SDHub-DS/01_Foundation/01_Notes/Python's Dynamic Typing.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/03 Python Fundamentals & Jupyter Mastery.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/04 User Input & Operators.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/02 Understanding the AI.md",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/2.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/1.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_2/11-DS.jpeg",
