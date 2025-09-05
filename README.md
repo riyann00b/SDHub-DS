@@ -21,7 +21,8 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 ### 📁 Repository Structure
 
 ```
-└── riyann00b-sdhub-ds/
+└── 
+SDHub-DS/
     ├── README.md
     ├── LICENSE
     └── SDHub-DS/
