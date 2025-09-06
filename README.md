@@ -105,7 +105,8 @@ graph TD
 ![CachyOS](https://img.shields.io/badge/CachyOS-black?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
 ![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
-![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 
 </div>
 
@@ -127,8 +128,8 @@ graph TD
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![alt text](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![UV](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -139,50 +140,60 @@ graph TD
 
 ### 🏅 Completed Milestones
 - [x] ✅ **Phase 1:** Python Fundamentals & Python for Data Science (NumPy, Pandas).
-- [x] ✅ **Phase 2 (Partial):** Data Visualization (Matplotlib, Seaborn), EDA, Excel.
+- [x] ✅ **Phase 2 (Partial):** Data Visualization (Matplotlib, Seaborn), EDA, Excel, Power BI (Data Modeling).
 
 ### 📊 Current Progress
 ```progress
 Phase 1: Python Foundations [██████████] 100% Complete!
-Phase 2: BI & Databases    [█████.....]  50% In Progress
-Phase 3: Advanced AI       [..........]   0% Not Started
+Phase 2: Excel & Power BI   [██████....]  60% In Progress
+Phase 3: SQL / Databases    [..........]   0% Not Started
+Phase 4: Advanced AI/ML     [..........]   0% Not Started
 ```
 
-**🎯 Currently Learning: Week 9 - Power BI: Data Modeling & DAX**
-- We are deep into Power BI, having covered the Power Query Editor and are now focusing on creating relationships between different data tables (Data Modeling).
+**🎯 Currently Learning: Week 9 - Power BI: Navigation, Sharing & Security**
+- We are learning how to enhance the user experience with interactive page navigation.
+- A key focus is on sharing reports via the Power BI Service and implementing data security with Row-Level Security (RLS).
 - **Up Next:** Advanced DAX, SQL for Data Analysis.
 
 ---
 
-## 📝 Today's Learning Overview (September 2nd, 2025)
+## 📝 Today's Learning Overview (September 4th, 2025)
 
-<details open>
-<summary><strong>Day 64 - Power BI: Mastering Data Modeling & Relationships</strong></summary>
+<details close>
+<summary><strong>Day 66 - Power BI: Page Navigation & Report Sharing</strong></summary>
 <br>
 
-**🎯 Session Focus:** Building a robust and efficient data model by creating and configuring relationships between tables. This is the backbone of any meaningful Power BI report.
+**🎯 Session Focus:** Enhancing user experience with interactive navigation and understanding the mechanisms for sharing and securing Power BI reports.
 
 **📚 Key Concepts Explored:**
 
-Today we moved from cleaning individual tables in the Power Query Editor to connecting them in the **Model View**. A well-structured model is essential for accurate and fast analysis.
+Today, we transitioned from building the report's backend to focusing on the user-facing experience and collaboration features.
 
-### 🔗 1. Understanding Relationships & Cardinality
-We learned that relationships define how different tables filter each other. The key concept was **cardinality**, which describes the uniqueness of values in a column.
-- **One-to-Many (`1:*`):** The most common type (e.g., one *Product* can have many *Sales*).
-- **One-to-One (`1:1`):** Less common (e.g., one *Employee* has one set of *Contact Info*).
-- **Many-to-Many (`*.*`):** Complex relationship that often requires a "bridge" table.
+### 🗺️ 1. Interactive Page Navigation
+We learned how to create a seamless navigation experience, moving beyond the default page tabs.
+- **Method:** You can use any clickable element (button, shape, image), enable its **Action** property in the Format pane, and set the type to **Page navigation**.
+- **Destination:** You then select which page the button should link to.
+- **Testing:** A key difference between environments:
+    - **Power BI Desktop:** `Ctrl + Mouse Click` to activate.
+    - **Power BI Service:** A standard single click works after publishing.
 
-### ↔️ 2. Filter Direction
-We explored how filters flow between tables. Setting the correct **cross-filter direction** (Single or Both) is crucial for creating interactive reports where selecting an item in one visual correctly filters another.
+### 📤 2. Sharing & Collaboration
+Publishing a report is just the first step. The real power comes from sharing it with the right audience securely.
+- **Power BI Service:** This is the cloud-based hub for all sharing and collaboration. Reports must be published here from the Desktop app.
+- **Access Levels:** We discussed how to control what users can do. The most common are:
+    - **View:** For consumers who interact with the report but cannot change it.
+    - **Edit:** For collaborators who can modify the report and its underlying dataset.
+- **Drillthrough:** An interactive feature (not a security one) that lets users navigate from a high-level data point to a detailed, filtered page for deeper analysis.
 
-### Schema Design: Star vs. Snowflake
-- **Star Schema:** The preferred model. A central "Fact" table (like *Sales*) is connected to multiple "Dimension" tables (like *Products*, *Customers*, *Dates*). It's simple and efficient.
-- **Snowflake Schema:** A more normalized version where dimension tables are broken down into further tables.
+### 🔒 3. Row-Level Security (RLS)
+This was a critical topic for data governance. RLS ensures that users only see the data they are authorized to see.
+- **How it Works:** You create "roles" in Power BI Desktop and apply DAX filter expressions to them (e.g., `[Region] = "North"`).
+- **Implementation:** In the Power BI Service, you assign users to these roles. When they open the report, the RLS rules are automatically applied, filtering the data dynamically. This allows a single report to serve multiple users with different access rights.
 
 **💡 Key Insights:**
-- **A Good Model is Everything:** You can be a DAX wizard, but your formulas will be slow and incorrect if the underlying data model and relationships are poorly designed.
-- **Think in Terms of Facts and Dimensions:** Separating your data into tables that describe *what happened* (facts) and tables that describe the *who, what, where, when* (dimensions) is the foundation of good BI design.
-- **Avoid Many-to-Many When Possible:** While Power BI supports many-to-many relationships, they can introduce ambiguity. The best practice is often to create a bridge table to resolve them into two one-to-many relationships.
+- **Good UI/UX Matters:** A clean navigation system can make the difference between a good report and a great one.
+- **Security is Paramount:** RLS is a non-negotiable feature in enterprise environments. It enables data democratization without compromising confidentiality.
+- **Share with Intent:** Always think about the minimum level of permission a user needs. Granting "View" access is often sufficient and much safer than granting "Edit".
 
 </details>
 
@@ -210,7 +221,7 @@ We explored how filters flow between tables. Setting the correct **cross-filter 
 ---
 
 **📊 Learning Analytics**  
-**Journey Duration:** 2 months, 3 days | **Total Days:** 65
+**Journey Duration:** 2 months, 5 days | **Total Days:** 67
 
 ---
 
