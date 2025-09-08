@@ -4,8 +4,8 @@
 
 ![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
 
-*📅 Started: July 1st, 2025*  
-*🕐 Class Timings: 3:00 PM - 6:00 PM (Mon-Fri)*  
+*📅 Started: July 1st, 2025*
+*🕐 Class Timings: 3:00 PM - 6:00 PM (Mon-Fri)*
 *🎯 Goal: Master Data Science / Analytics & Gen-AI*
 
 </div>
@@ -21,8 +21,7 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 ### 📁 Repository Structure
 
 ```
-└── 
-SDHub-DS/
+└── SDHub-DS/
     ├── README.md
     ├── LICENSE
     └── SDHub-DS/
@@ -35,6 +34,7 @@ SDHub-DS/
         ├── 02 Bi-Excel/
         │   ├── 01 Excel/
         │   └── 02 Power BI/
+        ├── 03 SQL/
         └── Hackathon/
             └── Data cleaning and vistualization/
 ```
@@ -89,8 +89,9 @@ graph TD
         I --> J[🧑‍💻 AI Workflow & Agentic AI];
     end
 
-    B --> C;
-    D --> E;
+    B --> D;
+    D --> C;
+    C --> E;
 ```
 
 ---
@@ -100,13 +101,7 @@ graph TD
 ### 🖥️ System Specifications
 <div align="center">
 
-![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![AMD](https://img.shields.io/badge/AMD-Radeon_Graphics-ED1C24?style=for-the-badge&logo=amd&logoColor=white) 
-![CachyOS](https://img.shields.io/badge/CachyOS-black?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
-![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
-![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
+![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white)![AMD](https://img.shields.io/badge/AMD-Radeon_Graphics-ED1C24?style=for-the-badge&logo=amd&logoColor=white)![CachyOS](https://img.shields.io/badge/CachyOS-black?style=for-the-badge&logo=arch-linux&logoColor=white)![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 </div>
 
@@ -120,17 +115,12 @@ graph TD
 ```
 
 ### 🛠️ Tools & Setup
-**Primary Development:** `uv` package manager + Jupyter on CachyOS.  
+**Primary Development:** `uv` package manager + Jupyter on CachyOS.
 **Business Intelligence:** Using **Windows 11 Pro** for Power BI & Excel.
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![UV](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
@@ -140,60 +130,72 @@ graph TD
 
 ### 🏅 Completed Milestones
 - [x] ✅ **Phase 1:** Python Fundamentals & Python for Data Science (NumPy, Pandas).
-- [x] ✅ **Phase 2 (Partial):** Data Visualization (Matplotlib, Seaborn), EDA, Excel, Power BI (Data Modeling).
+- [x] ✅ **Phase 2 (Partial):** Business Intelligence with Excel & Power BI.
 
 ### 📊 Current Progress
 ```progress
-Phase 1: Python Foundations [██████████] 100% Complete!
-Phase 2: Excel & Power BI   [██████....]  60% In Progress
-Phase 3: SQL / Databases    [..........]   0% Not Started
-Phase 4: Advanced AI/ML     [..........]   0% Not Started
+Phase 1: Foundations        [██████████] 100% Complete!
+Phase 2: Power BI           [██████████] 100% Complete!
+Phase 2: SQL & Databases    [██........]  20% In Progress
+Phase 3: Advanced AI/ML     [..........]   0% Not Started
 ```
 
-**🎯 Currently Learning: Week 9 - Power BI: Navigation, Sharing & Security**
-- We are learning how to enhance the user experience with interactive page navigation.
-- A key focus is on sharing reports via the Power BI Service and implementing data security with Row-Level Security (RLS).
-- **Up Next:** Advanced DAX, SQL for Data Analysis.
+**🎯 Currently Learning: Week 10 - Introduction to SQL**
+- We have officially started the database module, kicking things off with SQL.
+- Today's focus was on understanding the core concepts of databases, the structure of SQL, and how to define the schema of a database.
+- **Up Next:** Manipulating and querying data with DML and DQL.
 
 ---
 
-## 📝 Today's Learning Overview (September 4th, 2025)
+## 📝 Today's Learning Overview (September 8th, 2025)
 
-<details close>
-<summary><strong>Day 66 - Power BI: Page Navigation & Report Sharing</strong></summary>
+<details open>
+<summary><strong>Day 68 - Introduction to SQL & Database Fundamentals</strong></summary>
 <br>
 
-**🎯 Session Focus:** Enhancing user experience with interactive navigation and understanding the mechanisms for sharing and securing Power BI reports.
+**🎯 Session Focus:** Understanding the foundational concepts of databases, the role of SQL as a database language, and learning the first major category of SQL commands: DDL.
 
 **📚 Key Concepts Explored:**
 
-Today, we transitioned from building the report's backend to focusing on the user-facing experience and collaboration features.
+Today marked our transition from BI tools into the world of databases. We covered the "why" and "what" of SQL before writing our first queries.
 
-### 🗺️ 1. Interactive Page Navigation
-We learned how to create a seamless navigation experience, moving beyond the default page tabs.
-- **Method:** You can use any clickable element (button, shape, image), enable its **Action** property in the Format pane, and set the type to **Page navigation**.
-- **Destination:** You then select which page the button should link to.
-- **Testing:** A key difference between environments:
-    - **Power BI Desktop:** `Ctrl + Mouse Click` to activate.
-    - **Power BI Service:** A standard single click works after publishing.
+### 🏛️ 1. Database Fundamentals
+- **Data vs. Information:** Data is raw (e.g., 'A', 20), while information is structured and meaningful (e.g., a table row with `Name='A'`, `Age=20`).
+- **Structured vs. Unstructured Data:** We learned that SQL databases excel at managing **structured data** (tables with rows and columns), like user profiles. **Unstructured data** (comments, posts, likes) is typically handled by NoSQL databases.
+- **DBMS vs. RDBMS:** A Database Management System (DBMS) is the software that manages a database. An RDBMS is a specific type for relational (table-based) databases.
 
-### 📤 2. Sharing & Collaboration
-Publishing a report is just the first step. The real power comes from sharing it with the right audience securely.
-- **Power BI Service:** This is the cloud-based hub for all sharing and collaboration. Reports must be published here from the Desktop app.
-- **Access Levels:** We discussed how to control what users can do. The most common are:
-    - **View:** For consumers who interact with the report but cannot change it.
-    - **Edit:** For collaborators who can modify the report and its underlying dataset.
-- **Drillthrough:** An interactive feature (not a security one) that lets users navigate from a high-level data point to a detailed, filtered page for deeper analysis.
+### 🧩 2. The Five Sub-Languages of SQL
+SQL isn't just one language; it's a set of sub-languages for different tasks. We broke them down:
+- **DDL (Data Definition Language):** For defining the database structure. `(CREATE, ALTER, DROP)`
+- **DML (Data Manipulation Language):** For manipulating the data itself. `(INSERT, UPDATE, DELETE)`
+- **DQL (Data Query Language):** For fetching data. `(SELECT)`
+- **DCL (Data Control Language):** For managing permissions. `(GRANT, REVOKE)`
+- **TCL (Transaction Control Language):** For managing transactions. `(COMMIT, ROLLBACK)`
 
-### 🔒 3. Row-Level Security (RLS)
-This was a critical topic for data governance. RLS ensures that users only see the data they are authorized to see.
-- **How it Works:** You create "roles" in Power BI Desktop and apply DAX filter expressions to them (e.g., `[Region] = "North"`).
-- **Implementation:** In the Power BI Service, you assign users to these roles. When they open the report, the RLS rules are automatically applied, filtering the data dynamically. This allows a single report to serve multiple users with different access rights.
+### 🏗️ 3. DDL in Practice
+We spent the most time on DDL, as it's the first step in building a database.
+- **`CREATE`:** Used to build a new database or table.
+  ```sql
+  -- First, create the database container
+  CREATE DATABASE sdhub;
+  
+  -- Then, select it for use
+  USE sdhub;
+  
+  -- Finally, define the table structure (schema)
+  CREATE TABLE student_details (
+      Name VARCHAR(15),
+      Age INT,
+      Gender VARCHAR(1)
+  );
+  ```
+- **`ALTER`:** Modifies an existing table's structure (e.g., adding a new column).
+- **`DROP` vs. `TRUNCATE`:** A crucial distinction. `TRUNCATE` deletes all data *inside* a table but keeps the structure. `DROP` deletes the *entire table* permanently.
 
 **💡 Key Insights:**
-- **Good UI/UX Matters:** A clean navigation system can make the difference between a good report and a great one.
-- **Security is Paramount:** RLS is a non-negotiable feature in enterprise environments. It enables data democratization without compromising confidentiality.
-- **Share with Intent:** Always think about the minimum level of permission a user needs. Granting "View" access is often sufficient and much safer than granting "Edit".
+- **Structure is Everything:** SQL's power comes from its enforced structure, ensuring data consistency.
+- **Keywords are not Case-Sensitive:** `SELECT` is the same as `select`, but the convention is to use UPPERCASE for readability.
+- **DDL is the Blueprint:** You must build the house (DDL) before you can put things inside it (DML).
 
 </details>
 
@@ -220,12 +222,12 @@ This was a critical topic for data governance. RLS ensures that users only see t
 
 ---
 
-**📊 Learning Analytics**  
-**Journey Duration:** 2 months, 5 days | **Total Days:** 67
+**📊 Learning Analytics**
+**Journey Duration:** 2 months, 8 days | **Total Days:** 68
 
 ---
 
-*"The journey of a thousand miles begins with a single step"* 🚶‍♂️  
+*"The journey of a thousand miles begins with a single step"* 🚶‍♂️
 **Started:** July 1st, 2025 | **Status:** Learning & Growing 🌱
 
 **Made with ❤️ and lots of ☕ during my Data Science journey at SD Hub**
