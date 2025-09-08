@@ -1,7 +1,5 @@
 # SQL Class Notes: The Ultimate Guide 🚀
 
-This guide synthesizes class notes into a structured, easy-to-follow format. It's packed with verified examples, diagrams, and best practices to take you from beginner to pro.
-
 ## 🗄️ 1. What is a Database?
 
 A database is a structured collection of data. Think of it as a digital filing cabinet, designed for efficient storage, retrieval, and management of information.
@@ -9,10 +7,10 @@ A database is a structured collection of data. Think of it as a digital filing c
 *   **Data → Information**: Raw data (like names and ages) becomes useful information when organized.
 *   **Structured vs. Unstructured**: Databases can handle different types of data.
 
-| Data Type | Description | Examples | Database Type |
-| :--- | :--- | :--- | :--- |
-| **Structured** | Highly organized, tabular data with a predefined schema (rows & columns). | User profiles, sales transactions, inventory lists. | SQL (Relational DB) |
-| **Unstructured** | Data without a predefined model. | Social media posts, comments, images, videos. | NoSQL DB |
+| Data Type        | Description                                                               | Examples                                            | Database Type       |
+| :--------------- | :------------------------------------------------------------------------ | :-------------------------------------------------- | :------------------ |
+| **Structured**   | Highly organized, tabular data with a predefined schema (rows & columns). | User profiles, sales transactions, inventory lists. | SQL (Relational DB) |
+| **Unstructured** | Data without a predefined model.                                          | Social media posts, comments, images, videos.       | NoSQL DB            |
 
 > [!example] **Real-World Example: Instagram**
 > *   **Structured Data**: Your user profile (`username`, `date_of_birth`, `email`, `mobile_number`). This data fits neatly into a table.

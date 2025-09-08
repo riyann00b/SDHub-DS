@@ -25,10 +25,14 @@
             "id": "5356c2df12278e94",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SDHub-DS/00 Notes/04_SQL/My_Notes/01 Introduction to SQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01 Introduction to SQL"
             }
           }
         ],
@@ -180,7 +184,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ec477e0489c0a0",
+  "active": "5356c2df12278e94",
   "lastOpenFiles": [
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Practice BI Files/Introduction",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Practice BI Files/New folder",
