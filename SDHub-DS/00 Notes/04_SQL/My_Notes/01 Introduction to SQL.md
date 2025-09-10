@@ -1,4 +1,4 @@
-# SQL Class Notes: The Ultimate Guide 🚀
+# SQL Class Notes: Intro to SQL 🚀
 
 ## 🗄️ 1. What is a Database?
 
