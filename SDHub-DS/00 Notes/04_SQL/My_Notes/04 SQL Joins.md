@@ -24,7 +24,8 @@ When you need data from more than one table, you have two main approaches: Neste
 `JOIN`s let us combine tables. The type of `JOIN` determines *which* rows are included in the final result. Venn diagrams are a popular way to visualize how these `JOIN`s work.
 
 *A visual guide to the most common SQL JOIN operations.*
-![SQL Joints](https://media.licdn.com/dms/image/v2/D4E22AQEyBG89zTGDCQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1724383034734?e=1760572800&v=beta&t=I38AqSvDKjN_nbCiQs81OQviX58_LzdJAcf2FFpEyWY)
+![SQL Joins](https://media.licdn.com/dms/image/v2/D4E22AQEyBG89zTGDCQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1724383034734?e=1760572800&v=beta&t=I38AqSvDKjN_nbCiQs81OQviX58_LzdJAcf2FFpEyWY)
+
 ### 1. `INNER JOIN` (The Intersection)
 📌 An `INNER JOIN` returns only the rows that have matching values in **both** tables. It's the most common type of join.
 
@@ -59,10 +60,10 @@ RIGHT JOIN table2 AS T2 ON T1.common_column = T2.common_column;
 ```
 
 ### 4. `FULL OUTER JOIN` (Include Everything from Both)
-📌 A `FULL OUTER JOIN` returns all rows when there is a match in either the left or the right table. It's essentially a combination of `LEFT JOIN` and `RIGHT JOIN`. If no match exists for a row, the columns from the other table will be `NULL`.
+📌 A `FULL OUTER JOIN` returns all rows when there is a match in either the left or the right table. It's essentially a combination of `LEFT JOIN` and `RIGHT JOIN`.
 
 > [!NOTE]
-> MariaDB (and MySQL) does not directly support `FULL OUTER JOIN`. You can emulate it by combining a `LEFT JOIN` and a `RIGHT JOIN` with a `UNION`.
+> MariaDB (and MySQL) do not directly support `FULL OUTER JOIN`. You can emulate it by combining a `LEFT JOIN` and a `RIGHT JOIN` with a `UNION`.
 
 **Emulated Syntax (MariaDB/MySQL):**
 ```sql
@@ -80,9 +81,7 @@ RIGHT JOIN table2 ON table1.id = table2.id;
 ## ⛓️ Special Join Types
 
 ### 1. `CROSS JOIN` (The Cartesian Product)
-❌ A `CROSS JOIN` returns every possible combination of rows from the joined tables. If Table A has `n` rows and Table B has `m` rows, the result will have `n * m` rows. This is rarely used in practice and can create massive, slow-running queries if used improperly.
-
-**Example:** If you `CROSS JOIN` a table of 3 shirt colors with a table of 3 sizes, you get 3 * 3 = 9 possible shirt combinations.
+❌ A `CROSS JOIN` returns every possible combination of rows from the joined tables. If Table A has `n` rows and Table B has `m` rows, the result will have `n * m` rows. This is rarely used in practice.
 
 **Syntax:**
 ```sql
@@ -90,11 +89,7 @@ SELECT * FROM table1 CROSS JOIN table2;
 ```
 
 ### 2. `SELF JOIN` (Joining a Table to Itself)
-✅ A `SELF JOIN` is not a distinct join type but a technique where you join a table to itself. This is incredibly useful for querying hierarchical data, like finding an employee's manager within the same `employees` table.
-
-You accomplish this by using aliases to treat the table as two separate entities in the same query.
-
-**Scenario:** We have an `EMPLOYEE` table where `MANAGER_ID` refers to the `ID` of another employee in the *same table*.
+✅ A `SELF JOIN` is a technique where you join a table to itself. This is incredibly useful for querying hierarchical data, like finding an employee's manager within the same `employees` table. You must use aliases to treat the table as two separate entities.
 
 **Table Structure:**
 ```mermaid
@@ -115,13 +110,12 @@ SELECT
 FROM EMPLOYEE AS employee
 JOIN EMPLOYEE AS manager ON employee.MANAGER_ID = manager.ID;
 ```
-In this query, we treat `EMPLOYEE` as two tables: `employee` (for the employee role) and `manager` (for the manager role) to link them together.
 
 ---
 
 ## 🚀 Putting It All Together: Practice Queries
 
-Let's work with a database for a fictional university and company placement program.
+Here is a complete set of queries from our class, demonstrating various `JOIN` operations.
 
 **Database Schema:**
 ```mermaid
@@ -138,7 +132,7 @@ erDiagram
         VARCHAR Role
         DECIMAL Salary
     }
-    reporting_details {
+    reporting_detail {
         INT ReportID PK
         VARCHAR Name
         VARCHAR Role
@@ -151,93 +145,83 @@ erDiagram
     }
 
     student_details ||--|{ company : "works at"
-    company ||--|{ reporting_details : "reports to"
     EMPLOYEE ||--o{ EMPLOYEE : "manages"
 ```
 
 ### MariaDB Practice Code
 
 ```sql
--- 📌 Fetch student details along with their company role and salary
+-- 📌 1. Display name, age, role, and salary (long form)
+SELECT
+    student_details.Name,
+    student_details.Age,
+    company.Role,
+    company.Salary
+FROM student_details
+JOIN company ON student_details.Name = company.Name;
+
+-- 📌 2. Same query using aliases for brevity (recommended practice)
 SELECT
     sd.Name,
     sd.Age,
     cm.Role,
     cm.Salary
-FROM student_details AS sd  -- 'sd' is an alias for student_details
-JOIN company AS cm ON sd.Name = cm.Name; -- 'cm' is an alias for company
+FROM student_details AS sd
+JOIN company AS cm ON sd.Name = cm.Name;
 
--- 📌 Display the role, salary, and gender for each person
+-- 📌 3. Filter results: Display Name, Age, and Salary only for the 'DS' (Data Scientist) role
 SELECT
-    cm.Name,
+    sd.Name,
+    sd.Age,
+    cm.Salary,
+    cm.Role
+FROM student_details AS sd
+INNER JOIN company AS cm ON sd.Name = cm.Name
+WHERE cm.Role = 'DS';
+
+-- 📌 4. Combine columns from both tables: Display role, salary, and gender
+SELECT
     cm.Role,
+    cm.Salary,
     sd.Gender
 FROM company AS cm
 JOIN student_details AS sd ON cm.Name = sd.Name;
 
--- 📌 Display total salary for all male ('M') employees
-SELECT SUM(cm.Salary) AS TotalSalaryForMale
-FROM company cm
-JOIN student_details sd ON cm.Name = sd.Name
-WHERE sd.Gender = 'M';
+-- 📌 5. Aggregation with a filter: Display the SUM of salaries for all male ('M') employees
+SELECT
+    SUM(cm.Salary) AS TotalMaleSalary,
+    sd.Gender
+FROM company AS cm
+JOIN student_details AS sd ON cm.Name = sd.Name
+WHERE sd.Gender = 'M'
+GROUP BY sd.Gender; -- Grouping is good practice even for one result
 
--- 📌 Display the average age for each role, ordered from oldest to youngest
+-- 📌 6. Aggregation with grouping: Display the average age for each role
+-- Using LEFT JOIN to include roles from the company table even if no matching student exists
 SELECT
     cm.Role,
-    AVG(sd.Age) as avg_age
-FROM company cm
-JOIN student_details sd ON cm.Name = sd.Name
+    AVG(sd.Age) AS avg_age
+FROM company AS cm
+LEFT JOIN student_details AS sd ON cm.Name = sd.Name
 GROUP BY cm.Role
 ORDER BY avg_age DESC;
 
--- 📌 Display students whose age is above the overall average age (using a subquery)
+-- 📌 7. Subquery example: Display students whose age is above the overall average
 SELECT Name, Age, Gender
 FROM student_details
 WHERE Age > (SELECT AVG(Age) FROM student_details);
 
--- 🗄️ Table setup for reporting details
-DROP TABLE IF EXISTS reporting_details;
-CREATE TABLE reporting_details (
-    ReportID INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(20),
-    Role VARCHAR(20),
-    ID INT
-);
-INSERT INTO reporting_details(Name, Role, ID) VALUES
-    ('Riyan', 'Manager', 101),
-    ('Amaan', 'Employee', 101),
-    ('Adnan', 'Employee', 102),
-    ('Sara', 'Manager', 102),
-    ('Priya', 'Manager', 103);
-
--- ⛓️ Example of a SELF JOIN on the reporting_details table
--- Find employees and managers who share the same reporting ID (e.g., in the same team)
+-- ⛓️ 8. Self Join: Find employees under a specific manager ID from reporting_detail table
+-- This query finds all entries sharing ID 102
 SELECT
-    manager.Name AS ManagerName,
-    manager.Role AS ManagerRole,
-    employee.Name AS EmployeeName,
-    employee.Role AS EmployeeRole
-FROM reporting_details AS manager
-JOIN reporting_details AS employee
-    ON manager.ID = employee.ID
-    AND manager.Role = 'Manager'
-    AND employee.Role = 'Employee';
+    rt.Name,
+    rt.Role,
+    test.ID
+FROM reporting_detail AS rt
+JOIN reporting_detail AS test ON rt.ID = test.ID AND rt.ID = 102;
 
-
--- 🗄️ Table setup for the classic Employee-Manager SELF JOIN example
-DROP TABLE IF EXISTS EMPLOYEE;
-CREATE TABLE EMPLOYEE (
-    ID INT PRIMARY KEY,
-    NAME VARCHAR(50),
-    MANAGER_ID INT
-);
-INSERT INTO EMPLOYEE VALUES
-    (101, 'ADAM', 103),
-    (102, 'BOB', 104),
-    (103, 'CASEY', NULL), -- Casey is the top manager, has no manager
-    (104, 'DONALD', 103);
-
--- ✅ Final SELF JOIN to map managers to their direct reports
+-- ⛓️ 9. Self Join: Find the manager for each employee
+-- This is a classic hierarchical query
 SELECT
     A.NAME AS ManagerName,
     B.NAME AS EmployeeName
