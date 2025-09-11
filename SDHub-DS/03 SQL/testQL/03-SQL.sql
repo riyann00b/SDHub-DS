@@ -1,31 +1,70 @@
+-- Display average income by gender, highest first
+SELECT
+    Gender,
+    AVG(Income) AS Avg_Income
+FROM
+    cardiogoodfitness
+GROUP BY
+    Gender
+ORDER BY
+    Avg_Income DESC;
 
-SELECT gend
+-- Display average usage by product, lowest first
+SELECT
+    Product,
+    AVG(`Usage`) AS avg_usage
+FROM
+    cardiogoodfitness
+GROUP BY
+    Product
+ORDER BY
+    avg_usage ASC;
 
--- dispaly avg usage by product in an other'
+-- Display average income broken down by both product and gender
+SELECT
+    Product,
+    Gender,
+    AVG(income)
+FROM
+    cardiogoodfitness
+GROUP BY
+    Product, Gender;
 
-select Product, avg('Usage') as avg_usage
+-- Display average income by age, but only for groups older than 30
+SELECT
+    Age,
+    AVG(Income) AS Avg_Income
+FROM
+    cardiogoodfitness
+GROUP BY
+    Age
+HAVING
+    age > 30;
 
-from
+-- Display average income by age, but only for groups with an average income over 50,000
+SELECT
+    age,
+    AVG(income) AS avg_income
+FROM
+    cardiogoodfitness
+GROUP BY
+    age
+HAVING
+    AVG(income) > 50000; -- Using the function is safer than the alias
 
-
-SHOW VARIABLES LIKE 'secure_file_priv';
-
-
-----
-
-
-USE sdhub;
-
-CREATE TABLE company(
-    Name VARCHAR(20),
-    Role VARCHAR(20),
-    Salary INT
+-- Display student records who are earning above 12000 as an AI Engineer
+SELECT *
+FROM student_details
+WHERE name IN (
+    SELECT name
+    FROM company
+    WHERE role = 'AI' AND salary > 12000
 );
 
-INSERT INTO company (Name, Role, Salary)
-VALUES
-    ('John', 'Manager', 50000),
-    ('Jane', 'Developer', 40000),
-    ('Doe', 'Designer', 35000);
-
-SELECT * FROM company;
+-- Display records whose age is above the average age of all students
+SELECT *
+FROM student_details
+WHERE age > (
+    SELECT AVG(age)
+    FROM student_details
+);

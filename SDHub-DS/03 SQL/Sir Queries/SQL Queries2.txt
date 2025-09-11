@@ -1,0 +1,73 @@
+-- Display average income by gender
+
+select Gender, avg(Income) as Avg_Income
+from cardiogoodfitness
+group by Gender
+order by Avg_Income desc;
+
+-- Display avg usage by product in an order
+
+select Product, avg(`Usage`) as avg_usage
+from cardiogoodfitness
+group by Product
+order by avg_usage asc;
+
+-- Display avg income by gender and product
+
+SELECT Product, Gender, avg(income)
+from cardiogoodfitness
+group by Product, Gender;
+
+-- Display average income by age and exclude the group below 30
+
+select Age, avg(Income) as Avg_Income
+from cardiogoodfitness
+group by Age
+having age>30;
+
+-- Display average income by age exclude group whose income is below 50,000
+
+select age, avg(income) -- as avg_income
+from cardiogoodfitness
+group by age
+having avg(income)>50000; -- having avg_income>50000
+
+-- Display avg income by education exclude (education below 15 and group below 80000)
+
+select Education, avg(Income) as avg_income
+from cardiogoodfitness
+where Education>15
+group by Education
+having avg_income>80000;
+
+-- Nested Queries
+
+-- Display the records of students who are working as DA
+select *
+from student_details
+where name in (select name
+				from company
+                where role='DA');
+                
+-- Display student records who are earning above 12000 as AI Engineer
+
+select *
+from student_details
+where name in (select name
+				from company
+                where role='AI' and salary>12000);
+                
+                
+-- Display records whose salary is above the average salary
+
+select *
+from company
+where salary > (select avg(salary)
+				from company);
+                
+-- Display records whose age is above average age of all
+
+select *
+from student_details
+where age> (select avg(age)
+			from student_details);

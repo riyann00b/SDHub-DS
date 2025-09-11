@@ -1,0 +1,53 @@
+-- Display name,age and role with salary
+
+select student_details.Name,student_details.Age,
+company.Role,company.Salary
+from student_details join company
+on student_details.name = company.Name;
+
+-- or
+
+select sd.Name,sd.Age,
+cm.Role,cm.Salary
+from student_details sd join company cm
+on sd.name = cm.Name;
+
+-- Display Name, Age and Salary for DS role
+
+select sd.Name, sd.Age, cm.Salary, cm.Role
+from student_details sd inner join company cm
+on sd.name = cm.name
+where cm.role='DS';
+
+-- Display role and salary by their gender
+
+select cm.role, cm.salary, sd.gender
+from company cm join student_details sd
+on cm.name = sd.name;
+
+-- Display total salary for male
+
+select cm.salary, sd.gender
+from company cm join student_details sd
+on cm.name = sd.name
+where sd.Gender = 'M';
+
+select sum(cm.salary), sd.gender
+from company cm join student_details sd
+on cm.name = sd.name
+where sd.Gender = 'M'
+group by sd.gender;
+
+-- Display role by average age
+
+select cm.role, avg(sd.age) as avg_age
+from company cm left join student_details sd
+on cm.name = sd.name
+group by cm.role
+order by avg_age desc;
+
+-- Display employee for manager Arif
+
+select rt.name, rt.role, test.id
+from reporting_detail rt join reporting_detail test
+on rt.id = test.id and rt.id=102;

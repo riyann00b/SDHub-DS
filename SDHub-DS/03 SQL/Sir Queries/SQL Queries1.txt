@@ -1,0 +1,108 @@
+use sdhub;
+
+create table student_details
+(Name varchar(20),Age int, Gender varchar(1));
+
+insert into student_details(Name,Age,Gender)
+values ('Uwaish Husain',29,'M'),
+('Asim Hasan',22,'M'),
+('Aisha Khan',21,'F'),
+('Abdur Rehman',22,'M'),
+('Shaghil Jamal',26,'M');
+
+-- Display entire data from student_details
+select * 
+from student_details;
+
+-- Display only name and gender
+select Name, Gender
+from student_details;
+
+-- Display unique name 
+
+select distinct name
+from student_details;
+
+-- Display average age
+
+select avg(age) as average_age
+from student_details;
+
+-- Total no. of records
+
+select count(*) as record_count
+from student_details;
+
+-- Display entire data
+
+select *
+from cardiogoodfitness;
+
+-- Tototal no of records
+
+select count(*) as record_count
+from cardiogoodfitness;
+
+-- Display records of people above 40
+
+select *
+from cardiogoodfitness
+where age>40;
+
+-- Display total no. of records whose age is below 20
+
+select count(*) as below_20
+from cardiogoodfitness
+where age<20;
+
+-- Display all records of female
+
+select *
+from cardiogoodfitness
+where gender = 'Female';
+
+select *
+from cardiogoodfitness
+where gender like 'F%';  -- (F or Female)
+
+-- Display records where age is below 40 and above 25
+
+select *
+from cardiogoodfitness
+where age>25 and age<40;
+
+select *
+from cardiogoodfitness
+where age between 25 and 40;
+
+-- Display total no. of records for female who are single
+
+select count(*) as records_count
+from cardiogoodfitness
+where gender like 'F%' and maritalstatus = 'Single';
+
+-- Display unique maritalstatus
+
+select distinct maritalstatus
+from cardiogoodfitness;
+
+-- Display records based on age order
+
+select *
+from cardiogoodfitness
+order by age asc;  -- (desc) 
+
+-- Display top 5 people based on income
+
+select *
+from cardiogoodfitness
+order by income desc
+limit 5;
+
+-- Display top 5 people based on income whose age is below 35
+
+select *
+from cardiogoodfitness
+where age<35
+order by income desc
+limit 5;

@@ -50,3 +50,20 @@ SELECT * FROM student_details WHERE Email IS NOT NULL;
 -- display total
 
 SELECT * FROM CardioGoodFitness
+
+-- company table
+CREATE TABLE company (
+    EmployeeID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(20),
+    Age INT,
+    Role VARCHAR(20),
+    Salary INT
+);
+
+INSERT INTO company (Name, Age, Role, Salary) VALUES
+    ('Riyan', 22, 'DS', 50000),
+    ('Amaan', 25, 'DS', 70000),
+    ('Adnan', 25, 'DA', 60000),
+    ('Taha', 20, 'DA', 30000),
+    ('Sara', 23, 'AI', 55000),
+    ('Priya', 21, 'AI', 52000);
