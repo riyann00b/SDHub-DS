@@ -1,3 +1,4 @@
+
 <div align="center">
 <h1> 🚀 My Data Science Journey with SD Hub </h1>
 </div>
@@ -5,9 +6,7 @@
 
 <div align="center">
 
-![Data Science](https://badgen.net/badge/Data%20Science/Journey/blue?icon=python)
-![SD Hub](https://badgen.net/badge/SD%20Hub/Batch%202/orange?icon=book)
-![Status](https://badgen.net/badge/Status/In%20Progress/green)
+![Data Science](https://badgen.net/badge/Data%20Science/Journey/blue?icon=python)![SD Hub](https://badgen.net/badge/SD%20Hub/Batch%202/orange?icon=book)![Status](https://badgen.net/badge/Status/In%20Progress/green)
 
 *📅 Started: July 1st, 2025*
 *🕐 Class Timings: 3:00 PM - 6:00 PM (Mon-Fri)*
@@ -41,6 +40,15 @@ Here's a high-level overview of the key directories in this repository:
 │   └── 📁 Hackathon/              # Project files for hackathons.
 └── 📜 README.md                   # You are here!
 ```
+
+### 🚀 Quick Access to Notes
+
+Jump directly to the notes for each module:
+
+-   [🐍 **Python Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/01_Python)
+-   [📊 **Excel Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/02_Excel)
+-   [📈 **Power BI Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/03_Power%20BI)
+-   [🗃️ **SQL Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/04_SQL)
 
 ---
 
@@ -158,22 +166,15 @@ I'm using a slightly different stack than the one taught in class, which provide
 
 <div align="center">
 
-[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&color=000000)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=datagrip&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv"></a>
 
 ![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)
-![Jupyter](https://badgen.net/badge/Jupyter/notebook/F37626?icon=jupyter)
-![Excel](https://badgen.net/badge/Excel/Sheets/217346) 
-![Power BI](https://badgen.net/badge/Power%20BI/Dashboards/F2C811)
+![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)
+![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel) 
+![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)
 ![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)
 ![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)
-![Git](https://badgen.net/badge/Git/version-control/F05032?icon=git)
+![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
 
 </div>
 
