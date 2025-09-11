@@ -166,8 +166,7 @@ I'm using a slightly different stack than the one taught in class, which provide
 
 <div align="center">
 
-<a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv"></a>
-
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 ![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)
 ![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)
 ![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel) 
@@ -222,11 +221,6 @@ Phase 3: Advanced AI/ML     [..........]   0% Not Started
 
 ### 📊 The Anatomy of a SELECT Query
 A `SELECT` statement has several clauses that are processed in a specific logical order, which is different from how we write them.
-
-> [!IMPORTANT]
-> ### ✍️ Lexical Order vs. Logical Order
-> *   **Lexical Order** is how you *write* the query (`SELECT`, `FROM`, `WHERE`...).
-> *   **Logical Order** is how the database *executes* the query (`FROM`, `WHERE`, `GROUP BY`...).
 
 ```mermaid
 graph LR
