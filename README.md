@@ -1,8 +1,6 @@
-
 <div align="center">
 <h1> 🚀 My Data Science Journey with SD Hub </h1>
 </div>
-
 
 <div align="center">
 
@@ -111,28 +109,6 @@ flowchart TD
     E --> F
     H --> I
     I --> End([🏆 COMPLETE])
-
-    %% Brand Colors
-    style Start fill:#1a1a2e,stroke:#16d9e3,stroke-width:3px,color:#ffffff
-    style End fill:#0f3460,stroke:#16d9e3,stroke-width:3px,color:#ffffff
-
-    %% Python - Blue/Yellow
-    style A fill:#306998,stroke:#ffd43b,stroke-width:3px,color:#ffffff
-    style B fill:#306998,stroke:#ffd43b,stroke-width:3px,color:#ffffff
-
-    %% Excel - Green
-    style C fill:#217346,stroke:#10793f,stroke-width:3px,color:#ffffff
-
-    %% Power BI - Yellow
-    style D fill:#f2c811,stroke:#ffdd44,stroke-width:3px,color:#000000
-
-    %% SQL - Red/Blue
-    style E fill:#cc2927,stroke:#00758f,stroke-width:3px,color:#ffffff
-
-    %% AI/ML - Purple Theme
-    classDef aiml fill:#7c3aed,stroke:#a78bfa,stroke-width:3px,color:#ffffff
-    class F,G,H,I aiml
-
 ```
 
 ---
@@ -142,23 +118,9 @@ flowchart TD
 ### 🖥️ System Specifications
 <div align="center">
 
-![AMD](https://badgen.net/badge/AMD/Ryzen_5_5600H/ED1C24?icon=amd)
-![CachyOS](https://badgen.net/badge/CachyOS/rolling/black?icon=archlinux)
-![GNOME](https://badgen.net/badge/GNOME/48/4A86CF?icon=gnome)
-![Windows 11](https://badgen.net/badge/Windows/11/0078D6?icon=windows)
+![AMD](https://badgen.net/badge/AMD/Ryzen_5_5600H/ED1C24?icon=amd)![CachyOS](https://badgen.net/badge/CachyOS/rolling/black?icon=archlinux)![GNOME](https://badgen.net/badge/GNOME/48/4A86CF?icon=gnome)![Windows 11](https://badgen.net/badge/Windows/11/0078D6?icon=windows)
 
 </div>
-
-```
-🏷️  Hardware Model: MSI Bravo 15 B5DD
-🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics
-💾  Memory:         16.0 GiB RAM
-🎮  Graphics:       AMD Radeon™ Graphics
-💿  Storage:        512.1 GB SSD
----
-🐧  Primary OS:     CachyOS (rolling) with GNOME 48
-🐧  Kernel:         Linux 6.16.6-2-cachyos
-```
 
 ### 🛠️ Tools & Setup
 
@@ -167,24 +129,10 @@ I'm using a slightly different stack than the one taught in class, which provide
 <div align="center">
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)
-![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)
-![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel) 
-![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)
-![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)
-![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)
-![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
+![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel) 
+![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
 
 </div>
-
-> [!NOTE]
-> ### Course Setup vs. My Setup
-> *   **Python Environment:**
->     *   **Course:** `Windows` + `Anaconda Navigator` + `Jupyter Notebook`.
->     *   **My Setup:** `CachyOS (Arch Linux)` + `uv` (a fast Python package manager) + `Jupyter Notebook`. This gives me a lightweight, high-performance, and Linux-native workflow.
-> *   **Database Environment:**
->     *   **Course:** `MySQL` + `MySQL Workbench`.
->     *   **My Setup:** `MariaDB` (a community-driven fork of MySQL) + `JetBrains DataGrip`.
 
 ---
 
@@ -198,74 +146,77 @@ I'm using a slightly different stack than the one taught in class, which provide
 ```progress
 Phase 1: Foundations        [██████████] 100% Complete!
 Phase 2: Power BI           [██████████] 100% Complete!
-Phase 2: SQL & Databases    [████......]  40% In Progress
+Phase 2: SQL & Databases    [█████.....]  55% In Progress
 Phase 3: Advanced AI/ML     [..........]   0% Not Started
 ```
 
-**🎯 Currently Learning: Week 10 - Advanced SQL Queries**
-- We've moved beyond basic DDL and are now focusing on powerful DQL techniques.
-- Today's focus was on aggregating data with `GROUP BY`, filtering groups with `HAVING`, and using nested queries (subqueries) to solve complex problems.
-- **Up Next:** Database `JOIN`s and understanding table relationships.
+**🎯 Currently Learning: Week 10 - SQL `JOIN`s**
+- We are mastering how to combine data from multiple tables using `JOIN` clauses.
+- Today’s focus was understanding the different types of `JOIN`s (`INNER`, `LEFT`, `RIGHT`) and the special-purpose `SELF JOIN`.
+- **Up Next:** More complex `JOIN` scenarios and advanced database concepts.
 
 ---
 
 ## 📝 Today's Learning Overview
 
 <details open>
-<summary><strong>Day 70 (September 10th, 2025) - Advanced Queries: Aggregation, Grouping, and Subqueries</strong></summary>
+<summary><strong>Day 71 (September 11th, 2025) - Mastering SQL JOINs: Connecting Multiple Tables</strong></summary>
 <br>
 
-**🎯 Session Focus:** Mastering advanced data retrieval with `GROUP BY`, filtering with `HAVING`, and constructing powerful nested queries (subqueries).
+**🎯 Session Focus:** Combining rows from two or more tables based on a related column. This is a fundamental skill for querying relational databases effectively.
 
 **📚 Key Concepts Explored:**
 
-### 📊 The Anatomy of a SELECT Query
-A `SELECT` statement has several clauses that are processed in a specific logical order, which is different from how we write them.
+### `JOIN`s vs. Nested Queries
+While both can be used to get data from multiple tables, `JOIN`s are almost always more performant. The database query optimizer is highly tuned for `JOIN` operations, making them the industry standard.
+
+### 🧩 The Core `JOIN` Types
+We visualized the primary `JOIN` types to understand how they include or exclude data.
 
 ```mermaid
-graph LR
-    A[1: FROM] --> B[2: WHERE]
-    B --> C[3: GROUP BY]
-    C --> D[4: HAVING]
-    D --> E[5: SELECT]
-    E --> F[6: ORDER BY]
-    F --> G[7: LIMIT]
+graph TD
+    subgraph JOIN Operations
+        A[Table A]
+        B[Table B]
+    end
 
-    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style C fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    style D fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    style E fill:#fce4ec,stroke:#880e4f,stroke-width:2px
-    style F fill:#f1f8e9,stroke:#33691e,stroke-width:2px
-    style G fill:#fff8e1,stroke:#f57f17,stroke-width:2px
+    subgraph Result Sets
+        direction LR
+        Inner["INNER JOIN<br/>(Common Records)"]
+        Left["LEFT JOIN<br/>(All from A + Common)"]
+        Right["RIGHT JOIN<br/>(All from B + Common)"]
+    end
+
+    A -- "INNER JOIN" --> Inner
+    B -- "INNER JOIN" --> Inner
+    A -- "LEFT JOIN" --> Left
+    B -- " " --> Left
+    A -- " " --> Right
+    B -- "RIGHT JOIN" --> Right
+
+    style Inner fill:#e8f5e9,stroke:#2e7d32
+    style Left fill:#e3f2fd,stroke:#0d47a1
+    style Right fill:#f3e5f5,stroke:#4a148c
 ```
 
-### Filtering: `WHERE` vs. `HAVING`
-> [!NOTE]
-> ### `WHERE` Filters Rows, `HAVING` Filters Groups
-> *   The `WHERE` clause filters individual rows **before** they are grouped.
-> *   The `HAVING` clause filters entire groups **after** aggregation has occurred.
+### The `SELF JOIN`
+A powerful technique where a table is joined to itself. This is essential for querying hierarchical data, like finding an employee's manager in the same table.
 
-### 🧩 Nested Queries (Subqueries)
-> [!IMPORTANT]
-> ### The Golden Rule of Subqueries
-> The **inner query** executes **first**, and its result is used by the **outer query**.
-
-**Example:** Find all employees whose salary is above the company average.
+**Example:** Fetching student details along with their company role and salary using aliases.
 ```sql
--- This query finds records with a salary greater than the overall average
-SELECT *
-FROM company
-WHERE salary > (
-    -- This inner query runs first to calculate the average
-    SELECT AVG(salary)
-    FROM company
-);
+-- Using aliases 'sd' and 'cm' makes the query cleaner and easier to read
+SELECT
+    sd.Name,
+    sd.Age,
+    cm.Role,
+    cm.Salary
+FROM student_details AS sd
+JOIN company AS cm ON sd.Name = cm.Name;
 ```
 **💡 Key Insights:**
-- **Think Like the Database:** Understanding the logical query order is essential for writing efficient queries.
-- **Aggregation is Key:** `GROUP BY` is one of the most powerful tools for data analysis.
-- **Subqueries for Complex Logic:** When a simple `WHERE` clause isn't enough, subqueries allow for dynamic, multi-step filtering.
+- **`JOIN`s are essential:** It's impossible to work with relational databases without mastering `JOIN`s.
+- **Aliases are your friend:** Using table aliases (`AS`) is a best practice that dramatically improves query readability.
+- **Choose the right `JOIN`:** Understanding the difference between `INNER`, `LEFT`, and `RIGHT` joins is crucial for getting the exact data you need without errors or `NULL` values where you don't expect them.
 
 </details>
 
@@ -287,21 +238,6 @@ WHERE salary > (
 ---
 
 <div align="center">
-
-### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
-
----
-
-**📊 Learning Analytics**
-**Journey Duration:** 2 months, 10 days | **Total Days:** 70
-
----
-
-*"The journey of a thousand miles begins with a single step"* 🚶‍♂️
-**Started:** July 1st, 2025 | **Status:** Learning & Growing 🌱
 
 **Made with ❤️ and lots of ☕ during my Data Science journey at SD Hub**
 
