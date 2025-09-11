@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "SDHub-DS/00 Notes/04_SQL/My_Notes/04 SQL Joins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "04 SQL Joins"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4d248efe2046e0a4",
@@ -186,7 +187,12 @@
   },
   "active": "5356c2df12278e94",
   "lastOpenFiles": [
+    "SDHub-DS/00 Notes/04_SQL/My_Notes/Raw/04 SQL Joints.md",
+    "SDHub-DS/00 Notes/04_SQL/My_Notes/04 SQL Joins.md",
+    "SDHub-DS/00 Notes/04_SQL/Sir_Notes/SQL Day_03.pdf",
+    "SDHub-DS/00 Notes/04_SQL/My_Notes/03 Advanced SQL.md",
     "SDHub-DS/00 Notes/04_SQL/My_Notes/01 Introduction to SQL.md",
+    "README.md",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Practice BI Files/Introduction",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Practice BI Files/New folder",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Practice BI Files",
@@ -196,7 +202,6 @@
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Course Material/introduction-to-power-bi/Screencast_Files/CH3_CH4/DimProductCategory.csv",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Course Material/introduction-to-power-bi/Screencast_Files/CH3_CH4/DimEntity.csv",
     "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Course Material/introduction-to-power-bi/Screencast_Files/CH3_CH4/DimDate.csv",
-    "SDHub-DS/02 Bi-Excel/02 Power BI/DataCamp/Microsoft PL-300 Power BI Data Analyst certification exam prep/Course Material/introduction-to-power-bi/Screencast_Files/CH3_CH4/DimAccount.csv",
     "Project-Architecture.md",
     "SDHub-DS/01 Foundation/Hackathon/Data Cleaning.md",
     "SDHub-DS/01 Foundation/Hackathon/Claude-4 sonnet.md",
@@ -218,10 +223,6 @@
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/20 NumPy for Data Science.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/19 File and Exception Handling in Python.md",
     "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/17 Object-Oriented Programming in Python.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/16 Python Practice Qustions.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/15 Python Loops & List Comprehension.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/14 Functional Programming.md",
-    "SDHub-DS/01_Foundation/01_Notes/01_My_Notes/18 Object-Oriented Programming & File Handling.md",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/2.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/1.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_2/11-DS.jpeg",

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# SQL Class Notes: Intro to SQL 🚀
-=======
 # SQL Day - 1 Class Notes:
->>>>>>> 7e01a4d (added SQL Notes)
 
 ## 🗄️ 1. What is a Database?
 

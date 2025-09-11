@@ -3,7 +3,7 @@
 ![A visual representation of data nodes and query connections, symbolizing the structure of a database query.](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1974&auto=format&fit=crop "Database Connections")
 *<p align="center">Image representing complex data relationships and queries.</p>*
 
-Welcome to this detailed guide on advanced SQL topics. We'll break down the components of a `SELECT` query, explore how to group and aggregate data, and dive into the power of nested queries (subqueries). These notes are designed to be clear, practical, and fully compatible with GitHub and Obsidian.
+Welcome to this detailed Notes on advanced SQL topics. We'll break down the components of a `SELECT` query, explore how to group and aggregate data, and dive into the power of nested queries (subqueries). These notes are designed to be clear, practical, and fully compatible with GitHub and Obsidian.
 
 ---
 
