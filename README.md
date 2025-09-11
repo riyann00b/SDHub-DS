@@ -1,8 +1,13 @@
-# 🚀 My Data Science Journey with SD Hub
+<div align="center">
+<h1> 🚀 My Data Science Journey with SD Hub </h1>
+</div>
+
 
 <div align="center">
 
-![Data Science Banner](https://img.shields.io/badge/Data%20Science-Journey-blue?style=for-the-badge&logo=python&logoColor=white)![SD Hub](https://img.shields.io/badge/SD%20Hub-Batch%202-orange?style=for-the-badge&logo=education&logoColor=white)![Status](https://img.shields.io/badge/Status-In%20Progress-green?style=for-the-badge)
+![Data Science](https://badgen.net/badge/Data%20Science/Journey/blue?icon=python)
+![SD Hub](https://badgen.net/badge/SD%20Hub/Batch%202/orange?icon=book)
+![Status](https://badgen.net/badge/Status/In%20Progress/green)
 
 *📅 Started: July 1st, 2025*
 *🕐 Class Timings: 3:00 PM - 6:00 PM (Mon-Fri)*
@@ -20,25 +25,22 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 ### 📁 Repository Structure
 
+Here's a high-level overview of the key directories in this repository:
+
+```bash
+.
+├── 📁 SDHub-DS/
+│   ├── 📁 00 Notes/              # My personal and instructor-provided notes.
+│   │   ├── 📁 01_Python/
+│   │   ├── 📁 02_Excel/
+│   │   ├── 📁 03_Power BI/
+│   │   └── 📁 04_SQL/
+│   ├── 📁 01 Python Foundation/   # Code, notebooks, and datasets for Python.
+│   ├── 📁 02 Bi-Excel/            # Workbooks and Power BI project files.
+│   ├── 📁 03 SQL/                 # SQL scripts and practice files.
+│   └── 📁 Hackathon/              # Project files for hackathons.
+└── 📜 README.md                   # You are here!
 ```
-└── SDHub-DS/
-    ├── README.md
-    ├── LICENSE
-    └── SDHub-DS/
-        ├── 00 Notes/
-        │   ├── 01_My_Notes/
-        │   └── 02_Sir_Notes/
-        ├── 01 Python Foundation/
-        │   ├── 02_Python_Basics_Code/
-        │   └── 03 Python For Data Science/
-        ├── 02 Bi-Excel/
-        │   ├── 01 Excel/
-        │   └── 02 Power BI/
-        ├── 03 SQL/
-        └── Hackathon/
-            └── Data cleaning and vistualization/
-```
-> *Note: This is a high-level overview. The repository contains detailed notes, Jupyter notebooks, datasets, and project files within this structure.*
 
 ---
 
@@ -60,38 +62,69 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 
 ## 📚 Course Curriculum Overview
 
-Our instructor has outlined the learning journey in three main phases:
+Our instructor has outlined the learning journey in 4 main phases:
 
 ```mermaid
-graph TD
-    subgraph "Phase 1: Foundations"
-        style P1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-        P1_duration("🗓️ <b>Duration: ~1 Month</b>")
-        style P1_duration fill:#b2ebf2,stroke:#00796b,color:#004d40
-        A[🐍 Python Programming] --> B[📊 Python for Data Science <br> NumPy & Pandas];
+flowchart TD
+    Start([🎯 DATA SCIENCE ROADMAP])
+
+    %% --- MONTH 1 ---
+    subgraph M1["MONTH 1: Programming"]
+        A[🐍 Python Fundamentals]
+        B[📊 Data Analysis<br/>NumPy & Pandas]
+        A --> B
     end
 
-    subgraph "Phase 2: BI & Databases"
-        style P2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-        P2_duration("🗓️ <b>Duration: ~1 Month</b>")
-        style P2_duration fill:#ffe0b2,stroke:#f57c00,color:#e65100
-        C[🗃️ SQL] --> D[📈 Business Intelligence <br> Power BI & Excel];
+    %% --- MONTH 2 ---
+    subgraph M2["MONTH 2: Business Tools & Databases"]
+        C[📈 Excel Advanced]
+        D[📊 Power BI]
+        E[🗃️ SQL Basics]
+        C --> D
+        D --> E
     end
 
-    subgraph "Phase 3: Advanced AI"
-        style P3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-        P3_duration("🗓️ <b>Duration: ~2.5 Months</b>")
-        style P3_duration fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
-        E[🧠 Advanced Statistics] --> F[🤖 Machine Learning];
-        F --> G[🗣️ Natural Language Processing];
-        G --> H[🧠 Deep Learning];
-        H --> I[🎨 Generative AI];
-        I --> J[🧑‍💻 AI Workflow & Agentic AI];
+    %% --- MONTH 3 ---
+    subgraph M3["MONTH 3: Statistics & ML"]
+        F[📊 Statistics]
+        G[🤖 Machine Learning]
+        H[🧹 Data Preprocessing]
+        F --> G --> H
     end
 
-    B --> D;
-    D --> C;
-    C --> E;
+    %% --- MONTH 4 ---
+    subgraph M4["MONTH 4: AI & Deep Learning"]
+        I[🧠 AI & Deep Learning]
+    end
+
+    %% FLOW
+    Start --> A
+    B --> C
+    E --> F
+    H --> I
+    I --> End([🏆 COMPLETE])
+
+    %% Brand Colors
+    style Start fill:#1a1a2e,stroke:#16d9e3,stroke-width:3px,color:#ffffff
+    style End fill:#0f3460,stroke:#16d9e3,stroke-width:3px,color:#ffffff
+
+    %% Python - Blue/Yellow
+    style A fill:#306998,stroke:#ffd43b,stroke-width:3px,color:#ffffff
+    style B fill:#306998,stroke:#ffd43b,stroke-width:3px,color:#ffffff
+
+    %% Excel - Green
+    style C fill:#217346,stroke:#10793f,stroke-width:3px,color:#ffffff
+
+    %% Power BI - Yellow
+    style D fill:#f2c811,stroke:#ffdd44,stroke-width:3px,color:#000000
+
+    %% SQL - Red/Blue
+    style E fill:#cc2927,stroke:#00758f,stroke-width:3px,color:#ffffff
+
+    %% AI/ML - Purple Theme
+    classDef aiml fill:#7c3aed,stroke:#a78bfa,stroke-width:3px,color:#ffffff
+    class F,G,H,I aiml
+
 ```
 
 ---
@@ -101,28 +134,57 @@ graph TD
 ### 🖥️ System Specifications
 <div align="center">
 
-![AMD](https://img.shields.io/badge/AMD-Ryzen_5_5600H-ED1C24?style=for-the-badge&logo=amd&logoColor=white)![AMD](https://img.shields.io/badge/AMD-Radeon_Graphics-ED1C24?style=for-the-badge&logo=amd&logoColor=white)![CachyOS](https://img.shields.io/badge/CachyOS-black?style=for-the-badge&logo=arch-linux&logoColor=white)![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![GNOME](https://img.shields.io/badge/GNOME_48-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![AMD](https://badgen.net/badge/AMD/Ryzen_5_5600H/ED1C24?icon=amd)
+![CachyOS](https://badgen.net/badge/CachyOS/rolling/black?icon=archlinux)
+![GNOME](https://badgen.net/badge/GNOME/48/4A86CF?icon=gnome)
+![Windows 11](https://badgen.net/badge/Windows/11/0078D6?icon=windows)
 
 </div>
 
 ```
 🏷️  Hardware Model: MSI Bravo 15 B5DD
-🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics × 12
+🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics
 💾  Memory:         16.0 GiB RAM
 🎮  Graphics:       AMD Radeon™ Graphics
 💿  Storage:        512.1 GB SSD
+---
 🐧  Primary OS:     CachyOS (rolling) with GNOME 48
+🐧  Kernel:         Linux 6.16.6-2-cachyos
 ```
 
 ### 🛠️ Tools & Setup
-**Primary Development:** `uv` package manager + Jupyter on CachyOS.
-**Business Intelligence:** Using **Windows 11 Pro** for Power BI & Excel.
+
+I'm using a slightly different stack than the one taught in class, which provides an excellent opportunity to learn about cross-compatibility and modern tooling.
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&color=000000)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=datagrip&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)
+![Jupyter](https://badgen.net/badge/Jupyter/notebook/F37626?icon=jupyter)
+![Excel](https://badgen.net/badge/Excel/Sheets/217346) 
+![Power BI](https://badgen.net/badge/Power%20BI/Dashboards/F2C811)
+![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)
+![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)
+![Git](https://badgen.net/badge/Git/version-control/F05032?icon=git)
 
 </div>
+
+> [!NOTE]
+> ### Course Setup vs. My Setup
+> *   **Python Environment:**
+>     *   **Course:** `Windows` + `Anaconda Navigator` + `Jupyter Notebook`.
+>     *   **My Setup:** `CachyOS (Arch Linux)` + `uv` (a fast Python package manager) + `Jupyter Notebook`. This gives me a lightweight, high-performance, and Linux-native workflow.
+> *   **Database Environment:**
+>     *   **Course:** `MySQL` + `MySQL Workbench`.
+>     *   **My Setup:** `MariaDB` (a community-driven fork of MySQL) + `JetBrains DataGrip`.
 
 ---
 
@@ -136,66 +198,79 @@ graph TD
 ```progress
 Phase 1: Foundations        [██████████] 100% Complete!
 Phase 2: Power BI           [██████████] 100% Complete!
-Phase 2: SQL & Databases    [██........]  20% In Progress
+Phase 2: SQL & Databases    [████......]  40% In Progress
 Phase 3: Advanced AI/ML     [..........]   0% Not Started
 ```
 
-**🎯 Currently Learning: Week 10 - Introduction to SQL**
-- We have officially started the database module, kicking things off with SQL.
-- Today's focus was on understanding the core concepts of databases, the structure of SQL, and how to define the schema of a database.
-- **Up Next:** Manipulating and querying data with DML and DQL.
+**🎯 Currently Learning: Week 10 - Advanced SQL Queries**
+- We've moved beyond basic DDL and are now focusing on powerful DQL techniques.
+- Today's focus was on aggregating data with `GROUP BY`, filtering groups with `HAVING`, and using nested queries (subqueries) to solve complex problems.
+- **Up Next:** Database `JOIN`s and understanding table relationships.
 
 ---
 
-## 📝 Today's Learning Overview (September 8th, 2025)
+## 📝 Today's Learning Overview
 
 <details open>
-<summary><strong>Day 68 - Introduction to SQL & Database Fundamentals</strong></summary>
+<summary><strong>Day 70 (September 10th, 2025) - Advanced Queries: Aggregation, Grouping, and Subqueries</strong></summary>
 <br>
 
-**🎯 Session Focus:** Understanding the foundational concepts of databases, the role of SQL as a database language, and learning the first major category of SQL commands: DDL.
+**🎯 Session Focus:** Mastering advanced data retrieval with `GROUP BY`, filtering with `HAVING`, and constructing powerful nested queries (subqueries).
 
 **📚 Key Concepts Explored:**
 
-Today marked our transition from BI tools into the world of databases. We covered the "why" and "what" of SQL before writing our first queries.
+### 📊 The Anatomy of a SELECT Query
+A `SELECT` statement has several clauses that are processed in a specific logical order, which is different from how we write them.
 
-### 🏛️ 1. Database Fundamentals
-- **Data vs. Information:** Data is raw (e.g., 'A', 20), while information is structured and meaningful (e.g., a table row with `Name='A'`, `Age=20`).
-- **Structured vs. Unstructured Data:** We learned that SQL databases excel at managing **structured data** (tables with rows and columns), like user profiles. **Unstructured data** (comments, posts, likes) is typically handled by NoSQL databases.
-- **DBMS vs. RDBMS:** A Database Management System (DBMS) is the software that manages a database. An RDBMS is a specific type for relational (table-based) databases.
+> [!IMPORTANT]
+> ### ✍️ Lexical Order vs. Logical Order
+> *   **Lexical Order** is how you *write* the query (`SELECT`, `FROM`, `WHERE`...).
+> *   **Logical Order** is how the database *executes* the query (`FROM`, `WHERE`, `GROUP BY`...).
 
-### 🧩 2. The Five Sub-Languages of SQL
-SQL isn't just one language; it's a set of sub-languages for different tasks. We broke them down:
-- **DDL (Data Definition Language):** For defining the database structure. `(CREATE, ALTER, DROP)`
-- **DML (Data Manipulation Language):** For manipulating the data itself. `(INSERT, UPDATE, DELETE)`
-- **DQL (Data Query Language):** For fetching data. `(SELECT)`
-- **DCL (Data Control Language):** For managing permissions. `(GRANT, REVOKE)`
-- **TCL (Transaction Control Language):** For managing transactions. `(COMMIT, ROLLBACK)`
+```mermaid
+graph LR
+    A[1: FROM] --> B[2: WHERE]
+    B --> C[3: GROUP BY]
+    C --> D[4: HAVING]
+    D --> E[5: SELECT]
+    E --> F[6: ORDER BY]
+    F --> G[7: LIMIT]
 
-### 🏗️ 3. DDL in Practice
-We spent the most time on DDL, as it's the first step in building a database.
-- **`CREATE`:** Used to build a new database or table.
-  ```sql
-  -- First, create the database container
-  CREATE DATABASE sdhub;
-  
-  -- Then, select it for use
-  USE sdhub;
-  
-  -- Finally, define the table structure (schema)
-  CREATE TABLE student_details (
-      Name VARCHAR(15),
-      Age INT,
-      Gender VARCHAR(1)
-  );
-  ```
-- **`ALTER`:** Modifies an existing table's structure (e.g., adding a new column).
-- **`DROP` vs. `TRUNCATE`:** A crucial distinction. `TRUNCATE` deletes all data *inside* a table but keeps the structure. `DROP` deletes the *entire table* permanently.
+    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    style C fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    style D fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style E fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    style F fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+    style G fill:#fff8e1,stroke:#f57f17,stroke-width:2px
+```
 
+### Filtering: `WHERE` vs. `HAVING`
+> [!NOTE]
+> ### `WHERE` Filters Rows, `HAVING` Filters Groups
+> *   The `WHERE` clause filters individual rows **before** they are grouped.
+> *   The `HAVING` clause filters entire groups **after** aggregation has occurred.
+
+### 🧩 Nested Queries (Subqueries)
+> [!IMPORTANT]
+> ### The Golden Rule of Subqueries
+> The **inner query** executes **first**, and its result is used by the **outer query**.
+
+**Example:** Find all employees whose salary is above the company average.
+```sql
+-- This query finds records with a salary greater than the overall average
+SELECT *
+FROM company
+WHERE salary > (
+    -- This inner query runs first to calculate the average
+    SELECT AVG(salary)
+    FROM company
+);
+```
 **💡 Key Insights:**
-- **Structure is Everything:** SQL's power comes from its enforced structure, ensuring data consistency.
-- **Keywords are not Case-Sensitive:** `SELECT` is the same as `select`, but the convention is to use UPPERCASE for readability.
-- **DDL is the Blueprint:** You must build the house (DDL) before you can put things inside it (DML).
+- **Think Like the Database:** Understanding the logical query order is essential for writing efficient queries.
+- **Aggregation is Key:** `GROUP BY` is one of the most powerful tools for data analysis.
+- **Subqueries for Complex Logic:** When a simple `WHERE` clause isn't enough, subqueries allow for dynamic, multi-step filtering.
 
 </details>
 
@@ -205,9 +280,10 @@ We spent the most time on DDL, as it's the first step in building a database.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-riyan-nazeer/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/riyann00b)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:riyannazeer786@gmail.com)
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Profile/0077B5?icon=linkedin)](https://www.linkedin.com/in/md-riyan-nazeer/)
+[![GitHub](https://badgen.net/badge/GitHub/Profile/181717?icon=github)](https://github.com/riyann00b)
+[![Email](https://badgen.net/badge/Email/Contact/D14836?icon=gmail)](mailto:riyannazeer786@gmail.com)
+
 
 *📬 Always open to discussions about data science, learning experiences, and collaboration!*
 
@@ -218,12 +294,14 @@ We spent the most time on DDL, as it's the first step in building a database.
 <div align="center">
 
 ### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
+![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
 
 ---
 
 **📊 Learning Analytics**
-**Journey Duration:** 2 months, 8 days | **Total Days:** 68
+**Journey Duration:** 2 months, 10 days | **Total Days:** 70
 
 ---
 
