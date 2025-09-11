@@ -122,6 +122,17 @@ flowchart TD
 
 </div>
 
+```
+🏷️  Hardware Model: MSI Bravo 15 B5DD
+🧠  Processor:      AMD Ryzen™ 5 5600H with Radeon™ Graphics
+💾  Memory:         16.0 GiB RAM
+🎮  Graphics:       AMD Radeon™ Graphics
+💿  Storage:        512.1 GB SSD
+---
+🐧  Primary OS:     CachyOS (rolling) with GNOME 48
+🐧  Kernel:         Linux 6.16.6-2-cachyos
+```
+
 ### 🛠️ Tools & Setup
 
 I'm using a slightly different stack than the one taught in class, which provides an excellent opportunity to learn about cross-compatibility and modern tooling.
@@ -133,6 +144,15 @@ I'm using a slightly different stack than the one taught in class, which provide
 ![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
 
 </div>
+
+> [!NOTE]
+> ### Course Setup vs. My Setup
+> *   **Python Environment:**
+>     *   **Course:** `Windows` + `Anaconda Navigator` + `Jupyter Notebook`.
+>     *   **My Setup:** `CachyOS (Arch Linux)` + `uv` (a fast Python package manager) + `Jupyter Notebook`. This gives me a lightweight, high-performance, and Linux-native workflow.
+> *   **Database Environment:**
+>     *   **Course:** `MySQL` + `MySQL Workbench`.
+>     *   **My Setup:** `MariaDB` (a community-driven fork of MySQL) + `JetBrains DataGrip`.
 
 ---
 
@@ -216,7 +236,7 @@ JOIN company AS cm ON sd.Name = cm.Name;
 **💡 Key Insights:**
 - **`JOIN`s are essential:** It's impossible to work with relational databases without mastering `JOIN`s.
 - **Aliases are your friend:** Using table aliases (`AS`) is a best practice that dramatically improves query readability.
-- **Choose the right `JOIN`:** Understanding the difference between `INNER`, `LEFT`, and `RIGHT` joins is crucial for getting the exact data you need without errors or `NULL` values where you don't expect them.
+- **Choose the right `JOIN`:** Understanding the difference between `INNER`, `LEFT`, and `RIGHT` joins is crucial for getting the exact data you need.
 
 </details>
 
@@ -238,6 +258,21 @@ JOIN company AS cm ON sd.Name = cm.Name;
 ---
 
 <div align="center">
+
+### 🌟 Journey Stats
+![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
+![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+
+---
+
+**📊 Learning Analytics**
+**Journey Duration:** 2 months, 11 days | **Total Days:** 71
+
+---
+
+*"The journey of a thousand miles begins with a single step"* 🚶‍♂️
+**Started:** July 1st, 2025 | **Status:** Learning & Growing 🌱
 
 **Made with ❤️ and lots of ☕ during my Data Science journey at SD Hub**
 
