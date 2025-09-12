@@ -166,77 +166,73 @@ I'm using a slightly different stack than the one taught in class, which provide
 ```progress
 Phase 1: Foundations        [██████████] 100% Complete!
 Phase 2: Power BI           [██████████] 100% Complete!
-Phase 2: SQL & Databases    [█████.....]  55% In Progress
+Phase 2: SQL & Databases    [██████....]  65% In Progress
 Phase 3: Advanced AI/ML     [..........]   0% Not Started
 ```
 
-**🎯 Currently Learning: Week 10 - SQL `JOIN`s**
-- We are mastering how to combine data from multiple tables using `JOIN` clauses.
-- Today’s focus was understanding the different types of `JOIN`s (`INNER`, `LEFT`, `RIGHT`) and the special-purpose `SELF JOIN`.
-- **Up Next:** More complex `JOIN` scenarios and advanced database concepts.
+**🎯 Currently Learning: Week 11 - Advanced SQL**
+- We've moved beyond `JOIN`s to more powerful analytical tools.
+- Today’s focus was on **Window Functions** (`RANK()`, `DENSE_RANK()`), **Common Table Expressions (CTEs)**, and **Views**.
+- **Up Next:** Stored Procedures, Triggers, and advanced database optimization techniques.
 
 ---
 
 ## 📝 Today's Learning Overview
 
 <details open>
-<summary><strong>Day 71 (September 11th, 2025) - Mastering SQL JOINs: Connecting Multiple Tables</strong></summary>
+<summary><strong>Day 72 (September 12th, 2025) - Advanced SQL: Window Functions, CTEs & Views</strong></summary>
 <br>
 
-**🎯 Session Focus:** Combining rows from two or more tables based on a related column. This is a fundamental skill for querying relational databases effectively.
+**🎯 Session Focus:** Unlocking advanced analytical capabilities in SQL. Today we learned how to perform complex, row-level calculations without collapsing data and how to organize large queries for better readability and reusability.
 
 **📚 Key Concepts Explored:**
 
-### `JOIN`s vs. Nested Queries
-While both can be used to get data from multiple tables, `JOIN`s are almost always more performant. The database query optimizer is highly tuned for `JOIN` operations, making them the industry standard.
+### 1. Window Functions (Analytical Functions)
+These functions perform calculations across a set of rows related to the current row, without using `GROUP BY`. This allows us to create rankings and running totals while keeping the original row data intact.
 
-### 🧩 The Core `JOIN` Types
-We visualized the primary `JOIN` types to understand how they include or exclude data.
+-   **`RANK()`**: Assigns a rank, but skips numbers after ties (e.g., 1, 2, 2, 4).
+-   **`DENSE_RANK()`**: Assigns a rank with no gaps after ties (e.g., 1, 2, 2, 3).
+-   **`PARTITION BY`**: A powerful sub-clause that resets the window function's calculation for each specified group (e.g., ranking employees *within each department*).
 
 ```mermaid
 graph TD
-    subgraph JOIN Operations
-        A[Table A]
-        B[Table B]
+    subgraph "Ranking Functions"
+        A[Salary Data] --> B{OVER (ORDER BY Salary DESC)};
+        B --> C[RANK()<br>1, 2, 2, 4];
+        B --> D[DENSE_RANK()<br>1, 2, 2, 3];
     end
-
-    subgraph Result Sets
-        direction LR
-        Inner["INNER JOIN<br/>(Common Records)"]
-        Left["LEFT JOIN<br/>(All from A + Common)"]
-        Right["RIGHT JOIN<br/>(All from B + Common)"]
-    end
-
-    A -- "INNER JOIN" --> Inner
-    B -- "INNER JOIN" --> Inner
-    A -- "LEFT JOIN" --> Left
-    B -- " " --> Left
-    A -- " " --> Right
-    B -- "RIGHT JOIN" --> Right
-
-    style Inner fill:#e8f5e9,stroke:#2e7d32
-    style Left fill:#e3f2fd,stroke:#0d47a1
-    style Right fill:#f3e5f5,stroke:#4a148c
 ```
 
-### The `SELF JOIN`
-A powerful technique where a table is joined to itself. This is essential for querying hierarchical data, like finding an employee's manager in the same table.
+### 2. Common Table Expressions (CTEs)
+CTEs, defined with the `WITH` clause, create a temporary, named result set. They are essential for breaking down complex logic into readable, sequential steps.
 
-**Example:** Fetching student details along with their company role and salary using aliases.
+### 3. Views
+A View is a stored query that acts like a virtual table. It provides a simplified and secure way to look at data without duplicating the underlying tables. It's excellent for saving and reusing complex queries.
+
+**Example:** Finding the 2nd highest salaried employee in each role using a CTE and `DENSE_RANK()`.
 ```sql
--- Using aliases 'sd' and 'cm' makes the query cleaner and easier to read
+-- CTE 'rank_table' calculates the rank for each employee within their role
+WITH rank_table AS (
+    SELECT
+        name,
+        role,
+        salary,
+        DENSE_RANK() OVER (PARTITION BY role ORDER BY salary DESC) AS r
+    FROM
+        company
+)
+-- The final query simply filters the CTE for the 2nd rank
 SELECT
-    sd.Name,
-    sd.Age,
-    cm.Role,
-    cm.Salary
-FROM student_details AS sd
-JOIN company AS cm ON sd.Name = cm.Name;
+    *
+FROM
+    rank_table
+WHERE
+    r = 2;
 ```
 **💡 Key Insights:**
-- **`JOIN`s are essential:** It's impossible to work with relational databases without mastering `JOIN`s.
-- **Aliases are your friend:** Using table aliases (`AS`) is a best practice that dramatically improves query readability.
-- **Choose the right `JOIN`:** Understanding the difference between `INNER`, `LEFT`, and `RIGHT` joins is crucial for getting the exact data you need.
+- **Window Functions are for analysis:** They are perfect for tasks like "find the top N products per category" or "calculate month-over-month growth."
+- **CTEs are for readability:** Use them to turn a monolithic, confusing query into a clean, step-by-step recipe.
+- **Views are for reusability:** If you have a query you run often, save it as a `VIEW` to simplify future access.
 
 </details>
 
@@ -267,7 +263,7 @@ JOIN company AS cm ON sd.Name = cm.Name;
 ---
 
 **📊 Learning Analytics**
-**Journey Duration:** 2 months, 11 days | **Total Days:** 71
+**Journey Duration:** 2 months, 12 days | **Total Days:** 72
 
 ---
 
