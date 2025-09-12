@@ -1,0 +1,53 @@
+select *
+from company;
+
+-- Display rank for each emp based on salary
+
+select Name, Role, Salary,
+dense_rank() over(order by Salary Desc) as R
+from company;
+
+-- Display roll number based on name
+select Name, Role, Salary,
+row_number() over(order by name Asc) as Roll_no
+from company;
+
+-- Display rank based on salary for each role
+
+select Name, Role, Salary,
+dense_rank() over(partition by Role
+order by Salary Desc) as R
+from company;
+
+-- Display top 3rd record based on salary
+
+with rank_table as (
+select name, role, salary,
+dense_rank() over(order by salary Desc) as r
+from company)
+select *
+from rank_table
+where r = 3;
+
+-- Display top record for each role by salary
+
+with rank_table as(
+select name,role,salary,
+dense_rank() over(partition by role order by salary desc) as r
+from company)
+select *
+from rank_table
+where r = 1;
+
+-- Create a view for top3 employee based on salary
+
+create view top3 as(
+select *
+from company
+order by salary DESC
+limit 3);
+
+-- To display view
+
+select *
+from top3;
