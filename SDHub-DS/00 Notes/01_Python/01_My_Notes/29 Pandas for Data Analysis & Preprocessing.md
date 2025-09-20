@@ -22,20 +22,20 @@ Today's session focused on essential data preprocessing and analysis techniques 
 
 Pandas is a cornerstone of data science in Python, providing powerful and intuitive tools for data analysis and manipulation. Here are some of the fundamental functions we explored:
 
-| Function | Description |
-| :--- | :--- |
-| `info()` | Provides a concise summary of the DataFrame, including the number of non-null values and data types of each column. |
-| `describe()` | Generates descriptive statistics that summarize the central tendency, dispersion, and shape of a dataset’s distribution. |
-| `head()` / `tail()` | Displays the first or last 'n' rows of the DataFrame. |
-| `columns` | Returns the column labels of the DataFrame. |
-| `dtypes` | Shows the data type of each column. |
-| `sort_values()` | Sorts the DataFrame by the values of one or more columns. |
-| `sort_index()` | Sorts the DataFrame by its index. |
-| `value_counts()` | Returns a Series containing counts of unique values. |
-| `groupby()` | Groups the DataFrame using a mapper or by a Series of columns. |
-| `pivot_table()` | Creates a spreadsheet-style pivot table as a DataFrame. |
-| `crosstab()` | Computes a cross-tabulation of two or more factors. |
-| `agg()` | Aggregates using one or more operations over the specified axis. |
+| Function            | Description                                                                                                              |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------- |
+| `info()`            | Provides a concise summary of the DataFrame, including the number of non-null values and data types of each column.      |
+| `describe()`        | Generates descriptive statistics that summarize the central tendency, dispersion, and shape of a dataset’s distribution. |
+| `head()` / `tail()` | Displays the first or last 'n' rows of the DataFrame.                                                                    |
+| `columns`           | Returns the column labels of the DataFrame.                                                                              |
+| `dtypes`            | Shows the data type of each column.                                                                                      |
+| `sort_values()`     | Sorts the DataFrame by the values of one or more columns.                                                                |
+| `sort_index()`      | Sorts the DataFrame by its index.                                                                                        |
+| `value_counts()`    | Returns a Series containing counts of unique values.                                                                     |
+| `groupby()`         | Groups the DataFrame using a mapper or by a Series of columns.                                                           |
+| `pivot_table()`     | Creates a spreadsheet-style pivot table as a DataFrame.                                                                  |
+| `crosstab()`        | Computes a cross-tabulation of two or more factors.                                                                      |
+| `agg()`             | Aggregates using one or more operations over the specified axis.                                                         |
 
 ---
 
