@@ -31,10 +31,13 @@ Here's a high-level overview of the key directories in this repository:
 │   │   ├── 📁 01_Python/
 │   │   ├── 📁 02_Excel/
 │   │   ├── 📁 03_Power BI/
-│   │   └── 📁 04_SQL/
+│   │   ├── 📁 04_SQL/
+│   │   ├── 📁 05_Statistics/
+│   │   └── 📁 06_Machine Learning/
 │   ├── 📁 01 Python Foundation/   # Code, notebooks, and datasets for Python.
 │   ├── 📁 02 Bi-Excel/            # Workbooks and Power BI project files.
 │   ├── 📁 03 SQL/                 # SQL scripts and practice files.
+│   ├── 📁 04 Statistics/          # Statistics notebooks and materials.
 │   └── 📁 Hackathon/              # Project files for hackathons.
 └── 📜 README.md                   # You are here!
 ```
@@ -47,6 +50,8 @@ Jump directly to the notes for each module:
 -   [📊 **Excel Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/02_Excel)
 -   [📈 **Power BI Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/03_Power%20BI)
 -   [🗃️ **SQL Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/04_SQL)
+-   [📉 **Statistics Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/05_Statistics)
+-   [🤖 **Machine Learning Notes**](https://github.com/riyann00b/SDHub-DS/tree/main/SDHub-DS/00%20Notes/06_Machine%20Learning/My_Notes)
 
 ---
 
@@ -75,23 +80,23 @@ flowchart TD
     Start([🎯 DATA SCIENCE ROADMAP])
 
     %% --- MONTH 1 ---
-    subgraph M1["MONTH 1: Programming"]
+    subgraph M1["✅ MONTH 1: Programming"]
         A[🐍 Python Fundamentals]
         B[📊 Data Analysis<br/>NumPy & Pandas]
         A --> B
     end
 
     %% --- MONTH 2 ---
-    subgraph M2["MONTH 2: Business Tools & Databases"]
+    subgraph M2["✅ MONTH 2: Business Tools & Databases"]
         C[📈 Excel Advanced]
         D[📊 Power BI]
-        E[🗃️ SQL Basics]
+        E[🗃️ SQL]
         C --> D
         D --> E
     end
 
     %% --- MONTH 3 ---
-    subgraph M3["MONTH 3: Statistics & ML"]
+    subgraph M3["🚀 MONTH 3: Statistics & ML"]
         F[📊 Statistics]
         G[🤖 Machine Learning]
         H[🧹 Data Preprocessing]
@@ -118,7 +123,7 @@ flowchart TD
 ### 🖥️ System Specifications
 <div align="center">
 
-![AMD](https://badgen.net/badge/AMD/Ryzen_5_5600H/ED1C24?icon=amd)![CachyOS](https://badgen.net/badge/CachyOS/rolling/black?icon=archlinux)![GNOME](https://badgen.net/badge/GNOME/48/4A86CF?icon=gnome)![Windows 11](https://badgen.net/badge/Windows/11/0078D6?icon=windows)
+![AMD](https://badgen.net/badge/AMD/Ryzen_5_5600H/ED1C24?icon=amd)![CachyOS](https://badgen.net/badge/CachyOS/rolling/black?icon=archlinux)![GNOME](https://badgen.net/badge/GNOME/49/4A86CF?icon=gnome)
 
 </div>
 
@@ -129,8 +134,8 @@ flowchart TD
 🎮  Graphics:       AMD Radeon™ Graphics
 💿  Storage:        512.1 GB SSD
 ---
-🐧  Primary OS:     CachyOS (rolling) with GNOME 48
-🐧  Kernel:         Linux 6.16.6-2-cachyos
+🐧  Primary OS:     CachyOS (rolling) with GNOME 49
+🐧  Kernel:         Linux 6.16.8-2-cachyos
 ```
 
 ### 🛠️ Tools & Setup
@@ -140,19 +145,9 @@ I'm using a slightly different stack than the one taught in class, which provide
 <div align="center">
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel) 
-![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
+![Python](https://badgen.net/badge/Python/3.13/3776AB?icon=python)![Jupyter](https://badgen.net/badge/Jupyter/Notebook/F37626?icon=jupyter)![Excel](https://badgen.net/badge/Microsoft/Excel/217346?icon=msexcel)![Power BI](https://badgen.net/badge/Power%20BI/Desktop/F2C811?icon=powerbi)![MariaDB](https://badgen.net/badge/MariaDB/SQL/003545?icon=mariadb)![DataGrip](https://badgen.net/badge/DataGrip/IDE/000000?icon=datagrip)![Git](https://badgen.net/badge/Git/Version%20Control/F05032?icon=git)
 
 </div>
-
-> [!NOTE]
-> ### Course Setup vs. My Setup
-> *   **Python Environment:**
->     *   **Course:** `Windows` + `Anaconda Navigator` + `Jupyter Notebook`.
->     *   **My Setup:** `CachyOS (Arch Linux)` + `uv` (a fast Python package manager) + `Jupyter Notebook`. This gives me a lightweight, high-performance, and Linux-native workflow.
-> *   **Database Environment:**
->     *   **Course:** `MySQL` + `MySQL Workbench`.
->     *   **My Setup:** `MariaDB` (a community-driven fork of MySQL) + `JetBrains DataGrip`.
 
 ---
 
@@ -160,79 +155,67 @@ I'm using a slightly different stack than the one taught in class, which provide
 
 ### 🏅 Completed Milestones
 - [x] ✅ **Phase 1:** Python Fundamentals & Python for Data Science (NumPy, Pandas).
-- [x] ✅ **Phase 2 (Partial):** Business Intelligence with Excel & Power BI.
+- [x] ✅ **Phase 2:** Business Intelligence (Excel, Power BI) & SQL Databases.
+- [x] ✅ **Phase 3 (Partial):** Statistics & Probability.
 
 ### 📊 Current Progress
 ```progress
-Phase 1: Foundations        [██████████] 100% Complete!
-Phase 2: Power BI           [██████████] 100% Complete!
-Phase 2: SQL & Databases    [██████....]  65% In Progress
-Phase 3: Advanced AI/ML     [..........]   0% Not Started
+Phase 1: Python Foundations    [██████████] 100% Complete!
+Phase 2: BI & Excel            [██████████] 100% Complete!
+Phase 3: SQL                   [██████████] 100% Complete!
+Phase 3: Statistics            [██████████] 100% Complete!
+Phase 3: Machine Learning      [█.........]  10% In Progress
 ```
 
-**🎯 Currently Learning: Week 11 - Advanced SQL**
-- We've moved beyond `JOIN`s to more powerful analytical tools.
-- Today’s focus was on **Window Functions** (`RANK()`, `DENSE_RANK()`), **Common Table Expressions (CTEs)**, and **Views**.
-- **Up Next:** Stored Procedures, Triggers, and advanced database optimization techniques.
+**🎯 Currently Learning: Week 13 - Introduction to Machine Learning**
+- We have successfully completed the Statistics module.
+- Today we are officially kicking off the **Machine Learning** phase.
+- **Up Next:** Diving into the ML pipeline, supervised vs. unsupervised learning, and our first algorithm!
 
 ---
 
 ## 📝 Today's Learning Overview
 
 <details open>
-<summary><strong>Day 72 (September 12th, 2025) - Advanced SQL: Window Functions, CTEs & Views</strong></summary>
+<summary><strong>Day 86 (September 24th, 2025) - Module Wrap-Up: Statistics & Kick-off: Machine Learning</strong></summary>
 <br>
 
-**🎯 Session Focus:** Unlocking advanced analytical capabilities in SQL. Today we learned how to perform complex, row-level calculations without collapsing data and how to organize large queries for better readability and reusability.
+**🎯 Session Focus:** Transitioning from theoretical foundations to predictive modeling. We concluded our deep dive into statistics and formally began our Machine Learning journey.
 
-**📚 Key Concepts Explored:**
+**📚 Key Concepts Reviewed & Introduced:**
 
-### 1. Window Functions (Analytical Functions)
-These functions perform calculations across a set of rows related to the current row, without using `GROUP BY`. This allows us to create rankings and running totals while keeping the original row data intact.
+### 1. Statistics Module Recap
+We solidified our understanding of the two pillars of statistics, which are crucial for data analysis and form the bedrock of machine learning.
 
--   **`RANK()`**: Assigns a rank, but skips numbers after ties (e.g., 1, 2, 2, 4).
--   **`DENSE_RANK()`**: Assigns a rank with no gaps after ties (e.g., 1, 2, 2, 3).
--   **`PARTITION BY`**: A powerful sub-clause that resets the window function's calculation for each specified group (e.g., ranking employees *within each department*).
+-   **Descriptive Statistics**: Summarizing and organizing data (mean, median, mode, variance).
+-   **Inferential Statistics**: Making predictions and inferences about a population from a sample (hypothesis testing, confidence intervals).
+
+### 2. Machine Learning Kick-off
+The much-awaited module has begun! The initial session was dedicated to setting the stage and understanding the landscape.
+
+-   **What is ML?**: Defined machine learning and contrasted it with traditional programming.
+-   **The Data Science Roadmap**: Revisited our learning path to see how Python, SQL, and Statistics all converge into the ML pipeline.
+-   **Types of ML**: Introduced the core categories of machine learning:
+    -   **Supervised Learning**: Learning from labeled data (e.g., predicting house prices).
+    -   **Unsupervised Learning**: Finding patterns in unlabeled data (e.g., customer segmentation).
+    -   **Reinforcement Learning**: Learning through trial and error (e.g., training a game-playing AI).
 
 ```mermaid
 graph TD
-    subgraph "Ranking Functions"
-        A[Salary Data] --> B{OVER (ORDER BY Salary DESC)};
-        B --> C[RANK()<br>1, 2, 2, 4];
-        B --> D[DENSE_RANK()<br>1, 2, 2, 3];
+    A[Data] --> B{ML Model};
+    B --> C[Predictions/Insights];
+    subgraph "Supervised Learning"
+        D[Labeled Data] --> E[Train Model]
+    end
+    subgraph "Unsupervised Learning"
+        F[Unlabeled Data] --> G[Discover Patterns]
     end
 ```
 
-### 2. Common Table Expressions (CTEs)
-CTEs, defined with the `WITH` clause, create a temporary, named result set. They are essential for breaking down complex logic into readable, sequential steps.
-
-### 3. Views
-A View is a stored query that acts like a virtual table. It provides a simplified and secure way to look at data without duplicating the underlying tables. It's excellent for saving and reusing complex queries.
-
-**Example:** Finding the 2nd highest salaried employee in each role using a CTE and `DENSE_RANK()`.
-```sql
--- CTE 'rank_table' calculates the rank for each employee within their role
-WITH rank_table AS (
-    SELECT
-        name,
-        role,
-        salary,
-        DENSE_RANK() OVER (PARTITION BY role ORDER BY salary DESC) AS r
-    FROM
-        company
-)
--- The final query simply filters the CTE for the 2nd rank
-SELECT
-    *
-FROM
-    rank_table
-WHERE
-    r = 2;
-```
 **💡 Key Insights:**
-- **Window Functions are for analysis:** They are perfect for tasks like "find the top N products per category" or "calculate month-over-month growth."
-- **CTEs are for readability:** Use them to turn a monolithic, confusing query into a clean, step-by-step recipe.
-- **Views are for reusability:** If you have a query you run often, save it as a `VIEW` to simplify future access.
+- **Statistics is the 'Why'**: It provides the mathematical justification for how and why ML models work.
+- **ML is the 'How'**: It provides the algorithms and frameworks to build predictive models from data.
+- **Everything Builds**: Every topic covered so far—from Python data manipulation to SQL querying—is a critical step in the end-to-end machine learning workflow. The journey is connecting!
 
 </details>
 
@@ -256,14 +239,12 @@ WHERE
 <div align="center">
 
 ### 🌟 Journey Stats
-![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square) 
-![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/riyann00b/SDHub-DS?style=flat-square)![GitHub commit activity](https://img.shields.io/github/commit-activity/w/riyann00b/SDHub-DS?style=flat-square)![GitHub repo size](https://img.shields.io/github/repo-size/riyann00b/SDHub-DS?style=flat-square)
 
 ---
 
 **📊 Learning Analytics**
-**Journey Duration:** 2 months, 12 days | **Total Days:** 72
+**Journey Duration:** 2 months, 24 days | **Total Days:** 86
 
 ---
 
