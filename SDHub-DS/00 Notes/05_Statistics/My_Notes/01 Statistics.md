@@ -26,7 +26,8 @@ $$
 				- Positive = a increase b increase
 				- negitive = a increase b decrease
 				- neural = ~~ 0 nothing happence 
-			5. Visuals to be used 
+			
+			1. Visuals to be used 
 			+ Histrogram: Data distribution
 			+ Boxplot: outliers
 			+ Scatterplot: relatopnship

@@ -1,6 +1,6 @@
-### Variables: The Labeled Boxes of Programming
+### Variables: The Labelled Boxes of Programming
 
-A variable is a name you give to a memory location to store a piece of data. Think of it as a labeled box where you can put information.
+A variable is a name you give to a memory location to store a piece of data. Think of it as a labelled box where you can put information.
 
 -   **Identifier:** The name of the variable (e.g., `age`).
 -   **Assignment Operator:** The equals sign (`=`), which tells Python to "put the value on the right into the variable on the left."
