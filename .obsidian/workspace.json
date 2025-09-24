@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/01 Data Science Road-map and Recap.md",
+                "file": "SDHub-DS/00 Notes/05_Statistics/My_Notes/Full Statistics Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Data Science Road-map and Recap"
+              "title": "Full Statistics Notes"
             }
           }
         ]
@@ -172,18 +172,20 @@
   },
   "active": "919b75776a3ad9b7",
   "lastOpenFiles": [
-    "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/Raw/01 Intro to Machine learning.md",
+    "SDHub-DS/00 Notes/05_Statistics/My_Notes/Raw/06.md",
+    "SDHub-DS/00 Notes/05_Statistics/My_Notes/Full Statistics Notes.md",
+    "SDHub-DS/00 Notes/05_Statistics/My_Notes/Raw",
     "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/01 Data Science Road-map and Recap.md",
+    "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/Raw/01 Intro to Machine learning.md",
     "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/Raw",
     "SDHub-DS/00 Notes/01_Python/01_My_Notes/32 EDA Case Study.md",
     "SDHub-DS/00 Notes/01_Python/Python's Dynamic Typing.md",
     "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/05 Inferential Statistics.md",
     "SDHub-DS/00 Notes/06_Machine Learning/My_Notes/01 Statistics.md",
-    "SDHub-DS/00 Notes/05_Statistics/My_Notes/06.md",
-    "SDHub-DS/00 Notes/05_Statistics/My_Notes/05 Inferential Statistics.md",
+    "SDHub-DS/00 Notes/05_Statistics/My_Notes/Raw/05 Inferential Statistics.md",
     "SDHub-DS/00 Notes/05_Statistics/Sir_Notes/Statistics Day_03.pdf",
     "SDHub-DS/00 Notes/05_Statistics/Sir_Notes/Statistics Day_02.pdf",
-    "SDHub-DS/00 Notes/05_Statistics/My_Notes/01 Statistics.md",
+    "SDHub-DS/00 Notes/05_Statistics/My_Notes/Raw/01 Statistics.md",
     "SDHub-DS/00 Notes/05_Statistics/Sir_Notes/Statistics Day_01.pdf",
     "SDHub-DS/00 Notes/05_Statistics/Sir_Notes/Statistics Day_04.pdf",
     "SDHub-DS/00 Notes/05_Statistics/Sir_Notes/Statistics_Beginners_Handout.pdf",
@@ -199,7 +201,6 @@
     "SDHub-DS/01 Python Foundation/03 Python For Data Science/JNB/Untitled.ipynb",
     "SDHub-DS/Interview/Python Interview Q&A.md",
     "SDHub-DS/04 Statistics",
-    "SDHub-DS/Interview/5.Python_Interview_QandA.docx",
     "README.md",
     "SDHub-DS/00 Notes/04_SQL/My_Notes/05 SQL Advanced.md",
     "SDHub-DS/00 Notes/04_SQL/My_Notes/Raw/05 SQL.md",
@@ -207,7 +208,6 @@
     "SDHub-DS/00 Notes/04_SQL/My_Notes/Raw/04 SQL Joints.md",
     "SDHub-DS/00 Notes/04_SQL/My_Notes/03 Advanced SQL.md",
     "SDHub-DS/00 Notes/04_SQL/My_Notes/01 Introduction to SQL.md",
-    "Project-Architecture.md",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/2.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_3/Functional_programming/1.jpg",
     "SDHub-DS/01_Foundation/01_Notes/02_Sir_Notes/Week_2/11-DS.jpeg",
