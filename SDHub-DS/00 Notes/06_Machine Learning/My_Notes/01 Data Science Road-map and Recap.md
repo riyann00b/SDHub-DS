@@ -146,19 +146,31 @@ flowchart LR
 ### Core Components & Views
 
 ```mermaid
-graph TB
-    A[Power BI Desktop] --> B[Report View]
-    A --> C[Model View]
-    A --> D[Table & Data View]
-    A --> E[DAX Query View]
-    A --> F[TMDL View]
+graph RL
+    subgraph Visualizations
+        I[Visualizations] --> J[Basic: Card, Column]
+        I --> K[AI: Q&A, Smart Narrative]
+        I --> L[Custom: Python Visual]
+    end
+    subgraph Power_Query
+        G[Power Query Editor] --> H[Data Transformation]
+    end
     
-    G[Power Query Editor] --> H[Data Transformation]
-    
-    I[Visualizations] --> J[Basic: Card, Column]
-    I --> K[AI: Q&A, Smart Narrative]
-    I --> L[Custom: Python Visual]
+    subgraph PowerBI_Desktop
+        A[Power BI Desktop] --> B[Report View]
+        A --> C[Model View]
+        A --> D[Table & Data View]
+        A --> E[DAX Query View]
+        A --> F[TMDL View]
+    end
+
 ```
+
+| Component          | Details / Subcomponents                                               |
+| ------------------ | --------------------------------------------------------------------- |
+| Power BI Desktop   | Report View, Model View, Table & Data View, DAX Query View, TMDL View |
+| Power Query Editor | Data Transformation                                                   |
+| Visualizations     | Basic: Card, ColumnAI: Q&A, Smart NarrativeCustom: Python Visual      |
 
 #### Data Modeling Schemas
 
@@ -324,6 +336,15 @@ graph TD
     F --> L[Cartesian product]
     G --> M[Table joined with itself]
 ```
+
+| JOIN Type       | Description               |
+| --------------- | ------------------------- |
+| INNER JOIN      | Only matching records     |
+| LEFT JOIN       | All left + matching right |
+| RIGHT JOIN      | All right + matching left |
+| FULL OUTER JOIN | All records from both     |
+| CROSS JOIN      | Cartesian product         |
+| SELF JOIN       | Table joined with itself  |
 
 #### JOIN Syntax Template
 
