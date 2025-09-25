@@ -194,18 +194,18 @@ We broke down the primary categories of ML, which form the basis of most industr
 
 ```mermaid
 graph TD
-    subgraph "Supervised Learning (80%)"
+    subgraph SL["Supervised Learning (80%)"]
         direction LR
-        A[Labeled Data] --> B{Classification<br/>(Is this A or B?)}
-        A --> C{Regression<br/>(How much/many?)}
+        A[Labeled Data] --> B{"Classification<br/>(Is this A or B?)"}
+        A --> C{"Regression<br/>(How much/many?)"}
     end
-    subgraph "Unsupervised Learning (15%)"
+    subgraph UL["Unsupervised Learning (15%)"]
         direction LR
-        D[Unlabeled Data] --> E{Clustering<br/>(Group similar things)}
+        D[Unlabeled Data] --> E{"Clustering<br/>(Group similar things)"}
     end
-    subgraph "Reinforcement Learning (5%)"
+    subgraph RL["Reinforcement Learning (5%)"]
         direction LR
-        F[Trial & Error] --> G{Agent<br/>(Learn optimal action)}
+        F[Trial & Error] --> G{"Agent<br/>(Learn optimal action)"}
     end
 ```
 - **Supervised Learning**: Learning with a "teacher" using labeled data.
