@@ -117,6 +117,7 @@ timeline
 
 ## 🎯 Interview Success: Core ML Knowledge
 
+> [!Tip]
 > **Pro Tip:** 80-90% of ML interviews focus on fundamental concepts. Master these basics!
 
 ### Essential Interview Topics:
@@ -484,3 +485,4 @@ graph LR
 ---
 
 _These notes synthesize fundamental ML concepts with historical context and practical applications. Regular review and hands-on practice will solidify your understanding for both interviews and real-world applications._
+

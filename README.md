@@ -96,7 +96,7 @@ flowchart TD
     end
 
     %% --- MONTH 3 ---
-    subgraph M3["🚀 MONTH 3: Statistics & ML"]
+    subgraph M3["✅ MONTH 3: Statistics & ML"]
         F[📊 Statistics]
         G[🤖 Machine Learning]
         H[🧹 Data Preprocessing]
@@ -164,19 +164,67 @@ Phase 1: Python Foundations    [██████████] 100% Complete!
 Phase 2: BI & Excel            [██████████] 100% Complete!
 Phase 3: SQL                   [██████████] 100% Complete!
 Phase 3: Statistics            [██████████] 100% Complete!
-Phase 3: Machine Learning      [█.........]  10% In Progress
+Phase 3: Machine Learning      [██........]  20% In Progress
 ```
 
-**🎯 Currently Learning: Week 13 - Introduction to Machine Learning**
-- We have successfully completed the Statistics module.
-- Today we are officially kicking off the **Machine Learning** phase.
-- **Up Next:** Diving into the ML pipeline, supervised vs. unsupervised learning, and our first algorithm!
+**🎯 Currently Learning: Week 13 - Foundations of Machine Learning**
+-   Today's session provided a comprehensive overview of Machine Learning, from its historical roots to modern applications.
+-   We explored the fundamental differences between Supervised, Unsupervised, and Reinforcement Learning.
+-   **Up Next:** Diving deeper into Supervised Learning algorithms, starting with Regression and Classification models.
 
 ---
 
 ## 📝 Today's Learning Overview
 
 <details open>
+<summary><strong>Day 87 (September 25th, 2025) - A Journey into Machine Learning: From Turing to Transformers</strong></summary>
+<br>
+
+**🎯 Session Focus:** A foundational exploration of Machine Learning, covering its historical origins, core concepts, different types, and the end-to-end workflow of building an ML model.
+
+**📚 Key Concepts Covered:**
+
+### 1. The Historical Roots of AI
+- We traveled back to the 1940s-50s to understand the pioneering work of **Alan Turing**.
+- Discussed his role in breaking the **Enigma code** with the "Bombe" machine, which demonstrated that machines could perform complex logical tasks.
+- Touched upon the **Turing Machine** concept as the theoretical bedrock for all modern computing.
+
+### 2. The Three Pillars of Machine Learning
+We broke down the primary categories of ML, which form the basis of most industry applications. The instructor highlighted that ~80% of real-world use cases fall under Supervised Learning.
+
+```mermaid
+graph TD
+    subgraph "Supervised Learning (80%)"
+        direction LR
+        A[Labeled Data] --> B{Classification<br/>(Is this A or B?)}
+        A --> C{Regression<br/>(How much/many?)}
+    end
+    subgraph "Unsupervised Learning (15%)"
+        direction LR
+        D[Unlabeled Data] --> E{Clustering<br/>(Group similar things)}
+    end
+    subgraph "Reinforcement Learning (5%)"
+        direction LR
+        F[Trial & Error] --> G{Agent<br/>(Learn optimal action)}
+    end
+```
+- **Supervised Learning**: Learning with a "teacher" using labeled data.
+    - **Classification**: Predicting a category (e.g., Spam vs. Not Spam).
+    - **Regression**: Predicting a continuous value (e.g., House Price).
+- **Unsupervised Learning**: Discovering hidden patterns in unlabeled data on its own (e.g., Customer Segmentation).
+- **Reinforcement Learning**: An agent learning to make optimal decisions through rewards and penalties (e.g., Game AI, Robotics).
+
+### 3. The Machine Learning Pipeline
+- We got a high-level overview of the structured process for building ML models, from defining the problem to deploying and monitoring the solution. This roadmap will guide our work in the coming weeks.
+
+**💡 Key Insights:**
+- **From Rules to Patterns**: The core shift in ML is moving from *explicitly programming rules* to letting algorithms *learn patterns from data*.
+- **History Matters**: Understanding the origins of AI with Turing provides a strong context for how we arrived at modern technologies like GPT.
+- **Interview Focus**: The instructor emphasized that a deep understanding of the fundamentals (Supervised vs. Unsupervised, Regression vs. Classification, Overfitting) is critical for interviews.
+
+</details>
+
+<details>
 <summary><strong>Day 86 (September 24th, 2025) - Module Wrap-Up: Statistics & Kick-off: Machine Learning</strong></summary>
 <br>
 
@@ -244,7 +292,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**
-**Journey Duration:** 2 months, 24 days | **Total Days:** 86
+**Journey Duration:** 2 months, 25 days | **Total Days:** 87
 
 ---
 
