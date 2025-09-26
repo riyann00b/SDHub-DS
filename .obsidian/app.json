@@ -1,9 +1,9 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./",
   "uriCallbacks": true,
-  "showLineNumber": false
+  "showLineNumber": true
 }

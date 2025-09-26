@@ -24,18 +24,15 @@ _Complete Study Notes - From Historical Foundations to Modern Applications_
 > **The Foundation:** Alan Turing's work during WWII laid the groundwork for modern computing and AI.
 
 **The Enigma Challenge:**
-
 - The Enigma machine was used extensively by Nazi Germany during World War II to encrypt military communications
 - Turing worked at Bletchley Park, Britain's codebreaking centre, leading Hut 8 responsible for German naval cryptanalysis
 - Polish cryptographers first cracked Enigma in the 1930s and shared their knowledge with Britain and France in July 1939
 
 **Turing's Innovation:**
-
 - Turing designed the "Bombe" machine in 1939-1940, which could break German codes much faster than manual methods
 - This work demonstrated that machines could perform complex logical operations
 
 #### The Turing Machine Concept (1936)
-
 ```mermaid
 graph LR
     A[Input Tape] --> B[Reading Head]
@@ -103,15 +100,15 @@ timeline
 
 ### Key Milestones Explained
 
-|Year|Breakthrough|Impact|
-|---|---|---|
-|**1950-1952**|Turing Test concept|Defined machine intelligence criteria|
-|**1960s**|ELIZA (1964) - First chatbot with basic pattern matching|Showed machines could simulate conversation|
-|**1980s-1990s**|Expert systems + Internet|Knowledge-based AI + global data sharing|
-|**1997**|IBM's Deep Blue defeats chess champion Garry Kasparov|First AI to beat humans at complex strategic games|
-|**2011**|Deep Learning revival|Neural networks become practical with GPU computing|
-|**2017**|Transformer architecture|Revolutionary NLP capabilities (GPT lineage starts)|
-|**2020s**|Generative AI explosion|ChatGPT, GPT-4, and mainstream AI adoption|
+| Year            | Breakthrough                                             | Impact                                              |
+| --------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| **1950-1952**   | Turing Test concept                                      | Defined machine intelligence criteria               |
+| **1960s**       | ELIZA (1964) - First chatbot with basic pattern matching | Showed machines could simulate conversation         |
+| **1980s-1990s** | Expert systems + Internet                                | Knowledge-based AI + global data sharing            |
+| **1997**        | IBM's Deep Blue defeats chess champion Garry Kasparov    | First AI to beat humans at complex strategic games  |
+| **2011**        | Deep Learning revival                                    | Neural networks become practical with GPU computing |
+| **2017**        | Transformer architecture                                 | Revolutionary NLP capabilities (GPT lineage starts) |
+| **2020s**       | Generative AI explosion                                  | ChatGPT, GPT-4, and mainstream AI adoption          |
 
 ---
 
