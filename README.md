@@ -25,7 +25,6 @@ Welcome to my documentation of the **Data Science Course (Batch 2)** at **Skills
 Here's a high-level overview of the key directories in this repository:
 
 ```bash
-.
 ├── 📁 SDHub-DS/
 │   ├── 📁 00 Notes/              # My personal and instructor-provided notes.
 │   │   ├── 📁 01_Python/
@@ -64,7 +63,7 @@ Jump directly to the notes for each module:
 - **🏆 Batch:** 2
 - **📅 Duration:** 4.5 months (July 2025 onwards)
 - **⏰ Schedule:** Monday to Friday
-    - **IELTS & Interview Prep:** 3:00 PM - 4:00 PM
+    - **English , IELTS & Interview Prep:** 3:00 PM - 4:00 PM
     - **Data Science:** 4:00 PM - 6:00 PM
 - **📍 Location:** SD Hub Qutubshahi
 - **💻 Requirement:** Personal laptop mandatory
@@ -164,19 +163,78 @@ Phase 1: Python Foundations    [██████████] 100% Complete!
 Phase 2: BI & Excel            [██████████] 100% Complete!
 Phase 3: SQL                   [██████████] 100% Complete!
 Phase 3: Statistics            [██████████] 100% Complete!
-Phase 3: Machine Learning      [██........]  20% In Progress
+Phase 3: Machine Learning      [███.......]  30% In Progress
 ```
 
-**🎯 Currently Learning: Week 13 - Foundations of Machine Learning**
--   Today's session provided a comprehensive overview of Machine Learning, from its historical roots to modern applications.
--   We explored the fundamental differences between Supervised, Unsupervised, and Reinforcement Learning.
--   **Up Next:** Diving deeper into Supervised Learning algorithms, starting with Regression and Classification models.
+**🎯 Currently Learning: Week 13 - The ML Workflow**
+-   Today's session was a deep dive into the complete workflow of building AI models, covering everything from the initial choice of building versus using an API to the intricacies of deployment and maintenance.
+-   We walked through the entire lifecycle: problem definition, data collection, preprocessing, feature engineering, modeling, evaluation, and deployment.
+-   **Up Next:** Practical implementation, starting with data preprocessing and feature engineering techniques.
 
 ---
 
 ## 📝 Today's Learning Overview
 
 <details open>
+<summary><strong>Day 88 (September 26th, 2025) - How to Build AI Models: The Complete Workflow</strong></summary>
+<br>
+
+**🎯 Session Focus:** A deep dive into the end-to-end Machine Learning workflow, from choosing between building a model vs. using an API to the detailed steps of the model development lifecycle.
+
+**📚 Key Concepts Covered:**
+
+### 1. Two Paths to AI: Build vs. API
+We started by understanding the two fundamental approaches to implementing AI:
+
+-   **Build Your Own Model**: Full control and customization, but requires deep expertise and resources. Best for unique, sensitive, or long-term projects.
+-   **Use Pre-trained APIs** (e.g., GPT, Gemini): Fast and easy for standard tasks and prototypes, but has drawbacks in security, reliability, accuracy, and cost.
+
+### 2. The AI Model Development Lifecycle
+We explored the systematic process for building an ML model from scratch. This lifecycle is the blueprint for nearly every ML project.
+
+```mermaid
+flowchart TD
+    A[Problem Definition] --> B[Data Collection]
+    B --> C[Data Preprocessing] 
+    C --> D[Feature Engineering]
+    D --> E[Model Selection]
+    E --> F[Model Training]
+    F --> G[Model Evaluation]
+    G --> H{Performance OK?}
+    H -->|No| I[Hyperparameter Tuning]
+    I --> F
+    H -->|Yes| J[Model Deployment]
+    J --> K[Monitoring & Maintenance]
+    
+    style A fill:#ff7675
+    style J fill:#00b894
+```
+**Key Phases Discussed:**
+- **Problem Definition**: The most critical phase; getting this wrong guarantees project failure.
+- **Data Preprocessing**: The most time-consuming phase (60-80%), involving cleaning, handling missing values, and removing outliers.
+- **Feature Engineering**: The "garbage in, garbage out" principle; the quality of features dictates model performance. This includes encoding, scaling, and creating new features.
+- **Model Training & Evaluation**: Selecting the right algorithm and measuring its performance with metrics like Accuracy, Precision, Recall (for Classification) or MSE, R² (for Regression).
+- **Deployment & Monitoring**: Taking the model live and continuously monitoring for performance degradation (data drift, concept drift).
+
+### 3. Machine Learning Types: A Recap
+We reviewed the "Holy Trinity" of ML to connect them to the model selection phase:
+- **Supervised Learning**: Learning with labeled data (e.g., car price prediction).
+- **Unsupervised Learning**: Finding hidden patterns in unlabeled data (e.g., customer segmentation).
+- **Reinforcement Learning**: Learning through trial and error (e.g., game AI).
+
+### 4. Key Career & Interview Insights
+The session concluded with practical advice for interviews.
+> **Q**: "What can cause a model to fail or lose accuracy?"
+> **A**: Insufficient data, wrong algorithm choice, data drift, overfitting, poor feature engineering, or biased training data.
+
+**💡 Key Insights:**
+- **Machines Only Understand Numbers**: This is the fundamental driver for processes like encoding (text to numbers) and feature scaling (normalizing number ranges).
+- **Data Quality > Algorithm Choice**: A simple model with high-quality, well-engineered features will almost always outperform a complex model with poor data.
+- **Start Simple**: Always begin with a basic model as a baseline before moving to more complex solutions like Deep Learning.
+
+</details>
+
+<details>
 <summary><strong>Day 87 (September 25th, 2025) - A Journey into Machine Learning: From Turing to Transformers</strong></summary>
 <br>
 
@@ -292,7 +350,7 @@ graph TD
 ---
 
 **📊 Learning Analytics**
-**Journey Duration:** 2 months, 25 days | **Total Days:** 87
+**Journey Duration:** 2 months, 26 days | **Total Days:** 88
 
 ---
 
