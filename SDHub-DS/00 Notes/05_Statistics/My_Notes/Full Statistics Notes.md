@@ -99,12 +99,12 @@ graph TD;
     C --> C2[Continuous - Measurable];
 ```
 
-| Type | Sub-Type | Description | Examples |
-| :--- | :--- | :--- | :--- |
-| **Categorical** | Nominal | Categories without a meaningful order. | `Gender`, `City`, `Color (Red/Blue)` |
-| | Ordinal | Categories that have a natural order. | `Low/Medium/High`, `Survey Ratings` |
-| **Numerical** | Discrete | Whole numbers that are counted. | `Number of Children`, `Page Views` |
-| | Continuous| Numbers that are measured and can take any value within a range. | `Height`, `Temperature`, `Salary` |
+| Type            | Sub-Type   | Description                                                      | Examples                             |
+| :-------------- | :--------- | :--------------------------------------------------------------- | :----------------------------------- |
+| **Categorical** | Nominal    | Categories without a meaningful order.                           | `Gender`, `City`, `Color (Red/Blue)` |
+|                 | Ordinal    | Categories that have a natural order.                            | `Low/Medium/High`, `Survey Ratings`  |
+| **Numerical**   | Discrete   | Whole numbers that are counted.                                  | `Number of Children`, `Page Views`   |
+|                 | Continuous | Numbers that are measured and can take any value within a range. | `Height`, `Temperature`, `Salary`    |
 
 ---
 
