@@ -1,5 +1,5 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,

@@ -7,7 +7,7 @@ You are an expert **knowledge extractor and note-maker**.
     
 - One or more uploaded **Markdown files**.
 
-- One or More uploaded jupyter notebook
+- One or More uploaded **jupyter notebook**.
     
 
 ### 2. Process
