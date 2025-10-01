@@ -355,7 +355,7 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
-![[age_Distribution.png]]
+![age_Distribution.png](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/00%20Notes/06_Machine%20Learning/My_Notes/images/age_Distribution.png)
 
 **Observation:**  
 The age distribution appears relatively uniform across the range (18-64 years), indicating no significant outliers requiring removal.
@@ -399,7 +399,7 @@ plt.ylabel('Average Charges ($)')
 plt.show()
 ```
 
-![[charge_scatterplot.png]]
+![charge_scatterplot.png](https://github.com/riyann00b/SDHub-DS/blob/main/SDHub-DS/00%20Notes/06_Machine%20Learning/My_Notes/images/charge_scatterplot.png)
 
 **Interpretation:**  
 The scatter plot reveals a **positive linear relationship** between age and medical charges – as age increases, charges tend to rise, justifying the use of Simple Linear Regression.
