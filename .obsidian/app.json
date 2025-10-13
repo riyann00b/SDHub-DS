@@ -5,5 +5,5 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./",
   "uriCallbacks": true,
-  "showLineNumber": true
+  "showLineNumber": false
 }

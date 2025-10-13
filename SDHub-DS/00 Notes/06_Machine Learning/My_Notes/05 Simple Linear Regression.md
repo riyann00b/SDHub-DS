@@ -71,7 +71,8 @@ graph LR
     D --> E[Make Predictions]
 ```
 
-> [!TIP] **Analogy**: Imagine trying to draw a straight line through dots on a paper so that the line is as close as possible to all dots. This line represents the average relationship between age and charges.
+> [!TIP] 
+> **Analogy**: Imagine trying to draw a straight line through dots on a paper so that the line is as close as possible to all dots. This line represents the average relationship between age and charges.
 
 ### When to Use Simple Linear Regression
 
@@ -121,7 +122,8 @@ The intercept is the **predicted value when the independent variable equals zero
 
 - If $c = 3000$, the baseline medical charge (theoretical cost at age 0) is 3,000.
 
-> [!NOTE] The intercept may not always have practical meaning (e.g., age 0 in insurance context), but it's mathematically necessary for the equation.
+> [!NOTE] 
+> The intercept may not always have practical meaning (e.g., age 0 in insurance context), but it's mathematically necessary for the equation.
 
 ### Complete Example Equation
 
